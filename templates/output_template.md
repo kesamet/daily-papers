@@ -9,6 +9,8 @@
 
 **Authors:** {{ paper.authors }}
 
+**Category:** {{ paper.category }}
+
 **Summary:** {{ paper.summary }}
 
 ---
