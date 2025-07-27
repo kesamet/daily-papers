@@ -52,9 +52,9 @@ def summarise(papers: List[Dict[str, str]]) -> None:
             download_arxiv(paper["arxiv_id"], pdf_path)
 
             prompt = summary_template.render(title=paper["title"])
-            summary = summarise_paper(prompt, pdf_path)
-            paper["summary"] = summary
-            time.sleep(60)
+            res = summarise_paper(prompt, pdf_path)
+            paper.update(res)
+            time.sleep(30)
         except Exception as e:
             logger.warning(f"Failed to summarise paper {paper['title']}: {e}")
             continue
