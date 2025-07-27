@@ -2,7 +2,7 @@ Task Description:
 Using the details from an AI research paper, deduce its "category" and provide a "summary".
 
 Category:
-- Examine the paper titled "{title}".
+- Examine the paper titled "{{ title }}".
 - From the list below, choose one category that best represents the paper:
     - Natural Language Processing
     - Computer Vision

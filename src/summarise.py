@@ -1,22 +1,17 @@
-"""
-Summarises the papers pulled from Hugging Face's papers page,
-updates the README with the summaries, and cleans up temporary files.
-"""
-
 import json
 import os
-import shutil
 import time
 from datetime import datetime
 from typing import List, Dict
 
-import google as genai
+import requests
+from google import genai
 from google.genai import types
+from jinja2 import Template
+from loguru import logger
 from pydantic import BaseModel
 
-from logger import logger
-
-TEMP_DIR = "temp_pdfs"
+DATA_DIR = "data"
 MODEL = "gemini-2.5-flash"
 
 
@@ -27,37 +22,66 @@ class Response(BaseModel):
 
 def main() -> None:
     """
-    Main function to summarise papers, update the README, and clean up temporary files.
+    Entry point to summarise papers and update the README.
     """
-    date = datetime.now().strftime("%Y-%m-%d")
-    with open(f"data/{date}_papers.json", "r") as f:
-        papers = json.load(f)
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
+    try:
+        with open(data_filepath, "r") as f:
+            papers = json.load(f)
+    except FileNotFoundError as e:
+        logger.error(e)
+        return
 
-    summaries = []
+    summarise(papers)
+    update_readme(today_date, papers)
+
+    # update data
+    with open(data_filepath, "w") as f:
+        json.dump(papers, f, indent=4)
+
+
+def summarise(papers: List[Dict[str, str]]) -> None:
+    with open("templates/summary_template.md", "r") as f:
+        template_string = f.read()
+    summary_template = Template(template_string)
+
     for paper in papers:
         try:
-            summary = summarise_paper(
-                title=paper["title"],
-                pdf_path=paper["pdf_path"],
-            )
-            summaries.append({**paper, **summary})
+            pdf_path = "temp.pdf"
+            download_arxiv(paper["arxiv_id"], pdf_path)
+
+            prompt = summary_template.render(title=paper["title"])
+            summary = summarise_paper(prompt, pdf_path)
+            paper["summary"] = summary
             time.sleep(60)
         except Exception as e:
             logger.warning(f"Failed to summarise paper {paper['title']}: {e}")
             continue
 
-    update_readme(summaries)
 
-    shutil.rmtree(TEMP_DIR)
-    os.makedirs(TEMP_DIR, exist_ok=True)
+def download_arxiv(arxiv_id: str, save_path: str) -> None:
+    """
+    Downloads the PDF of a paper from arXiv given its ID.
+
+    Args:
+        arxiv_id (str): The arXiv ID of the paper.
+        save_path (str): The path where the PDF will be saved.
+
+    Returns:
+        bool: True if the download was successful, False otherwise.
+    """
+    response = requests.get(f"https://arxiv.org/pdf/{arxiv_id}.pdf")
+    if response.status_code == 200:
+        with open(save_path, "wb") as f:
+            f.write(response.content)
+        return
+    else:
+        raise ValueError(f"Failed to download PDF for {arxiv_id}")
 
 
-def summarise_paper(title: str, pdf_path: str) -> Dict[str, str]:
-    """Summarises a research paper and deduces its category."""
-    with open("templates/summary_template.md", "r") as f:
-        template = f.read()
-    prompt = template.replace("{title}", title)
-
+def summarise_paper(prompt: str, pdf_path: str) -> Dict[str, str]:
+    """Summarises a paper and deduces its category."""
     client = genai.Client()
     response = client.models.generate_content(
         model=MODEL,
@@ -77,55 +101,23 @@ def summarise_paper(title: str, pdf_path: str) -> Dict[str, str]:
         return {"category": "", "summary": ""}
 
 
-def update_readme(result: List[Dict[str, str]]) -> None:
+def update_readme(today_date: str, papers: List[Dict[str, str]]) -> None:
     """
     Updates the README file with the summaries of the papers.
-
-    Args:
-    - summaries (List[Dict[str, str]]): A list of dictionaries containing paper information and summaries.
     """
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    new_content = f"\n\n## Papers for {date_str}\n\n"
-    new_content += "| Title | Authors | Category | Summary |\n"
-    new_content += "| ----- | ------- | -------- | ------- |\n"
-    for r in result:
-        # Replace line breaks with spaces
-        summary = r["summary"].replace("\n", " ")
-        new_content += f"| {r['title']} (Read more on [arXiv]({r['link']})| {r['authors']} | {r['category']} | {summary} |\n"
+    with open("templates/output_template.md", "r") as f:
+        template_string = f.read()
+    output_template = Template(template_string)
 
-    day = date_str.split("-")[2]
+    output = output_template.render(today_date=today_date, papers=papers)
+    with open("README.md", "w") as f:
+        f.write(output)
 
-    # Write the new content to the archive
-    # Create the archive directory if it doesn't exist
-    year = date_str.split("-")[0]
-    month = date_str.split("-")[1]
+    # save in archive
+    year, month, day = today_date.split("-")
     os.makedirs(f"archive/{year}/{month}", exist_ok=True)
     with open(f"archive/{year}/{month}/{day}.md", "w") as f:
-        f.write(new_content)
-
-    # Update the README with the new content
-    # Load the existing README
-    with open("README.md", "r") as f:
-        existing_content = f.read()
-
-    # Load the intro template
-    with open("templates/README_intro.md", "r") as f:
-        intro_content = f.read()
-
-    # Add the date to the intro
-    date_str_readme = date_str.replace("-", "--")
-    intro_content = intro_content.replace("{DATE}", f"{date_str_readme} \n \n")
-
-    # Remove the existing header
-    front_content = existing_content.split("## Papers for")[0]
-    existing_content = existing_content.replace(front_content, "")
-
-    # Combine the intro, new content, and existing content
-    updated_content = intro_content + new_content + "\n\n" + existing_content
-
-    # Write the updated content to the README
-    with open("README.md", "w") as f:
-        f.write(updated_content)
+        f.write(output)
 
 
 if __name__ == "__main__":
