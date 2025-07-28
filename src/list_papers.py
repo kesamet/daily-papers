@@ -65,6 +65,7 @@ def main() -> None:
             }
         )
 
+    os.makedirs(DATA_DIR, exist_ok=True) 
     today_date = datetime.now().strftime("%Y-%m-%d")
     data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
     with open(data_filepath, "w") as f:
