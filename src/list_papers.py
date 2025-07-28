@@ -1,16 +1,16 @@
 import json
-import os
 import re
 from datetime import datetime
 from typing import List, Dict
+from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 from loguru import logger
 
 HF_URL = "https://huggingface.co/papers"
-DATA_DIR = "data"
-os.makedirs(DATA_DIR, exist_ok=True)
+DATA_DIR = (Path(__file__).resolve().parent.parent / "data")
+DATA_DIR.mkdir(exist_ok=True)
 
 
 def main() -> None:
@@ -66,7 +66,7 @@ def main() -> None:
         )
 
     today_date = datetime.now().strftime("%Y-%m-%d")
-    data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
+    data_filepath = DATA_DIR / f"{today_date}.json"
     with open(data_filepath, "w") as f:
         json.dump(papers, f, indent=4)
     logger.info(f"Saved {len(papers)} papers' information to {data_filepath}")
