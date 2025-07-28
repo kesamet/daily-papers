@@ -3,7 +3,6 @@ import os
 import time
 from datetime import datetime
 from typing import List, Dict
-from pathlib import Path
 
 import requests
 from google import genai
@@ -12,7 +11,7 @@ from jinja2 import Template
 from loguru import logger
 from pydantic import BaseModel
 
-DATA_DIR = (Path(__file__).resolve().parent.parent / "data")
+DATA_DIR = "data"
 MODEL = "gemini-2.5-flash"
 
 
@@ -26,7 +25,7 @@ def main() -> None:
     Entry point to summarise papers and update the README.
     """
     today_date = datetime.now().strftime("%Y-%m-%d")
-    data_filepath = DATA_DIR / f"{today_date}.json"
+    data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
     try:
         with open(data_filepath, "r") as f:
             papers = json.load(f)
