@@ -33,7 +33,7 @@ jobs:
         with:
           name: paper-data
           path: |
-            data/*.json
+            data
 
   summarise-papers:
     needs: update-papers
