@@ -9,16 +9,15 @@ from telegram import Bot
 from telegram.constants import ParseMode
 from telegram.error import TelegramError
 
-DATA_DIR = "data"
 CHANNEL_ID = os.environ["TELEGRAM_CHANNEL_ID"]
 bot = Bot(token=os.environ["TELEGRAM_BOT_TOKEN"])
 
 
 async def main():
     today_date = datetime.now().strftime("%Y-%m-%d")
-    data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
+    year, month, _ = today_date.split("-")
     try:
-        with open(data_filepath, "r") as f:
+        with open(f"archive/{year}/{month}/{today_date}.json", "r") as f:
             papers = json.load(f)
     except FileNotFoundError as e:
         logger.error(e)
