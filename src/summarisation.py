@@ -1,10 +1,12 @@
 import json
 import os
+import re
 import time
 from datetime import datetime
 from typing import List, Dict
 
 import requests
+from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
 from jinja2 import Template
@@ -22,23 +24,68 @@ class Response(BaseModel):
 
 def main() -> None:
     """
-    Entry point to summarise papers and update the README.
+    Entry point to summarise papers and update README.
     """
     today_date = datetime.now().strftime("%Y-%m-%d")
-    data_filepath = os.path.join(DATA_DIR, f"{today_date}.json")
-    try:
-        with open(data_filepath, "r") as f:
-            papers = json.load(f)
-    except FileNotFoundError as e:
-        logger.error(e)
-        return
 
+    papers = list_papers()
     summarise(papers)
     update_readme(today_date, papers)
 
-    # update data
-    with open(data_filepath, "w") as f:
-        json.dump(papers, f, indent=4)
+
+def list_papers() -> dict:
+    """
+    List daily papers from HuggingFace and saves their information in a JSON file.
+    """
+    response = requests.get("https://huggingface.co/papers")
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    papers: List[Dict[str, str]] = []
+    seen_ids = set()  # Set to track seen arXiv IDs
+
+    # Locate the relevant div elements
+    for paper_div in soup.find_all("div", class_="w-full"):
+        # Extract the title
+        title_tag = paper_div.find("a", class_="line-clamp-3")
+        if title_tag:
+            title = title_tag.text.strip()
+            title = " ".join([x.strip() for x in title.split("\n")])  # to remove \n
+        else:
+            logger.warning("Title not found, skipping...")
+            continue
+
+        # Extract the paper ID from the link
+        link = title_tag["href"]
+        arxiv_id_match = re.search(r"/papers/(\d+\.\d+)", link)
+        if arxiv_id_match:
+            arxiv_id = arxiv_id_match.group(1)
+        else:
+            logger.warning(f"Could not extract arXiv ID from link: {link}")
+            continue
+
+        # Check for duplicates using arXiv ID
+        if arxiv_id in seen_ids:
+            logger.warning(f"Duplicate paper detected with ID {arxiv_id}, skipping...")
+            continue
+        seen_ids.add(arxiv_id)  # Add ID to set of seen IDs
+
+        # Extract the authors
+        authors = []
+        for li in paper_div.find_all("li"):
+            author = li.get("title")
+            if author:
+                authors.append(author)
+
+        papers.append(
+            {
+                "title": title,
+                "authors": ", ".join(authors),
+                "arxiv_id": arxiv_id,
+                "link": f"https://arxiv.org/abs/{arxiv_id}",
+            }
+        )
+
+    return papers
 
 
 def summarise(papers: List[Dict[str, str]]) -> None:
@@ -103,7 +150,7 @@ def summarise_paper(prompt: str, pdf_path: str) -> Dict[str, str]:
 
 def update_readme(today_date: str, papers: List[Dict[str, str]]) -> None:
     """
-    Updates the README file with the summaries of the papers.
+    Updates README with the summaries of the papers.
     """
     with open("templates/output_template.md", "r") as f:
         template_string = f.read()
@@ -114,10 +161,15 @@ def update_readme(today_date: str, papers: List[Dict[str, str]]) -> None:
         f.write(output)
 
     # save in archive
-    year, month, day = today_date.split("-")
+    year, month, _ = today_date.split("-")
     os.makedirs(f"archive/{year}/{month}", exist_ok=True)
-    with open(f"archive/{year}/{month}/{day}.md", "w") as f:
+
+    with open(f"archive/{year}/{month}/{today_date}.md", "w") as f:
         f.write(output)
+
+    with open(f"archive/{year}/{month}/{today_date}.json", "w") as f:
+        json.dump(papers, f, indent=4)
+    logger.info(f"Saved {len(papers)} papers")
 
 
 if __name__ == "__main__":
