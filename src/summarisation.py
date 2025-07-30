@@ -105,6 +105,9 @@ def summarise(papers: List[Dict[str, str]]) -> None:
         except Exception as e:
             logger.warning(f"Failed to summarise paper {paper['title']}: {e}")
             continue
+        finally:
+            if os.path.exists("temp.pdf"):
+                os.remove("temp.pdf")
 
 
 def download_arxiv(arxiv_id: str, save_path: str) -> None:
