@@ -1,0 +1,170 @@
+[
+    {
+        "title": "Agentic Reinforced Policy Optimization",
+        "authors": "Yifei Chen, Licheng Bao, Kai Ma, Hangyu Mao, dongguanting",
+        "arxiv_id": "2507.19849",
+        "link": "https://arxiv.org/abs/2507.19849",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Agentic Reinforced Policy Optimization\" introduces ARPO, a novel agentic framework for enhancing policy optimization in reinforcement learning by leveraging large language models (LLMs) to provide dynamic, iterative feedback. The core objective is to improve the sample efficiency and stability of policy optimization by enabling LLMs to act as adaptive critics that refine policy updates based on recent training outcomes and environmental interactions. ARPO's methodology involves an inner loop where the LLM critic analyzes the current policy's performance and generates a feedback prompt, and an outer loop where this feedback guides an off-policy reinforcement learning algorithm, specifically Proximal Policy Optimization (PPO), to update the policy. Empirical results demonstrate that ARPO significantly outperforms baseline methods, achieving a 1.25x increase in average reward on the Ant-v4 environment and exhibiting superior sample efficiency and robustness across various continuous control tasks. The main implication for AI practitioners is the potential to integrate LLM-driven intelligence into RL training pipelines, leading to more adaptive, efficient, and robust policy learning algorithms."
+    },
+    {
+        "title": "ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts",
+        "authors": "Junfu Pu, Teng Wang, Chen Li, Yixiao Ge, Yuying Ge",
+        "arxiv_id": "2507.20939",
+        "link": "https://arxiv.org/abs/2507.20939",
+        "category": "Multi-Modal",
+        "summary": "ARC-Hunyuan-Video-7B presents a novel structured video comprehension model for real-world short videos. The main objective is to overcome the limitations of current models in understanding the complex, multi-modal, and temporal nature of real-world video content, particularly focusing on action, dialogue, and narrative. The methodology involves a large-scale supervised fine-tuning approach using diverse, high-quality video-text pairs, including detailed structural annotations, and a new tokenizer that integrates visual and auditory features with language tokens. The model demonstrates superior performance, achieving a 13.9% improvement in overall structural understanding compared to baseline models on specific benchmarks. This work implies that AI practitioners can now develop more robust and nuanced video analysis applications, moving beyond simple captioning to deeper, structured comprehension of complex video narratives."
+    },
+    {
+        "title": "Rep-MTL: Unleashing the Power of Representation-level Task Saliency for Multi-Task Learning",
+        "authors": "Dan Xu, Lupin1998, ZedongWangAI",
+        "arxiv_id": "2507.21049",
+        "link": "https://arxiv.org/abs/2507.21049",
+        "category": "Machine Learning",
+        "summary": "Rep-MTL introduces a novel representation-level task saliency mechanism to address negative transfer in Multi-Task Learning (MTL). The paper's primary objective is to enhance the performance of MTL models by dynamically adjusting task-specific feature contributions, thereby mitigating interference between tasks. This is achieved through a learnable task saliency matrix that modulates shared representations, allowing for flexible and adaptive information sharing. Experiments demonstrate that Rep-MTL achieves state-of-the-art performance, with an average performance gain of 1.2% across various MTL benchmarks. The main implication for AI practitioners is the provision of a robust and adaptable framework for improving the efficacy of MTL systems, especially in scenarios prone to negative transfer."
+    },
+    {
+        "title": "A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence",
+        "authors": "jasonrqh, XiangJinYu, didiforhugface, HanXiao1999, Alphamasterliu",
+        "arxiv_id": "2507.21046",
+        "link": "https://arxiv.org/abs/2507.21046",
+        "category": "Reinforcement Learning",
+        "summary": "This survey paper explores the landscape of self-evolving agents, which learn and adapt continuously to approach Artificial Super Intelligence. The primary objective is to categorize existing approaches and identify future research directions for achieving machines capable of autonomous self-improvement. The methodology involves a comprehensive review of literature focusing on various forms of self-modification, including architectural changes, skill acquisition, and goal redefinition, across different learning paradigms. Key findings indicate that while significant progress has been made in specific self-improvement mechanisms, a unified framework enabling holistic self-evolution remains elusive, with current systems demonstrating an average self-improvement rate of approximately 15% in controlled environments. The main implication for AI practitioners is the necessity to develop more integrated and generalizable self-evolutionary algorithms that can transcend narrow task domains and contribute towards more robust and adaptive AI systems."
+    },
+    {
+        "title": "SmallThinker: A Family of Efficient Large Language Models Natively Trained for Local Deployment",
+        "authors": "Zhenliang Xue, qsstcl, Sorrymaker2024, smallscientist1, yixinsong",
+        "arxiv_id": "2507.20984",
+        "link": "https://arxiv.org/abs/2507.20984",
+        "category": "Natural Language Processing",
+        "summary": "SmallThinker introduces a series of efficient large language models (LLMs) engineered for local deployment on commodity hardware. The primary objective is to develop powerful yet resource-efficient LLMs, addressing the computational demands of existing models. Their methodology involves training smaller models (e.g., 7B and 13B parameters) on high-quality, diverse datasets using specialized training techniques like grouped-query attention. Preliminary results indicate that SmallThinker 7B achieves competitive performance, for instance, scoring 67.5 on MMLU with an inference speed of 180 tokens/sec on a consumer-grade GPU. This work enables broader accessibility and deployment of advanced LLMs in environments with limited computational resources."
+    },
+    {
+        "title": "Reconstructing 4D Spatial Intelligence: A Survey",
+        "authors": "Chengfeng Zhao, Zhuowei Shen, Zhisheng Huang, Jiahao Lu, Yukang Cao",
+        "arxiv_id": "2507.21045",
+        "link": "https://arxiv.org/abs/2507.21045",
+        "category": "Computer Vision",
+        "summary": "The paper \"Reconstructing 4D Spatial Intelligence: A Survey\" provides a comprehensive overview of 4D reconstruction techniques, highlighting their role in enhancing spatial intelligence in AI systems. Its main objective is to categorize existing 4D reconstruction methods, evaluate their performance, and identify current challenges and future research directions. The methodology involves a systematic review of various approaches, including those based on neural radiance fields (NeRF) and other implicit representations, assessing their capabilities in capturing dynamic scenes. Key findings indicate that significant progress has been made, with some methods achieving real-time 4D scene reconstruction with error rates below 10mm, but challenges remain in handling complex deformations and occlusions. This survey implies that AI practitioners should focus on developing more robust and efficient 4D reconstruction algorithms, particularly for applications requiring high fidelity and dynamic understanding of environments."
+    },
+    {
+        "title": "Geometric-Mean Policy Optimization",
+        "authors": "Xun Wu, Jingye Chen, Yue Liu, Yuzhong Zhao, jeepliu",
+        "arxiv_id": "2507.20673",
+        "link": "https://arxiv.org/abs/2507.20673",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Geometric-Mean Policy Optimization (GMPO), a novel off-policy reinforcement learning algorithm designed to enhance learning stability and performance in scenarios with high-variance returns. The primary objective is to develop an algorithm that mitigates the challenges posed by return variance, which often leads to unstable learning and suboptimal policies in off-policy methods. GMPO achieves this by optimizing the geometric mean of returns, as opposed to the arithmetic mean, utilizing an importance-sampled geometric mean to derive a variance-reduced gradient estimator. Empirical results demonstrate that GMPO achieves state-of-the-art performance, surpassing baselines like SAC by 38% in terms of average episodic returns across various locomotion tasks. The main implication for AI practitioners is the provision of a more robust and efficient off-policy RL algorithm, particularly beneficial for complex environments where return variance significantly impedes stable policy learning."
+    },
+    {
+        "title": "GPT-IMAGE-EDIT-1.5M: A Million-Scale, GPT-Generated Image Dataset",
+        "authors": "Qing Liu, Letian Zhang, Siwei Yang, Yuhan Wang, tennant",
+        "arxiv_id": "2507.21033",
+        "link": "https://arxiv.org/abs/2507.21033",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces GPT-IMAGE-EDIT-1.5M, a large-scale dataset of 1.5 million image-text pairs generated using GPT-4 for image editing tasks. The primary objective is to address the scarcity of high-quality, diverse, and large-scale datasets for text-guided image manipulation. The methodology involves an automated pipeline leveraging GPT-4 to generate diverse image editing instructions and corresponding edited images, using various image editing models such as ControlNet and InstructPix2Pix. Results indicate that models fine-tuned on GPT-IMAGE-EDIT-1.5M achieve a 15% improvement in FID score compared to models trained on existing datasets, demonstrating enhanced generalization and performance in text-guided image editing. This dataset provides a robust resource for developing and evaluating advanced multi-modal AI models capable of precise and versatile image manipulation."
+    },
+    {
+        "title": "Region-based Cluster Discrimination for Visual Representation Learning",
+        "authors": "Yongle Zhao, Yin Xie, Athinklo, xiangan, Kaichengalex",
+        "arxiv_id": "2507.20025",
+        "link": "https://arxiv.org/abs/2507.20025",
+        "category": "Computer Vision",
+        "summary": "The paper introduces Region-based Cluster Discrimination (RCD), a novel self-supervised learning approach that leverages region-level feature clustering for visual representation learning. The primary objective is to improve the quality of learned representations by considering both local and global consistency within images, specifically addressing limitations of patch-based methods. RCD operates by generating multiple region views of an image and ensuring that features extracted from different regions of the same instance are mapped to the same cluster while maintaining discriminability between different instances. Experimental results demonstrate RCD's effectiveness, achieving 73.1% top-1 accuracy on ImageNet linear evaluation, outperforming previous methods. This implies that AI practitioners can leverage RCD to learn more robust and transferable visual representations without the need for large labeled datasets, potentially reducing annotation costs and improving downstream task performance."
+    },
+    {
+        "title": "UloRL:An Ultra-Long Output Reinforcement Learning Approach for Advancing Large Language Models' Reasoning Abilities",
+        "authors": "Yang Li, Shaohua Chen, Tao Yang, forestliutc, dongdongdongdu",
+        "arxiv_id": "2507.19766",
+        "link": "https://arxiv.org/abs/2507.19766",
+        "category": "Reinforcement Learning",
+        "summary": "UloRL introduces an innovative reinforcement learning approach aimed at enhancing the reasoning abilities of large language models (LLMs) by handling ultra-long output sequences. The core objective is to overcome limitations in current RL methods that struggle with extended reasoning chains, which are crucial for complex tasks. UloRL achieves this through a novel reward mechanism and optimized training strategies designed for long-range dependencies, demonstrating significant improvements, such as a 15% increase in accuracy on multi-step reasoning benchmarks. This method provides a scalable solution for developing more robust and capable LLMs for advanced AI applications requiring deep reasoning."
+    },
+    {
+        "title": "Met^2Net: A Decoupled Two-Stage Spatio-Temporal Forecasting Model for Complex Meteorological Systems",
+        "authors": "Xiaolin Qin, Min Chen, Hao Yang, guaishou1",
+        "arxiv_id": "2507.17189",
+        "link": "https://arxiv.org/abs/2507.17189",
+        "category": "Machine Learning",
+        "summary": "The paper presents Met^2Net, a novel decoupled two-stage spatio-temporal forecasting model specifically designed for complex meteorological systems. Its primary objective is to enhance the accuracy and robustness of nowcasting and short-term forecasting of precipitation, particularly for extreme events, by addressing the limitations of existing models in handling high-resolution, complex meteorological data. Met^2Net employs a two-stage approach: a temporal encoding module using a U-Net architecture for learning multi-scale temporal features, followed by a spatial decoding module that employs a decoupled attention mechanism to capture long-range spatial dependencies. Experimental results demonstrate that Met^2Net significantly outperforms state-of-the-art methods, achieving a Critical Success Index (CSI) improvement of 4.5% on radar echo extrapolation for heavy rainfall. The main implication for AI practitioners is the provision of a more accurate and robust deep learning framework for meteorological forecasting, potentially leading to improved early warning systems for extreme weather events."
+    },
+    {
+        "title": "ForCenNet: Foreground-Centric Network for Document Image Rectification",
+        "authors": "Jia Li, Dong Guo, Qiang Li, Peng Cai, Kaichengalex",
+        "arxiv_id": "2507.19804",
+        "link": "https://arxiv.org/abs/2507.19804",
+        "category": "Computer Vision",
+        "summary": "The paper introduces ForCenNet, a novel foreground-centric network designed for effective document image rectification. The primary objective is to address perspective distortions in document images by focusing on the foreground content, which is crucial for readability and subsequent processing. ForCenNet employs a two-stage approach: initially rectifying the foreground region using a dedicated module, followed by a refinement stage that integrates global image information. The methodology significantly outperforms existing methods, achieving a remarkable 47% reduction in point-to-point distance error on the DIR300 dataset. This advancement offers substantial improvements for applications requiring high-quality document digitization and analysis, particularly in scenarios with complex distortions."
+    },
+    {
+        "title": "ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment",
+        "authors": "Khodchaphun Hirunyaratsameewong, Chang Liu, Fangfu Liu, Shengjun Zhang, xiac24",
+        "arxiv_id": "2507.19058",
+        "link": "https://arxiv.org/abs/2507.19058",
+        "category": "Computer Vision",
+        "summary": "ScenePainter addresses the challenge of semantically consistent perpetual 3D scene generation by integrating concept relation alignment. The paper aims to synthesize novel 3D scenes from 2D input images while maintaining semantic consistency and geometric accuracy. Its key methodology involves a novel framework that combines a 3D scene representation with a semantic guidance mechanism, utilizing a relation alignment module to ensure objects and concepts are logically placed and interact correctly within the generated scene. The method achieves a quantitative improvement of 15% in semantic consistency score compared to baseline models, demonstrating its effectiveness in generating high-fidelity and semantically accurate 3D environments. This research implies that AI practitioners can leverage such models for applications requiring realistic and consistent virtual environments, such as simulation, gaming, and virtual reality content creation."
+    },
+    {
+        "title": "Music Arena: Live Evaluation for Text-to-Music",
+        "authors": "Wei-Lin Chiang, Anastasios N. Angelopoulos, Wayne Chi, Yonghyun Kim, chrisdonahue",
+        "arxiv_id": "2507.20900",
+        "link": "https://arxiv.org/abs/2507.20900",
+        "category": "Multi-Modal",
+        "summary": "The paper \"Music Arena: Live Evaluation for Text-to-Music\" introduces a live evaluation platform for text-to-music generative models, addressing the limitations of static datasets and offline metrics in assessing perceptual quality. The objective is to provide a dynamic and user-centric evaluation method that captures human preferences in real-time. The methodology involves an online, interactive platform where users compare outputs from different text-to-music models based on given text prompts, allowing for direct human feedback. This live evaluation revealed that the top-performing model, MusicGen, achieved a win rate of 43.1%, demonstrating its strong user preference. The primary implication for AI practitioners is the shift towards continuous, real-time human evaluation, enabling agile development and refinement of generative models based on evolving user perceptions and preferences."
+    },
+    {
+        "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+        "authors": "Leshem Choshen, Idan Shenfeld, Stewart Slocum, Isha Puri, mehuldamani",
+        "arxiv_id": "2507.16806",
+        "link": "https://arxiv.org/abs/2507.16806",
+        "category": "Reinforcement Learning",
+        "summary": "This paper explores training language models (LMs) to understand and express their uncertainty, moving beyond traditional binary reward systems. The core objective is to enable LMs to provide calibrated probabilities reflecting their confidence in answers, instead of merely correct or incorrect outputs. The methodology involves fine-tuning LMs with rewards based on the Brier score, a metric for probabilistic forecast accuracy, using a novel dataset of mathematical reasoning problems annotated with step-by-step solutions and uncertainty estimates. Experimental results show that LMs trained with Brier score rewards achieve a 20.3% reduction in Brier score compared to binary reward models, demonstrating improved uncertainty calibration. This work implies that AI practitioners can train more reliable and trustworthy LMs that can communicate their limitations, leading to safer and more effective AI applications, especially in high-stakes domains."
+    },
+    {
+        "title": "JAM: A Tiny Flow-based Song Generator with Fine-grained Controllability and Aesthetic Alignment",
+        "authors": "Amir Ali Bagherzadeh, Taylor Gautreaux, Navonil Majumder, Renhang Liu, hungchiayu",
+        "arxiv_id": "2507.20880",
+        "link": "https://arxiv.org/abs/2507.20880",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces JAM, a compact flow-based model for generating songs with fine-grained control and aesthetic alignment. The main objective is to overcome limitations of existing generative models in music by providing precise control over musical elements while ensuring aesthetic quality. JAM achieves this through a novel architecture that integrates a pre-trained Large Language Model for musical understanding and a flow-based generative process. Experiments show that JAM can generate high-quality music, achieving an average aesthetic alignment score of 4.2 out of 5 from human evaluators, and demonstrating superior controllability compared to baseline models. This work implies that AI practitioners can now develop more controllable and aesthetically pleasing music generation systems, facilitating creative applications in music production and interactive media."
+    },
+    {
+        "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
+        "authors": "Shikib Mehri, Gokhan Tur, Takyoung Kim, Xiaocheng Yang, Shuhaib Mehri",
+        "arxiv_id": "2507.20152",
+        "link": "https://arxiv.org/abs/2507.20152",
+        "category": "Natural Language Processing",
+        "summary": "This paper addresses goal alignment in LLM-based user simulators, crucial for developing robust conversational AI. The main objective is to overcome challenges where simulated users may deviate from their intended goals, impacting the reliability of simulator-driven development. The research introduces a novel framework incorporating goal-conditioned system responses and a self-correction mechanism, which dynamically adjusts user simulator behavior based on ongoing interactions. Experiments show the proposed method achieves an 85% goal completion rate, a significant improvement over baseline models which often struggle with goal adherence. The implication for AI practitioners is the provision of a more reliable and efficient tool for evaluating and refining conversational AI systems, reducing the need for extensive human user testing."
+    },
+    {
+        "title": "Diversity-Enhanced Reasoning for Subjective Questions",
+        "authors": "Yi R. Fung, Jiayu Liu, Yumeng Wang, Zhiyuan-Fan",
+        "arxiv_id": "2507.20187",
+        "link": "https://arxiv.org/abs/2507.20187",
+        "category": "Natural Language Processing",
+        "summary": "This paper addresses the challenge of enhancing reasoning diversity for subjective questions, a critical area given the limitations of current Large Language Models (LLMs) in generating varied responses. The primary objective is to develop a method that promotes diverse reasoning paths and final answers without compromising performance or requiring extensive labeled data. The authors propose Diversity-Enhanced Reasoning (DER), which leverages self-supervised learning with two key components: a diversity-guided reasoning generation module and a self-evaluation module to refine reasoning quality. DER demonstrates significant improvements, achieving a 7.5% increase in response diversity on the Xiezhi-M dataset while maintaining or improving accuracy. This work implies that practitioners can significantly enhance the robustness and applicability of LLMs in subjective domains by integrating self-supervised diversity-promoting mechanisms, leading to more human-like and versatile AI systems."
+    },
+    {
+        "title": "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis",
+        "authors": "Haohan Wang, Yijiang Li, Liu-Hy",
+        "arxiv_id": "2507.21035",
+        "link": "https://arxiv.org/abs/2507.21035",
+        "category": "Multi-Agent",
+        "summary": "The paper introduces GenoMAS, a multi-agent framework designed to automate and accelerate scientific discovery in gene expression analysis. Its primary objective is to streamline the iterative process of hypothesis generation, experiment design, execution, and result interpretation, which is often tedious for human scientists. GenoMAS employs a dynamic team of AI agents that leverage large language models (LLMs) and code execution capabilities to perform data analysis, visualize findings, and iteratively refine research directions. The framework demonstrates significant efficiency gains, completing complex analysis tasks 20 times faster than human-centric approaches. This automation allows AI practitioners to accelerate scientific research cycles, enabling more rapid discovery and validation of biological insights."
+    },
+    {
+        "title": "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers",
+        "authors": "Emad Barsoum, Zicheng Liu, Prakamya Mishra, Pratik Prabhanjan Brahma, Chaitanya Manem",
+        "arxiv_id": "2507.20527",
+        "link": "https://arxiv.org/abs/2507.20527",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces SAND-Math, a novel dataset and framework for generating high-quality mathematics questions and answers using large language models (LLMs). The core objective is to overcome the limitations of existing math datasets, which often lack diversity, difficulty, and educational utility for advanced mathematical reasoning. The methodology involves leveraging LLMs in an iterative, self-correcting process to create problems that combine multiple mathematical concepts and require multi-step reasoning, ensuring both novelty and difficulty. SAND-Math demonstrates a 20% improvement in generation quality compared to previous methods, significantly enhancing the complexity and applicability of generated math problems. This work implies that AI practitioners can now develop more robust and sophisticated math-reasoning benchmarks and educational tools, pushing the boundaries of LLM capabilities in complex symbolic tasks."
+    },
+    {
+        "title": "Running in CIRCLE? A Simple Benchmark for LLM Code Interpreter Security",
+        "authors": "gabrielchua",
+        "arxiv_id": "2507.19399",
+        "link": "https://arxiv.org/abs/2507.19399",
+        "category": "Machine Learning",
+        "summary": "This paper evaluates the security vulnerabilities of Large Language Model (LLM) code interpreters. The main objective is to assess how LLMs handle malicious code inputs and potential data exfiltration. The study introduces CIRCLE, a novel benchmark and attack framework that systematically tests LLM code interpreters for insecure behaviors such as data exposure and arbitrary code execution. Results show that LLM code interpreters are highly vulnerable, with a 99% success rate for data exfiltration attacks and a 94% success rate for arbitrary code execution. This highlights an urgent need for robust security measures in LLM code interpreter development to prevent misuse and protect sensitive data."
+    }
+]
