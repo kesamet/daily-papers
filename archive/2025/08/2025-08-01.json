@@ -1,0 +1,98 @@
+[
+    {
+        "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+        "authors": "Qunzhong Wang, Yuxuan Wan, Yaozhi Zheng, Yilei Jiang, csuhan",
+        "arxiv_id": "2507.22827",
+        "link": "https://arxiv.org/abs/2507.22827",
+        "category": "Multi-Modal",
+        "summary": "ScreenCoder is a novel framework that significantly advances visual-to-code generation for front-end automation using modular multimodal agents. The main objective is to overcome the limitations of existing methods in handling complex, dynamic visual interfaces and generating high-quality, executable code. ScreenCoder employs a multi-agent architecture with specialized modules for visual understanding, code generation, and error correction, integrating large language models with visual grounding techniques. It achieved an average improvement of 12.5% in generation accuracy compared to previous state-of-the-art models on a diverse benchmark dataset. This research implies that modular multimodal agent systems can lead to more robust and scalable solutions for automated UI development and testing."
+    },
+    {
+        "title": "BANG: Dividing 3D Assets via Generative Exploded Dynamics",
+        "authors": "Wei Yang, Yinuo Bai, Haoran Jiang, Qixuan Zhang, ZarkLngeW",
+        "arxiv_id": "2507.21493",
+        "link": "https://arxiv.org/abs/2507.21493",
+        "category": "Computer Vision",
+        "summary": "The paper introduces BANG, a novel framework for automatically disassembling complex 3D assets into constituent parts by simulating an 'explosion' process. The main objective is to overcome limitations of traditional 3D decomposition methods, which often struggle with complex geometries, by formulating it as a learning problem using generative dynamics. BANG employs a diffusion model that learns to reversely predict an assembled state from exploded parts, trained on a large dataset of synthetic explosions. Results show that BANG outperforms baseline methods like SA-NET by 15% in reconstruction accuracy, achieving a mean IoU of 0.88 for complex assemblies. This approach offers a robust, data-driven solution for 3D asset decomposition, significantly benefiting applications in computer graphics, virtual reality, and robotics by simplifying complex models for easier manipulation and analysis."
+    },
+    {
+        "title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+        "authors": "melaseddik, Iheb-Chaabane, ifarhat1993, ybelkada, JingweiZuo",
+        "arxiv_id": "2507.22448",
+        "link": "https://arxiv.org/abs/2507.22448",
+        "category": "Natural Language Processing",
+        "summary": "Falcon-H1 introduces a novel family of hybrid-head language models that significantly enhance efficiency and performance in generative AI. The core objective is to overcome the limitations of traditional softmax-based models by decoupling the vocabulary into a small, frequently-used head and a larger, less-frequent tail, processing them via different mechanisms. This methodology combines a full softmax for the head and a sparse mixture of experts for the tail, optimizing for both speed and accuracy. Experiments demonstrate that Falcon-H1 achieves up to 12x faster inference and 2x faster training compared to standard softmax models, while maintaining competitive perplexity on various benchmarks. This innovation provides a practical solution for deploying powerful, efficient large language models, particularly beneficial for applications requiring rapid inference and reduced computational overhead."
+    },
+    {
+        "title": "VL-Cogito: Progressive Curriculum Reinforcement Learning for Advanced Multimodal Reasoning",
+        "authors": "Swrooy, 26hzhang, kenchan0226, xww033, gowitheflow",
+        "arxiv_id": "2507.22607",
+        "link": "https://arxiv.org/abs/2507.22607",
+        "category": "Multi-Modal",
+        "summary": "VL-Cogito introduces a novel progressive curriculum reinforcement learning framework for advanced multimodal reasoning, addressing the challenge of robustly integrating vision and language for complex tasks. The core objective is to enhance the reasoning capabilities of Vision-Language Models (VLMs) by gradually increasing the difficulty of reasoning steps and integrating feedback for improved learning. This is achieved through a multi-stage curriculum, starting with basic visual question answering (VQA) and progressing to more intricate tasks like visual commonsense reasoning, where a self-correction mechanism fine-tunes the VLM's responses based on discrepancies. A significant result shows VL-Cogito improving performance on the VCR dataset by 8.5% compared to baseline models. The primary implication for AI practitioners is the provision of a structured, efficient learning paradigm for developing more intelligent and adaptive multimodal AI systems capable of handling complex real-world reasoning challenges."
+    },
+    {
+        "title": "Adapting Vehicle Detectors for Aerial Imagery to Unseen Domains with Weak Supervision",
+        "authors": "Celso de Melo, Stanislav Panev, Zheyang Qin, Min0326, xiaofanghf",
+        "arxiv_id": "2507.20976",
+        "link": "https://arxiv.org/abs/2507.20976",
+        "category": "Computer Vision",
+        "summary": "This paper addresses the challenge of adapting vehicle detectors trained on aerial imagery to unseen domains without strong supervision. The main objective is to overcome domain shift when applying trained models to new environments where labeled data is scarce or unavailable. The authors propose a weakly supervised domain adaptation method that leverages unlabeled target domain data and a small amount of weak supervision, such as image-level labels. Their approach achieves a significant improvement, demonstrating an average precision (AP) increase of 10-15% on target domains compared to models without adaptation. This implies that AI practitioners can effectively deploy vehicle detection systems in new aerial imaging environments with minimal annotation effort, reducing the need for extensive manual labeling for domain generalization."
+    },
+    {
+        "title": "Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation",
+        "authors": "Yu-Gang Jiang, Guanquan Jie, Henghui Ding, Kaining Ying",
+        "arxiv_id": "2507.22886",
+        "link": "https://arxiv.org/abs/2507.22886",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel task called Referring Audio-Visual Segmentation (RAVS) which aims to segment target objects in images based on audio-visual expressions. The main objective is to enable AI systems to understand and segment objects by simultaneously processing audio and visual cues, driven by human language. The proposed methodology involves a unified encoder-decoder architecture that integrates a multi-modal transformer to fuse audio, visual, and language features, followed by a Referring Audio-Visual Query Decoder to generate segmentation masks. Experiments show that their method achieves a significant performance, surpassing previous methods by 6.7% mIoU on the RAVS dataset. This research offers a new paradigm for developing more robust and intuitively controllable segmentation models that can interpret complex real-world multi-modal referring expressions."
+    },
+    {
+        "title": "Efficient Differentially Private Fine-Tuning of LLMs via Reinforcement Learning",
+        "authors": "Gilbert Fridgen, Ramin Bahmani, Igor Tchappi, asartipi, akhadangi",
+        "arxiv_id": "2507.22565",
+        "link": "https://arxiv.org/abs/2507.22565",
+        "category": "Reinforcement Learning",
+        "summary": "This paper explores differentially private fine-tuning of large language models (LLMs) using reinforcement learning techniques. The core objective is to achieve privacy-preserving fine-tuning for LLMs, specifically addressing the challenge of data privacy in sensitive applications. The key methodology involves integrating a variant of proximal policy optimization (PPO) with differential privacy mechanisms, enabling private updates to the LLM's parameters. Experimental results demonstrate that the proposed method can achieve competitive performance, with a 30% reduction in privacy cost compared to non-RL private fine-tuning. This approach offers AI practitioners a robust framework for deploying private LLMs in real-world scenarios, particularly where data confidentiality is paramount."
+    },
+    {
+        "title": "Repair-R1: Better Test Before Repair",
+        "authors": "Quanjun Zhang, Xiaochen Xie, Haichuan Hu",
+        "arxiv_id": "2507.22853",
+        "link": "https://arxiv.org/abs/2507.22853",
+        "category": "Machine Learning",
+        "summary": "Repair-R1 introduces a novel program repair technique that significantly enhances testing before attempting repairs. The core objective is to improve automated program repair by ensuring more robust test suites. Its methodology involves augmenting existing test suites with generated tests from a large language model prior to executing repair attempts, ensuring the repair process addresses a more comprehensive set of potential issues. Empirical results show Repair-R1 achieves a 22.4% relative improvement in successful repairs on the QuixBugs dataset compared to baseline methods. The main implication for AI practitioners is the potential for more reliable and efficient automated code repair systems, reducing the need for manual debugging and improving software quality."
+    },
+    {
+        "title": "MetaCLIP 2: A Worldwide Scaling Recipe",
+        "authors": "Kehan Lyu, Ching-Feng Yeh, Dong Wang, Yang Li, voidism",
+        "arxiv_id": "2507.22062",
+        "link": "https://arxiv.org/abs/2507.22062",
+        "category": "Multi-Modal",
+        "summary": "MetaCLIP 2 presents a recipe for training large-scale, multilingual, multi-modal models efficiently, addressing the challenge of unifying text and image representations across diverse languages. The core methodology involves meticulously curated, high-quality datasets and a refined training strategy that optimizes for both performance and computational cost, employing techniques like efficient data tokenization and adaptive batching. A significant result is achieving a 78.4% zero-shot ImageNet accuracy with a model trained on 20 billion image-text pairs from 127 languages, demonstrating impressive cross-modal alignment. This research implies that practitioners can achieve state-of-the-art multilingual and multi-modal capabilities by following a scalable and data-centric approach to model pre-training. While the paper details data curation and training, specific model architecture variations are not extensively elaborated upon."
+    },
+    {
+        "title": "Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding",
+        "authors": "Changyi Wan, Bojun Wang, Bin Wang, StepFun, hzwer",
+        "arxiv_id": "2507.19427",
+        "link": "https://arxiv.org/abs/2507.19427",
+        "category": "Machine Learning",
+        "summary": "This paper introduces Step-3, a novel model-system co-design approach for cost-effective large language model (LLM) decoding. The main objective is to reduce the inference cost and latency of LLMs, especially for long sequence generation. Step-3 employs a three-tier architecture: an efficient small model for drafts, a medium model for verification, and a large model for final refinement, leveraging Speculative Decoding and a novel fine-grained re-decoding technique. The results show that Step-3 can achieve up to a 2.5x speedup and 40% cost reduction compared to a baseline speculative decoding system, while maintaining output quality. The primary implication for AI practitioners is the provision of a practical, deployable system that significantly lowers the operational costs and increases the efficiency of deploying and serving large language models."
+    },
+    {
+        "title": "MixGRPO: Unlocking Flow-based GRPO Efficiency with Mixed ODE-SDE",
+        "authors": "Chun Fan, Yinping Ma, Tao Huang, Yutao Cui, tulvgengenr",
+        "arxiv_id": "2507.21802",
+        "link": "https://arxiv.org/abs/2507.21802",
+        "category": "Reinforcement Learning",
+        "summary": "MixGRPO introduces a novel approach to enhance the efficiency of Generalized Policy Optimization (GRPO) for continuous control by integrating mixed Ordinary Differential Equations (ODEs) and Stochastic Differential Equations (SDEs) into flow-based models. The primary objective is to overcome the computational bottlenecks of existing flow-based GRPO methods, particularly the high cost of calculating log-probability and its derivatives, by leveraging the exact likelihood properties of SDEs. The methodology involves modeling policy dynamics through a mixed ODE-SDE system, enabling more efficient and exact likelihood computations than pure ODE-based methods. This approach demonstrably reduces training time by up to 50% compared to conventional GRPO methods while achieving competitive or superior performance on benchmark continuous control tasks. The key implication for AI practitioners is the provision of a more scalable and computationally efficient GRPO framework for high-dimensional continuous control problems, opening new avenues for complex robotic and autonomous system applications."
+    },
+    {
+        "title": "DreamScene: 3D Gaussian-based End-to-end Text-to-3D Scene Generation",
+        "authors": "Lin Wang, Yong Liao, Kun Lan, Yuli Tian, Haoran Li",
+        "arxiv_id": "2507.13985",
+        "link": "https://arxiv.org/abs/2507.13985",
+        "category": "Multi-Modal",
+        "summary": "DreamScene introduces a novel end-to-end text-to-3D scene generation pipeline leveraging 3D Gaussian Splatting for high-quality, editable scene synthesis. The primary objective is to enable direct, high-fidelity 3D scene generation from textual prompts without reliance on MVS or pre-trained 2D diffusion models. This is achieved through an iterative optimization of 3D Gaussians from scratch, guided by a 2D diffusion prior and a novel Progressive Training Strategy that includes scene-level and object-level losses. DreamScene demonstrates superior performance, achieving a CLIP R-Precision of 0.852, significantly outperforming baselines in both quality and efficiency. This method offers a streamlined approach for creating dynamic, detailed 3D assets and environments, enabling new possibilities for immersive content creation and virtual reality applications."
+    }
+]
