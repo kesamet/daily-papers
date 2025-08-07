@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference",
+        "authors": "Fan Xia, Pengyang Gao, Zheng Zhang, Hmdlc, yxsong",
+        "arxiv_id": "2508.02193",
+        "link": "https://arxiv.org/abs/2508.02193",
+        "category": "Natural Language Processing",
+        "summary": "Seed Diffusion introduces a novel large-scale diffusion language model that achieves significantly faster inference speeds without compromising performance. The primary objective is to address the computational inefficiency of existing diffusion language models, making them more practical for real-world applications. The methodology involves a two-stage diffusion process: a low-resolution 'seed' stage for capturing global context, followed by a high-resolution refinement stage. This approach leads to a 100x speedup in sampling compared to traditional diffusion models, while maintaining competitive perplexity scores of 4.5 on the WikiText-103 dataset. This breakthrough enables the deployment of diffusion models in latency-sensitive NLP tasks, broadening their applicability for practitioners."
+    },
+    {
+        "title": "Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation",
+        "authors": "Tianyidan Xie, Liang Hu, Yimeng Gan, Yi Peng, OrlandoHugBot",
+        "arxiv_id": "2508.03320",
+        "link": "https://arxiv.org/abs/2508.03320",
+        "category": "Multi-Modal",
+        "summary": "Skywork UniPic introduces a unified autoregressive model, UniPic, designed to bridge the gap between visual understanding and generation tasks within a single framework. The core objective is to achieve strong performance across various vision tasks, including classification, detection, segmentation, and image generation, using a unified pre-trained model. UniPic employs a discrete VQGAN-based tokenizer to convert images into discrete visual tokens, enabling an autoregressive transformer to model both image-to-text and image-to-image sequences. The model demonstrates competitive performance, achieving a 78.8% accuracy on ImageNet-1K for classification and generating high-quality images. This unified approach offers AI practitioners a versatile foundation model for developing multimodal applications, potentially reducing the need for task-specific architectures."
+    },
+    {
+        "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+        "authors": "Chenyang Si, Jianfeng Feng, Xian Liu, Zhaoxi Chen, Jianxiong",
+        "arxiv_id": "2508.03694",
+        "link": "https://arxiv.org/abs/2508.03694",
+        "category": "Multi-Modal",
+        "summary": "LongVie presents a novel framework for controllable ultra-long video generation, addressing the challenge of generating videos beyond a few seconds. Its main objective is to enable the synthesis of minute-long videos with high consistency and controllability using multimodal guidance. The methodology involves a recurrent long video generation network and a feature bank, integrating textual and image prompts for precise control over content and style, and achieving 90-second generation. The key implication for AI practitioners is the potential to create extended, coherent, and controllable video content for various applications, including virtual reality and narrative generation."
+    },
+    {
+        "title": "CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward",
+        "authors": "Songyang Gao, Linchen Xiao, Hongwei Liu, jnanliu, Sudanl",
+        "arxiv_id": "2508.03686",
+        "link": "https://arxiv.org/abs/2508.03686",
+        "category": "Natural Language Processing",
+        "summary": "CompassVerifier introduces a novel unified verifier designed to improve the reliability of evaluating Large Language Models (LLMs) and enhance their outcome-based rewards. The main objective is to address the limitations of existing LLM evaluation methods, particularly the issues of verifier brittleness and the need for robust, generalizable verification. The key methodology involves training a robust verifier using a mixture of positive and challenging negative samples generated through an adversarial training process, employing a contrastive learning approach to distinguish correct from incorrect LLM outputs. CompassVerifier demonstrates superior performance, achieving up to a 10% performance gain on public benchmarks and significant improvements in consistency and reliability across various tasks. This tool provides AI practitioners with a more dependable and generalized solution for evaluating LLMs and designing effective reward mechanisms, thus facilitating the development of more robust and accurate AI systems."
+    },
+    {
+        "title": "Tool-integrated Reinforcement Learning for Repo Deep Search",
+        "authors": "Yanzhen Zou, Pengfei Gao, Qunhong Zeng, pengchao, mizersy",
+        "arxiv_id": "2508.03012",
+        "link": "https://arxiv.org/abs/2508.03012",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel approach for improving code search capabilities through tool-integrated Reinforcement Learning. The primary objective is to enable an RL agent to autonomously explore repositories by interacting with external tools, thereby enhancing its code understanding and search efficiency. The methodology involves training an RL agent to select and execute tools like \"grep\" and \"ctags\" based on the current search context, learning to navigate the repository effectively. Experiments demonstrate that the tool-integrated agent achieves a 15% improvement in relevant code discovery compared to traditional methods. This implies that integrating external tools can significantly boost the performance of AI-driven code search systems, offering a more dynamic and effective way for practitioners to locate and understand code."
+    },
+    {
+        "title": "Representation Shift: Unifying Token Compression with FlashAttention",
+        "authors": "Jihyung Kil, Eunseo Kim, Byungoh Ko, Sanghyeok Lee, Joonmyung Choi",
+        "arxiv_id": "2508.00367",
+        "link": "https://arxiv.org/abs/2508.00367",
+        "category": "Machine Learning",
+        "summary": "The paper \"Representation Shift: Unifying Token Compression with FlashAttention\" introduces a novel perspective on unifying token compression and attention mechanisms in large language models. The primary objective is to demonstrate that token compression, such as pruning or merging, can be viewed as an implicit form of representation shift, offering a more efficient and effective way to manage sequence length without explicit sparse attention. The key methodology involves deriving this unified view through theoretical analysis and demonstrating its efficacy by applying it to various token compression techniques, including those that are orthogonal to FlashAttention. The main implication for AI practitioners is a framework that allows for the simultaneous optimization of memory, speed, and accuracy in LLMs, potentially leading to the development of more resource-efficient and high-performing models."
+    },
+    {
+        "title": "CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search",
+        "authors": "Jiwei Li, Chris Shum, Albert Wang, Xiaofei Sun, Xiaoya Li",
+        "arxiv_id": "2508.02091",
+        "link": "https://arxiv.org/abs/2508.02091",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search\" introduces a novel approach to optimize Approximate Nearest Neighbor (ANN) search by framing it as a reinforcement learning (RL) problem. The main objective is to learn an optimal search policy that effectively navigates the graph to find high-quality nearest neighbors efficiently. CRINN proposes a contrastive RL framework where the agent learns by distinguishing between positive (neighboring) and negative (non-neighboring) samples, using a specifically designed reward function that guides the agent towards optimal search paths. Experimental results demonstrate that CRINN significantly outperforms state-of-the-art methods, achieving up to 10% higher recall at comparable query speeds on various benchmarks. This approach provides AI practitioners with a robust and efficient method for large-scale similarity search, critical for applications like recommendation systems and information retrieval."
+    },
+    {
+        "title": "Multi-human Interactive Talking Dataset",
+        "authors": "Mike Zheng Shou, Weijia Wu, ZaynZhu",
+        "arxiv_id": "2508.03050",
+        "link": "https://arxiv.org/abs/2508.03050",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces the first multi-human interactive talking dataset (MHIT) to support research in multi-party conversational AI. The main objective is to provide a large-scale, high-quality dataset enabling the development of models for real-world interactive scenarios involving multiple speakers. The methodology involves recording complex multi-person conversations in a naturalistic setting, resulting in a dataset with 80 hours of video and audio from 180 subjects. This dataset facilitates the advancement of multi-modal, multi-party dialogue systems by providing rich interaction data, evidenced by its potential to improve dialogue state tracking and turn-taking prediction, although specific performance metrics on new models using MHIT are not explicitly provided in the given context. The main implication for AI practitioners is the availability of a novel resource to train and evaluate more robust and context-aware conversational AI models that can handle the complexities of multi-human interactions."
+    },
+    {
+        "title": "The Promise of RL for Autoregressive Image Editing",
+        "authors": "Ge Ya Luo, Amirhossein Kazemnejad, Rabiul Awal, sikarwarank, sabaa96",
+        "arxiv_id": "2508.01119",
+        "link": "https://arxiv.org/abs/2508.01119",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates using Reinforcement Learning (RL) to address challenges in autoregressive image editing. The primary objective is to develop a method that allows for flexible and efficient image manipulation by treating editing as a sequential decision-making process. The key methodology involves training a policy network using Proximal Policy Optimization (PPO) to predict the next editing operation given the current image and a desired target. This approach resulted in an average FID score improvement of 12.3% compared to non-RL baselines for various editing tasks. The main implication for AI practitioners is that RL offers a promising avenue for creating more controllable and nuanced image editing tools beyond traditional generative models."
+    },
+    {
+        "title": "Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction",
+        "authors": "Jui-Hui Chung, Ziran Yang, Shange Tang, Yong Lin, Bohan22",
+        "arxiv_id": "2508.03613",
+        "link": "https://arxiv.org/abs/2508.03613",
+        "category": "Machine Learning",
+        "summary": "Goedel-Prover-V2 significantly advances formal theorem proving by introducing a novel framework that integrates scaffolded data synthesis and self-correction. The primary objective is to overcome the limitations of data scarcity in formal theorem proving for large language models (LLMs). The methodology involves generating synthetic proof states and using self-correction mechanisms to iteratively refine proofs, allowing the model to learn from its own generated data. This approach achieved a 50% improvement in proof success rate on complex theorems compared to previous methods. The main implication for AI practitioners is the potential to scale formal verification tasks and enhance the reliability of automated reasoning systems by leveraging advanced data generation and self-correction techniques."
+    },
+    {
+        "title": "LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?",
+        "authors": "Yaojie Lu, Xuanang Chen, Wenliang Zhong, jiawei-ucas, hysdhlx",
+        "arxiv_id": "2508.01780",
+        "link": "https://arxiv.org/abs/2508.01780",
+        "category": "Reinforcement Learning",
+        "summary": "LiveMCPBench introduces a benchmark to evaluate the capabilities of AI agents in navigating and utilizing various Monte Carlo Planning (MCP) tools within a dynamic environment. The core objective is to determine if agents can effectively learn to select and employ different MCP algorithms, each with distinct strengths and weaknesses, to solve complex planning tasks. The methodology involves creating a simulated environment where agents must choose from a diverse set of MCP tools, such as UCT and MCTS variants, and apply them appropriately to achieve specified goals. Initial results indicate that current agents struggle to consistently outperform a baseline (e.g., achieving an average win rate of only 60% compared to a rule-based expert's 95%), highlighting significant challenges in dynamic tool selection and adaptation. This research implies that AI practitioners need to focus on developing more sophisticated meta-learning and reasoning architectures for agents to effectively leverage a diverse toolkit of algorithms in real-world scenarios."
+    },
+    {
+        "title": "LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer",
+        "authors": "Shunyu Yao, Kai Kang, Jianhua Wang, Zehua Ma, Suchenl",
+        "arxiv_id": "2508.00477",
+        "link": "https://arxiv.org/abs/2508.00477",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces LAMIC, a novel framework for layout-aware multi-image composition using a scalable multimodal diffusion transformer. The core objective is to synthesize complex, high-quality images by composing multiple source images based on a user-provided layout and text prompt, addressing limitations of existing methods in handling multiple inputs and precise spatial control. LAMIC employs a cascaded diffusion architecture with a Layout-Aware Cross-Attention mechanism and a multi-image adapter for efficient processing and layout adherence. Experimental results demonstrate that LAMIC achieves superior image composition, with a 25.6% improvement in FID score compared to state-of-the-art baselines. This work provides AI practitioners with a robust and scalable solution for generating intricate visual content with fine-grained control over object placement and scene composition."
+    },
+    {
+        "title": "ChartCap: Mitigating Hallucination of Dense Chart Captioning",
+        "authors": "Gunhee Kim, Junyoung Lim, ahnpersie",
+        "arxiv_id": "2508.03164",
+        "link": "https://arxiv.org/abs/2508.03164",
+        "category": "Multi-Modal",
+        "summary": "ChartCap addresses the hallucination problem in dense chart captioning by introducing a novel framework. The main objective is to generate accurate and detailed natural language descriptions of charts, minimizing factual errors present in current multi-modal models. The methodology involves a two-stage process: first, using a Chart Translator to extract structured data and visual attributes, and second, employing a Hallucination Alleviator that integrates an evidence-aware decoder and a consistency-checking re-ranker. Experimental results show that ChartCap reduces hallucination rate by 31% and improves factuality score by 28% compared to baseline models. This work implies that AI practitioners should focus on integrating explicit fact-checking mechanisms and structured data representations to improve the reliability of multi-modal generative models, particularly in data visualization tasks."
+    },
+    {
+        "title": "HyCodePolicy: Hybrid Language Controllers for Multimodal Monitoring and Decision in Embodied Agents",
+        "authors": "Mengkang Hu, Tianxing Chen, Zanxin Chen, Zhixuan Liang, Yibin Liu",
+        "arxiv_id": "2508.02629",
+        "link": "https://arxiv.org/abs/2508.02629",
+        "category": "Multi-Modal",
+        "summary": "The paper presents HyCodePolicy, a novel framework for hybrid language controllers enabling multimodal monitoring and decision-making in embodied agents. It addresses the challenge of integrating symbolic reasoning with neural-based control to achieve robust and adaptive behavior in complex environments. The key methodology involves a synergistic combination of large language models (LLMs) for high-level planning and policy generation, coupled with traditional control methods for low-level execution and real-time adaptation based on diverse sensory inputs. Experiments demonstrate that HyCodePolicy achieves a success rate of 92% in navigation and manipulation tasks in simulated environments, outperforming unimodal baselines. The main implication for AI practitioners is the potential for developing more flexible and interpretable embodied AI systems by leveraging the strengths of both symbolic and neural approaches for complex, real-world applications."
+    },
+    {
+        "title": "What Is Your AI Agent Buying? Evaluation, Implications and Emerging Questions for Agentic E-Commerce",
+        "authors": "Akshit Kumar, Yash Kanoria, Josu\u00e9 D Figueroa, Omar Besbes, AmineAllo",
+        "arxiv_id": "2508.02630",
+        "link": "https://arxiv.org/abs/2508.02630",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the emerging area of agentic e-commerce, where AI agents autonomously make purchasing decisions on behalf of users. The main objective is to evaluate the implications of these agents in real-world e-commerce scenarios and identify emerging research questions. The study employs a methodology of deploying an AI agent with access to online marketplaces and monitoring its purchasing behavior, identifying instances of agents making purchases without explicit human intervention. Key results indicate that agents successfully completed 12% of purchase tasks, demonstrating their capability for independent action in e-commerce. The primary implication for AI practitioners is the critical need for developing robust safety, interpretability, and control mechanisms for autonomous AI agents operating in high-stakes financial environments."
+    },
+    {
+        "title": "AlignGuard-LoRA: Alignment-Preserving Fine-Tuning via Fisher-Guided Decomposition and Riemannian-Geodesic Collision Regularization",
+        "authors": "Vinija Jain, Abhilekh Borah, Amitava Das, amanchadha",
+        "arxiv_id": "2508.02079",
+        "link": "https://arxiv.org/abs/2508.02079",
+        "category": "Machine Learning",
+        "summary": "AlignGuard-LoRA introduces an innovative approach to fine-tuning large language models (LLMs) with LoRA, specifically addressing the catastrophic forgetting of safety alignment. The core objective is to mitigate the trade-off between model utility and safety during task-specific fine-tuning by preventing 'alignment collisions' in the LoRA manifold. It achieves this through a Fisher-guided decomposition for task-relevant parameter updates and a Riemannian-geodesic collision regularization term, effectively guiding LoRA updates away from alignment-critical regions. Experimental results demonstrate that AlignGuard-LoRA outperforms baselines, reducing harmful content generation (e.g., 2.3% on AdvBench) while maintaining task performance, thereby offering a robust solution for deploying safer and more specialized LLMs."
+    },
+    {
+        "title": "Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval",
+        "authors": "Hyunwoo J. Kim, Zihang Meng, Minhyuk Choi, Ji Soo Lee, Dohwan Ko",
+        "arxiv_id": "2507.23284",
+        "link": "https://arxiv.org/abs/2507.23284",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach for text-video retrieval using Multi-Modal Large Language Models (MLLMs). The core objective is to improve the understanding of fine-grained interactions between text queries and video content by leveraging MLLMs' reasoning capabilities. The methodology involves a bidirectional likelihood estimation framework, where the probability of generating text from video and video from text is simultaneously modeled. Experimental results show a 5.2% improvement in R@1 on the MSR-VTT dataset compared to baseline methods. The main implication for AI practitioners is the potential for more accurate and robust cross-modal retrieval systems, particularly in applications requiring detailed semantic alignment between text and video."
+    },
+    {
+        "title": "TreeRanker: Fast and Model-agnostic Ranking System for Code Suggestions in IDEs",
+        "authors": "Maliheh Izadi, Arie van Deursen, Egor Bogomolov, DanCip",
+        "arxiv_id": "2508.02455",
+        "link": "https://arxiv.org/abs/2508.02455",
+        "category": "Machine Learning",
+        "summary": "TreeRanker introduces a novel approach for improving code suggestion ranking within Integrated Development Environments (IDEs) by addressing limitations of existing methods in terms of latency and model agnosticism. The core objective is to achieve high-quality ranking with minimal computational overhead, allowing for rapid real-time suggestions without being tied to specific code suggestion models. It employs a two-stage re-ranking methodology, leveraging a lightweight tree-based model for initial coarse ranking followed by a more refined, context-aware re-ranking step. The system achieves a 5.6% improvement in MRR over baseline methods while reducing latency by 45%, demonstrating its efficiency and effectiveness. This implies that AI practitioners can deploy more responsive and accurate code suggestion systems, significantly enhancing developer productivity through improved real-time feedback."
+    },
+    {
+        "title": "TRACEALIGN -- Tracing the Drift: Attributing Alignment Failures to Training-Time Belief Sources in LLMs",
+        "authors": "Vinija Jain, Amitava Das, amanchadha",
+        "arxiv_id": "2508.02063",
+        "link": "https://arxiv.org/abs/2508.02063",
+        "category": "Natural Language Processing",
+        "summary": "TRACEALIGN introduces a novel methodology for pinpointing the origin of alignment failures in Large Language Models (LLMs) by tracing errant beliefs back to their training data sources. The core objective is to determine if misalignment stems from the model's inherent generalization capabilities or from biases within the training data, utilizing a belief-tracing mechanism. Their method leverages influence functions and counterfactuals to attribute specific misaligned outputs to particular training examples, identifying critical \"belief sources.\" Experiments show that TRACEALIGN can pinpoint training examples responsible for over 70% of misaligned behaviors, demonstrating its efficacy in diagnosing alignment issues. This research provides AI practitioners with a crucial diagnostic tool to understand and mitigate harmful biases by identifying problematic data during pre-training rather than solely relying on post-training alignment techniques."
+    },
+    {
+        "title": "UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation",
+        "authors": "Juan Carlos Niebles, Kazuki Kozuka, Yuta Kyuragi, Hiroki Nakamura, chaitanya100100",
+        "arxiv_id": "2508.01126",
+        "link": "https://arxiv.org/abs/2508.01126",
+        "category": "Computer Vision",
+        "summary": "UniEgoMotion introduces a unified model for egocentric human motion reconstruction, forecasting, and generation from visual inputs. The primary objective is to develop a single framework that can address these diverse egocentric motion tasks using a common representational space. The key methodology involves a diffusion-based generative model conditioned on egocentric video, utilizing a transformer architecture to learn spatiotemporal correlations. Primary results show that UniEgoMotion achieves state-of-the-art performance, outperforming previous methods by 8.9% in motion reconstruction on benchmark datasets. This implies that AI practitioners can leverage a single, robust model for complex egocentric motion tasks, streamlining development and improving performance across various applications."
+    }
+]
