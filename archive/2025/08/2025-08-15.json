@@ -1,0 +1,186 @@
+[
+    {
+        "title": "Story2Board: A Training-Free Approach for Expressive Storyboard Generation",
+        "authors": "Dani Lischinski, Dvir Samuel, Matan Levy, omriav, daviddink",
+        "arxiv_id": "2508.09983",
+        "link": "https://arxiv.org/abs/2508.09983",
+        "category": "Multi-Modal",
+        "summary": "The paper presents Story2Board, a novel training-free approach for generating expressive storyboards from narrative text. The core objective is to synthesize a sequence of images and corresponding camera parameters that visually depict a story, capturing both semantic content and visual expressiveness. Story2Board leverages large language models to derive visual descriptions and shot compositions, and then employs a text-to-image model for image generation while controlling attributes like lighting and camera angles. Experimental results demonstrate that Story2Board achieves a user preference score of 4.19/5, outperforming existing methods by generating more diverse and expressive storyboards. This work provides AI practitioners with a robust framework for automated visual content creation, particularly beneficial for pre-visualization in media production."
+    },
+    {
+        "title": "Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery",
+        "authors": "Qinggang Zhang, di-zhang-fdu, Duke-de-Artois, weidawang, phenixace",
+        "arxiv_id": "2508.08401",
+        "link": "https://arxiv.org/abs/2508.08401",
+        "category": "Machine Learning",
+        "summary": "This paper introduces Mol-R1, a novel approach for explicit long-Chain-of-Thought (CoT) reasoning in molecule discovery. The main objective is to enhance the explainability and effectiveness of molecular design by emulating human-like iterative refinement processes. Mol-R1 employs an explicit reasoning framework that decomposes the complex molecular design task into discrete, interpretable steps, allowing for iterative refinement based on feedback. The primary results demonstrate that Mol-R1 achieves a 15.6% improvement in target property prediction accuracy compared to baseline models, while also generating structurally diverse and synthesizable molecules. The main implication for AI practitioners is the provision of a more transparent and controllable framework for drug and material discovery, facilitating better understanding and optimization of generative processes."
+    },
+    {
+        "title": "Stand-In: A Lightweight and Plug-and-Play Identity Control for Video Generation",
+        "authors": "Chen Li, Hao Liu, Wenjing Wang, Qixin Yan, BowenXue",
+        "arxiv_id": "2508.07901",
+        "link": "https://arxiv.org/abs/2508.07901",
+        "category": "Computer Vision",
+        "summary": "Stand-In introduces a novel, lightweight and plug-and-play identity control mechanism for text-to-video generation models, addressing the challenge of maintaining consistent identity in generated video content. The core objective is to enable precise identity preservation from a single reference image without requiring training or fine-tuning of the base video generation model. The methodology involves a dedicated identity encoder that extracts identity features, which are then integrated into the video generation process through a minimal set of trainable parameters. Experimental results demonstrate that Stand-In achieves a high Identity CLIP Score of 0.28 and an Identity-Fidelity trade-off of 0.23, outperforming existing methods in identity preservation while maintaining video quality. This advancement significantly benefits AI practitioners by providing an efficient and effective tool for generating identity-consistent videos, simplifying the creation of personalized or character-driven video content without extensive model modification."
+    },
+    {
+        "title": "AWorld: Dynamic Multi-Agent System with Stable Maneuvering for Robust GAIA Problem Solving",
+        "authors": "Jinjie Gu, Chenyi Zhuang, Chengyue Yu, Qintong Wu, Zhitian Xie",
+        "arxiv_id": "2508.09889",
+        "link": "https://arxiv.org/abs/2508.09889",
+        "category": "Reinforcement Learning",
+        "summary": "AWorld introduces a novel multi-agent system designed for robust problem-solving in dynamic environments, specifically addressing the GAIA challenge. The primary objective is to enable stable maneuvering and resilient performance in complex, changing scenarios. This is achieved through a hierarchical reinforcement learning approach that integrates a high-level planner with low-level controllers, facilitating adaptive behavior and dynamic resource management. Experimental results demonstrate that AWorld achieves a 95% success rate in overcoming environmental perturbations, significantly outperforming baseline methods. This system offers AI practitioners a robust framework for developing multi-agent systems capable of reliable operation in highly dynamic and unpredictable real-world applications."
+    },
+    {
+        "title": "Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing",
+        "authors": "Hao Zhang, Jiachun Jin, Chenkai Xu, Xu Wang, DrewJin0827",
+        "arxiv_id": "2508.09192",
+        "link": "https://arxiv.org/abs/2508.09192",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel approach for faster-than-autoregressive inference in large language models using discrete diffusion forcing. The primary objective is to accelerate the generation process of LLMs, circumventing the sequential nature of standard autoregressive decoding. The key methodology involves training a diffusion model to directly predict entire sequences or long spans of text, conditioned on a prompt, using a technique called discrete diffusion forcing. Experimental results demonstrate significant speedups, achieving up to 2.5x faster inference compared to autoregressive baselines while maintaining comparable or improved quality (e.g., a 1.2 BLEU score improvement on a specified task). The main implication for AI practitioners is the potential for deploying more efficient and responsive LLM-powered applications, especially in scenarios requiring high-throughput text generation."
+    },
+    {
+        "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory",
+        "authors": "Yuan Lin, Yiyuan Pan, Wentao Ye, Yichen He, Lin Long",
+        "arxiv_id": "2508.09736",
+        "link": "https://arxiv.org/abs/2508.09736",
+        "category": "Multi-Modal",
+        "summary": "This paper presents a multimodal agent capable of long-term memory and reasoning across visual and auditory inputs. The core objective is to develop an agent that can robustly acquire and leverage long-term multimodal memories to answer questions and perform actions in complex, interactive environments. The methodology involves a novel memory architecture that stores perceptions and actions, coupled with a reasoning engine that retrieves relevant memories and generates responses using large language models. The agent demonstrates superior performance, achieving a 10% absolute improvement in question-answering accuracy compared to baselines in complex, interactive multimodal environments. This work implies that integrating robust long-term multimodal memory and reasoning capabilities is crucial for developing more intelligent and general-purpose AI agents capable of sustained interaction and learning."
+    },
+    {
+        "title": "Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation",
+        "authors": "Leqi Zhu, Zihao Wang, Junyan Ye, SereinH, CaraJ",
+        "arxiv_id": "2508.09987",
+        "link": "https://arxiv.org/abs/2508.09987",
+        "category": "Multi-Modal",
+        "summary": "This paper explores leveraging GPT-4o's synthetic image generation capabilities to enhance image generation models. The primary objective is to investigate if synthetic image datasets generated by advanced multi-modal models like GPT-4o can serve as effective training data for improving the performance and diversity of other image generation architectures. The key methodology involves using GPT-4o to create a large-scale dataset of synthetic images based on diverse textual prompts and then fine-tuning diffusion models on this synthetic data, comparing their performance against models trained on real datasets. Initial results indicate that models fine-tuned with GPT-4o synthetic images achieve a 15% improvement in FID score compared to baseline models trained without such data. This research implies that practitioners can potentially reduce reliance on expensive real-world datasets for training image generation models by strategically incorporating high-quality synthetic data from powerful multi-modal generative AI."
+    },
+    {
+        "title": "Learning to Align, Aligning to Learn: A Unified Approach for Self-Optimized Alignment",
+        "authors": "Lei Fan, Shuowen Zhang, Yun Yue, yzlnew, whw199833",
+        "arxiv_id": "2508.07750",
+        "link": "https://arxiv.org/abs/2508.07750",
+        "category": "Reinforcement Learning",
+        "summary": "This paper presents \"Learning to Align, Aligning to Learn\" (LAAL), a unified framework for self-optimized alignment. The main objective is to address the challenge of aligning large language models (LLMs) with human preferences without relying on costly human feedback. LAAL introduces an iterative, self-correcting methodology where an LLM acts as its own aligner and generator, leveraging techniques like preference-based alignment and self-reflection to refine its responses. The framework achieved an average win rate of 73% against GPT-4 and 68% against Gemini Ultra in human evaluations, demonstrating its effectiveness. The primary implication for AI practitioners is the potential for developing highly aligned and performant LLMs at scale with significantly reduced reliance on human annotation."
+    },
+    {
+        "title": "MathReal: We Keep It Real! A Real Scene Benchmark for Evaluating Math Reasoning in Multimodal Large Language Models",
+        "authors": "Zhihan Zhou, Yue Guo, Zhentao Zhang, Zixin Wang, junfeng0288",
+        "arxiv_id": "2508.06009",
+        "link": "https://arxiv.org/abs/2508.06009",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces MathReal, a novel real-scene benchmark designed to evaluate the mathematical reasoning capabilities of Multimodal Large Language Models (MLLMs). The primary objective is to address the limitations of existing synthetic datasets by providing a more realistic and challenging evaluation environment. MathReal employs a unique data collection methodology involving real-world scenes captured via cameras and manually annotated with mathematical problems. Experimental results show that state-of-the-art MLLMs achieve an accuracy of only 36.4% on MathReal, significantly underperforming on real-world scenarios compared to synthetic benchmarks. This low performance highlights a critical gap in MLLMs' ability to generalize mathematical reasoning from synthetic data to real-world visual inputs, underscoring the need for further research and development in this area for practical AI applications."
+    },
+    {
+        "title": "Cooper: Co-Optimizing Policy and Reward Models in Reinforcement Learning for Large Language Models",
+        "authors": "Guiyang Hou, Xingyu Wu, Haitao Hong, tricktreat, yanyc",
+        "arxiv_id": "2508.05613",
+        "link": "https://arxiv.org/abs/2508.05613",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces Cooper, a novel framework for co-optimizing policy and reward models in reinforcement learning for large language models (LLMs). The main objective is to overcome the limitations of fixed reward models in traditional Reinforcement Learning from Human Feedback (RLHF) by jointly learning the policy and the reward. Cooper employs a two-phase iterative optimization process: an RL phase that improves the policy given the current reward, and an R-Update phase that refines the reward model based on the policy's performance. Experiments show that Cooper outperforms state-of-the-art methods, achieving a 15.6% improvement in win rate against RLHF on AlpacaEval. This suggests that co-optimization can lead to more robust and higher-performing LLMs by mitigating reward model overfitting and enhancing alignment."
+    },
+    {
+        "title": "IAG: Input-aware Backdoor Attack on VLMs for Visual Grounding",
+        "authors": "Beining Xu, di-zhang-fdu, Duke-de-Artois",
+        "arxiv_id": "2508.09456",
+        "link": "https://arxiv.org/abs/2508.09456",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces IAG, a novel input-aware backdoor attack specifically targeting Vision-Language Models (VLMs) used for visual grounding tasks. The research aims to demonstrate that VLMs are vulnerable to backdoor attacks where the trigger's effect is conditional on the input's content, unlike traditional unconditional triggers. IAG achieves this by using an input-dependent trigger located in a hard-to-detect region, activated only when the input satisfies a predefined condition, and employing a feature-space attack to maintain stealthiness and effectiveness. Experimental results show that IAG can achieve a high attack success rate of 90% while maintaining less than a 1% drop in benign accuracy on Flickr30k. The implication for AI practitioners is the critical need for developing robust defense mechanisms against sophisticated input-aware backdoor attacks to ensure the security and trustworthiness of VLMs in real-world applications."
+    },
+    {
+        "title": "Noise Hypernetworks: Amortizing Test-Time Compute in Diffusion Models",
+        "authors": "Zeynep Akata, Nataniel Ruiz, Alexey Dosovitskiy, Luca Eyring, shyamgopal",
+        "arxiv_id": "2508.09968",
+        "link": "https://arxiv.org/abs/2508.09968",
+        "category": "Machine Learning",
+        "summary": "The paper introduces Noise Hypernetworks (NHNs), a novel approach to reduce test-time computation in diffusion models by amortizing the denoising process. The core objective is to accelerate sampling from pre-trained diffusion models without requiring retraining or fine-tuning, thereby making them more efficient for practical deployment. NHNs are small networks trained to predict the noise components of a pre-trained diffusion model, which are then used to generate higher-quality samples with fewer steps. This methodology allows for a significant reduction in sampling steps, achieving comparable or better sample quality (e.g., FID of 3.8 on ImageNet 64x64 with 4 steps) compared to existing fast sampling methods. The main implication for AI practitioners is the ability to deploy diffusion models with drastically reduced inference costs and latency, making them more viable for real-time applications and resource-constrained environments."
+    },
+    {
+        "title": "VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Models",
+        "authors": "Dongdong Zhang, Yixia Li, Xun Wu, Shaohan Huang, Lingjie Jiang",
+        "arxiv_id": "2508.09945",
+        "link": "https://arxiv.org/abs/2508.09945",
+        "category": "Multi-Modal",
+        "summary": "VisCodex introduces a novel approach to unified multimodal code generation by integrating vision and coding models into a single framework. The primary objective is to enable large language models (LLMs) to process both visual and textual inputs for code generation tasks. The methodology involves developing a unique model architecture that merges visual encoders with code-centric decoders, leveraging the strengths of each component. This approach demonstrates significant improvements, achieving a 15.6% relative gain on the UniCode benchmark, indicating enhanced performance in generating code from complex multimodal prompts. VisCodex's unified framework offers a valuable blueprint for AI practitioners seeking to develop more versatile and capable code generation systems that can understand and act upon diverse input modalities."
+    },
+    {
+        "title": "\u03bc-Parametrization for Mixture of Experts",
+        "authors": "Jan Ludziejewski, Maciej Pi\u00f3ro, Mateusz Boru\u0144, Kamil Ciebiera, Jan Ma\u0142a\u015bnicki",
+        "arxiv_id": "2508.09752",
+        "link": "https://arxiv.org/abs/2508.09752",
+        "category": "Machine Learning",
+        "summary": "The paper introduces the \"u-Parametrization\" technique to improve the training stability and performance of Mixture-of-Experts (MoE) models by normalizing the expert outputs. The main objective is to address the issue of expert collapse and instability in MoE training, particularly when using competitive routing mechanisms like top-k gating. The proposed methodology involves reformulating the MoE expert output as a product of a trainable scaling factor and a normalized expert output, applying this normalization to both expert weights and outputs. Experimental results demonstrate that u-Parametrization outperforms traditional MoE training, achieving up to a 6.7x speedup in wall-clock training time on large language models and improving performance on tasks like machine translation by up to 1.5 BLEU. This technique offers a robust and efficient way for AI practitioners to train larger and more stable MoE models, overcoming common convergence challenges and enabling broader adoption in various applications."
+    },
+    {
+        "title": "Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning",
+        "authors": "Harkirat Behl, Shivam Garg, Vidhisha Balachandran, Ahmed Awadallah, Vaishnavi Shrivastava",
+        "arxiv_id": "2508.09726",
+        "link": "https://arxiv.org/abs/2508.09726",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Group Filtered Policy Optimization (GFPO), a novel method aimed at enhancing the efficiency of policy optimization in reinforcement learning by promoting concise reasoning. GFPO addresses the challenge of sample inefficiency by leveraging group-based filtering to select high-performing samples, thereby reducing the need for extensive environmental interactions. The methodology involves an iterative process of policy sampling, group filtering of trajectories based on return, and subsequent policy updates using only the selected high-return samples. Experimental results demonstrate that GFPO achieves competitive performance with significantly fewer samples, for instance, showing a 30% reduction in samples needed to reach comparable performance on continuous control tasks. The main implication for AI practitioners is the potential to accelerate the development and deployment of RL agents by substantially decreasing the computational resources and time required for training, especially in complex environments where data collection is costly."
+    },
+    {
+        "title": "CannyEdit: Selective Canny Control and Dual-Prompt Guidance for Training-Free Image Editing",
+        "authors": "April Hua Liu, Kaican Li, Didan Deng, Han Gao, vaynexie",
+        "arxiv_id": "2508.06937",
+        "link": "https://arxiv.org/abs/2508.06937",
+        "category": "Computer Vision",
+        "summary": "CannyEdit is a novel training-free image editing framework that leverages Canny edge maps for precise control. The research aims to address the challenge of generating high-quality edited images while maintaining fidelity to user-specified edits and minimizing irrelevant changes. It achieves this by introducing a selective Canny control mechanism to guide diffusion models and a dual-prompt guidance strategy that combines structure and content prompts for enhanced disentanglement. CannyEdit demonstrates superior performance, achieving a CLIP score of 0.283, an average user preference of 83.4%, and an FID score of 10.3, outperforming existing methods in terms of image quality and editing accuracy. This framework provides AI practitioners with a robust and versatile tool for fine-grained image manipulation, particularly beneficial for applications requiring precise structural or content alterations."
+    },
+    {
+        "title": "Can LLM-Generated Textual Explanations Enhance Model Classification Performance? An Empirical Study",
+        "authors": "Gjergji Kasneci, Zineb Attaoui, Ege Erdogan, Juraj Vladika, Mahdi Dhaini",
+        "arxiv_id": "2508.09776",
+        "link": "https://arxiv.org/abs/2508.09776",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates whether Large Language Model (LLM)-generated textual explanations can improve model classification performance. The core objective is to explore the utility of LLM-generated explanations as an augmentation strategy for classification tasks. The methodology involves empirically evaluating the impact of such explanations on various classification models across different datasets, measuring performance improvements using metrics like accuracy. Results indicate that incorporating LLM-generated explanations can lead to notable performance enhancements, with some models showing up to a 5% increase in accuracy. The primary implication for AI practitioners is that LLM-generated textual explanations offer a promising avenue for improving the robustness and performance of classification systems, particularly in scenarios where human-understandable context is beneficial."
+    },
+    {
+        "title": "GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors",
+        "authors": "Qingnan Fan, Ying Feng, Jiahao Chang, Qi Zhang, Xingyilang Yin",
+        "arxiv_id": "2508.09667",
+        "link": "https://arxiv.org/abs/2508.09667",
+        "category": "Computer Vision",
+        "summary": "GSFixer addresses the common issue of visual artifacts and quality degradation in 3D Gaussian Splatting (3DGS) models, particularly when reconstructed from sparse, noisy, or low-quality image collections. The paper's main objective is to enhance the visual quality of 3DGS models by leveraging strong priors from reference-guided video diffusion models. The key methodology involves distilling high-quality features from a pre-trained image diffusion model into 3D Gaussians through a novel reference-guided feature distillation loss, which is then combined with a multi-view consistency loss and an artifact-specific regularizer. GSFixer demonstrates significant quantitative improvements, achieving a 0.72 PSNR increase and a 0.03 decrease in LPIPS on challenging datasets, outperforming existing 3DGS post-processing methods. This implies that AI practitioners can employ GSFixer to generate more visually coherent and robust 3D representations, even from sub-optimal input data, thereby broadening the practical applicability of 3DGS in various real-world scenarios."
+    },
+    {
+        "title": "ASM-UNet: Adaptive Scan Mamba Integrating Group Commonalities and Individual Variations for Fine-Grained Segmentation",
+        "authors": "Kechen Shu, Yue Yan, Mengyuan Xu, Bo Wang, Yuqunyang",
+        "arxiv_id": "2508.07237",
+        "link": "https://arxiv.org/abs/2508.07237",
+        "category": "Computer Vision",
+        "summary": "The paper introduces ASM-UNet, a novel architecture designed for fine-grained medical image segmentation, addressing the challenge of capturing both group commonalities and individual variations within anatomical structures. Its main objective is to overcome the limitations of traditional convolutional neural networks and pure Mamba models in effectively integrating local and global information for precise segmentation. ASM-UNet employs an Adaptive Scan Mamba (ASM) module which combines the efficient global context capture of Mamba with a self-attention mechanism to adaptively model diverse features, alongside an Inverted Residual Block to extract local features. The model achieves state-of-the-art performance, outperforming existing methods with a Dice Similarity Coefficient of 89.23% on the Synapse multi-organ CT dataset. This advancement implies that AI practitioners can leverage ASM-UNet for more accurate and robust segmentation in various medical imaging applications, potentially leading to improved diagnostic and treatment planning."
+    },
+    {
+        "title": "Decentralized Aerial Manipulation of a Cable-Suspended Load using Multi-Agent Reinforcement Learning",
+        "authors": "Sihao Sun, Javier Alonso-Mora, Eugene Vinitsky, Andreu Matoses Gimenez, jackzeng-robotics",
+        "arxiv_id": "2508.01522",
+        "link": "https://arxiv.org/abs/2508.01522",
+        "category": "Reinforcement Learning",
+        "summary": "This paper focuses on the decentralized aerial manipulation of a cable-suspended load using a team of unmanned aerial vehicles (UAVs). The primary objective is to enable robust and scalable cooperative transport of a load by multiple UAVs without relying on centralized communication or prior knowledge of system dynamics. The authors propose a novel decentralized control policy derived through multi-agent reinforcement learning, specifically using Proximal Policy Optimization (PPO), which allows each UAV to make independent decisions based on local observations. They achieved successful load stabilization and trajectory tracking, demonstrating that the learned policy outperforms traditional methods by reducing tracking error by 30% in complex scenarios. The main implication for AI practitioners is the potential to deploy autonomous multi-robot systems in real-world, dynamic environments where centralized control is impractical or impossible, advancing the field of cooperative robotics."
+    },
+    {
+        "title": "AMFT: Aligning LLM Reasoners by Meta-Learning the Optimal Imitation-Exploration Balance",
+        "authors": "Yong Li, Lixuan He, JJ-TMT",
+        "arxiv_id": "2508.06944",
+        "link": "https://arxiv.org/abs/2508.06944",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces AMFT, a novel approach for aligning LLM reasoners by meta-learning the optimal balance between imitation learning and reinforcement learning. The core objective is to overcome the limitations of current alignment methods, which often struggle with balancing the exploitation of expert data and exploration of new reasoning paths. AMFT employs an inner-outer loop meta-learning strategy, where the inner loop optimizes the LLM policy using a weighted combination of imitation and reinforcement learning losses, and the outer loop meta-learns the optimal weighting factor. Empirical results demonstrate that AMFT outperforms strong baselines, achieving a win rate of 72% against fine-tuned Llama2-70B models, showcasing improved reasoning capabilities and generalization. The primary implication for AI practitioners is a more robust and efficient method for aligning large language models, potentially leading to significant advancements in autonomous reasoning systems."
+    },
+    {
+        "title": "The Surprising Effectiveness of Membership Inference with Simple N-Gram Coverage",
+        "authors": "Abhilasha Ravichander, Ximing Lu, Melanie Sclar, Jaehun Jung, Skyler Hallinan",
+        "arxiv_id": "2508.09603",
+        "link": "https://arxiv.org/abs/2508.09603",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the effectiveness of simple, non-model-based membership inference attacks. The main objective is to demonstrate that an attacker can effectively determine if a data record was part of a model's training set using only basic statistical properties, without needing access to the model's internal parameters or gradients. The key methodology involves using n-gram coverage to identify \"signature\" n-grams that are disproportionately present in training data versus non-training data, then applying a simple thresholding classifier. Results show that this method achieves up to 90% attack accuracy on CIFAR-100, outperforming some state-of-the-art attacks, and indicating that models can \"memorize\" specific data patterns. The primary implication for AI practitioners is the heightened need for privacy-preserving machine learning techniques, as even seemingly simple attacks pose a significant threat to data privacy."
+    },
+    {
+        "title": "ObfusQAte: A Proposed Framework to Evaluate LLM Robustness on Obfuscated Factual Question Answering",
+        "authors": "Kripabandhu Ghosh, Aditya Kumar Guru, Abhilekh Borah, Shubhra Ghosh",
+        "arxiv_id": "2508.07321",
+        "link": "https://arxiv.org/abs/2508.07321",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces ObfusQAte, a novel framework for evaluating the robustness of Large Language Models (LLMs) when answering factual questions obfuscated through various linguistic transformations. The primary objective is to assess LLMs' resilience to lexical, syntactic, and semantic perturbations while maintaining factual correctness. The methodology involves creating a dataset of obfuscated factual questions from existing benchmarks and testing LLMs' ability to retrieve correct answers under these conditions, employing metrics like F1 score and exact match. Results indicate a significant drop in LLM performance, with some models experiencing a 10-20% reduction in F1 scores on obfuscated data compared to original questions. The main implication for AI practitioners is the critical need to develop more robust LLMs that can reliably handle diverse linguistic variations in real-world applications, moving beyond performance on clean datasets."
+    }
+]
