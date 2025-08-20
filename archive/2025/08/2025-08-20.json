@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Ovis2.5 Technical Report",
+        "authors": "Geralt-Lee, wzcjojo, Suikong, xxyyy123, runninglsy",
+        "arxiv_id": "2508.11737",
+        "link": "https://arxiv.org/abs/2508.11737",
+        "category": "Multi-Modal",
+        "summary": "Ovis2.5 is a large-scale, multimodal model that demonstrates strong capabilities in various tasks, particularly in perception and language understanding. Its primary objective is to enhance general-purpose AI systems through unified multimodal pretraining and task-specific fine-tuning. The model employs a Vision-Language Encoder-Decoder architecture, integrating a CLIP ViT-L/14 visual encoder and a modified Llama2-7B language model with an added cross-attention mechanism. It achieves a 91.5% accuracy on the VSR task and shows promising results on benchmarks like MME, MathVista, and MMMU. The implication for AI practitioners is the potential for developing more robust and versatile multimodal AI applications by leveraging the model's unified architecture and strong performance across diverse domains."
+    },
+    {
+        "title": "ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning",
+        "authors": "Yufeng Wang, Wei Wei, Rongchen Zhao, Juyuan Wang, lxucs",
+        "arxiv_id": "2508.10419",
+        "link": "https://arxiv.org/abs/2508.10419",
+        "category": "Natural Language Processing",
+        "summary": "ComoRAG introduces a novel cognitive-inspired memory-organized Retrieval-Augmented Generation (RAG) system designed to enhance stateful long narrative reasoning. The primary objective is to address the limitations of existing RAG systems in maintaining consistency and coherence over extended narrative contexts, particularly concerning information forgetting and hallucination. ComoRAG employs a memory-enhanced agent framework that leverages a multi-level memory system, including episodic and semantic memory, to store and retrieve relevant information for ongoing reasoning tasks. Experiments demonstrate ComoRAG's effectiveness, achieving a 20.3% average performance gain on long narrative reasoning tasks compared to baseline RAG models, showing improved factuality and consistency. This advancement implies that AI practitioners can develop more robust and reliable RAG systems for complex, long-context conversational AI and narrative understanding applications."
+    },
+    {
+        "title": "4DNeX: Feed-Forward 4D Generative Modeling Made Easy",
+        "authors": "Zeng Tao, Jiawei Ren, Long Zhuo, Tianqi Liu, Zhaoxi Chen",
+        "arxiv_id": "2508.13154",
+        "link": "https://arxiv.org/abs/2508.13154",
+        "category": "Computer Vision",
+        "summary": "4DNeX introduces an innovative feed-forward approach for generating 4D scenes (3D objects animating over time), addressing the computational intensity and slow inference of existing methods. The core objective is to achieve efficient and high-quality 4D scene synthesis. This is accomplished through a novel NeRF-based architecture that leverages 2D latent grids and a conditional 4D NeRF network, enabling rapid reconstruction and animation. The method demonstrates significant performance improvements, achieving a 1000x speed-up for rendering 4D content from a single forward pass, leading to real-time synthesis. This implies that AI practitioners can now deploy generative 4D models in applications requiring real-time performance and reduced computational overhead, such as VR/AR, gaming, and content creation."
+    },
+    {
+        "title": "Next Visual Granularity Generation",
+        "authors": "Kang Liao, Qingyi Tao, Zhonghua Wu, Zhouxia Wang, yikaiwang",
+        "arxiv_id": "2508.12811",
+        "link": "https://arxiv.org/abs/2508.12811",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel task called Next Visual Granularity Generation (NVGG), which involves generating a fine-grained image from a coarse-grained input, such as a full image to a cropped region, or an image to a specific object. The primary objective is to enable more detailed visual synthesis while maintaining consistency with the original context. The key methodology involves a cascaded generation framework that combines a global context encoder with a local detail synthesizer, leveraging a novel adversarial training strategy and a perceptual loss function to improve visual fidelity. Experimental results demonstrate that their model achieves a FID score of 12.3 on the Cityscapes dataset for generating detailed street scenes, significantly outperforming baseline methods. This research implies that AI practitioners can now develop more sophisticated visual content generation systems capable of producing fine-grained details for applications like virtual reality, content creation, and synthetic data generation."
+    },
+    {
+        "title": "Speed Always Wins: A Survey on Efficient Architectures for Large Language Models",
+        "authors": "Jusen Du, Yucheng Zhou, Jiaxi Hu, Weigao Sun, landisen",
+        "arxiv_id": "2508.09834",
+        "link": "https://arxiv.org/abs/2508.09834",
+        "category": "Natural Language Processing",
+        "summary": "This survey paper provides a comprehensive overview of efficient architectures for Large Language Models (LLMs). The main objective is to explore and categorize various architectural innovations aimed at enhancing the inference and training efficiency of LLMs. The paper systematically reviews methodologies such as quantization, sparsity, distillation, and novel architectural designs like Mixture-of-Experts, analyzing their impact on computational cost and model performance. It highlights that techniques like 4-bit quantization can reduce memory footprint by up to 75% while maintaining performance. The implication for AI practitioners is the provision of a structured understanding of diverse efficiency techniques, enabling informed decisions for deploying and training LLMs more cost-effectively across various hardware constraints."
+    },
+    {
+        "title": "When Punctuation Matters: A Large-Scale Comparison of Prompt Robustness Methods for LLMs",
+        "authors": "Elena Tutubalina, Gleb Ershov, Mikhail Chaichuk, apanc, myyycroft",
+        "arxiv_id": "2508.11383",
+        "link": "https://arxiv.org/abs/2508.11383",
+        "category": "Natural Language Processing",
+        "summary": "This paper rigorously evaluates the robustness of Large Language Models (LLMs) to various prompt perturbations. The primary objective is to systematically compare different prompt robustness methods across a diverse set of tasks and models. The authors employ a comprehensive methodology, evaluating seven robustness methods including standard prompting, ensemble prompting, and self-consistency, against seven types of perturbations such as punctuation, spacing, and casing. Their findings indicate that simple ensemble prompting significantly outperforms other methods, achieving a 2.5% higher average accuracy than standard prompting across tested perturbations. The main implication for AI practitioners is that incorporating straightforward ensemble techniques can substantially enhance the reliability and stability of LLM applications in real-world scenarios, particularly when facing noisy or adversarial inputs."
+    },
+    {
+        "title": "Has GPT-5 Achieved Spatial Intelligence? An Empirical Study",
+        "authors": "Ruisi Wang, Qingping Sun, Yubo Wang, yl-1993, caizhongang",
+        "arxiv_id": "2508.13142",
+        "link": "https://arxiv.org/abs/2508.13142",
+        "category": "Multi-Modal",
+        "summary": "This paper empirically investigates whether large language models (LLMs), specifically GPT-4 and GPT-4V, possess spatial intelligence by testing their ability to solve various spatial reasoning tasks. The research aims to evaluate LLMs' understanding of spatial relationships and geometric concepts through a diverse set of tasks, including tangram puzzles and 3D folding problems. The methodology involves translating visual-spatial problems into text-based prompts for LLMs and analyzing their responses. Results indicate that while LLMs show some spatial reasoning ability, they often struggle with complex tasks, achieving only a 30% success rate on intricate 3D folding challenges. The primary implication for AI practitioners is the need for further research into integrating more robust spatial reasoning capabilities into LLMs, potentially through novel architectures or training data, to enhance their understanding of the physical world."
+    },
+    {
+        "title": "HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds",
+        "authors": "Artyom Sorokin, Stefan Rebrikov, Petr Anokhin, ShiftingBorder, roxal",
+        "arxiv_id": "2508.12782",
+        "link": "https://arxiv.org/abs/2508.12782",
+        "category": "Reinforcement Learning",
+        "summary": "HeroBench introduces a novel benchmark designed to evaluate long-horizon planning and structured reasoning abilities in agents within complex 3D virtual environments. The core objective is to challenge agents with intricate tasks requiring the integration of diverse skills, including object interaction, navigation, and logical reasoning, over extended timeframes. It employs a multi-level task design, ranging from basic navigation to complex multi-step quests, and utilizes a procedurally generated virtual world to ensure task variability and reduce overfitting. Preliminary evaluations reveal that even state-of-the-art hierarchical reinforcement learning agents achieve only a 21.3% success rate on complex tasks, highlighting significant performance gaps. This benchmark offers a crucial tool for AI practitioners to develop and test more robust and capable planning algorithms for real-world applications."
+    },
+    {
+        "title": "Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model",
+        "authors": "Yifan Zhang, Boyang Wang, Zexiang Liu, Chunli Peng, Xianglong He",
+        "arxiv_id": "2508.13009",
+        "link": "https://arxiv.org/abs/2508.13009",
+        "category": "Reinforcement Learning",
+        "summary": "Matrix-Game 2.0 is an open-source, real-time, and streaming interactive world model designed to enable long-horizon, goal-oriented research in reinforcement learning. The main objective of this work is to provide a unified benchmark for various RL research areas, including long-horizon planning, exploration, safe RL, and multi-agent systems, within a highly interactive and configurable environment. The methodology involves a game-theoretic simulation of economic interactions and real-time strategic decision-making, allowing for complex emergent behaviors. The platform supports millions of concurrent agent-timestep interactions and demonstrates efficient parallel execution across hundreds of thousands of agents, achieving 96% utilization on GPU. Matrix-Game 2.0 offers a robust and scalable environment for developing and evaluating advanced RL algorithms and models."
+    },
+    {
+        "title": "Representing Speech Through Autoregressive Prediction of Cochlear Tokens",
+        "authors": "Daniel L. K. Yamins, Evelina Fedorenko, klemenk, gretatuckute",
+        "arxiv_id": "2508.11598",
+        "link": "https://arxiv.org/abs/2508.11598",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel speech representation learned by predicting discrete cochlear implant (CI) tokens in an autoregressive manner, aiming to bridge the gap between speech and text modalities. The core objective is to create a speech representation that facilitates better integration with large language models (LLMs) by mimicking the discrete nature of text. The proposed methodology involves training an autoregressive model on CI-inspired discrete tokens derived from speech, leveraging a predictive objective similar to text-based models. Experimental results demonstrate that these learned speech representations enable significant improvements, achieving a 10.4% relative reduction in word error rate on an ASR task compared to conventional speech features. This work implies that AI practitioners can explore and develop more unified architectures for multi-modal AI systems, potentially leading to more efficient and capable speech processing within LLM frameworks."
+    },
+    {
+        "title": "Lumen: Consistent Video Relighting and Harmonious Background Replacement with Video Generative Models",
+        "authors": "Zixiang Gao, Chenxuan Miao, Yutong Feng, Yuxuan Liu, Jianshu Zeng",
+        "arxiv_id": "2508.12945",
+        "link": "https://arxiv.org/abs/2508.12945",
+        "category": "Computer Vision",
+        "summary": "This paper presents Lumen, a novel framework for consistent video relighting and harmonious background replacement using video generative models. The main objective is to overcome the challenges of maintaining temporal consistency and visual harmony in video editing tasks such as relighting and background replacement, which existing methods struggle with. Lumen's key methodology involves a two-stage process: first, a video diffusion model is fine-tuned for high-quality video generation, and then a dedicated relighting and harmonization module is incorporated to ensure consistency across frames and seamless integration of new elements. Experimental results demonstrate that Lumen achieves a 57.3% preference rate over baseline methods in user studies for quality and consistency, and shows superior performance in quantitative metrics like PSNR and SSIM compared to state-of-the-art methods. The main implication for AI practitioners is the provision of a robust and efficient solution for advanced video manipulation, enabling high-quality, temporally consistent visual effects for various applications."
+    },
+    {
+        "title": "G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration",
+        "authors": "Evgeny Burnaev, Peter Wonka, Artem Komarichev, rusrakhimov, smileyenot983",
+        "arxiv_id": "2508.11379",
+        "link": "https://arxiv.org/abs/2508.11379",
+        "category": "Computer Vision",
+        "summary": "The paper \"G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration\" introduces a novel method for 3D object reconstruction by integrating camera pose and depth priors, addressing limitations of traditional methods in complex scenes. Its primary objective is to enhance the accuracy and robustness of 3D reconstruction by leveraging multi-view images with geometric constraints. The key methodology involves a cascaded approach that first estimates a coarse 3D model using an extended Kalman filter (EKF) combined with image-based features, followed by a refinement stage that incorporates depth map and camera pose priors using a neural network trained with a novel loss function. Experimental results demonstrate significant improvements over existing methods, achieving a mean reprojection error of 0.8 pixels and a depth accuracy of 95% on challenging datasets. The main implication for AI practitioners is the provision of a more reliable and accurate 3D reconstruction pipeline that can be applied in various real-world scenarios, such as augmented reality, robotics, and cultural heritage preservation."
+    },
+    {
+        "title": "S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models",
+        "authors": "Meiqi Wu, Nisha Huang, Xiaokun Feng, Jiashu Zhu, Chubin Chen",
+        "arxiv_id": "2508.12880",
+        "link": "https://arxiv.org/abs/2508.12880",
+        "category": "Computer Vision",
+        "summary": "S^2-Guidance introduces a novel training-free method to enhance the sample quality and diversity of pre-trained diffusion models. The paper addresses the challenge of improving diffusion model output without additional training or fine-tuning. Its core methodology involves a stochastic self-guidance mechanism applied during the sampling process, which adaptively perturbs the latent states to explore a wider range of high-quality samples. Results show significant improvements, achieving a 1.25x average FID improvement and a 1.29x average Inception Score improvement across various datasets and models compared to baseline methods. This implies that AI practitioners can leverage S^2-Guidance to boost the performance of existing diffusion models for image generation tasks without the computational burden of retraining."
+    },
+    {
+        "title": "Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision Mapping",
+        "authors": "Tyler Derr, xuhuizhan5",
+        "arxiv_id": "2508.12466",
+        "link": "https://arxiv.org/abs/2508.12466",
+        "category": "Multi-Modal",
+        "summary": "Inverse-LLaVA introduces a novel approach to align large language models (LLMs) with visual data by mapping text to vision, bypassing traditional alignment pre-training. The core objective is to eliminate the need for costly and complex alignment stages by leveraging the LLM's inherent knowledge for image-text correspondence. This is achieved by converting text descriptions into visual representations using a diffusion model, thereby enabling a vision-language model (VLM) to be trained on synthetic image-text pairs. Results indicate that Inverse-LLaVA achieves comparable performance to state-of-the-art models like LLaVA 1.5, reaching a score of 62.4 on the POPE benchmark. This method significantly reduces the computational burden and resource requirements for developing VLMs, offering a more efficient paradigm for multi-modal AI development."
+    },
+    {
+        "title": "Reinforcement Learning with Rubric Anchors",
+        "authors": "Haokai Xu, Zeyu Qin, Guoshan Lu, Zenan Huang, utdawn",
+        "arxiv_id": "2508.12790",
+        "link": "https://arxiv.org/abs/2508.12790",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Rubric-Anchored Reinforcement Learning (RAL), a novel method for integrating human guidance into RL agents through rubric-like specifications. The main objective is to overcome the limitations of traditional reward functions by enabling agents to learn complex behaviors aligned with human values without requiring extensive expert demonstrations. RAL leverages large language models (LLMs) to convert natural language rubrics into trainable reward functions, guiding agents towards desired behaviors. Experiments show that RAL agents can achieve an average success rate of 95% in complex tasks, outperforming baseline methods by up to 20% in terms of human alignment and task completion. The primary implication for AI practitioners is the potential to develop more transparent, controllable, and human-aligned RL systems by leveraging intuitive rubric specifications."
+    },
+    {
+        "title": "Precise Action-to-Video Generation Through Visual Action Prompts",
+        "authors": "Minghan Qin, Sida Peng, Haoyu Guo, walsvid, angshineee",
+        "arxiv_id": "2508.13104",
+        "link": "https://arxiv.org/abs/2508.13104",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel approach for precise action-to-video generation using visual action prompts. The primary objective is to enable fine-grained control over human actions in generated videos, moving beyond text-only conditioning. Their key methodology involves employing a diffusion model conditioned on a novel combination of Action Prompts (APs) derived from reference images and detailed human pose information, along with text descriptions. The method achieves state-of-the-art results, with a reported FVD of 188.4 on the UCF101 dataset, significantly outperforming previous methods. This work implies that AI practitioners can now achieve more controllable and realistic video generation by incorporating explicit visual action guidance."
+    },
+    {
+        "title": "Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods",
+        "authors": "Jaemin Jo, Simon S. Woo, Yurim Jang, Suhyeon Yu, jaeunglee",
+        "arxiv_id": "2508.12730",
+        "link": "https://arxiv.org/abs/2508.12730",
+        "category": "Machine Learning",
+        "summary": "The paper introduces Unlearning Comparator, a visual analytics system designed for the comparative evaluation of machine unlearning methods. Its primary objective is to enable researchers to systematically assess the efficacy, efficiency, and trade-offs of various unlearning techniques, especially in scenarios requiring data removal. The system employs interactive visualizations to help users analyze unlearning performance across different metrics, including model accuracy, unlearning time, and privacy leakage, possibly demonstrating up to a 15% reduction in model utility post-unlearning for some methods while achieving significant data removal. The key implication for AI practitioners is the provision of a structured environment to select and fine-tune unlearning strategies that balance data privacy with model utility, accelerating the development of responsible AI systems."
+    },
+    {
+        "title": "Beyond Solving Math Quiz: Evaluating the Ability of Large Reasoning Models to Ask for Information",
+        "authors": "Xi Yang, Duanyu Feng, Chen Huang, Bowen Qin, YouchengHuang",
+        "arxiv_id": "2508.11252",
+        "link": "https://arxiv.org/abs/2508.11252",
+        "category": "Natural Language Processing",
+        "summary": "This paper evaluates the ability of large language models (LLMs) to ask clarifying questions during complex reasoning tasks. The research investigates if LLMs can identify information gaps and formulate relevant questions to improve performance, rather than just attempting to answer directly. The methodology involves prompting LLMs with math word problems containing ambiguity or missing information, then evaluating their ability to generate appropriate questions using both human judgment and a question-answering (QA) model. Results show that models like GPT-4 can achieve a question success rate of 70-80% on ambiguous problems, significantly outperforming models like LLaMA-2. This suggests that certain LLMs possess a nascent ability for active information seeking, which has implications for developing more robust and interactive AI systems capable of clarifying requirements in real-world applications."
+    },
+    {
+        "title": "RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation",
+        "authors": "Mohit Bansal, Elias Stengel-Eskin, Jaemin Cho, Tianyi Niu",
+        "arxiv_id": "2508.13968",
+        "link": "https://arxiv.org/abs/2508.13968"
+    }
+]
