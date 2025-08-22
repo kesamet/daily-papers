@@ -1,0 +1,146 @@
+[
+    {
+        "title": "DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization",
+        "authors": "ShujianHuang, Wenhao97, YuLu0713, baoy, kevinpro",
+        "arxiv_id": "2508.14460",
+        "link": "https://arxiv.org/abs/2508.14460",
+        "category": "Natural Language Processing",
+        "summary": "DuPO introduces a novel self-verification framework for large language models (LLMs) to enhance reliability by optimizing their ability to discern correct from incorrect answers. The paper addresses the challenge of LLM hallucinations and unreliability by proposing a dual preference optimization approach that trains an LLM to distinguish between its own outputs and ground truth, thereby improving self-correction. Their methodology involves generating candidate answers, obtaining human or GPT-4 judgments on correctness, and then fine-tuning the LLM using a DPO-like loss function to minimize the preference for incorrect answers and maximize it for correct ones. DuPO demonstrates significant improvements, with a 7.7% absolute gain in correctness over strong baselines, showcasing its effectiveness in reducing unreliability. The main implication for AI practitioners is the provision of a robust method to enhance the trustworthiness and performance of LLMs in critical applications where accuracy and reliability are paramount."
+    },
+    {
+        "title": "From Scores to Skills: A Cognitive Diagnosis Framework for Evaluating Financial Large Language Models",
+        "authors": "Ziyan Kuang, Effoula, QianqianXie1994, hugai101, 2083L",
+        "arxiv_id": "2508.13491",
+        "link": "https://arxiv.org/abs/2508.13491",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a Cognitive Diagnosis Framework (CDF) to evaluate the financial reasoning capabilities of Large Language Models (LLMs) by moving beyond simple accuracy scores to assess specific financial skills. The main objective is to provide a more granular and interpretable evaluation of LLMs in the financial domain. The methodology involves identifying 12 core financial skills and using a Rasch model-based Item Response Theory (IRT) approach to diagnose the proficiency levels of LLMs on these skills. The primary results demonstrate that while some LLMs perform well overall, their proficiency varies significantly across different financial skills, with the best model achieving an average score of 0.78 on a 0-1 scale. This framework provides AI practitioners with a more insightful diagnostic tool to identify strengths and weaknesses of LLMs in finance, facilitating targeted model improvements and more reliable deployment in financial applications."
+    },
+    {
+        "title": "FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction",
+        "authors": "tianlecai, Nuori, YinLingyue, Tianci-He, liujiashuo77",
+        "arxiv_id": "2508.11987",
+        "link": "https://arxiv.org/abs/2508.11987",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces FutureX, a novel and comprehensive live benchmark designed to evaluate Large Language Model (LLM) agents on their ability to predict future events. The primary objective is to address the limitations of static benchmarks by providing a dynamic environment where future events are continuously updated, simulating real-world unpredictability. FutureX employs a multi-agent simulation framework where LLMs process real-time news feeds to make predictions, and their accuracy is evaluated against actual future outcomes. Initial experiments using this benchmark revealed that current LLM agents achieved an average prediction accuracy of approximately 65% for near-future events, indicating significant room for improvement in dynamic temporal reasoning. This benchmark offers AI practitioners a crucial tool for developing and rigorously testing more robust and adaptive LLM agents capable of operating effectively in ever-changing real-world scenarios."
+    },
+    {
+        "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+        "authors": "Jiangmiao, ZhaoyangLyu, asrnline, Qmh, tangqh",
+        "arxiv_id": "2508.14879",
+        "link": "https://arxiv.org/abs/2508.14879",
+        "category": "Multi-Modal",
+        "summary": "MeshCoder introduces a novel approach for generating structured mesh code directly from 3D point clouds, leveraging large language models (LLMs). The paper aims to automate the conversion of unstructured 3D point cloud data into precise, structured mesh representations, which is crucial for various engineering and simulation tasks. It employs a multi-modal framework where point clouds are first processed into a structured abstract syntax tree (AST) and then an LLM generates the corresponding mesh code, incorporating an auto-correction mechanism. Experimental results demonstrate MeshCoder's superior performance, achieving up to a 10% improvement in code generation accuracy compared to existing methods. This breakthrough significantly streamlines the 3D modeling workflow, enabling AI practitioners to more efficiently create detailed and usable 3D assets from raw scan data."
+    },
+    {
+        "title": "Tinker: Diffusion's Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+        "authors": "Hao Chen, Zhiyue Zhao, Tianjian Feng, Xiaoman Li, Canyu",
+        "arxiv_id": "2508.14811",
+        "link": "https://arxiv.org/abs/2508.14811",
+        "category": "Computer Vision",
+        "summary": "Tinker introduces a novel method for multi-view consistent 3D editing from sparse inputs without per-scene optimization. The paper addresses the challenge of efficiently manipulating 3D scenes consistently when only limited input views are available, moving beyond the limitations of existing diffusion-based 3D editing methods that often require extensive per-scene optimization or dense input. Tinker's key methodology involves leveraging pre-trained 2D diffusion models and a coarse-to-fine editing strategy, which disentangles global and local edits to maintain multi-view consistency. The primary results demonstrate that Tinker outperforms baselines, achieving a 34% improvement in multi-view consistency compared to state-of-the-art methods while maintaining high edit quality. This advancement implies that AI practitioners can now perform more efficient and consistent 3D scene editing with fewer computational resources and sparse data, thereby accelerating content creation and virtual environment development."
+    },
+    {
+        "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+        "authors": "zijieqiu, Wanggsh, schrodingers-tiger, ZhangyangGao, VitaCoco",
+        "arxiv_id": "2508.14111",
+        "link": "https://arxiv.org/abs/2508.14111",
+        "category": "Other",
+        "summary": "This survey paper extensively reviews the landscape of autonomous scientific discovery, transitioning from AI's role in scientific tasks to agentic science. The primary objective is to delineate the evolution, current state, and future directions of AI-driven scientific research, emphasizing the shift towards intelligent agents capable of independent experimentation. It systematically categorizes existing methodologies into frameworks for task-specific AI for Science and integrated agentic systems, discussing techniques across problem definition, hypothesis generation, experimental design, execution, and analysis. While specific quantitative metrics are not presented within a survey, it highlights the demonstrated efficiency gains in areas like materials discovery (e.g., accelerating material synthesis by orders of magnitude) and drug discovery. The main implication for AI practitioners is the imperative to develop more sophisticated, general-purpose autonomous agents that can seamlessly integrate various AI capabilities to address complex scientific challenges with minimal human intervention."
+    },
+    {
+        "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+        "authors": "Prathyusha Jwalapuram, Zirui Zhao, Wenzhuo Yang, Zhiqi Shen, Ziyang",
+        "arxiv_id": "2508.14704",
+        "link": "https://arxiv.org/abs/2508.14704",
+        "category": "Natural Language Processing",
+        "summary": "MCP-Universe introduces a novel benchmark for evaluating Large Language Models (LLMs) by interacting with real-world Model Context Protocol (MCP) servers. The primary objective is to assess LLMs' ability to function as intelligent agents in dynamic, interactive environments, moving beyond static datasets. This is achieved through a multi-agent simulation framework where LLMs engage with 10 real-world MCP server types, encompassing tasks like web browsing, code interpretation, and database querying, facilitated by an MCP-compatible sandbox environment. Experiments reveal significant performance gaps, with the best LLM achieving only a 35% success rate on complex tasks, highlighting current limitations in agentic capabilities. The implication for AI practitioners is the need for developing LLMs with enhanced real-world interaction, reasoning, and tool-use abilities, moving towards more robust and adaptive AI agents."
+    },
+    {
+        "title": "Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs",
+        "authors": "Haobo Xu, cityug7353, ZiyuG, chriswyc, Felix1023",
+        "arxiv_id": "2508.14896",
+        "link": "https://arxiv.org/abs/2508.14896",
+        "category": "Machine Learning",
+        "summary": "This paper systematically investigates post-training quantization (PTQ) techniques for diffusion Large Language Models (dLLMs), which are emerging as powerful generative models. The primary objective is to evaluate the applicability and effectiveness of various PTQ methods, including both uniform and non-uniform schemes, on the performance and efficiency of dLLMs. The key methodology involves applying established PTQ techniques to different components of dLLMs, such as the UNet and text encoder, and assessing their impact across diverse tasks like text-to-image generation and image editing. Results indicate that while aggressive quantization can lead to significant degradation, carefully selected PTQ methods can achieve up to 4-bit quantization with only a marginal FID score increase of less than 1.0 on a specific dataset, significantly reducing model size and computational costs. The main implication for AI practitioners is that PTQ offers a viable strategy for deploying dLLMs in resource-constrained environments without substantial performance compromises, enabling broader accessibility and application."
+    },
+    {
+        "title": "NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model",
+        "authors": "abercovich, aditya-malte, adirendu, aklife97, apaithan",
+        "arxiv_id": "2508.14444",
+        "link": "https://arxiv.org/abs/2508.14444",
+        "category": "Natural Language Processing",
+        "summary": "NVIDIA's Nemotron Nano 2 introduces a hybrid Mamba-Transformer architecture designed for efficient and accurate reasoning in language models, specifically targeting on-device applications. The core objective is to achieve high performance in generative AI tasks on resource-constrained devices, addressing the limitations of purely Transformer-based models in terms of inference speed and memory footprint. This is achieved by combining the Mamba architecture's efficient state-space model for sequence processing with the Transformer's attention mechanism, allowing for a better trade-off between model size, speed, and accuracy. The model demonstrates superior performance, with the 8B parameter version achieving 6.8x faster token generation than Nemotron Nano 1.5, making it a significant advancement for deploying complex AI capabilities directly on user devices without extensive cloud infrastructure dependencies."
+    },
+    {
+        "title": "RynnEC: Bringing MLLMs into Embodied World",
+        "authors": "jiangpinliu, CausalLi, maoyunxuan, CircleRadon, RH-Dang",
+        "arxiv_id": "2508.14160",
+        "link": "https://arxiv.org/abs/2508.14160",
+        "category": "Multi-Modal",
+        "summary": "RynnEC introduces a novel framework to integrate MLLMs with embodied AI, addressing the challenge of enabling MLLMs to perceive and act in 3D environments. The main objective is to bridge the gap between MLLM capabilities and embodied task execution through a flexible, modular design. The methodology involves a two-phase training approach: an initial large-scale pre-training on diverse embodied data and a subsequent fine-tuning phase for specific downstream tasks like embodied question answering. Key results include achieving a 92% success rate in zero-shot embodied question answering and outperforming baseline models by 15% on navigation tasks. This framework provides AI practitioners with a robust and adaptable solution for developing embodied agents that leverage the advanced reasoning abilities of MLLMs for complex real-world interactions."
+    },
+    {
+        "title": "Virtuous Machines: Towards Artificial General Science",
+        "authors": "Jason Tangen, David R. Lightfoot, Amaya J. Fox, Reuben Rideaux, gwehr",
+        "arxiv_id": "2508.13421",
+        "link": "https://arxiv.org/abs/2508.13421",
+        "category": "Machine Learning",
+        "summary": "This paper explores Artificial General Science (AGS), a concept for AI systems capable of autonomously conducting scientific research. The primary objective is to define a framework and methodology for machines to generate, test, and refine scientific theories. The key methodology involves integrating large language models (LLMs) with formal scientific reasoning and experimental design, enabling them to navigate complex scientific discovery tasks. While the paper primarily focuses on theoretical constructs and a proposed architecture, it highlights the potential for AGS to accelerate scientific progress, though specific quantitative results from an implemented system are not provided within the text. The main implication for AI practitioners is the call to develop AI systems that move beyond task-specific applications towards more autonomous and generalized scientific inquiry, fostering a new era of AI-driven discovery."
+    },
+    {
+        "title": "On-Policy RL Meets Off-Policy Experts: Harmonizing Supervised Fine-Tuning and Reinforcement Learning via Dynamic Weighting",
+        "authors": "Guoyin Wang, Yanxi Chen, Yuchang Sun, Yuexiang Xie, xiaoniqiu",
+        "arxiv_id": "2508.11408",
+        "link": "https://arxiv.org/abs/2508.11408",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel approach for fine-tuning large language models by integrating supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) through a dynamic weighting mechanism. The primary objective is to address the challenge of balancing on-policy RL updates with off-policy SFT knowledge to achieve better performance and stability. The methodology involves a dynamic weighting scheme that adaptively adjusts the influence of SFT and RLHF losses during training, effectively interpolating between a policy optimized for human preferences and one grounded in SFT. Key results indicate that this method achieves a 10% win rate against DPO and SFT on a challenging summarization task. The main implication for AI practitioners is the provision of a more stable and effective method for combining the benefits of SFT and RLHF, leading to improved model performance without the instability often associated with RL-only approaches."
+    },
+    {
+        "title": "ViExam: Are Vision Language Models Better than Humans on Vietnamese Multimodal Exam Questions?",
+        "authors": "Daeyoung Kim, Duc Dm, Quang Tau, anvo25, tuongvy2603",
+        "arxiv_id": "2508.13680",
+        "link": "https://arxiv.org/abs/2508.13680",
+        "category": "Multi-Modal",
+        "summary": "This paper evaluates the capability of Vision Language Models (VLMs) on Vietnamese multimodal exam questions. The primary objective is to compare the performance of leading VLMs against human experts in answering questions that combine text and images in a Vietnamese context. The methodology involves constructing a novel Vietnamese Multimodal Question Answering (VMQA) dataset from national high school exams and then fine-tuning and evaluating various VLMs like mPLUG-Owl2 and LLaVA. Results indicate that the best performing VLM, mPLUG-Owl2, achieved an accuracy of 47.9%, significantly outperforming previous state-of-the-art models but still falling short of human expert performance. The implication for AI practitioners is the need for further research into VLMs specifically designed for low-resource languages and complex multimodal reasoning to bridge the performance gap with humans."
+    },
+    {
+        "title": "FLARE: Fast Low-rank Attention Routing Engine",
+        "authors": "Yongjie Jessica Zhang, Yu-hsuan Chen, Kevin Ferguson, Aditya Joglekar, vedantpuri",
+        "arxiv_id": "2508.12594",
+        "link": "https://arxiv.org/abs/2508.12594",
+        "category": "Machine Learning",
+        "summary": "FLARE is an innovative system designed to accelerate large language model inference by optimizing attention mechanisms. The main objective is to overcome the computational bottlenecks of dense attention in long sequence processing through a novel low-rank attention routing engine. FLARE employs a multi-head sparse attention mechanism, dynamically selecting and processing only the most relevant key-value pairs, thereby reducing redundant computations. This approach achieves up to 4x faster inference speed and reduces memory usage by 70% compared to traditional methods, while maintaining competitive perplexity on various benchmarks. The implication for AI practitioners is a significant reduction in computational resources and time required for deploying large language models, making advanced AI more accessible and efficient."
+    },
+    {
+        "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
+        "authors": "Ingrid Verbauwhede, Nam-Luc Tran, Bojan Spasic, Jan-Pieter D'Anvers, woutLegiest",
+        "arxiv_id": "2508.14568",
+        "link": "https://arxiv.org/abs/2508.14568",
+        "category": "Other",
+        "summary": "This paper introduces Leuvenshtein, a novel and efficient method for computing the edit distance using Fully Homomorphic Encryption (FHE) with a single bootstrap operation per cell, significantly improving upon prior FHE-based approaches. The main objective is to enable privacy-preserving string comparisons, such as DNA sequence alignment or spell checking, by reducing the computational overhead of FHE. Leuvenshtein achieves this through an optimized FHE implementation of the Wagner-Fischer algorithm, carefully designed to minimize bootstrapping operations and manage noise growth. The primary result demonstrates a 20x speedup compared to previous methods, with a total runtime of 49.3 seconds for strings of length 32 using the CKKS scheme. This advancement implies that AI practitioners can now perform practical, secure string comparisons on encrypted data with significantly reduced latency, opening doors for privacy-preserving applications in sensitive domains."
+    },
+    {
+        "title": "Local Scale Equivariance with Latent Deep Equilibrium Canonicalizer",
+        "authors": "Jeremiah Jiang, Lim Jun Hao, Michael N. Cheng, Chiao-An Yang, ashiq24",
+        "arxiv_id": "2508.14187",
+        "link": "https://arxiv.org/abs/2508.14187",
+        "category": "Machine Learning",
+        "summary": "This paper introduces the Latent Deep Equilibrium Canonicalizer (LDEQ-C), a novel framework for achieving local scale equivariance in neural networks without explicit scale supervision or data augmentation. The main objective is to learn a canonical representation that is invariant to local scales by training an implicit canonicalizer within a deep equilibrium model. The key methodology involves using a fixed-point iteration to find an equilibrium state that corresponds to a canonical, scale-normalized representation, then applying a standard backbone to this representation for prediction. The primary results demonstrate that LDEQ-C achieves state-of-the-art performance, for instance, reducing error by 20% on TinyImageNet relative to baselines, and maintaining robustness to varying scales. The main implication for AI practitioners is the provision of a new, principled method for building scale-equivariant models that can improve robustness and generalization in various tasks without the need for extensive data augmentation or specialized architectures for scale handling."
+    },
+    {
+        "title": "mSCoRe: a Multilingual and Scalable Benchmark for Skill-based Commonsense Reasoning",
+        "authors": "anoperson, Franck-Dernoncourt, ntnghia1811",
+        "arxiv_id": "2508.10137",
+        "link": "https://arxiv.org/abs/2508.10137",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces mSCoRe, a new multilingual and scalable benchmark for evaluating skill-based commonsense reasoning in natural language processing. The primary objective is to address the limitations of existing benchmarks by providing a more comprehensive and robust evaluation framework across multiple languages and reasoning skills. The methodology involves a novel annotation pipeline and a diverse set of tasks designed to assess various commonsense reasoning abilities. Experimental results demonstrate that state-of-the-art large language models achieve an average accuracy of 65.2% on mSCoRe, indicating significant room for improvement in multilingual commonsense reasoning. The main implication for AI practitioners is the availability of a challenging benchmark to drive advancements in building more capable and linguistically diverse commonsense reasoning systems."
+    },
+    {
+        "title": "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation",
+        "authors": "Shiqing Wu, Yawen Zeng, guandongxu, MrShouxingMa",
+        "arxiv_id": "2508.13745",
+        "link": "https://arxiv.org/abs/2508.13745",
+        "category": "Multi-Modal",
+        "summary": "This paper addresses the cold-start and data sparsity challenges in multi-modal recommendation systems by integrating contrastive learning and homography relations. The primary objective is to enhance recommendation accuracy and reduce the influence of noise by effectively utilizing multi-modal data. The methodology involves a novel framework that refines contrastive learning using homography-guided attention and employs an adversarial training mechanism to learn robust multi-modal representations. Experimental results demonstrate significant improvements, with the proposed model achieving a 15% increase in HR@10 compared to state-of-the-art baselines. This research implies that practitioners can significantly improve recommendation system performance in sparse data environments by integrating sophisticated multi-modal representation learning techniques."
+    }
+]
