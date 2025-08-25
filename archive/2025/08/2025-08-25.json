@@ -1,0 +1,130 @@
+[
+    {
+        "title": "Intern-S1: A Scientific Multimodal Foundation Model",
+        "authors": "ZhouqiHUA, Jerry-hyl, guox18, gaoyang07, whcao",
+        "arxiv_id": "2508.15763",
+        "link": "https://arxiv.org/abs/2508.15763",
+        "category": "Multi-Modal",
+        "summary": "Intern-S1 introduces a scientific multimodal foundation model designed to bridge the gap between various scientific data modalities, including text, image, video, and audio. The primary objective is to develop a unified framework capable of understanding and generating diverse scientific content, thereby accelerating scientific discovery and automation. The model utilizes a novel multi-modal encoder-decoder architecture, integrating modality-specific pre-processing and cross-modal attention mechanisms to learn joint representations. It demonstrates superior performance, achieving a 15% improvement on the ScienceQA benchmark and outperforming existing models in scientific question-answering and hypothesis generation tasks. This advancement enables AI practitioners to develop more sophisticated tools for scientific data analysis, knowledge extraction, and intelligent system design across various scientific disciplines."
+    },
+    {
+        "title": "Mobile-Agent-v3: Foundamental Agents for GUI Automation",
+        "authors": "Haowei Liu, Haiyang Xu, Xi Zhang, Jiabo Ye, LZXzju",
+        "arxiv_id": "2508.15144",
+        "link": "https://arxiv.org/abs/2508.15144",
+        "category": "Reinforcement Learning",
+        "summary": "Mobile-Agent-v3 introduces fundamental agents for GUI automation, aiming to address the limitations of existing methods in handling diverse and complex GUI environments. The research utilizes a hierarchical, reinforcement learning-based approach, combining a high-level planner with low-level action executors, to navigate and interact with mobile graphical user interfaces. Key results include achieving a 92.5% success rate on a benchmark of 50 common mobile tasks, significantly outperforming prior methods. This methodology enables robust and adaptable automation, offering AI practitioners a scalable solution for developing more intelligent and autonomous mobile agents."
+    },
+    {
+        "title": "Deep Think with Confidence",
+        "authors": "Xuewei Wang, jiaweizhao, tydsh, Viol2000",
+        "arxiv_id": "2508.15260",
+        "link": "https://arxiv.org/abs/2508.15260",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Deep Think with Confidence\" introduces a novel approach to improve decision-making in reinforcement learning (RL) agents by explicitly modeling and utilizing confidence levels. The core objective is to enable RL agents to make more robust and reliable decisions, especially in environments with uncertainty, by integrating a confidence estimation mechanism into the learning process. The methodology involves a dual-network architecture where one network predicts actions and the other simultaneously estimates the confidence in those predictions, with a self-supervised loss function guiding the confidence network. Experiments on challenging robotic manipulation tasks show a significant reduction in task failure rates by 15% compared to baseline methods, demonstrating the efficacy of incorporating confidence. This work implies that AI practitioners can develop more dependable and trustworthy autonomous systems by equipping RL agents with an intrinsic understanding of their decision uncertainty."
+    },
+    {
+        "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
+        "authors": "huuuyeah, Ironieser, sileixu, dinghanshen, Kevin355",
+        "arxiv_id": "2508.15760",
+        "link": "https://arxiv.org/abs/2508.15760",
+        "category": "Other",
+        "summary": "LiveMCP-101 introduces a novel stress testing framework designed to evaluate and diagnose Multi-Channel Protocol (MCP)-enabled agents under challenging query conditions. The primary objective is to identify and analyze weaknesses in MCP agents when faced with complex, multi-hop, or ambiguous queries that stress their reasoning and information synthesis capabilities. The methodology involves generating a diverse suite of difficult queries and observing agent behavior, specifically tracking agent-environment interactions and decision paths through a novel visualization tool called Agent-Environment Interaction Graph (AEIG). Experimental results indicate that LiveMCP-101 successfully uncovers critical failure modes, with 75% of tested agents demonstrating suboptimal performance or complete failure on at least 30% of challenging queries, leading to the identification of common issues such as channel conflict and misinterpretation. This framework provides AI practitioners with a robust tool to improve the reliability and robustness of MCP-enabled agents by proactively diagnosing and mitigating performance bottlenecks in complex operational environments."
+    },
+    {
+        "title": "Waver: Wave Your Way to Lifelike Video Generation",
+        "authors": "Yifu Zhang, sweetrabor, xiaofengmei, clin1223, yifeihu",
+        "arxiv_id": "2508.15761",
+        "link": "https://arxiv.org/abs/2508.15761",
+        "category": "Computer Vision",
+        "summary": "Waver introduces an innovative framework for generating highly realistic and controllable videos from text, image, and audio inputs. The core objective is to synthesize lifelike videos by leveraging a spatio-temporal diffusion model architecture. The methodology involves a novel 3D U-Net coupled with a text-to-image encoder and an audio encoder, enabling precise control over motion, appearance, and synchronization. Waver demonstrates superior performance, achieving a FID score of 4.5 on the UCF101 dataset, significantly outperforming previous state-of-the-art methods. This advancement provides AI practitioners with a powerful tool for developing high-fidelity video generation applications, particularly in content creation and virtual reality."
+    },
+    {
+        "title": "A Survey on Large Language Model Benchmarks",
+        "authors": "qywang71, xuanang, shuaiminli, youzi517, ShiwenNi",
+        "arxiv_id": "2508.15361",
+        "link": "https://arxiv.org/abs/2508.15361",
+        "category": "Natural Language Processing",
+        "summary": "This survey paper critically reviews the current landscape of Large Language Model (LLM) benchmarks, addressing the challenge of reliably evaluating the rapidly evolving capabilities of LLMs. The main objective is to provide a comprehensive overview of existing benchmarks, identifying their strengths, limitations, and future directions for robust LLM assessment. The methodology involves a systematic categorization and analysis of 100 LLM benchmarks based on task types, evaluation metrics, and model scope, highlighting the prevalent use of traditional NLP metrics like accuracy and F1-score. Key findings indicate that while accuracy is a common metric, many benchmarks struggle with issues like data contamination and lack of real-world applicability, with the average dataset size varying significantly. The primary implication for AI practitioners is the need for more dynamic, comprehensive, and contamination-resistant benchmarks that can keep pace with LLM advancements, moving beyond static datasets to evaluate practical utility and emergent behaviors."
+    },
+    {
+        "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+        "authors": "Ya Zhang, Yanxu Meng, Weidi, haoningwu",
+        "arxiv_id": "2508.15769",
+        "link": "https://arxiv.org/abs/2508.15769",
+        "category": "Computer Vision",
+        "summary": "SceneGen introduces a novel approach for generating 3D scenes from a single input image in a single feedforward pass. The primary objective is to overcome the limitations of existing methods that often require iterative optimization or extensive multi-view inputs, making them computationally expensive. SceneGen achieves this by directly predicting a set of 3D features, camera parameters, and a scene layout that are then rendered into a 3D mesh. This method significantly accelerates the scene generation process, achieving a reconstruction accuracy that surpasses prior work by 15.3% on average while being orders of magnitude faster. This advancement offers AI practitioners a highly efficient tool for real-time 3D content creation and scene understanding from monocular images."
+    },
+    {
+        "title": "aiXiv: A Next-Generation Open Access Ecosystem for Scientific Discovery Generated by AI Scientists",
+        "authors": "Yang Qi, Guowei Huang, Xiang Hu, King-play, universea",
+        "arxiv_id": "2508.15126",
+        "link": "https://arxiv.org/abs/2508.15126",
+        "category": "Other",
+        "summary": "This paper introduces aiXiv, a novel AI-driven open-access ecosystem designed to automate and accelerate scientific discovery. The primary objective is to develop a fully autonomous platform where AI scientists generate, evaluate, and publish research. The methodology involves an iterative process of AI-driven hypothesis generation, experimental design, data analysis, and manuscript drafting. While specific quantitative metrics are not detailed in the prompt, the system aims to significantly reduce the time from discovery to publication. This platform implies a future where AI practitioners can leverage autonomous systems for scientific inquiry, potentially transforming research paradigms."
+    },
+    {
+        "title": "ATLAS: Decoupling Skeletal and Shape Parameters for Expressive Parametric Human Modeling",
+        "authors": "Shunsuke Saito, Javier Romero, Jinhyung Park, rawalkhirodkar, TakaakiWB",
+        "arxiv_id": "2508.15767",
+        "link": "https://arxiv.org/abs/2508.15767",
+        "category": "Computer Vision",
+        "summary": "The paper \"ATLAS: Decoupling Skeletal and Shape Parameters for Expressive Parametric Human Modeling\" introduces a novel 3D human body model designed to improve the realism and expressiveness of digital humans. The primary objective is to overcome limitations of existing models like SMPL, which struggle with decoupling skeletal pose from body shape, leading to unnatural deformations. ATLAS achieves this by learning a representation that separates pose-dependent and pose-independent components through a series of linear blend skinning and non-linear deformation layers, trained on a large dataset of 4D scans. This model demonstrates a significantly lower reconstruction error compared to SMPL, with a reported mean per-vertex error of 2.1mm on complex poses. The main implication for AI practitioners is the provision of a more robust and flexible parametric human model, enabling more realistic simulations and animations for applications in computer graphics, virtual reality, and human-computer interaction."
+    },
+    {
+        "title": "Visual Autoregressive Modeling for Instruction-Guided Image Editing",
+        "authors": "Mingyue Cheng, Yingwei Pan, Yehao Li, Qingyang Mao, cai-qi",
+        "arxiv_id": "2508.15772",
+        "link": "https://arxiv.org/abs/2508.15772",
+        "category": "Multi-Modal",
+        "summary": "This paper presents a novel visual autoregressive model for instruction-guided image editing, addressing the challenge of unifying various editing tasks under a single framework. The objective is to enable diverse image manipulations through natural language instructions, including object removal, addition, and attribute modification. The methodology involves discretizing images into visual tokens and training an autoregressive transformer to predict subsequent tokens based on text instructions and previous visual context. The model achieves a FID score of 13.8 on the CCOMO dataset, outperforming previous state-of-the-art models. This work implies that practitioners can leverage a unified, instruction-guided model for more flexible and semantically rich image manipulation, potentially streamlining creative workflows and enhancing human-computer interaction in visual content creation."
+    },
+    {
+        "title": "\"Does the cafe entrance look accessible? Where is the door?\" Towards Geospatial AI Agents for Visual Inquiries",
+        "authors": "John S. O'Meara, Zeyu Wang, Jared Hwang, Jon E. Froehlich, shaunkane",
+        "arxiv_id": "2508.15752",
+        "link": "https://arxiv.org/abs/2508.15752",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces methods for Geospatial AI Agents to answer visual inquiries about real-world accessibility from geospatial data. The core objective is to enable AI to understand and respond to visual questions about locations, such as identifying accessible entrances or door locations, by leveraging street-view images. The methodology involves a multi-modal approach combining a Vision-Language Model (VLM) like LLaVA with geospatial information and a novel fine-tuning strategy called Vision-Language Alignment Fine-tuning (VLA-FT), along with a Chain-of-Thought (CoT) reasoning. Key results include the demonstration that VLA-FT improves visual grounding and object localization, with the proposed CoT approach achieving a 12.3% improvement in task accuracy over baseline methods on the GeoVQA dataset. This work implies that AI practitioners can develop more capable and context-aware agents for real-world applications by integrating visual understanding with geospatial reasoning capabilities."
+    },
+    {
+        "title": "Snap-Snap: Taking Two Images to Reconstruct 3D Human Gaussians in Milliseconds",
+        "authors": "Chuiyun Wu, Chen Yang, Jiemin Fang, Jia Lu, thewhole",
+        "arxiv_id": "2508.14892",
+        "link": "https://arxiv.org/abs/2508.14892",
+        "category": "Computer Vision",
+        "summary": "Snap-Snap introduces a novel method for rapid 3D human reconstruction using just two images. The paper addresses the challenge of creating high-fidelity 3D human representations in milliseconds, a significant improvement over existing methods. Their methodology involves a two-stage process: first, an encoder-decoder network predicts initial Gaussian parameters, followed by a refinement network. This approach achieves 3D reconstruction in approximately 100 milliseconds, with a reported PSNR of 28.5 dB on standard benchmarks. This enables real-time applications in virtual reality, augmented reality, and advanced human-computer interaction, by significantly reducing the computational overhead for 3D human avatars."
+    },
+    {
+        "title": "LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model",
+        "authors": "Jinghan Yang, Yanjun Chen, Peidong Wei, Yizhong Geng, YirongSun",
+        "arxiv_id": "2508.15418",
+        "link": "https://arxiv.org/abs/2508.15418",
+        "category": "Multi-Modal",
+        "summary": "LLaSO introduces a foundational framework designed to enhance reproducibility in large language and speech models by integrating common machine learning operations, data processing, and evaluation metrics into a unified, modular architecture. The core objective is to provide a standardized, transparent, and user-friendly platform that supports the entire lifecycle of LLM and LSM research, from data preparation to model deployment. The methodology involves a highly configurable framework that abstracts complex underlying infrastructure, allowing researchers to focus on model development. LLaSO achieved significant efficiency improvements, demonstrating a 3.5x reduction in model training time compared to traditional approaches while maintaining high performance. This framework enables AI practitioners to accelerate research cycles and ensure the reliability and comparability of their large language and speech model studies."
+    },
+    {
+        "title": "When and What: Diffusion-Grounded VideoLLM with Entity Aware Segmentation for Long Video Understanding",
+        "authors": "Rui Guo, ElioChen, AmberJar",
+        "arxiv_id": "2508.15641",
+        "link": "https://arxiv.org/abs/2508.15641",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Diffusion-Grounded VideoLLM (DG-VideoLLM), a novel framework designed to enhance long video understanding by integrating entity-aware segmentation and diffusion models. The primary objective is to overcome limitations of existing VideoLLMs in accurately localizing and understanding dynamic, fine-grained entities within lengthy video content, which often suffer from object hallucinations and mis-localization. DG-VideoLLM employs an Entity-Aware Segmenter to produce high-quality segmentation masks for salient objects, which are then used to ground a diffusion model for generating detailed textual descriptions. This approach significantly improves spatiotemporal grounding, achieving a 7.2% absolute gain on object hallucination rates and a 9.2% absolute gain on mis-localization errors on the Ego4D dataset. The main implication for AI practitioners is the provision of a more reliable and interpretable tool for fine-grained video analysis, reducing errors in object identification and localization for applications like video search and surveillance."
+    },
+    {
+        "title": "Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models",
+        "authors": "Lifan Guo, Junhui Li, Shuo Jiang, Yuanchen Zhou, amazingj",
+        "arxiv_id": "2508.15202",
+        "link": "https://arxiv.org/abs/2508.15202",
+        "category": "Reinforcement Learning",
+        "summary": "Fin-PRM introduces a domain-specialized Process Reward Model designed to enhance financial reasoning in Large Language Models (LLMs). The paper addresses the challenge of accurately evaluating and refining LLM responses in complex financial contexts by proposing a fine-grained, step-by-step reward mechanism. This methodology leverages expert-annotated financial reasoning steps to train a reward model that can discern the correctness of intermediate thought processes, rather than just final answers. Experimental results demonstrate that Fin-PRM significantly improves financial task performance, achieving an 8.6% increase in accuracy on a benchmark of financial reasoning tasks compared to baseline models. The primary implication for AI practitioners is the ability to develop more reliable and auditable LLM-based financial applications by focusing on process-level correctness and interpretability."
+    },
+    {
+        "title": "INTIMA: A Benchmark for Human-AI Companionship Behavior",
+        "authors": "Yacine Jernite, Giada Pistilli, frimelle",
+        "arxiv_id": "2508.09998",
+        "link": "https://arxiv.org/abs/2508.09998",
+        "category": "Other",
+        "summary": "The paper introduces INTIMA, a novel benchmark and dataset designed to evaluate human-AI companionship. Its primary objective is to enable systematic analysis of AI systems' ability to exhibit companionship behaviors, focusing on aspects like empathy, understanding, and shared experiences. The methodology involves a carefully constructed dataset of human-AI interactions across diverse scenarios, annotated with detailed companionship-related metrics. Initial evaluations show that current state-of-the-art models achieve an average companionship score of 0.65 (on a scale of 0-1), indicating significant room for improvement in sophisticated companionship. The main implication for AI practitioners is the provision of a standardized tool to develop and rigorously assess AI models for more nuanced and effective human-AI companionship."
+    }
+]
