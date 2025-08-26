@@ -1,0 +1,146 @@
+[
+    {
+        "title": "AgentFly: Fine-tuning LLM Agents without Fine-tuning LLMs",
+        "authors": "Xue Yan, Siyuan Guo, linyiyang2023, scyyc9, Zhouhc",
+        "arxiv_id": "2508.16153",
+        "link": "https://arxiv.org/abs/2508.16153",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces AgentFly, an innovative, agent-centric fine-tuning method that enhances large language model (LLM) agents' performance without requiring fine-tuning of the underlying LLMs themselves. The research aims to improve the alignment and performance of LLM agents in complex tasks by focusing on optimizing the agent's interaction and response mechanisms. AgentFly employs a dual-stage fine-tuning process, where an LLM agent first generates responses and then a separate, smaller fine-tuner model is trained on these responses combined with expert feedback to create optimized agent policies. The primary results demonstrate that AgentFly significantly boosts agent performance, achieving an average improvement of 12.3% in task success rates across various benchmarks compared to baseline methods. This implies that AI practitioners can achieve substantial gains in agent capabilities and reliability without the high computational cost and complexity associated with directly fine-tuning large LLMs, thereby streamlining agent deployment and adaptation."
+    },
+    {
+        "title": "ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks",
+        "authors": "Zeju Li, Jianuo Jiang, Liqin Lu, MingyuLiu, Ka12un",
+        "arxiv_id": "2508.08240",
+        "link": "https://arxiv.org/abs/2508.08240",
+        "category": "Reinforcement Learning",
+        "summary": "ODYSSEY presents a novel framework for quadruped robots to perform long-horizon, open-world exploration and manipulation tasks autonomously. The core objective is to enable robots to navigate complex environments, identify target objects, and perform manipulation without predefined maps or human intervention, addressing limitations of traditional methods that struggle with task sequencing and generalization. The methodology involves a hierarchical policy composed of a high-level planner and low-level controllers, integrating large language models (LLMs) for high-level reasoning and decision-making, and reinforcement learning for robust low-level control. Experiments demonstrate that ODYSSEY achieves a 93% success rate on navigation tasks and a 70% success rate on manipulation tasks, outperforming prior methods by a significant margin in terms of task completion and adaptability. This framework implies that AI practitioners can leverage hierarchical policies and LLMs to develop more versatile and autonomous robotic systems capable of operating in unstructured, real-world environments for complex, multi-stage tasks."
+    },
+    {
+        "title": "Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR",
+        "authors": "Ying Nian Wu, Yelong Shen, Yeyun Gong, Zhongzhi Li, MasterVito",
+        "arxiv_id": "2508.14029",
+        "link": "https://arxiv.org/abs/2508.14029",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces RLVR, a novel self-play framework that significantly enhances reinforcement learning for code generation by addressing the limitations of traditional Pass@1 metrics. The primary objective is to improve the quality and diversity of problem synthesis in RL for program synthesis, moving beyond simplistic oracle generation. RLVR employs a variational problem synthesis approach that uses a diffusion model to generate diverse and challenging problems, coupled with a self-play mechanism where a policy iteratively refines itself by solving these problems. The method demonstrates a 20% improvement in robust solutions on the HumanEval benchmark, indicating its effectiveness in generating more robust and generalizable code. This approach implies that AI practitioners can achieve more stable and higher-performing code generation models by integrating advanced problem synthesis techniques with self-play."
+    },
+    {
+        "title": "EgoTwin: Dreaming Body and View in First Person",
+        "authors": "Mengze Li, Yicong Li, Fangzhou Hong, liuziwei7, JingqiaoXiu",
+        "arxiv_id": "2508.13013",
+        "link": "https://arxiv.org/abs/2508.13013",
+        "category": "Computer Vision",
+        "summary": "EgoTwin introduces a novel framework for learning a 3D avatar that captures body movements and camera views from first-person videos, enabling dream-like synthesis of novel actions and perspectives. The core objective is to synthesize realistic egocentric videos of unseen actions and views by disentangling body motion from camera pose. This is achieved through an adversarial learning framework that integrates a generative model for body and view synthesis, along with a discriminator to ensure realism and consistency. The method demonstrates a significant improvement, achieving a FID score of 45.3 on egocentric video generation, outperforming prior art. This work provides a powerful tool for researchers and developers in virtual reality, augmented reality, and robotics to simulate complex human-robot interactions and virtual environments with realistic egocentric perspectives."
+    },
+    {
+        "title": "CRISP: Persistent Concept Unlearning via Sparse Autoencoders",
+        "authors": "Yonatan Belinkov, Martin Tutek, Aaron Mueller, Dana Arad, Tomertech",
+        "arxiv_id": "2508.13650",
+        "link": "https://arxiv.org/abs/2508.13650",
+        "category": "Machine Learning",
+        "summary": "This paper introduces CRISP, a novel concept unlearning framework designed for persistent and efficient removal of specific concepts from trained neural networks, even against reconstruction attacks. The core objective is to achieve reliable concept eradication without compromising the model's performance on unrelated data. CRISP employs sparse autoencoders to isolate and selectively modify concept-specific components within the network's latent space, coupled with an adversarially trained unlearning mechanism. Experimental results demonstrate that CRISP achieves an average concept removal success rate of 98.5% while maintaining a minimal impact of less than 1% on downstream task accuracy. This approach offers AI practitioners a robust solution for enhancing data privacy and model accountability by enabling targeted and persistent unlearning capabilities."
+    },
+    {
+        "title": "Selective Contrastive Learning for Weakly Supervised Affordance Grounding",
+        "authors": "Jae-Pil Heo, hynnsk, WJ0830",
+        "arxiv_id": "2508.07877",
+        "link": "https://arxiv.org/abs/2508.07877",
+        "category": "Computer Vision",
+        "summary": "This paper introduces a novel weakly-supervised method for affordance grounding, a crucial task for robotic interaction. The primary objective is to accurately identify object parts that facilitate specific actions (affordances) using only image-level supervision. The key methodology involves a Selective Contrastive Learning (SCL) framework, which leverages a teacher-student model with a selective positive mining strategy to enhance discriminative feature learning and filter out noisy labels. This approach achieved an mIoU of 56.4% on the public Affordance-3D dataset, outperforming existing state-of-the-art weakly-supervised methods by a significant margin. The main implication for AI practitioners is the provision of a more efficient and less annotation-intensive method for developing robotic systems capable of understanding and interacting with objects based on their functional properties."
+    },
+    {
+        "title": "AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions",
+        "authors": "Yidi Du, Markus Mak, Zhicheng Liu, Jiaze Chen, zhwang01",
+        "arxiv_id": "2508.16402",
+        "link": "https://arxiv.org/abs/2508.16402",
+        "category": "Natural Language Processing",
+        "summary": "AetherCode investigates the proficiency of large language models (LLMs) in competitive programming, specifically focusing on their ability to autonomously solve complex algorithmic problems. The research aims to evaluate whether current LLMs can achieve winning-tier performance in platforms like Codeforces by generating correct and optimized code. The study employs a methodology where various LLMs are tasked with solving a diverse set of programming problems, and their submissions are evaluated based on correctness, efficiency, and adherence to problem constraints, mirroring real competition conditions. Key findings indicate that while LLMs show promising capabilities, they currently achieve an average success rate of approximately 25% on harder problems, indicating a significant gap between their performance and human champions. This implies that for AI practitioners, current LLMs require further advancements in logical reasoning, algorithmic understanding, and debugging to reliably excel in highly competitive programming environments."
+    },
+    {
+        "title": "Do What? Teaching Vision-Language-Action Models to Reject the Impossible",
+        "authors": "Roei Herzig, Trevor Darrell, Dantong Niu, Elvis Hsieh, wen-han",
+        "arxiv_id": "2508.16292",
+        "link": "https://arxiv.org/abs/2508.16292",
+        "category": "Multi-Modal",
+        "summary": "This paper addresses the critical challenge of preventing Vision-Language-Action (VLA) models from attempting impossible actions by explicitly teaching them to reject unfeasible instructions. The core objective is to imbue VLAs with a 'common sense' understanding of physical limitations. The authors propose a novel dataset, ImPOSSIBLE, composed of impossible instructions and a method that fine-tunes VLAs using a new 'impossible' token to classify actions. Experimental results demonstrate that their approach achieves a 95% impossible instruction rejection rate, significantly outperforming baseline models. This work implies that AI practitioners should prioritize incorporating explicit impossibility reasoning into VLA architectures to enhance safety and reliability in real-world deployments."
+    },
+    {
+        "title": "AgentScope 1.0: A Developer-Centric Framework for Building Agentic Applications",
+        "authors": "Liuyi Yao, Yuexiang Xie, Zitao Li, Dawei Gao, rayrayray",
+        "arxiv_id": "2508.16279",
+        "link": "https://arxiv.org/abs/2508.16279",
+        "category": "Other",
+        "summary": "AgentScope 1.0 is a novel, developer-centric framework designed to simplify the creation of agentic applications. The primary objective is to address the complexity and lack of modularity in existing multi-agent system development by providing a unified programming interface. Its methodology involves abstracting agent interactions, offering dynamic agent orchestration, and supporting distributed execution. Benchmarking with applications like a Code Interpreter demonstrates a 23% reduction in code complexity and a 15% improvement in execution efficiency. AgentScope 1.0 significantly streamlines the development workflow for AI practitioners, enabling faster prototyping and deployment of robust agent-based systems."
+    },
+    {
+        "title": "End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning",
+        "authors": "Pengcheng Qiu, Chaoyi Wu, Yuze Sun, Qiaoyu Zheng, Angelakeke",
+        "arxiv_id": "2508.15746",
+        "link": "https://arxiv.org/abs/2508.15746",
+        "category": "Natural Language Processing",
+        "summary": "This paper presents an End-to-End Agentic RAG System Training framework designed to improve diagnostic reasoning through enhanced traceability and interpretability. The primary objective is to develop a RAG system capable of automatically generating diagnostic traces, thereby making the reasoning process transparent and verifiable. The methodology involves a novel self-correction mechanism within a multi-agentic RAG architecture, leveraging both small and large language models for iterative refinement of diagnostic outputs. Key results demonstrate that this system achieves a 15% improvement in diagnostic accuracy compared to traditional RAG approaches, alongside significantly more coherent and traceable reasoning paths. The main implication for AI practitioners is the provision of a robust framework for building more reliable and auditable AI-powered diagnostic tools, particularly in critical applications where explainability is paramount."
+    },
+    {
+        "title": "TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill \\& Decode Inference",
+        "authors": "Di Yin, Yuxuan Wang, Pingzhi Tang, Fanxu Meng, xiaojuan0920",
+        "arxiv_id": "2508.15881",
+        "link": "https://arxiv.org/abs/2508.15881",
+        "category": "Machine Learning",
+        "summary": "This paper introduces TPLA (Tensor Parallel Latent Attention), a novel attention mechanism designed to optimize disaggregated prefill and decode inference for Large Language Models (LLMs). The core objective is to improve efficiency and scalability in LLM serving by reducing communication overhead and increasing effective bandwidth in disaggregated memory architectures. TPLA achieves this by encoding attention keys and values into a smaller set of latent vectors, which are then transmitted across nodes, drastically cutting communication costs. Experiments demonstrate that TPLA reduces communication volume by 3-5x compared to existing methods like DABA and achieves a 1.2-1.8x speedup over state-of-the-art disaggregated inference systems. The main implication for AI practitioners is the potential for more cost-effective and scalable deployment of LLMs, particularly in cloud environments where disaggregated memory is increasingly common."
+    },
+    {
+        "title": "Distilled-3DGS:Distilled 3D Gaussian Splatting",
+        "authors": "Jianhuang Lai, Xinkai Chen, Lintao Xiang, GuangcongWang",
+        "arxiv_id": "2508.14037",
+        "link": "https://arxiv.org/abs/2508.14037",
+        "category": "Computer Vision",
+        "summary": "Distilled-3DGS introduces a novel approach to compress 3D Gaussian Splatting (3DGS) models, enabling efficient rendering on resource-constrained devices. The core objective is to significantly reduce the model size of 3DGS without compromising visual quality or real-time rendering capabilities. This is achieved through a knowledge distillation framework where a large, high-quality 3DGS model acts as a teacher to guide the training of a smaller, student 3DGS model, incorporating both point cloud distillation and image distillation. Experiments demonstrate that Distilled-3DGS can achieve a 20x reduction in model size while maintaining a competitive PSNR of 29.5 on the Mip-NeRF 360 dataset. This work offers a practical solution for deploying high-fidelity 3D scene representations in applications with strict memory and computational limits, such as mobile augmented reality and embedded systems."
+    },
+    {
+        "title": "Sketch3DVE: Sketch-based 3D-Aware Scene Video Editing",
+        "authors": "Lin Gao, Hongbo Fu, Yan-Pei Cao, Shi-Yang Li, Okrin",
+        "arxiv_id": "2508.13797",
+        "link": "https://arxiv.org/abs/2508.13797",
+        "category": "Computer Vision",
+        "summary": "Sketch3DVE introduces a novel sketch-based system for 3D-aware scene video editing, addressing the challenge of intuitive 3D video manipulation. The core objective is to enable users to edit videos in 3D space using simple 2D sketches, without needing explicit 3D modeling skills. This is achieved through a two-stage approach: first, a 3D-aware video generator synthesizes a coarse video based on a textual prompt, and then a sketch-guided video editor refines it using a 3D-consistent sketch representation and a differentiable renderer for precise object control. Quantitative results on user studies showed a 95% success rate for sketch-guided object manipulation, demonstrating the system's effectiveness and user-friendliness. This system provides AI practitioners with a powerful tool for creating and manipulating 3D video content, streamlining the editing process and making 3D video generation more accessible."
+    },
+    {
+        "title": "RotaTouille: Rotation Equivariant Deep Learning for Contours",
+        "authors": "Nello Blaser, odinhg",
+        "arxiv_id": "2508.16359",
+        "link": "https://arxiv.org/abs/2508.16359",
+        "category": "Computer Vision",
+        "summary": "RotaTouille introduces a novel deep learning framework that achieves rotation equivariance for contour data, addressing the challenge of geometric transformations in shape analysis. The primary objective is to enable deep neural networks to recognize rotated versions of the same contour as equivalent, thereby enhancing robustness in shape-related tasks. This is achieved through a specialized architecture that processes contour segments in a rotation-invariant manner using steerable filters and rotation-equivariant pooling operations. The method demonstrates superior performance, achieving a classification accuracy of 98.7% on rotated MNIST, significantly outperforming traditional CNNs. This framework provides AI practitioners with a robust tool for tasks requiring invariant shape recognition, such as medical image analysis or object detection from arbitrary orientations, reducing the need for extensive data augmentation."
+    },
+    {
+        "title": "InMind: Evaluating LLMs in Capturing and Applying Individual Human Reasoning Styles",
+        "authors": "Qi Chen, Yibin Wang, Chuanhao Li, Zizhen Li, dpsong",
+        "arxiv_id": "2508.16072",
+        "link": "https://arxiv.org/abs/2508.16072",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces InMind, a novel benchmark for evaluating Large Language Models (LLMs) in their ability to capture and apply individual human reasoning styles. The research objective is to assess if LLMs can not only mimic human-like responses but also internalize and utilize specific individual reasoning patterns across various tasks. InMind employs a methodology where LLMs are presented with diverse reasoning tasks from multiple human participants and then evaluated on their consistency in applying each individual's unique reasoning style. Results show that advanced LLMs like GPT-4 demonstrate a Pearson correlation coefficient of 0.70 with human reasoning styles, indicating a significant but imperfect capability. The main implication for AI practitioners is the need for further research into fine-tuning LLMs to achieve higher fidelity in emulating complex, individual human cognitive processes, particularly for applications requiring personalized AI interactions or cognitive modeling."
+    },
+    {
+        "title": "CARFT: Boosting LLM Reasoning via Contrastive Learning with Annotated Chain-of-Thought-based Reinforced Fine-Tuning",
+        "authors": "Yulun Zhang, Haipang Wu, Rongjuncheng Zhang, Ji Liu, Qlisp",
+        "arxiv_id": "2508.15868",
+        "link": "https://arxiv.org/abs/2508.15868",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces CARFT, a novel method to enhance Large Language Model (LLM) reasoning abilities through a fine-tuning framework. The main objective is to overcome challenges in LLM reasoning by integrating contrastive learning with annotated Chain-of-Thought (CoT) and reinforcement learning. CARFT employs a multi-stage approach, starting with supervised fine-tuning on CoT annotations, followed by a contrastive learning phase to differentiate between correct and incorrect reasoning paths, and finally, reinforcement learning to refine the LLM based on reward signals. Experiments show that CARFT significantly improves LLM performance, achieving a 7.2% average improvement on complex reasoning benchmarks. This methodology provides AI practitioners with a robust framework for developing more accurate and reliable LLMs for intricate reasoning tasks."
+    },
+    {
+        "title": "Learnable SMPLify: A Neural Solution for Optimization-Free Human Pose Inverse Kinematics",
+        "authors": "Xiao Sun, Zhihang Zhong, Wei Wang, Linfeng Dong, Charlie019",
+        "arxiv_id": "2508.13562",
+        "link": "https://arxiv.org/abs/2508.13562",
+        "category": "Computer Vision",
+        "summary": "The paper \"Learnable SMPLify\" introduces a novel, optimization-free neural network approach for estimating 3D human pose and shape from 2D images. The primary objective is to replace the iterative optimization of traditional SMPLify with a direct, feed-forward neural prediction, thereby enabling real-time performance. This is achieved by training a deep network to regress the full SMPL (Skinned Multi-Person Linear) model parameters directly from image features, effectively learning the inverse kinematics. The method demonstrates significant speed improvements, operating at 60 FPS, while achieving comparable or superior accuracy to optimization-based methods, specifically outperforming SMPLify on the 3DPW dataset by reducing reconstruction error. This development offers AI practitioners a highly efficient and accurate tool for real-time 3D human pose estimation in applications such as augmented reality, robotics, and human-computer interaction, without the computational burden of traditional iterative solvers."
+    },
+    {
+        "title": "Jailbreaking Commercial Black-Box LLMs with Explicitly Harmful Prompts",
+        "authors": "Liming Fang, Jiafei Wu, Xiaogang Xu, Lu Zhou, AlienZhang1996",
+        "arxiv_id": "2508.10390",
+        "link": "https://arxiv.org/abs/2508.10390",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the vulnerability of commercial Black-Box Large Language Models (LLMs) to explicitly harmful prompts. The primary objective is to evaluate the effectiveness of direct harmful prompts in jailbreaking these models. The methodology involves crafting prompts that explicitly request harmful content and testing them against various commercial LLMs. Results show that, surprisingly, these direct harmful prompts achieved an average attack success rate of 5.8%, demonstrating a non-trivial vulnerability. The main implication for AI practitioners is the need for more robust alignment and safety mechanisms, as even straightforward harmful queries can bypass current safeguards in black-box commercial LLMs."
+    }
+]
