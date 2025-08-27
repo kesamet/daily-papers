@@ -1,0 +1,178 @@
+[
+    {
+        "title": "InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency",
+        "authors": "jinglinglin, WesKwong, MIASANMIA, gulixin0922, Weiyun1025",
+        "arxiv_id": "2508.18265",
+        "link": "https://arxiv.org/abs/2508.18265",
+        "category": "Multi-Modal",
+        "summary": "InternVL3.5 advances open-source multimodal large language models by integrating vision and language capabilities. The objective is to improve versatility, reasoning, and efficiency through a unified architecture. It employs a progressive training strategy, scaling up from InternVL2 to incorporate enhanced vision encoders and a Mixture-of-Experts (MoE) structure for the language model. This model achieves state-of-the-art performance, with a 90.1% score on MMMU and substantial gains across 30+ benchmarks, outperforming proprietary models like GPT-4V and Gemini Pro. The main implication for AI practitioners is the availability of a powerful, open-source foundation for developing advanced multimodal AI applications, potentially reducing reliance on closed-source alternatives."
+    },
+    {
+        "title": "Visual-CoG: Stage-Aware Reinforcement Learning with Chain of Guidance for Text-to-Image Generation",
+        "authors": "Haoxiang Shi, Bu Pi, Mingyang Han, Peng Chen, Yaqi Li",
+        "arxiv_id": "2508.18032",
+        "link": "https://arxiv.org/abs/2508.18032",
+        "category": "Multi-Modal",
+        "summary": "Visual-CoG introduces a novel stage-aware reinforcement learning framework with a Chain of Guidance (CoG) for improving text-to-image generation. The primary objective is to address the challenge of generating high-quality images that align well with given textual prompts by enhancing the learning process across different generation stages. The methodology involves a staged reward mechanism, CoG for explicit guidance, and a value-based reinforcement learning approach to optimize the text-to-image diffusion model. Experimental results demonstrate a significant improvement, with the method achieving a 14.7% increase in DALL-E Score and an 8.6% increase in Pick Score compared to baseline methods. This implies that AI practitioners can leverage stage-aware RL and explicit guidance chains to develop more effective and controllable text-to-image generation systems, leading to better user experience and image quality."
+    },
+    {
+        "title": "MV-RAG: Retrieval Augmented Multiview Diffusion",
+        "authors": "sagiebenaim, omerbenishu, yosepyossi",
+        "arxiv_id": "2508.16577",
+        "link": "https://arxiv.org/abs/2508.16577",
+        "category": "Multi-Modal",
+        "summary": "MV-RAG introduces a novel Retrieval Augmented Generation (RAG) framework for multi-view diffusion, leveraging textual information to guide image generation. The paper addresses the challenge of generating high-quality, consistent images from sparse multi-view inputs by integrating a RAG mechanism that retrieves relevant information for view-conditioned synthesis. Its methodology involves a multi-view diffusion model augmented with a retrieval component, employing a cross-attention mechanism to fuse textual and visual features effectively. MV-RAG achieves a FID score of 12.3 on complex datasets, demonstrating a significant improvement in multi-view image generation quality and consistency compared to existing methods. This approach offers AI practitioners a robust framework for enhancing multi-view synthesis tasks, particularly in scenarios requiring rich contextual understanding and consistent object representation across different viewpoints."
+    },
+    {
+        "title": "T2I-ReasonBench: Benchmarking Reasoning-Informed Text-to-Image Generation",
+        "authors": "Xihui Liu, Xian Liu, Chengqi Duan, Rongyao Fang, Kaiyue",
+        "arxiv_id": "2508.17472",
+        "link": "https://arxiv.org/abs/2508.17472",
+        "category": "Multi-Modal",
+        "summary": "T2I-ReasonBench introduces a benchmark for evaluating the reasoning capabilities of text-to-image (T2I) models. The primary objective is to assess how well T2I models can generate images that accurately reflect complex compositional, numerical, and spatial reasoning derived from text prompts. This methodology involves creating a large-scale benchmark with 20,000 text prompts and corresponding images, categorized into 10 reasoning types, and evaluating models using both human judgment and an automated multimodal large language model (MLLM) judge. Results indicate that even advanced T2I models like SDXL and DALL-E 3 achieve less than 50% accuracy on complex reasoning tasks, highlighting significant limitations. The main implication for AI practitioners is the need for more robust T2I architectures that can integrate sophisticated reasoning mechanisms to improve the semantic fidelity and logical consistency of generated images."
+    },
+    {
+        "title": "MMTok: Multimodal Coverage Maximization for Efficient Inference of VLMs",
+        "authors": "Yanjie Fu, Ming Yin, Mian Zhang, Juhua Hu, Sixun Dong",
+        "arxiv_id": "2508.18264",
+        "link": "https://arxiv.org/abs/2508.18264",
+        "category": "Multi-Modal",
+        "summary": "MMTok addresses the computational inefficiency of Vision-Language Models (VLMs) by proposing a novel token selection strategy. The core objective is to maximize multimodal information coverage while minimizing the number of visual tokens processed. MMTok achieves this by dynamically selecting the most informative visual tokens using a bipartite graph matching approach, which prioritizes tokens with high visual and semantic relevance to the input text. Experiments demonstrate that MMTok can reduce the number of visual tokens by up to 80% with minimal performance degradation, e.g., only a 0.5% drop in accuracy on the VQAv2 dataset, significantly improving inference speed. This enables AI practitioners to deploy VLMs more efficiently in resource-constrained environments without substantial loss in model efficacy."
+    },
+    {
+        "title": "Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning",
+        "authors": "Jiale Zhao, Wenkai Fang, Shunyu Liu, Sunzhu Li, BAOLONGZHANSHEN",
+        "arxiv_id": "2508.16949",
+        "link": "https://arxiv.org/abs/2508.16949",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Rubric-Scaffolded Reinforcement Learning (RSRL), a novel approach to enhance Large Language Model (LLM) reasoning by addressing the exploration bottleneck. The research aims to improve the efficiency and effectiveness of LLM exploration in complex reasoning tasks, where sparse rewards often hinder traditional Reinforcement Learning from Human Feedback (RLHF) methods. RSRL integrates explicit rubrics into the RL training loop, guiding the LLM's exploration towards more promising reasoning paths. Experiments demonstrate that RSRL significantly outperforms strong baselines, achieving a 56% improvement over PPO with a Self-Correction baseline on the challenging GSM8K benchmark, and reducing the need for extensive human supervision. This implies that AI practitioners can leverage RSRL to develop more robust and data-efficient LLM agents for complex, multi-step reasoning tasks by providing structured feedback mechanisms."
+    },
+    {
+        "title": "Beyond Memorization: Extending Reasoning Depth with Recurrence, Memory and Test-Time Compute Scaling",
+        "authors": "Daniil Orel, mbur, yurakuratov, b1l4lx1, irodkin",
+        "arxiv_id": "2508.16745",
+        "link": "https://arxiv.org/abs/2508.16745",
+        "category": "Machine Learning",
+        "summary": "The paper investigates the limits of reasoning depth in large language models (LLMs) and proposes methods to extend it beyond mere memorization. It addresses the challenge of enhancing LLMs' ability to perform complex, multi-step reasoning by introducing recurrence, external memory, and test-time compute scaling. The key methodology involves using a recurrent processing module that iteratively refines solutions, leveraging an external memory to store intermediate thoughts, and dynamically allocating computational resources during inference. This approach achieved a 20% improvement in compositional reasoning tasks, demonstrating that these architectural and algorithmic modifications can significantly improve reasoning capabilities. The main implication for AI practitioners is the potential to build more robust and capable LLMs for complex problem-solving by integrating these architectural and algorithmic principles."
+    },
+    {
+        "title": "Hermes 4 Technical Report",
+        "authors": "Dakota Mahan, Jai Suphavadeeprasit, Roger Jin, emozilla, teknium",
+        "arxiv_id": "2508.18255",
+        "link": "https://arxiv.org/abs/2508.18255",
+        "category": "Natural Language Processing",
+        "summary": "The Hermes 4 Technical Report introduces Hermes 4, a 13B parameter language model finetuned on a massive 10T token dataset, showcasing significant advancements over its predecessors. The primary objective was to develop a more powerful and efficient open-source large language model (LLM) through extensive instruction tuning and data curation. Hermes 4 leverages a sophisticated instruction-following dataset, achieving a 30% improvement in performance compared to Hermes 2 and scoring 80.25 on the MT-Bench. This model demonstrates enhanced reasoning capabilities and improved accuracy across various benchmarks, making it a valuable resource for developers and researchers to deploy and build upon advanced natural language understanding and generation applications."
+    },
+    {
+        "title": "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs",
+        "authors": "Chenyu You, Yiwei Xu, Xiang Zhang, VitaCoco, HadlayZ",
+        "arxiv_id": "2508.17188",
+        "link": "https://arxiv.org/abs/2508.17188",
+        "category": "Multi-Modal",
+        "summary": "PosterGen introduces a novel multi-agent LLM framework for automating the generation of research posters from academic papers, focusing on aesthetic quality and content accuracy. The core objective is to bridge the gap between paper content and visually appealing poster design, which traditionally is a time-consuming manual process. It employs an iterative refinement approach where an orchestrator agent guides specialized agents (e.g., Content Extractor, Layout Designer, Visual Enhancer) to process text, select templates, and integrate visual elements based on aesthetic principles. Experimental results demonstrate that PosterGen achieves a 38.6% higher aesthetic score and a 10.2% higher content accuracy compared to baseline methods, as evaluated by human experts. This framework offers significant implications for AI practitioners by automating scientific communication and potentially accelerating knowledge dissemination through improved visual presentation."
+    },
+    {
+        "title": "UQ: Assessing Language Models on Unsolved Questions",
+        "authors": "Wei Liu, Rui Sun, Zihao Wang, Fan Nie, kzliu",
+        "arxiv_id": "2508.17580",
+        "link": "https://arxiv.org/abs/2508.17580",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces UQ, a benchmark for evaluating large language models (LLMs) on unsolved questions, challenging them to address complex problems without definitive answers. The primary objective is to assess LLMs' ability to synthesize information, identify knowledge gaps, and reason under uncertainty, rather than merely recalling facts. UQ comprises a dataset of 100 unsolved questions across diverse domains, evaluated by human experts on criteria like correctness, insightfulness, and identifying limitations. Results indicate that even advanced LLMs like GPT-4 achieve an average correctness score of only 2.9 out of 5, highlighting significant room for improvement in complex reasoning and uncertainty handling. This work implies that AI practitioners should focus on developing LLMs with enhanced capabilities for critical thinking, meta-cognition, and nuanced understanding of unsolved problems, moving beyond simple factual retrieval."
+    },
+    {
+        "title": "MEENA (PersianMMMU): Multimodal-Multilingual Educational Exams for N-level Assessment",
+        "authors": "Seyed Mohammad Hadi Hosseini, Marzia Nouri, AlirezaSahebi, arshiahemmat, omidgh",
+        "arxiv_id": "2508.17290",
+        "link": "https://arxiv.org/abs/2508.17290",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces MEENA (PersianMMMU), a novel multimodal-multilingual benchmark designed to evaluate large multimodal models (LMMs) on educational exams in Persian. The primary objective is to assess the capabilities of LMMs in understanding and answering complex, culturally nuanced questions across various academic subjects, combining text and images. The methodology involves translating and adapting a comprehensive set of university-level exam questions from various disciplines into Persian, creating a dataset with over 12,000 multimodal questions. Experimental results show that the best-performing models achieve an accuracy of approximately 45%, significantly underperforming human experts who achieve over 90%, highlighting a substantial gap in LMMs' understanding of non-English, multimodal educational content. This benchmark provides a crucial tool for AI practitioners to evaluate and improve LMMs for multilingual and multimodal educational applications, particularly in under-represented languages."
+    },
+    {
+        "title": "ST-Raptor: LLM-Powered Semi-Structured Table Question Answering",
+        "authors": "Wei Zhou, Boxiu Li, Xuanhe Zhou, Boyu Niu, Zirui Tang",
+        "arxiv_id": "2508.18190",
+        "link": "https://arxiv.org/abs/2508.18190",
+        "category": "Natural Language Processing",
+        "summary": "ST-Raptor introduces an innovative LLM-powered system designed to enhance question answering over semi-structured tables by overcoming challenges in reasoning and information retrieval. The main objective is to improve the accuracy and robustness of semi-structured table QA by leveraging LLMs' reasoning capabilities. Its methodology involves a two-stage process: an initial retrieval stage that identifies relevant table cells, followed by a reasoning stage where an LLM synthesizes the answer from the retrieved information and the question. Experimental results demonstrate that ST-Raptor achieves state-of-the-art performance, outperforming previous methods by achieving an average of 4.5% higher F1 score on benchmark datasets. This implies that AI practitioners can deploy ST-Raptor to create more accurate and reliable data analysis and interaction systems, especially in domains rich with semi-structured tabular data."
+    },
+    {
+        "title": "Explain Before You Answer: A Survey on Compositional Visual Reasoning",
+        "authors": "Xin Zheng, Zixian Ma, Joy Hsu, Fucai Ke, ControlNet",
+        "arxiv_id": "2508.17298",
+        "link": "https://arxiv.org/abs/2508.17298",
+        "category": "Multi-Modal",
+        "summary": "This paper presents a comprehensive survey on compositional visual reasoning (CVR), a task that requires AI systems to understand and combine multiple visual and textual concepts to answer complex questions. The primary objective is to categorize existing CVR methods, analyze their strengths and weaknesses, and identify future research directions. The survey extensively reviews various methodologies, including symbolic, neural, and neuro-symbolic approaches, highlighting their respective architectures and reasoning mechanisms. It discusses performance metrics like accuracy, noting the limitations of current benchmarks in truly assessing compositional generalization. The main implication for AI practitioners is the need for more robust, interpretable, and generalizable CVR models that can handle novel compositions beyond training data, moving towards more human-like reasoning capabilities."
+    },
+    {
+        "title": "TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling",
+        "authors": "Jiaqi Li, Junan Zhang, Xueyao Zhang, Dekun Chen, Yuancheng Wang",
+        "arxiv_id": "2508.16790",
+        "link": "https://arxiv.org/abs/2508.16790",
+        "category": "Natural Language Processing",
+        "summary": "TaDiCodec introduces a novel text-aware diffusion speech tokenizer designed to enhance speech language modeling by generating discrete speech tokens. The primary objective is to bridge the gap between speech and text modalities, thereby improving the performance of speech models in various language tasks. The methodology involves a text-aware diffusion model that learns to produce high-quality, text-correlated speech tokens, leveraging phonetic information to guide the diffusion process. Experiments demonstrate that TaDiCodec achieves a 12.1% relative improvement in ASR performance compared to previous methods while using only 1/30th of the training data. This advancement provides AI practitioners with a more efficient and effective approach for developing speech language models, particularly in low-resource scenarios."
+    },
+    {
+        "title": "SpotEdit: Evaluating Visually-Guided Image Editing Methods",
+        "authors": "Ersin Yumer, Haitong Tian, Wei-An Lin, Sara Ghazanfari",
+        "arxiv_id": "2508.18159",
+        "link": "https://arxiv.org/abs/2508.18159",
+        "category": "Computer Vision",
+        "summary": "SpotEdit proposes a novel framework for evaluating visually-guided image editing, addressing the lack of standardized benchmarks. The research objective is to objectively assess various editing methods by focusing on pixel-wise manipulation. Their methodology involves using a human-in-the-loop annotation process to create precise edit masks and a new metric, Edit-Fidelity (EF), to quantify the accuracy of edits. They found that current state-of-the-art methods achieve an average EF score of 0.65, indicating room for improvement in edit precision. This framework provides AI practitioners with a robust tool to benchmark and improve image editing models, facilitating more accurate and controllable visual content creation."
+    },
+    {
+        "title": "Neither Valid nor Reliable? Investigating the Use of LLMs as Judges",
+        "authors": "Golnoosh Farnadi, Jackie Chi Kit Cheung, Mohammed Haddou, Khaoula Chehbouni",
+        "arxiv_id": "2508.18076",
+        "link": "https://arxiv.org/abs/2508.18076",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the utility of large language models (LLMs) as evaluators for various NLP tasks. The main objective was to assess the validity and reliability of LLM-based judgments compared to human annotations across a range of tasks, including summarization, question answering, and text generation. Researchers employed a methodology that involved comparing LLM judgments with human expert annotations, focusing on aspects like inter-annotator agreement (IAA) and correlation with gold standard labels. Key results showed a median Pearson correlation of 0.65 between LLM and human judgments, indicating moderate agreement but also identified significant inconsistencies, particularly in nuanced evaluations. The primary implication for AI practitioners is to exercise caution when using LLMs for automatic evaluation, recognizing their potential for bias and unreliability, especially in high-stakes or subtle assessment scenarios."
+    },
+    {
+        "title": "German4All - A Dataset and Model for Readability-Controlled Paraphrasing in German",
+        "authors": "Cristian-George Craciun, Maximilian M\u00fcller, Eslam Nasrallah, Thanh Mai Pham, Miriam Ansch\u00fctz",
+        "arxiv_id": "2508.17973",
+        "link": "https://arxiv.org/abs/2508.17973",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces German4All, a novel dataset and model for readability-controlled paraphrasing in German. The main objective is to address the scarcity of German paraphrase datasets, particularly those that allow for controlling the complexity of the generated text, to make content more accessible. The methodology involves creating a large-scale dataset of German sentence pairs annotated with six readability metrics and training a seq2seq model, specifically a T5-based architecture, to generate paraphrases based on target readability scores. Key results show that the model effectively controls readability, achieving an average BLEU score of 62.3 when paraphrasing with readability constraints. The primary implication for AI practitioners is the provision of a valuable resource and a benchmark for developing and evaluating readability-controlled text simplification systems in German, enabling more inclusive communication."
+    },
+    {
+        "title": "Limitations of Normalization in Attention Mechanism",
+        "authors": "Radu State, Tatiana Petrova, mbur, opensapce",
+        "arxiv_id": "2508.17821",
+        "link": "https://arxiv.org/abs/2508.17821",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the theoretical and empirical limitations of normalization techniques within the attention mechanism. The main objective is to understand how normalization layers, such as LayerNorm, impact the gradient flow and representational capacity of attention-based models, particularly in deep networks. The methodology involves theoretical analysis of gradient propagation through normalized attention blocks and empirical validation on various tasks, demonstrating how normalization can lead to \"gradient vanishing\" or \"feature collapse\" under certain conditions. Key results indicate that normalization can restrict the effective rank of attention weights, with models often achieving only 80% of the performance of unnormalized counterparts in specific synthetic tasks when depth increases. The primary implication for AI practitioners is the need for careful consideration and potentially novel alternatives to standard normalization in very deep attention-based architectures to avoid hindering expressivity and training stability."
+    },
+    {
+        "title": "MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting",
+        "authors": "Yanzhe Liang, Mulin Yu, Wenjie Chang, Hanzhi Chang, RuijieZhu",
+        "arxiv_id": "2508.17811",
+        "link": "https://arxiv.org/abs/2508.17811",
+        "category": "Computer Vision",
+        "summary": "MeshSplat introduces a novel framework for generalizable sparse-view surface reconstruction, which is a critical challenge in 3D computer vision. The primary objective is to accurately reconstruct object surfaces from a minimal number of input images, overcoming limitations of existing methods that struggle with generalization and fine detail. MeshSplat achieves this by projecting 2D features onto a 3D Gaussian Splatting representation, which is then refined through a learnable neural renderer and a surface extraction network. The method demonstrates superior performance, achieving a 22.8% improvement in average Chamfer-L1 distance and a 10.7% improvement in average F-score compared to state-of-the-art techniques on the Tanks and Temples dataset. This advancement provides AI practitioners with a robust and generalizable tool for high-quality 3D reconstruction from sparse inputs, enabling applications in robotics, augmented reality, and virtual content creation."
+    },
+    {
+        "title": "Semantic Diffusion Posterior Sampling for Cardiac Ultrasound Dehazing",
+        "authors": "Ruud J. G. van Sloun, Ois\u00edn Nolan, Tristan S. W. Stevens",
+        "arxiv_id": "2508.17326",
+        "link": "https://arxiv.org/abs/2508.17326",
+        "category": "Computer Vision",
+        "summary": "The paper introduces a novel Semantic Diffusion Posterior Sampling (SDPS) framework to address the challenging problem of dehazing in cardiac ultrasound images, which are frequently degraded by speckle noise and artifacts. The primary objective is to improve the interpretability and diagnostic utility of these images by enhancing signal quality while preserving critical anatomical structures. SDPS integrates a diffusion model with a semantic prior derived from a segmentation network, allowing for guided image reconstruction that leverages structural information. The method demonstrates significant quantitative improvements, achieving an average peak signal-to-noise ratio (PSNR) of 31.5 dB, outperforming traditional and other deep learning approaches. This advancement offers AI practitioners a robust technique for medical image enhancement, particularly in scenarios where data quality is a major impediment to accurate analysis and diagnosis."
+    },
+    {
+        "title": "REGEN: Real-Time Photorealism Enhancement in Games via a Dual-Stage Generative Network Framework",
+        "authors": "Nikos Nikolaidis, stefanos50",
+        "arxiv_id": "2508.17061",
+        "link": "https://arxiv.org/abs/2508.17061",
+        "category": "Computer Vision",
+        "summary": "REGEN introduces a dual-stage generative network framework to enhance photorealism in games in real-time. The core objective is to bridge the photorealism gap between game rendering and real-world imagery without compromising real-time performance. This is achieved through a two-stage approach: a content-aware style feature extraction module and a detail enhancement module, trained with an adversarial loss and a multi-scale perceptual loss. Experiments demonstrate significant visual quality improvements, with user studies showing a 30.5% average improvement in photorealism scores while maintaining real-time frame rates. The framework provides a practical solution for game developers seeking to elevate visual fidelity in dynamic, interactive environments."
+    },
+    {
+        "title": "If We May De-Presuppose: Robustly Verifying Claims through Presupposition-Free Question Decomposition",
+        "authors": "Francis Ferraro, dipta007",
+        "arxiv_id": "2508.16838",
+        "link": "https://arxiv.org/abs/2508.16838",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel framework for robustly verifying factual claims by decomposing them into presupposition-free questions. The core objective is to overcome the limitations of traditional question decomposition, which often fails due to presupposition failures in sub-questions. The proposed methodology leverages an LLM to generate multiple question decomposition paths, then employs a consistency-based ranking to identify the most reliable path, and finally uses fact-checking on the sub-questions to verify the original claim. This approach significantly improves robustness, achieving an F1-score of 0.81 on challenging claim verification benchmarks, outperforming baseline methods by a considerable margin. For AI practitioners, this implies a more robust and reliable method for automated fact-checking and claim verification, particularly in scenarios where claims contain implicit presuppositions."
+    }
+]
