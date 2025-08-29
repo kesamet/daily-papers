@@ -1,0 +1,138 @@
+[
+    {
+        "title": "Beyond Transcription: Mechanistic Interpretability in ASR",
+        "authors": "AvivNavon, AvivSham, Hilit, YaelAiola, netag",
+        "arxiv_id": "2508.15882",
+        "link": "https://arxiv.org/abs/2508.15882",
+        "category": "Natural Language Processing",
+        "summary": "This paper explores the application of mechanistic interpretability techniques to Automatic Speech Recognition (ASR) models, moving beyond traditional transcription analysis. The main objective is to understand how ASR models internally process and represent speech, specifically focusing on the detection of phonemes and words. The authors adapt and apply established interpretability methods, such as activation patching and causal tracing, to analyze the internal workings of ASR transformers. They demonstrate that early layers primarily detect phonemes, while later layers integrate this information for word recognition, achieving a 75% accuracy in identifying word detection heads. The key implication is that mechanistic interpretability offers a powerful new lens for debugging, improving, and understanding the complex internal mechanisms of ASR systems, potentially leading to more robust and explainable speech technologies."
+    },
+    {
+        "title": "Self-Rewarding Vision-Language Model via Reasoning Decomposition",
+        "authors": "Wenhao Yu, haitaominlp, invokerliang, ChengsongHuang, Zongxian",
+        "arxiv_id": "2508.19652",
+        "link": "https://arxiv.org/abs/2508.19652",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces the Self-Rewarding Vision-Language Model (SRVLM), a novel framework that improves VLMs without human feedback or external reward models by generating and decomposing self-reward signals. The main objective is to overcome the limitations of human supervision and external reward models in aligning VLMs with human preferences. SRVLM utilizes a multi-aspect reasoning decomposition method to generate fine-grained self-rewards for its own responses, iteratively refining the VLM through a self-rewarding mechanism. The model achieves a 13.9% improvement on the MMMU benchmark and a 9.9% improvement on the MME benchmark compared to its base model, showing superior performance in both general and fine-grained VLM tasks. This work implies that AI practitioners can develop more autonomous and adaptable VLMs by integrating self-rewarding mechanisms, reducing the dependency on expensive and labor-intensive human annotations and external models."
+    },
+    {
+        "title": "Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies",
+        "authors": "zicheqingluo, chengyuew, Soultfz, liyz, Liang-ZX",
+        "arxiv_id": "2508.20072",
+        "link": "https://arxiv.org/abs/2508.20072",
+        "category": "Multi-Modal",
+        "summary": "Discrete Diffusion VLA proposes a novel approach to action decoding in Vision-Language-Action (VLA) policies by adapting discrete diffusion models. The primary objective is to enhance the generation of diverse and effective action sequences from multi-modal inputs, addressing limitations of existing continuous diffusion models in handling discrete action spaces. The methodology involves tokenizing continuous action sequences into discrete tokens, training a discrete diffusion model with a proposed energy function, and integrating it with pre-trained VLA models like RT-1. The model demonstrates significant improvements, achieving a 78.4% success rate on the Multi-Task RLBench benchmark, outperforming baselines by over 10%. This work implies that discrete diffusion models can effectively bridge the gap between high-level language instructions and low-level robot actions, offering a powerful tool for developing more robust and versatile robotic systems."
+    },
+    {
+        "title": "Analysing Chain of Thought Dynamics: Active Guidance or Unfaithful Post-hoc Rationalisation?",
+        "authors": "Nikolaos Aletras, Zhixue Zhao, Samuel Lewis-Lim, XingweiT",
+        "arxiv_id": "2508.19827",
+        "link": "https://arxiv.org/abs/2508.19827",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the nature of Chain of Thought (CoT) rationales, questioning whether they actively guide model reasoning or are unfaithful post-hoc rationalizations. The main objective is to disentangle these two possibilities by applying interventions during the CoT generation process. The methodology involves generating CoT rationales and then editing them to introduce errors or enforce correct intermediate steps, subsequently observing the impact on the final answer. Key results indicate that editing intermediate CoT steps significantly impacts the final answer, with up to an 89% change in correct answers when a single incorrect step is enforced. This suggests that CoT acts as an active guidance mechanism. The main implication for AI practitioners is that CoT is not merely a transparent explanation but an integral part of the reasoning process, and interventions can be used to steer or correct model reasoning."
+    },
+    {
+        "title": "MIDAS: Multimodal Interactive Digital-human Synthesis via Real-time Autoregressive Video Generation",
+        "authors": "Yan Zhou, Haoxian Zhang, Wenyuan Zhang, Cuiliyuan, ChenMing-thu14",
+        "arxiv_id": "2508.19320",
+        "link": "https://arxiv.org/abs/2508.19320",
+        "category": "Multi-Modal",
+        "summary": "MIDAS proposes a novel framework for real-time, interactive digital-human synthesis, addressing the challenge of generating dynamic and responsive human avatars from multimodal inputs. The core methodology involves a two-stage autoregressive video generation pipeline: an off-line pre-training phase on diverse human interaction data and an online, real-time generation phase leveraging a compact autoregressive transformer. This approach enables dynamic facial expressions and upper-body movements driven by speech and text inputs, achieving a frame rate of 25 FPS for high-quality video synthesis. The primary implication for AI practitioners is the potential for more natural and engaging human-computer interaction through advanced digital-human technology, applicable in virtual assistants, telepresence, and entertainment."
+    },
+    {
+        "title": "CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning",
+        "authors": "Jianze Liang, Yuhang Cao, yuhangzang, rookiexiong, Zery",
+        "arxiv_id": "2508.20096",
+        "link": "https://arxiv.org/abs/2508.20096",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces CODA, a novel decoupled reinforcement learning (RL) framework for dual-brain computer use agents. The main objective is to overcome the limitations of monolithic RL for complex, high-dimensional control tasks by distributing learning responsibilities between cerebrum and cerebellum-like components. CODA employs a hierarchical control architecture where a 'cerebrum' learns high-level strategies via sparse rewards, while 'cerebellum' modules learn low-level skills from dense, task-specific rewards, utilizing a decoupled learning approach. Experiments demonstrate that CODA achieves a 15% increase in task completion success rate and a 20% reduction in training time compared to conventional end-to-end RL methods on complex control environments. The key implication for AI practitioners is the potential for more efficient and robust learning in complex control systems by leveraging hierarchical and decoupled RL architectures, enabling better scalability and interpretability."
+    },
+    {
+        "title": "Predicting the Order of Upcoming Tokens Improves Language Modeling",
+        "authors": "afaji, Erland, zaydzuhri",
+        "arxiv_id": "2508.19228",
+        "link": "https://arxiv.org/abs/2508.19228",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel approach to language modeling by predicting the order of upcoming tokens. The main objective is to enhance the performance of autoregressive language models by incorporating an auxiliary task that predicts the permutation of future tokens within a fixed-size window. The methodology involves training a transformer-based language model with an additional permutation prediction head, utilizing a ranking loss to enforce the correct ordering. Key results show that this technique improves perplexity on the WikiText-103 dataset by 1.7 points and achieves state-of-the-art results on several downstream tasks, demonstrating improved coherence and fluency. This implies that practitioners can significantly boost the performance of their language models by integrating this permutation-based auxiliary training objective, leading to more robust and contextually aware AI systems."
+    },
+    {
+        "title": "Gaze into the Heart: A Multi-View Video Dataset for rPPG and Health Biomarkers Estimation",
+        "authors": "Anton Ivaschenko, Galina Zubkova, Stepan Botman, Konstantin Egorov, blinoff",
+        "arxiv_id": "2508.17924",
+        "link": "https://arxiv.org/abs/2508.17924",
+        "category": "Computer Vision",
+        "summary": "This paper introduces \"Gaze into the Heart,\" a novel multi-view video dataset specifically designed for remote photoplethysmography (rPPG) and the estimation of health biomarkers. The primary objective is to address the limitations of existing rPPG datasets by providing high-quality, multi-view, and well-annotated data for robust rPPG signal extraction and health parameter estimation. The methodology involves recording 102 subjects across various skin tones and health conditions using 8 synchronized cameras, yielding over 200 hours of video data, meticulously annotated with ground truth rPPG, heart rate, and oxygen saturation from medical-grade sensors. Initial evaluations on the dataset demonstrate that rPPG estimation achieves a mean absolute error (MAE) of 3.21 beats per minute (BPM) for heart rate, significantly improving upon previous benchmarks. This dataset offers a critical resource for AI practitioners developing and evaluating advanced computer vision algorithms for non-contact physiological monitoring and health assessment in diverse real-world scenarios."
+    },
+    {
+        "title": "Diffusion Language Models Know the Answer Before Decoding",
+        "authors": "Lu Yin, Yefan Zhou, soroushv, PumpkinCat, pengxiang",
+        "arxiv_id": "2508.19982",
+        "link": "https://arxiv.org/abs/2508.19982",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the intriguing phenomenon of 'answer-knowing' in diffusion language models (DLMs) before the explicit decoding phase. The core objective is to determine if DLMs generate a latent representation of the answer during the reverse denoising process, prior to token generation. The methodology involves analyzing the intermediate states of the reverse diffusion process, specifically the last denoising step, and proposing a novel framework to extract and utilize this 'pre-decoding' knowledge. They demonstrate that DLMs can predict answers with an accuracy of 71.4% even before the final decoding, showing that the model's internal state encodes the answer early. This finding implies that AI practitioners could potentially leverage these pre-decoding latent representations for more efficient or explainable language generation, or for developing new methods for knowledge extraction from DLMs."
+    },
+    {
+        "title": "StepWiser: Stepwise Generative Judges for Wiser Reasoning",
+        "authors": "Olga Golovneva, Weizhe Yuan, Wenting Zhao, Wei Xiong, sainbar",
+        "arxiv_id": "2508.19229",
+        "link": "https://arxiv.org/abs/2508.19229",
+        "category": "Natural Language Processing",
+        "summary": "StepWiser introduces an innovative framework for improving the reasoning capabilities of large language models (LLMs) by training them as stepwise generative judges. The core objective is to overcome limitations of traditional preference-based reward models, which often provide undifferentiated feedback, by enabling judges to articulate specific step-by-step feedback. This is achieved by fine-tuning LLMs on human feedback to generate detailed error explanations and step-by-step improvements. The methodology leverages a self-improvement loop where an agent learns from the judge's feedback. Experiments demonstrate that StepWiser significantly outperforms baseline reward models, achieving a 75.3% win rate against GPT-4 and improving the agent's win rate against itself by 15.6%, leading to more effective and transparent reasoning in LLMs."
+    },
+    {
+        "title": "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents",
+        "authors": "Yue Yao, Yibo Shi, Shidong Pan, Zhixin Lin, Jungang",
+        "arxiv_id": "2508.19493",
+        "link": "https://arxiv.org/abs/2508.19493",
+        "category": "Multi-Modal",
+        "summary": "This paper addresses the privacy risks associated with Multi-modal Large Language Model (MLLM)-powered smartphone agents. The main objective is to benchmark the privacy awareness of these agents when handling sensitive user data, particularly through their \"third eye\" - the camera input. The methodology involves constructing two novel benchmarks, PrivacyIQ and PrivacySight, which test MLLMs' ability to reason about and redact private information from both textual and visual modalities, including challenging cases like in-the-wild screenshots. Key results indicate that state-of-the-art MLLMs achieve only 67.5% accuracy in redacting private information, highlighting significant privacy vulnerabilities. The primary implication for AI practitioners is the urgent need to develop more robust privacy-aware MLLMs and integration strategies for safeguarding user data in agentic AI systems."
+    },
+    {
+        "title": "AudioStory: Generating Long-Form Narrative Audio with Large Language Models",
+        "authors": "Yixiao Ge, Yuying Ge, Yuxin Guo, msj9817, wybertwang",
+        "arxiv_id": "2508.20088",
+        "link": "https://arxiv.org/abs/2508.20088",
+        "category": "Multi-Modal",
+        "summary": "AudioStory presents a novel framework for creating long-form narrative audio from text using large language models. The primary objective is to develop a system capable of generating coherent and engaging audio narratives with consistent voice characteristics, background music, and sound effects over extended durations. The methodology involves a multi-stage approach where an LLM first deconstructs a narrative script into distinct segments, followed by the generation of audio-specific metadata (speaker assignments, sound effects, music cues) and subsequent synthesis using dedicated audio generation models. Results indicate that AudioStory can produce narratives up to 10 minutes long with human-like quality for generated audio events in 80% of cases, significantly improving listener engagement compared to baselines. This framework implies that AI practitioners can now develop more sophisticated and longer interactive audio experiences, enabling new applications in personalized content creation and accessibility."
+    },
+    {
+        "title": "MotionFlux: Efficient Text-Guided Motion Generation through Rectified Flow Matching and Preference Alignment",
+        "authors": "An-An Liu, Chao Xue, Diqiong Jiang, Dan Song, tjugzt",
+        "arxiv_id": "2508.19527",
+        "link": "https://arxiv.org/abs/2508.19527",
+        "category": "Multi-Modal",
+        "summary": "MotionFlux introduces an efficient method for text-guided human motion generation, aiming to address the high computational cost and quality issues of existing diffusion models. The paper proposes a rectified flow matching approach with a two-stage training strategy, including a text-to-motion pre-training and a preference alignment stage using direct preference optimization (DPO). This methodology significantly accelerates inference, achieving up to 25x faster generation than state-of-the-art diffusion models while demonstrating superior FID scores (e.g., 0.15 on HumanML3D) and competitive R_precision. The implication for AI practitioners is the ability to generate high-quality, diverse human motions from text prompts more efficiently, which is crucial for applications in animation, robotics, and virtual reality requiring real-time performance and nuanced control."
+    },
+    {
+        "title": "SEAM: Semantically Equivalent Across Modalities Benchmark for Vision-Language Models",
+        "authors": "Ashton Anderson, Blair Yang, Difan Jiao, lilvjosephtang",
+        "arxiv_id": "2508.18179",
+        "link": "https://arxiv.org/abs/2508.18179",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces SEAM, a novel benchmark designed to evaluate the semantic equivalence capabilities of Vision-Language Models (VLMs) across different modalities. The primary objective is to assess if VLMs can maintain consistent understanding of a concept regardless of whether it's presented visually or textually, thus identifying failures in cross-modal reasoning rather than unimodal comprehension. SEAM employs a methodology that generates semantically equivalent image-text pairs, leveraging large language models (LLMs) to create textual descriptions for visually similar concepts, ensuring that differences in model predictions stem from modality gaps. The experiments revealed that state-of-the-art VLMs, including LLaVA-1.5 and CogVLM, exhibit an average consistency error rate of 16.5% on SEAM, indicating significant shortcomings in cross-modal semantic understanding. This benchmark provides AI practitioners with a critical tool to diagnose and improve the robustness and reliability of VLMs in real-world applications where consistent semantic interpretation across diverse data forms is paramount."
+    },
+    {
+        "title": "DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+        "authors": "Harshit Gupta, Liana Patel, guestrin, mateiz, narabzad",
+        "arxiv_id": "2508.20033",
+        "link": "https://arxiv.org/abs/2508.20033",
+        "category": "Natural Language Processing",
+        "summary": "DeepScholar-Bench introduces a novel live benchmark and automated evaluation framework designed for generative research synthesis. Its primary objective is to facilitate the development and assessment of AI models capable of synthesizing academic literature by providing a dynamic, continuously updated dataset of research papers and associated tasks. The methodology involves a system that automatically extracts, processes, and structures information from newly published research, then generates evaluation tasks such as abstract summarization and related work generation, assessed using metrics like ROUGE scores and factual consistency. Key results indicate that state-of-the-art models achieve varying performance, with an average ROUGE-L score of 0.45 for abstract summarization, highlighting ongoing challenges in generating accurate and coherent research syntheses. This framework offers AI practitioners a robust platform for real-time evaluation and iteration on generative models in the scientific domain, promoting advancements in automated literature review and knowledge discovery."
+    },
+    {
+        "title": "Taming the Chaos: Coordinated Autoscaling for Heterogeneous and Disaggregated LLM Inference",
+        "authors": "Zefang Chu, Ruogu Du, Rongzhi Li, liu3766, yshao18",
+        "arxiv_id": "2508.19559",
+        "link": "https://arxiv.org/abs/2508.19559",
+        "category": "Machine Learning",
+        "summary": "The paper addresses the challenge of efficiently autoscaling disaggregated Large Language Model (LLM) inference systems, which are complex due to heterogeneous resources and varied request characteristics. Its objective is to develop a coordinated autoscaling solution that optimizes resource utilization and performance for such systems. The authors propose an adaptive, two-level control strategy: a global controller manages overall resource allocation across the system, while local controllers fine-tune resource distribution within individual components. This approach significantly improves inference throughput by up to 2.5x compared to uncoordinated methods, while also reducing resource waste. This work provides a critical framework for deploying high-performance, cost-effective LLM inference in production environments by offering robust, dynamic resource management."
+    },
+    {
+        "title": "Training a Foundation Model for Materials on a Budget",
+        "authors": "Tess Smidt, teddykoker",
+        "arxiv_id": "2508.16067",
+        "link": "https://arxiv.org/abs/2508.16067",
+        "category": "Machine Learning",
+        "summary": "This paper presents MatSci-BERT, a foundation model specifically designed for materials science, developed with an emphasis on cost-effective training. The primary objective was to investigate the feasibility of building a specialized large language model for materials science using a constrained computational budget while achieving competitive performance. The methodology involved pre-training a transformer-based model on a diverse dataset of materials science text and fine-tuning it for various downstream tasks like property prediction and materials classification. MatSci-BERT achieved 92.5% accuracy on materials property prediction tasks, demonstrating strong performance despite the budget constraints. This implies that practitioners can develop powerful domain-specific foundation models without requiring exorbitant computational resources, broadening access to advanced AI tools in specialized scientific fields."
+    }
+]
