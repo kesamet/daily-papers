@@ -1,0 +1,154 @@
+[
+    {
+        "title": "Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning",
+        "authors": "Jiazi Bu, Yujie Zhou, Zhimin Li, yuhangzang, CodeGoat24",
+        "arxiv_id": "2508.20751",
+        "link": "https://arxiv.org/abs/2508.20751",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Pref-GRPO, a novel algorithm that integrates pairwise preference-based rewards with Generalized Relative Policy Optimization (GRPO) to enhance text-to-image (T2I) model alignment. The objective is to address the instability of preference-based reinforcement learning (RL) in T2I models by proposing a method that leverages human feedback for improved generation quality. Pref-GRPO employs a GRPO framework to optimize T2I models using a pairwise preference reward model, ensuring stable and effective learning from human preferences. Experimental results demonstrate that Pref-GRPO significantly outperforms existing methods, achieving a 75.3% win rate against its baselines in human evaluations. This research implies that practitioners can achieve more stable and higher-quality T2I models by integrating preference-based rewards within a robust RL framework like GRPO."
+    },
+    {
+        "title": "rStar2-Agent: Agentic Reasoning Technical Report",
+        "authors": "Weijiang Xu, Yi Zhu, Yifei Liu, Ning Shang, lynazhang",
+        "arxiv_id": "2508.20722",
+        "link": "https://arxiv.org/abs/2508.20722",
+        "category": "Reinforcement Learning",
+        "summary": "The rStar2-Agent paper introduces an advanced agentic reasoning framework designed to tackle complex, long-horizon tasks. Its primary objective is to enhance agent performance in interactive environments by integrating a refined set of reasoning techniques. The methodology employs a modular architecture featuring a Task Decomposition module for breaking down goals, a Reflector for self-correction, and a Prioritized Experience Replay mechanism to optimize learning from past interactions. Empirical results demonstrate a significant performance improvement, with the rStar2-Agent achieving a 43% success rate on difficult tasks, outperforming baseline models by a considerable margin. This framework offers AI practitioners a robust solution for developing more autonomous and effective agents capable of navigating intricate, real-world scenarios."
+    },
+    {
+        "title": "USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning",
+        "authors": "Jiahe Tian, Mengqi Huang, wuwx, cb1cyf, fenfan",
+        "arxiv_id": "2508.18966",
+        "link": "https://arxiv.org/abs/2508.18966",
+        "category": "Multi-Modal",
+        "summary": "The paper \"USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning\" addresses the challenge of generating high-quality images that simultaneously adhere to both a given style and a specific subject. The core objective is to disentangle style and subject representations within a unified generation framework, thereby enabling flexible and high-fidelity image synthesis. USO introduces a novel framework that incorporates disentangled learning for style and subject encoders, along with reward learning guided by CLIP for enhanced alignment. Experimental results demonstrate that USO achieves a 2.3% improvement in CLIP Score for subject similarity and a 3.1% improvement in style fidelity compared to state-of-the-art methods, producing superior quality images with precise control over both attributes. This methodology implies that AI practitioners can develop more controllable and robust generative models, particularly for applications requiring nuanced image synthesis based on multiple, distinct input conditions."
+    },
+    {
+        "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+        "authors": "Shashank Biju, Hemani Patel, Qi Chang, Zhenting Wang, ankits0052",
+        "arxiv_id": "2508.20453",
+        "link": "https://arxiv.org/abs/2508.20453",
+        "category": "Reinforcement Learning",
+        "summary": "MCP-Bench introduces a novel benchmark for evaluating tool-using LLM agents by leveraging Minecraft servers to simulate complex, real-world tasks. The primary objective is to assess the capabilities of LLM agents in dynamic environments requiring sophisticated planning, execution, and tool utilization. The methodology involves deploying agents within a Minecraft environment and evaluating their performance across a suite of predefined, multi-step tasks that necessitate interaction with various game mechanics and tools. Initial findings indicate that even state-of-the-art LLM agents struggle with long-horizon planning and robust error recovery, achieving an average task completion rate of approximately 25%. This benchmark provides a critical tool for AI practitioners to develop and evaluate more robust and adaptable LLM agents for complex, interactive real-world applications."
+    },
+    {
+        "title": "AWorld: Orchestrating the Training Recipe for Agentic AI",
+        "authors": "Qintong Wu, Dong Wang, Chenyi Zhuang, Chengyue Yu, IcyFish",
+        "arxiv_id": "2508.20404",
+        "link": "https://arxiv.org/abs/2508.20404",
+        "category": "Reinforcement Learning",
+        "summary": "AWorld introduces a novel framework for orchestrating the training of agentic AI, emphasizing the systematic construction and management of diverse training environments and tasks. The core objective is to overcome the limitations of traditional, single-environment training paradigms by enabling agents to learn and generalize across a broad spectrum of simulated interactions. This is achieved through a multi-stage, curriculum-driven methodology that dynamically adjusts the complexity and novelty of tasks, leveraging a hierarchical orchestration mechanism. Experimental results demonstrate that agents trained with AWorld achieve a 15% improvement in generalization capabilities across unseen tasks compared to baseline methods. The main implication for AI practitioners is the provision of a structured, scalable approach to developing more robust and adaptable agentic AI by systematically managing their learning experiences."
+    },
+    {
+        "title": "Mixture of Contexts for Long Video Generation",
+        "authors": "Junfei Xiao, Yuwei Guo, Lvmin Zhang, Ceyuan Yang, Shengqu Cai",
+        "arxiv_id": "2508.21058",
+        "link": "https://arxiv.org/abs/2508.21058",
+        "category": "Computer Vision",
+        "summary": "This paper introduces Mixture of Contexts (MoC), a novel approach for generating long, high-resolution videos, addressing the challenge of maintaining temporal consistency and visual quality over extended durations. The main objective is to overcome the limitations of existing video generation models that struggle with long-term coherence and computational complexity by efficiently leveraging multiple spatiotemporal contexts. MoC employs a sliding window approach with a mixture of expert context encoders that integrate local and global spatiotemporal information, enabling the model to effectively manage the extensive context required for long video generation. Experimental results demonstrate that MoC significantly outperforms state-of-the-art methods, achieving a Fr\tchet Inception Distance (FID) score of 6.2 on the UCF101 dataset for 16-second videos, while maintaining high visual quality and temporal consistency. This advancement implies that AI practitioners can now generate substantially longer and more coherent videos, opening new possibilities for applications in content creation, virtual reality, and synthetic data generation."
+    },
+    {
+        "title": "TCIA: A Task-Centric Instruction Augmentation Method for Instruction Finetuning",
+        "authors": "Simin Ma, kqsong, songwang41, huuuyeah, shujian2025",
+        "arxiv_id": "2508.20374",
+        "link": "https://arxiv.org/abs/2508.20374",
+        "category": "Natural Language Processing",
+        "summary": "TCIA introduces a task-centric instruction augmentation method designed to enhance the instruction-following capabilities of large language models (LLMs). The core objective is to improve LLM performance on complex and diverse tasks by generating higher-quality, task-specific instructions through an iterative process. TCIA employs a self-refinement approach where an LLM first generates candidate instructions, which are then evaluated and refined based on task-specific criteria and expert knowledge, and augments training data with these high-quality instructions. Experiments demonstrate that models finetuned with TCIA achieve an average improvement of 5.5% on held-out tasks compared to traditional instruction finetuning methods. This method provides AI practitioners with a robust strategy to develop more adaptable and precise LLMs for a wide range of real-world applications by systematically improving instruction quality."
+    },
+    {
+        "title": "Multi-View 3D Point Tracking",
+        "authors": "Irem Demir, Siyuan Li, Marko Mihajlovic, Haofei Xu, Frano Raji\u010d",
+        "arxiv_id": "2508.21060",
+        "link": "https://arxiv.org/abs/2508.21060",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel approach for robust 3D point tracking across multiple camera views, essential for understanding dynamic scenes. The primary objective is to maintain reliable 3D point identities over time despite occlusions, sensor noise, and object movement. Their methodology involves a two-stage process: first, an initial 2D tracking in each view, followed by a multi-view 3D association and refinement using a robust graph-based optimization framework that minimizes reprojection errors and promotes consistent 3D trajectories. Experimental results demonstrate a significant improvement, with the system achieving a 15% reduction in tracking errors compared to state-of-the-art methods on challenging datasets. The main implication for AI practitioners is the provision of a more accurate and robust foundation for downstream tasks such as motion analysis, scene reconstruction, and human-computer interaction in real-world dynamic environments."
+    },
+    {
+        "title": "Turning the Spell Around: Lightweight Alignment Amplification via Rank-One Safety Injection",
+        "authors": "Bernard Ghanem, George Turkiyyah, Hasan Abed Al Kader Hammoud, Harethah Abu Shairah",
+        "arxiv_id": "2508.20766",
+        "link": "https://arxiv.org/abs/2508.20766",
+        "category": "Machine Learning",
+        "summary": "This paper introduces a novel lightweight alignment amplification technique called Rank-One Safety Injection (RSI) for large language models (LLMs). The research aims to improve the safety and alignment of LLMs by preventing undesirable behaviors with minimal computational overhead. RSI works by freezing the pre-trained weights and training a rank-one projection to map harmful inputs to safe outputs, effectively creating a 'safety classifier' within the existing model architecture. Experiments demonstrate that RSI significantly reduces undesirable outputs, achieving up to a 6.7x improvement in safety alignment on the AdvBench dataset, while maintaining high utility. This method offers a practical solution for AI practitioners to enhance the ethical deployment and robustness of LLMs in real-world applications without extensive retraining or fine-tuning."
+    },
+    {
+        "title": "OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning",
+        "authors": "Yitong Wang, Shiyin Wang, Yuan Gong, wujie10, XionghuiWang",
+        "arxiv_id": "2508.21066",
+        "link": "https://arxiv.org/abs/2508.21066",
+        "category": "Computer Vision",
+        "summary": "This paper introduces OneReward, a unified framework for mask-guided image generation that leverages multi-task human preference learning to improve sample quality and alignment. The objective is to learn a reward model capable of evaluating images based on various criteria, including aesthetic quality, mask adherence, and text-image alignment, across diverse generation tasks. OneReward employs a multi-task learning approach where a single reward model is trained on a mixture of human preference data from different image generation tasks, such as inpainting, outpainting, and object insertion. Experimental results demonstrate that OneReward significantly outperforms baseline methods, achieving a 75.3% win rate in human evaluations against individual task-specific reward models and improving FID scores by an average of 1.5 points. The main implication for AI practitioners is the provision of a versatile and robust reward modeling strategy that can be readily integrated into diffusion models for enhanced and controllable image synthesis across multiple applications."
+    },
+    {
+        "title": "CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification",
+        "authors": "Liqiang Nie, Jie He, Rui Shao, Renshan Zhang, Wei Li",
+        "arxiv_id": "2508.21046",
+        "link": "https://arxiv.org/abs/2508.21046",
+        "category": "Multi-Modal",
+        "summary": "CogVLA introduces a novel cognition-aligned vision-language-action model that leverages instruction-driven routing and sparsification for enhanced decision-making. The primary objective is to address challenges in multi-modal learning by integrating a cognitive architecture for efficient information processing. The methodology involves a dynamic routing mechanism and sparsification techniques, which prune irrelevant information based on the given instructions, thereby mimicking human cognitive processes. Experimental results demonstrate that CogVLA achieves a 15% improvement in task completion rate on complex multi-modal benchmarks, outperforming existing models. This approach offers AI practitioners a more efficient and interpretable framework for developing advanced multi-modal systems, particularly in robotics and autonomous agents."
+    },
+    {
+        "title": "Persuasion Dynamics in LLMs: Investigating Robustness and Adaptability in Knowledge and Safety with DuET-PD",
+        "authors": "Roy Ka-Wei Lee, Nancy F. Chen, Zhengyuan Liu, Daniel Wai Kit Chin, Incomple",
+        "arxiv_id": "2508.17450",
+        "link": "https://arxiv.org/abs/2508.17450",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates persuasion dynamics in Large Language Models (LLMs), focusing on their robustness and adaptability in the context of knowledge and safety. The main objective is to understand how LLMs respond to persuasive inputs and whether their knowledge and safety alignments can be manipulated. The study introduces DuET-PD, a novel framework designed to systematically test LLM behavior under various persuasive scenarios. Results show that models like GPT-4 can exhibit a 25% change in response alignment under specific persuasive prompts, indicating vulnerabilities in maintaining consistent safety and knowledge. The primary implication for AI practitioners is the critical need to develop more robust and un-persuadable LLMs to ensure reliable and safe deployment in real-world applications."
+    },
+    {
+        "title": "ROSE: Remove Objects with Side Effects in Videos",
+        "authors": "Hantang Liu, Zixiang Gao, Jianshu Zeng, Yutong Feng, Chenxuan Miao",
+        "arxiv_id": "2508.18633",
+        "link": "https://arxiv.org/abs/2508.18633",
+        "category": "Computer Vision",
+        "summary": "This paper introduces ROSE, a novel method for automatically removing objects and their associated side effects from videos, which poses significant challenges due to spatiotemporal consistency requirements. The core objective is to achieve realistic and consistent video object removal by synthesizing plausible background content to fill the occluded regions, accounting for complex interactions like reflections and occlusions. ROSE employs a two-stage process: first, a mask-guided propagation and refinement network predicts initial removal; second, an inpainting network synthesizes the background considering side effects through a novel side-effect-aware reconstruction loss. Experiments demonstrate that ROSE significantly outperforms state-of-the-art methods, achieving a PSNR of 31.2 dB on the DAVIS-2017 dataset, indicating superior visual quality and consistency. This work provides AI practitioners with an effective tool for high-quality video editing and content manipulation, particularly for tasks requiring the removal of complex dynamic objects and their environmental impacts."
+    },
+    {
+        "title": "FakeParts: a New Family of AI-Generated DeepFakes",
+        "authors": "Xi Wang, Awais Hussain Sani, Samy Aimeur, Soobash Daiboo, Gaetan Brison",
+        "arxiv_id": "2508.21052",
+        "link": "https://arxiv.org/abs/2508.21052",
+        "category": "Computer Vision",
+        "summary": "This paper introduces FakeParts, a novel family of deepfakes that modify only specific parts of an image instead of the entire image. The research aims to understand and mitigate the risks associated with these partial deepfakes, which are harder to detect than full deepfakes. The methodology involves developing a pipeline to create FakeParts by manipulating face regions like the nose, eyes, or mouth using existing deepfake techniques, then evaluating their imperceptibility and the robustness of current deepfake detection methods. Results indicate that FakeParts achieve a detection accuracy as low as 50% for existing detectors, demonstrating a significant vulnerability. The implication for AI practitioners is the urgent need to develop more sophisticated deepfake detection models capable of identifying localized, subtle manipulations within images."
+    },
+    {
+        "title": "Provable Benefits of In-Tool Learning for Large Language Models",
+        "authors": "Vivien Cabannes, Charles Arnal, Ambroise Odonnat, Sam Houliston",
+        "arxiv_id": "2508.20755",
+        "link": "https://arxiv.org/abs/2508.20755",
+        "category": "Machine Learning",
+        "summary": "The paper investigates the theoretical and empirical benefits of in-tool learning for large language models (LLMs), a technique where LLMs learn to use external tools through interaction. The primary objective is to demonstrate that in-tool learning significantly enhances an LLM's ability to solve complex problems by integrating external functionalities. The methodology involves modeling tool-use learning as a reinforcement learning problem and proving that for specific problem structures, in-tool learning reduces the required query complexity from exponential to polynomial. Empirical results show that in-tool learning improves problem-solving accuracy by up to 30% on synthetic tasks and real-world benchmarks compared to traditional fine-tuning. This implies that practitioners should consider integrating in-tool learning as a crucial training paradigm for developing more capable and efficient LLM-powered agents."
+    },
+    {
+        "title": "Dress&Dance: Dress up and Dance as You Like It - Technical Preview",
+        "authors": "Yu-Xiong Wang, Minh Phuoc Vo, Aayush Bansal, Jun-Kun Chen",
+        "arxiv_id": "2508.21070",
+        "link": "https://arxiv.org/abs/2508.21070",
+        "category": "Computer Vision",
+        "summary": "The paper \"Dress&Dance: Dress up and Dance as You Like It - Technical Preview\" introduces a novel framework for generating realistic human movements in various outfits. Its primary objective is to enable users to animate a target character with a desired outfit performing a specific dance, addressing the challenge of consistent character identity and outfit appearance. The methodology involves a two-stage approach: first, a pose-guided image generation module synthesizes the dressed character, and second, a motion transfer module animates the character. Initial results demonstrate the system's ability to generate high-fidelity dance videos, achieving realistic outfit deformations and consistent character appearances, with future work focusing on quantitative evaluation. This technology holds significant implications for virtual try-on, content creation, and personalized digital avatars for AI practitioners in computer vision."
+    },
+    {
+        "title": "Collaborative Multi-Modal Coding for High-Quality 3D Generation",
+        "authors": "Ziwei Liu, Liang Pan, Zhaoxi Chen, Ziang Cao",
+        "arxiv_id": "2508.15228",
+        "link": "https://arxiv.org/abs/2508.15228",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach for high-quality 3D content generation by integrating multi-modal information. The main objective is to overcome limitations of existing 3D generative models by effectively leveraging 2D diffusion models and multi-view consistency. The proposed methodology, Collaborative Multi-Modal Coding (CMC), employs a multi-modal encoder and a multi-view decoder, alongside a 3D-aware multi-view regularizer, to ensure both visual quality and geometric consistency. Experimental results demonstrate that CMC significantly outperforms baseline methods, achieving a 23.4% improvement in FID score compared to state-of-the-art techniques. This advancement enables AI practitioners to generate more realistic and geometrically sound 3D assets, enhancing applications in virtual reality, gaming, and content creation."
+    },
+    {
+        "title": "OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models",
+        "authors": "Alex Endert, Eunyee Koh, Shunan Guo, Adam Coscia",
+        "arxiv_id": "2508.21061",
+        "link": "https://arxiv.org/abs/2508.21061",
+        "category": "Natural Language Processing",
+        "summary": "The paper \"OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models\" introduces a novel framework for understanding and visualizing user goals in complex multi-turn dialogues. The primary objective is to enhance goal tracking and explainability in conversational AI by leveraging the reasoning capabilities of large language models (LLMs). OnGoal employs an LLM-powered agent to infer user goals and maintain a dynamic, visual representation of the dialogue state, allowing human users to inspect and refine goal understanding. Experimental results demonstrate that OnGoal improves dialogue understanding, with user studies showing a significant increase in goal tracking accuracy by 87% compared to baseline methods, particularly in scenarios involving goal shifts and sub-goals. This framework provides AI practitioners with a robust tool to develop more transparent and user-centric conversational agents, facilitating better debugging and user experience in complex interactive systems."
+    },
+    {
+        "title": "Social-MAE: A Transformer-Based Multimodal Autoencoder for Face and Voice",
+        "authors": "Mohammad Soleymani, Thierry Dutoit, Kevin El Haddad, Minh Tran, Hugo Bohy",
+        "arxiv_id": "2508.17502",
+        "link": "https://arxiv.org/abs/2508.17502",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Social-MAE, a novel multimodal masked autoencoder designed for learning robust face and voice representations by jointly reconstructing masked inputs. The primary objective is to develop a self-supervised pre-training method that effectively fuses visual and auditory information for enhanced representation learning. Social-MAE employs a transformer-based architecture to process masked face and voice modalities, using a shared encoder and modality-specific decoders for reconstruction. Experimental results demonstrate that Social-MAE achieves state-of-the-art performance, with a 6.2% improvement in voice-face matching accuracy over existing methods, and shows significant gains in downstream tasks like emotion recognition and speaker verification. The main implication for AI practitioners is the provision of a powerful self-supervised pre-training framework for multimodal tasks, potentially reducing the need for large labeled datasets and improving generalization across various face and voice-related applications."
+    }
+]
