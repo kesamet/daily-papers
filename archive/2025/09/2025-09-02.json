@@ -1,0 +1,154 @@
+[
+    {
+        "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and Reinforce Learning",
+        "authors": "Han Hu, Shiming Xiang, Bolin Ni, Qi Yang, Jie Jiang",
+        "arxiv_id": "2508.21113",
+        "link": "https://arxiv.org/abs/2508.21113",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces R-4B, a novel approach to cultivate general-purpose auto-thinking capabilities in Multimodal Large Language Models (MLLMs). The core objective is to enable MLLMs to autonomously generate thought processes and reasoning steps for diverse tasks. R-4B employs a bi-mode annealing strategy to alternate between exploration and exploitation phases, combined with reinforcement learning to refine the MLLM's internal reasoning process based on task performance. Experiments demonstrate that R-4B significantly improves MLLM performance, achieving a 12.5% increase in reasoning accuracy on complex multi-modal benchmarks. This work implies that AI practitioners can develop more autonomous and adaptable MLLMs by integrating structured auto-thinking incentives."
+    },
+    {
+        "title": "EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for General Robot Control",
+        "authors": "Zhaoqing Chen, Qizhi Chen, Haoming Song, sundrops, delinqu",
+        "arxiv_id": "2508.21112",
+        "link": "https://arxiv.org/abs/2508.21112",
+        "category": "Multi-Modal",
+        "summary": "EmbodiedOneVision (EOV) is a novel pretraining framework designed to achieve general robot control by integrating interleaved vision-text-action data. The main objective is to overcome the limitations of single-modal or unimodal pretraining, which restrict robot generalization across various tasks and environments. EOV employs a transformer-based architecture pretrained on a large-scale dataset of human robot demonstrations, learning to predict actions from visual and textual inputs. This approach achieves a 73% success rate on unseen tasks, outperforming state-of-the-art methods by a significant margin. The primary implication for AI practitioners is that multi-modal pretraining can enhance robot adaptability and generalization, paving the way for more robust and versatile robotic systems in diverse real-world applications."
+    },
+    {
+        "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+        "authors": "Lei Zhang, Bin Wang, jzquan, wanng, KekeLian",
+        "arxiv_id": "2508.18106",
+        "link": "https://arxiv.org/abs/2508.18106",
+        "category": "Machine Learning",
+        "summary": "This paper introduces A.S.E., a novel repository-level benchmark designed to evaluate the security of AI-generated code. The primary objective is to assess the capability of AI models to produce secure code by identifying and exploiting vulnerabilities that arise from interactions between multiple files within a repository. A.S.E. employs a multi-agent system to automatically generate attack graphs and determine if AI-generated code is vulnerable to real-world security flaws, offering a more realistic evaluation than single-file benchmarks. Experimental results demonstrate that current state-of-the-art AI models, such as GPT-4, exhibit significant security vulnerabilities, with a 38% success rate in generating vulnerable code that can be exploited by an agent. This highlights the critical need for improved security-aware code generation techniques and robust testing methodologies before deploying AI-generated code in production environments."
+    },
+    {
+        "title": "Droplet3D: Commonsense Priors from Videos Facilitate 3D Generation",
+        "authors": "Qi Jia, Liang Jin, Runze Zhang, Guoguang Du, lixiaochuan",
+        "arxiv_id": "2508.20470",
+        "link": "https://arxiv.org/abs/2508.20470",
+        "category": "Computer Vision",
+        "summary": "Droplet3D introduces a novel framework for generative 3D shape modeling by leveraging commonsense priors extracted from 2D videos. The paper aims to address the challenge of generating high-quality and diverse 3D objects directly from text or images without requiring explicit 3D supervision. It achieves this by employing a 2D diffusion model to generate consistent multi-view images from a single text or image prompt, which are then lifted to 3D representations using a neural radiance field-based approach. Experimental results demonstrate that Droplet3D significantly outperforms existing methods, achieving a CLIP R-Precision of 0.85 and a FID score of 12.3 on synthetic benchmarks, showcasing its capability to produce realistic and diverse 3D assets. This research provides a valuable method for AI practitioners to synthesize 3D content efficiently for applications such as virtual reality, gaming, and digital content creation, potentially reducing the need for extensive 3D model libraries."
+    },
+    {
+        "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+        "authors": "Wei Li, Chenglong Ma, Ming Hu, JiaaqiLiu, CoCoOne",
+        "arxiv_id": "2508.21148",
+        "link": "https://arxiv.org/abs/2508.21148",
+        "category": "Natural Language Processing",
+        "summary": "This survey provides a comprehensive overview of Scientific Large Language Models (SciLLMs), exploring their evolution, methodologies, and applications across various scientific domains. The primary objective is to systematically analyze the advancements, challenges, and future directions of SciLLMs, focusing on their unique characteristics compared to general-purpose LLMs. The paper synthesizes information on data foundations, architectural adaptations, fine-tuning strategies, and emerging agent frontiers, including an analysis of domain-specific pre-training and task-specific fine-tuning. Key findings indicate that SciLLMs have achieved significant performance gains, with some models demonstrating up to a 15% improvement in domain-specific tasks over general LLMs, particularly in areas like scientific text generation and knowledge extraction. The main implication for AI practitioners is the crucial need for domain-aware data curation and specialized model architectures to unlock the full potential of LLMs in scientific discovery, alongside the exploration of agentic frameworks for autonomous scientific research."
+    },
+    {
+        "title": "TalkVid: A Large-Scale Diversified Dataset for Audio-Driven Talking Head Synthesis",
+        "authors": "Pengcheng Chen, Zihan Ye, Yexin Liu, Hejin Huang, Shunian Chen",
+        "arxiv_id": "2508.13618",
+        "link": "https://arxiv.org/abs/2508.13618",
+        "category": "Multi-Modal",
+        "summary": "TalkVid introduces a large-scale, diversified dataset for audio-driven talking head synthesis, addressing the limitations of existing datasets in terms of scale, diversity, and speaker identity preservation. The research objective is to create a high-quality dataset that facilitates the development of more robust and realistic talking head models, particularly for 3D-aware and identity-preserving synthesis. The key methodology involves curating 2500 hours of video data from 6000 diverse speakers, processing it to ensure high visual quality and accurate audio-lip synchronization, and providing detailed 3D facial metrics. TalkVid demonstrates improved performance, with models trained on it achieving an average CSIM of 0.85, significantly outperforming previous datasets. The main implication for AI practitioners is the provision of a comprehensive resource that enables the training of more advanced and generalizable talking head synthesis models, particularly beneficial for applications requiring high fidelity and diverse speaker representations."
+    },
+    {
+        "title": "Think in Games: Learning to Reason in Games via Reinforcement Learning with Large Language Models",
+        "authors": "Yifan Lu, Zining Zhu, Yuan Sui, Yu Gu, Yi Liao",
+        "arxiv_id": "2508.21365",
+        "link": "https://arxiv.org/abs/2508.21365",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces \"Think in Games,\" a novel framework that integrates Large Language Models (LLMs) with Reinforcement Learning (RL) to enhance reasoning capabilities in various game environments. The primary objective is to enable LLMs to iteratively improve their strategic thinking and decision-making within game contexts by treating reasoning as a sequential game. The methodology involves an RL agent, guided by an LLM, making decisions and receiving feedback from the environment, using a novel self-reflection and prompt-refinement mechanism. Experiments demonstrate that Think in Games significantly outperforms standard LLM prompting methods, achieving a 14.3% win rate increase in games like Nim compared to baseline LLM agents. This approach provides AI practitioners with a robust method for developing more intelligent and adaptive game-playing agents capable of complex strategic reasoning."
+    },
+    {
+        "title": "UItron: Foundational GUI Agent with Advanced Perception and Planning",
+        "authors": "Yufeng Zhong, Wenkang Han, Liming Zheng, Jing Huang, Zhixiong Zeng",
+        "arxiv_id": "2508.21767",
+        "link": "https://arxiv.org/abs/2508.21767",
+        "category": "Multi-Modal",
+        "summary": "UItron introduces a foundational GUI agent that integrates advanced perception and planning capabilities to interact with diverse graphical user interfaces. The agent aims to overcome limitations of previous models in real-world, complex GUI environments by learning generalizable interactive behaviors. It employs a multi-modal approach combining visual perception with hierarchical planning, leveraging a large language model (LLM) for high-level strategy and a vision-language model (VLM) for fine-grained interaction. UItron achieved a 79.5% success rate on the AITW benchmark, outperforming existing methods by a significant margin. This advancement provides a robust framework for developing more autonomous and versatile AI agents capable of operating across a wide range of digital interfaces."
+    },
+    {
+        "title": "TiKMiX: Take Data Influence into Dynamic Mixture for Language Model Pre-training",
+        "authors": "Jiyao Deng, Yuanfan Guo, Fengze Liu, Binbin Liu, Yifan Wang",
+        "arxiv_id": "2508.17677",
+        "link": "https://arxiv.org/abs/2508.17677",
+        "category": "Natural Language Processing",
+        "summary": "TiKMiX investigates the dynamic weighting of pre-training data to improve language model performance and efficiency, addressing the challenge of static data mixing. It introduces a data influence estimation method and a dynamic mixture pre-training strategy that allocates more training steps to high-influence data. This approach demonstrates a 2.0x faster convergence for Llama-7B and achieves 0.8% average performance gain across various benchmarks with 5% less training data. The main implication for AI practitioners is the potential to significantly optimize pre-training by adaptively focusing on more impactful data, leading to more efficient resource utilization and better model performance."
+    },
+    {
+        "title": "AHELM: A Holistic Evaluation of Audio-Language Models",
+        "authors": "Siwei Yang, Zijun Wang, Chi Heem Wong, Haoqin Tu, Tony Lee",
+        "arxiv_id": "2508.21376",
+        "link": "https://arxiv.org/abs/2508.21376",
+        "category": "Multi-Modal",
+        "summary": "This paper presents AHELM, a comprehensive benchmark for evaluating Audio-Language Models (ALMs) across a wide range of tasks and capabilities. The primary objective is to address the fragmented and inconsistent evaluation landscapes for ALMs by proposing a unified benchmark with nine distinct capabilities and 35 datasets. AHELM employs a systematic evaluation methodology, including both zero-shot and fine-tuned settings, to assess ALMs on tasks like audio question answering, captioning, and retrieval. Key findings reveal that current ALMs achieve an average normalized score of only 57.3 across all capabilities, indicating substantial room for improvement, especially in complex reasoning and grounded understanding. The main implication for AI practitioners is the provision of a standardized and robust evaluation framework to guide future ALM development and identify specific areas for architectural and training advancements."
+    },
+    {
+        "title": "Efficient Code Embeddings from Code Generation Models",
+        "authors": "Han Xiao, Scott Martens, Michael G\u00fcnther, Saba Sturua, dariakryvosheieva",
+        "arxiv_id": "2508.21290",
+        "link": "https://arxiv.org/abs/2508.21290",
+        "category": "Machine Learning",
+        "summary": "This paper investigates how to efficiently extract high-quality code embeddings from large code generation models without incurring high computational costs. The main objective is to overcome the limitations of existing embedding methods, which either require significant fine-tuning or do not fully leverage the representational power of large language models. The authors propose a novel approach that extracts embeddings directly from the decoder-only architecture of code generation models using the last-token hidden states, eliminating the need for additional layers or fine-tuning. Their method achieves state-of-the-art performance, outperforming CodeBERT by 2.2% on average across multiple code understanding tasks while using significantly fewer parameters than traditional fine-tuning approaches. This work provides AI practitioners with a more efficient and effective way to obtain code representations from large pre-trained models, enabling better performance in various code intelligence applications."
+    },
+    {
+        "title": "Morae: Proactively Pausing UI Agents for User Choices",
+        "authors": "Amy Pavel, Jeffrey P. Bigham, Dingzeyu Li, yihaopeng",
+        "arxiv_id": "2508.21456",
+        "link": "https://arxiv.org/abs/2508.21456",
+        "category": "Other",
+        "summary": "Morae introduces a novel method for improving the user experience of UI agents by enabling them to proactively pause for user input. The objective is to mitigate the costs associated with agent errors by identifying choice points where user confirmation is beneficial. The key methodology involves a learned model that predicts when a UI agent should pause, leveraging a dataset of human UI interactions and a multi-task learning approach to predict both user next actions and optimal pause locations. Primary results indicate that Morae can achieve a 2.5x reduction in user effort to correct errors compared to reactive error handling. The main implication for AI practitioners is the potential to develop more robust and user-centric UI automation by integrating proactive user feedback mechanisms, leading to more trustworthy and efficient AI agents."
+    },
+    {
+        "title": "CLIPSym: Delving into Symmetry Detection with CLIP",
+        "authors": "Raymond A. Yeh, Md Ashiqur Rahman, Tinghan Yang",
+        "arxiv_id": "2508.14197",
+        "link": "https://arxiv.org/abs/2508.14197",
+        "category": "Multi-Modal",
+        "summary": "CLIPSym introduces a novel approach for symmetry detection by leveraging the powerful visual and semantic understanding capabilities of CLIP models. The central objective is to enhance the accuracy and generalization of symmetry detection, particularly for diverse and complex real-world images, by formulating it as a retrieval problem. The methodology involves finetuning CLIP's image encoder with a contrastive learning framework, employing a symmetry score head, and using synthetically generated symmetric image pairs for training. CLIPSym achieves a 2.9% improvement in F1-score over state-of-the-art methods on the CSD benchmark, demonstrating superior performance in detecting various types of symmetry. This research implies that integrating multi-modal foundation models can significantly advance traditional computer vision tasks like symmetry detection, offering a more robust and adaptable solution for AI practitioners working on image analysis and understanding."
+    },
+    {
+        "title": "Model-Task Alignment Drives Distinct RL Outcomes",
+        "authors": "Junxian He, Wenshuo Zhao, Cheng Wang, Haoze Wu",
+        "arxiv_id": "2508.21188",
+        "link": "https://arxiv.org/abs/2508.21188",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates how aligning model architectures with task requirements impacts the effectiveness of Reinforcement Learning (RL). The primary objective is to understand if model-task alignment dictates the emergent behaviors and performance in RL agents, specifically examining the role of model capacity versus task complexity. The authors propose using a variety of agent architectures (e.g., MLPs, LSTMs, Transformers) across diverse task environments, measuring performance in terms of return and analyzing learned representations. Key results indicate that aligning model capacity to task structure significantly influences outcomes, with well-aligned models achieving up to 90% higher average return on complex tasks compared to misaligned counterparts. The main implication for AI practitioners is the critical need to thoughtfully select and design model architectures that are inherently suited to the underlying structure and demands of the specific RL task to optimize learning efficiency and agent performance."
+    },
+    {
+        "title": "HERMES: Human-to-Robot Embodied Learning from Multi-Source Motion Data for Mobile Dexterous Manipulation",
+        "authors": "Tianhai Liang, Pu Hua, Langzhe Gu, Tianming Wei, Zhecheng Yuan",
+        "arxiv_id": "2508.20085",
+        "link": "https://arxiv.org/abs/2508.20085",
+        "category": "Reinforcement Learning",
+        "summary": "HERMES introduces a novel framework for teaching mobile dexterous manipulation to robots through embodied learning from diverse human motion data. The core objective is to enable robots to learn complex tasks by integrating multi-source motion data, including kinesthetic teaching and teleoperation, into a unified learning pipeline. This is achieved by employing a deep reinforcement learning approach, specifically a Diffusion Policy, trained on a large dataset of human demonstrations to map observations directly to robot actions. The framework demonstrates significant improvements, achieving a 75% success rate in dynamic pick-and-place tasks, outperforming prior methods which often struggle with multi-source integration and mobile dexterity. The main implication for AI practitioners is the provision of a robust and scalable method for robot skill acquisition that leverages the richness of human demonstrations without requiring extensive manual policy design."
+    },
+    {
+        "title": "Mimicking the Physicist's Eye:A VLM-centric Approach for Physics Formula Discovery",
+        "authors": "Wenjie Zhou, Di Yu, Pengze Li, Songning Lai, Jiaqi Liu",
+        "arxiv_id": "2508.17380",
+        "link": "https://arxiv.org/abs/2508.17380",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a VLM-centric framework that leverages a multimodal large language model to discover physics formulas from visual inputs, mimicking human scientific reasoning. The research aims to explore if VLMs can autonomously derive physics formulas by processing images, specifically focusing on scenarios where relevant physical quantities are visually represented. The proposed methodology involves using a VLM to analyze images, identify key physical variables, and synthesize these into mathematical relationships through a series of iterative prompts designed to refine and validate formulaic expressions. Experiments demonstrate that the framework successfully derives formulas with an average accuracy of 85% across various physics problems, indicating its potential in automated scientific discovery. The primary implication for AI practitioners is the opening of new avenues for employing multi-modal models in scientific research, particularly in fields requiring the interpretation of visual data for quantitative analysis and theoretical formulation."
+    },
+    {
+        "title": "Deep Residual Echo State Networks: exploring residual orthogonal connections in untrained Recurrent Neural Networks",
+        "authors": "Claudio Gallicchio, Andrea Ceni, nennomp",
+        "arxiv_id": "2508.21172",
+        "link": "https://arxiv.org/abs/2508.21172",
+        "category": "Machine Learning",
+        "summary": "This paper introduces Deep Residual Echo State Networks (DRESNs), an innovative recurrent neural network architecture that integrates residual orthogonal connections into untrained Echo State Networks (ESNs). The primary objective is to investigate whether the benefits of residual connections, widely acknowledged in deep learning, can be effectively translated to the domain of untrained recurrent neural networks for enhanced performance and depth. The methodology involves a novel initialization strategy that ensures orthogonal weight matrices in both the recurrent and residual connections, promoting stable and effective deep echo state networks. Experimental results on benchmark time series prediction tasks show that DRESNs achieve state-of-the-art performance, with some configurations demonstrating a reduction in Normalized Root Mean Square Error (NRMSE) by up to 20% compared to conventional ESNs on challenging datasets like NARMA10. The main implication for AI practitioners is the potential to build deeper, more powerful recurrent models without the computational burden of extensive training, thereby offering a computationally efficient alternative for complex sequential data processing tasks."
+    },
+    {
+        "title": "Quantization Robustness to Input Degradations for Object Detection",
+        "authors": "Hassan Imani, Toghrul Karimov, AllanK24",
+        "arxiv_id": "2508.19600",
+        "link": "https://arxiv.org/abs/2508.19600",
+        "category": "Computer Vision",
+        "summary": "This paper investigates the robustness of quantized object detection models when exposed to degraded input images. The primary objective is to understand how various quantization methods perform under input corruptions and identify strategies to mitigate performance drops. The authors systematically evaluate post-training quantization (PTQ) and quantization-aware training (QAT) techniques across different degradation types and severity levels. Key findings indicate that while QAT generally outperforms PTQ, both suffer significant accuracy degradation, with mAP dropping by up to 20% under severe conditions for a quantized RetinaNet. The implication for practitioners is the need for more robust quantization strategies or specific fine-tuning on degraded data to maintain performance in real-world scenarios where input quality is variable."
+    },
+    {
+        "title": "EduRABSA: An Education Review Dataset for Aspect-based Sentiment Analysis Tasks",
+        "authors": "Katerina Taskova, J\u00f6rg Wicker, Paul Denny, yhua219",
+        "arxiv_id": "2508.17008",
+        "link": "https://arxiv.org/abs/2508.17008",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces EduRABSA, a novel dataset for Aspect-Based Sentiment Analysis (ABSA) specifically tailored for educational reviews. The primary objective is to address the scarcity of domain-specific datasets in the education sector, enabling fine-grained sentiment analysis for various educational aspects. The authors developed EduRABSA by collecting 20,447 reviews from a Portuguese educational website, manually annotating them for aspects, sentiment polarities, and aspect terms, and then translating them into English. Experiments with several state-of-the-art ABSA models show that EduRABSA presents a challenging task, with the best-performing model achieving an F1-score of 0.783 for aspect term extraction and 0.812 for sentiment classification. This dataset provides a valuable resource for AI practitioners working on sentiment analysis in educational contexts, facilitating the development of more accurate and nuanced tools for understanding feedback and improving educational services."
+    }
+]
