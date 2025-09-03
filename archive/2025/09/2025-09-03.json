@@ -1,0 +1,58 @@
+[
+    {
+        "title": "PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning",
+        "authors": "Yuewei Zhang, Penghong Zhao, Wenfeng Feng, Chuzhan, Nothing2Say",
+        "arxiv_id": "2508.21104",
+        "link": "https://arxiv.org/abs/2508.21104",
+        "category": "Reinforcement Learning",
+        "summary": "PVPO introduces a novel policy optimization algorithm for agentic reasoning, aiming to enhance decision-making in complex environments by incorporating pre-estimated values. The core methodology involves using a value function to pre-estimate the quality of potential future states, guiding the policy update towards more promising trajectories. This approach significantly improves performance, achieving an average gain of 15% in episodic returns across various benchmark tasks compared to traditional policy gradient methods. The main implication for AI practitioners is the provision of a more efficient and robust framework for developing intelligent agents capable of sophisticated planning and long-term reasoning."
+    },
+    {
+        "title": "T2R-bench: A Benchmark for Generating Article-Level Reports from Real World Industrial Tables",
+        "authors": "Yu Zhao, Sishi Xiong, Kaiwen Wei, Changzai Pan, Jie Zhang",
+        "arxiv_id": "2508.19813",
+        "link": "https://arxiv.org/abs/2508.19813",
+        "category": "Natural Language Processing",
+        "summary": "T2R-bench introduces a new benchmark for generating comprehensive, article-level textual reports from real-world industrial tables, addressing a gap in existing table-to-text generation research. The primary objective is to evaluate models on their ability to synthesize structured tabular data into free-form natural language reports, mirroring complex real-world analytical tasks. This is achieved by curating a dataset of 100,000 table-report pairs from Alibaba Group's industrial applications, along with a multi-granularity evaluation suite, focusing on both table-level semantics and finer-grained factual consistency. Initial experiments with large language models like GPT-3.5 demonstrate that while they perform reasonably well on n-gram-based metrics (e.g., Rouge-L of 0.35), significant challenges remain in ensuring factual correctness and coherence in generated reports, especially for unseen data. The main implication for AI practitioners is the need for more robust, factually grounded, and context-aware table-to-text generation models to handle the complexities of industrial data reporting."
+    },
+    {
+        "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on \u03c4-bench",
+        "authors": "Jayanth Srinivasa, Mutsumi Nakamura, Satyam Raj, Amir Saeidi, Venkatesh Mishra",
+        "arxiv_id": "2508.20931",
+        "link": "https://arxiv.org/abs/2508.20931",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates how input reformulation affects the accuracy of tool usage in complex, dynamic environments, specifically within the \u03c4-bench framework. The central objective is to determine if rephrasing user inputs can enhance the performance of language models (LLMs) when interacting with external tools. The authors propose various input reformulation strategies, including re-planning and step-by-step re-description, and evaluate them on \u03c4-bench, a multi-turn, multi-tool environment. Key results indicate that input reformulation significantly improves tool usage accuracy, with a 20% average increase in success rate across diverse tasks compared to baseline methods. The primary implication for AI practitioners is that incorporating sophisticated input reformulation techniques can substantially improve the robustness and reliability of LLM-based agents in dynamic, tool-augmented systems."
+    },
+    {
+        "title": "No Label Left Behind: A Unified Surface Defect Detection Model for all Supervision Regimes",
+        "authors": "Danijel Sko\u010daj, MaticFuc, blaz-r",
+        "arxiv_id": "2508.19060",
+        "link": "https://arxiv.org/abs/2508.19060",
+        "category": "Computer Vision",
+        "summary": "This paper presents a unified surface defect detection model addressing various supervision regimes. The main objective is to overcome the limitations of existing models that are often restricted to specific supervision types (e.g., supervised, semi-supervised, unsupervised) by providing a versatile solution. The key methodology involves a novel architecture that adapts to different supervision levels through a dynamic learning framework, integrating both labeled and unlabeled data effectively. Experimental results demonstrate state-of-the-art performance, achieving a 95.2% F1-score on diverse defect datasets under mixed supervision. This advancement implies that AI practitioners can deploy a single, robust model for defect detection across a wide range of industrial applications, significantly reducing the need for extensive, regime-specific model retraining."
+    },
+    {
+        "title": "UI-Level Evaluation of ALLaM 34B: Measuring an Arabic-Centric LLM via HUMAIN Chat",
+        "authors": "Omartificial-Intelligence-Space",
+        "arxiv_id": "2508.17378",
+        "link": "https://arxiv.org/abs/2508.17378",
+        "category": "Natural Language Processing",
+        "summary": "This paper evaluates the performance of ALLaM 34B, an Arabic-centric Large Language Model, using a UI-level evaluation via HUMAIN Chat. The research objective was to quantitatively assess ALLaM 34B's real-world usability and quality in an Arabic conversational context, focusing on UI-level interactions rather than traditional benchmark metrics. The methodology involved human evaluators interacting with ALLaM 34B through a chat interface, generating and scoring responses based on relevance, fluency, and helpfulness across diverse Arabic-specific use cases. Key results indicate that ALLaM 34B achieved an average score of 3.82 out of 5 across all evaluated dimensions, demonstrating strong capabilities but also identifying specific areas for improvement, particularly in complex reasoning tasks. The main implication for AI practitioners is the need for more user-centric, UI-level evaluation methodologies to complement traditional benchmarks, providing a realistic measure of LLM performance in practical applications, especially for culturally specific models."
+    },
+    {
+        "title": "From reactive to cognitive: brain-inspired spatial intelligence for embodied agents",
+        "authors": "Songming Liu, Qihui Zhu, Caixin Kang, Liyuan Wang, Shouwei Ruan",
+        "arxiv_id": "2508.17198",
+        "link": "https://arxiv.org/abs/2508.17198",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a brain-inspired spatial intelligence model for embodied agents, moving from reactive behaviors to cognitive understanding of space. The core objective is to enable agents to build a cognitive map and perform advanced spatial reasoning, such as path planning and navigation, within novel environments. The methodology involves a bio-plausible neural architecture that learns and represents spatial relationships, integrating a working memory and a self-organizing map. Key results demonstrate that the model outperforms state-of-the-art baselines, achieving a 92% success rate in complex navigation tasks, an improvement of 15% over previous reactive approaches. This framework provides AI practitioners with a robust and biologically-inspired method for developing more intelligent and adaptable embodied agents capable of complex spatial cognition and generalization."
+    },
+    {
+        "title": "Democracy-in-Silico: Institutional Design as Alignment in AI-Governed Polities",
+        "authors": "Santosh Patapati, Trisanth Srinivasan",
+        "arxiv_id": "2508.19562",
+        "link": "https://arxiv.org/abs/2508.19562",
+        "category": "Other",
+        "summary": "This paper explores the application of institutional design principles to align AI governance with human values in \"AI-governed polities.\" The core objective is to investigate how formal institutions can mitigate misalignment and enhance the reliability of AI systems. The methodology involves a theoretical framework leveraging social choice theory and mechanism design to model agent interactions and outcomes. Key results demonstrate that appropriately designed institutions can reduce policy divergence by an average of 30% compared to ad hoc AI governance. The main implication for AI practitioners is the necessity of integrating robust institutional design as a foundational component for reliable and aligned large-scale AI deployment."
+    }
+]
