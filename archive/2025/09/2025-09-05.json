@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Open Data Synthesis For Deep Research",
+        "authors": "Zheng Liu, Hongjin Qian, Kun Luo, ZiyiXia",
+        "arxiv_id": "2509.00375",
+        "link": "https://arxiv.org/abs/2509.00375",
+        "category": "Machine Learning",
+        "summary": "The paper introduces a novel framework for open data synthesis, addressing the challenges of data scarcity and privacy in deep learning research. The primary objective is to enable the generation of high-quality synthetic datasets that faithfully capture the statistical properties of real-world data without direct access to sensitive information. The proposed methodology leverages a multi-stage generative adversarial network (GAN) architecture combined with differential privacy mechanisms to ensure data utility and privacy. Experimental results demonstrate that models trained on the synthetic data achieve up to 95% performance parity with models trained on real data across various downstream tasks, significantly outperforming previous synthesis techniques. This research provides a crucial tool for AI practitioners, facilitating robust model development and validation in data-constrained environments while adhering to strict privacy regulations."
+    },
+    {
+        "title": "Robix: A Unified Model for Robot Interaction, Reasoning and Planning",
+        "authors": "Zixuan Wang, Wei Li, Huang Fang, drdh, mengxizhang",
+        "arxiv_id": "2509.01106",
+        "link": "https://arxiv.org/abs/2509.01106",
+        "category": "Multi-Modal",
+        "summary": "Robix introduces a unified, multi-modal model for robot interaction, reasoning, and planning by integrating vision, language, and action. The core objective is to overcome the limitations of specialized models, enabling robots to perform complex tasks through a single, end-to-end framework that understands and executes human instructions. Its methodology leverages a pre-trained Large Language Model (LLM) as a central reasoning engine, enhanced with a perception module for visual understanding and an action module for generating robot commands in a closed-loop fashion. Robix demonstrates a significant improvement, achieving a 75% success rate on novel, long-horizon tasks, outperforming previous state-of-the-art approaches by over 20 percentage points. This model offers a comprehensive solution for AI practitioners to develop more versatile and capable robotic systems that can interpret and act upon diverse human commands, bridging the gap between high-level reasoning and low-level control."
+    },
+    {
+        "title": "LMEnt: A Suite for Analyzing Knowledge in Language Models from Pretraining Data to Representations",
+        "authors": "Yoav Gur-Arieh, Ido Cohen, Alon Gilae-Dotan, Daniela Gottesman, mega",
+        "arxiv_id": "2509.03405",
+        "link": "https://arxiv.org/abs/2509.03405",
+        "category": "Natural Language Processing",
+        "summary": "LMEnt introduces a comprehensive suite designed to analyze and interpret the knowledge acquired by Language Models (LMs) throughout their lifecycle, from pretraining data to learned representations. The primary objective is to investigate how explicit facts present in pretraining corpora are encoded and accessed within LMs, as well as the mechanisms governing knowledge recall and forgetting. The methodology involves a three-pronged approach: pretraining data analysis to quantify factual occurrences, knowledge probe datasets to evaluate explicit factual recall, and representation analysis using methods like CKA to understand knowledge encoding within hidden layers. Key results show a strong correlation between factual frequency in pretraining data and LM recall, with a 75% accuracy in retrieving common facts, and demonstrate that knowledge is distributed across various layers. This work provides critical tools for AI practitioners to audit and enhance the factual grounding, trustworthiness, and interpretability of large language models."
+    },
+    {
+        "title": "Planning with Reasoning using Vision Language World Model",
+        "authors": "Yejin Bang, allen-ml, whcchung, TheoM, chendelong",
+        "arxiv_id": "2509.02722",
+        "link": "https://arxiv.org/abs/2509.02722",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel Vision Language World Model (VLWM) for enabling robotic agents to perform complex, long-horizon tasks through hierarchical planning and reasoning. The core objective is to integrate perception, language understanding, and physical interaction to bridge the gap between high-level human instructions and low-level robot actions. VLWM employs a two-stage planning process: an abstract language planner using a large language model (LLM) for symbolic reasoning, and a grounded vision-language world model for simulating and refining actions. The method achieves a 95% success rate on simulated long-horizon tasks, significantly outperforming baselines by enabling robust replanning and reducing hallucination. This framework offers AI practitioners a scalable and interpretable approach for developing autonomous agents capable of zero-shot generalization and complex task execution in real-world environments."
+    },
+    {
+        "title": "MOSAIC: Multi-Subject Personalized Generation via Correspondence-Aware Alignment and Disentanglement",
+        "authors": "Mushui Liu, Dong She, HualiangWang, Au233, simingfu",
+        "arxiv_id": "2509.01977",
+        "link": "https://arxiv.org/abs/2509.01977",
+        "category": "Computer Vision",
+        "summary": "The paper introduces MOSAIC, a novel framework for multi-subject personalized image generation. Its main objective is to overcome the limitations of existing methods in generating diverse subjects while preserving identity. MOSAIC employs a correspondence-aware alignment and disentanglement strategy to align subjects to a canonical coordinate space and disentangle subject-specific features from style and pose. Through quantitative and qualitative experiments, MOSAIC demonstrates superior performance, achieving a 1.25 FID score on personalized generation tasks, outperforming state-of-the-art models. This work implies that AI practitioners can now develop more robust and scalable personalized image generation systems that maintain high fidelity across multiple subjects."
+    },
+    {
+        "title": "Mixture of Global and Local Experts with Diffusion Transformer for Controllable Face Generation",
+        "authors": "Kai Li, Yue Li, Xing Fu, Shun Zhang, XavierJiezou",
+        "arxiv_id": "2509.00428",
+        "link": "https://arxiv.org/abs/2509.00428",
+        "category": "Computer Vision",
+        "summary": "This paper introduces a novel approach for high-quality, controllable face generation through a Diffusion Transformer architecture. The primary objective is to overcome the limitations of existing diffusion models in generating faces with both global structural consistency and fine-grained local details, while enabling precise user control. The methodology employs a Mixture of Global and Local Experts (MoGLE) within a Diffusion Transformer, where local experts are activated by an attention mechanism for detailed refinement, and a global expert ensures overall structural integrity. The model achieves superior performance, notably reducing FID scores to 3.84 on a benchmark, and demonstrates high controllability over attributes like age, pose, and expression. This approach offers AI practitioners a robust framework for generating realistic and customizable face images, suitable for applications in virtual reality, avatar creation, and synthetic data generation."
+    },
+    {
+        "title": "Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots",
+        "authors": "Edward0000, TimerChen, xshenhan, Avada11, ericonaldo",
+        "arxiv_id": "2509.02530",
+        "link": "https://arxiv.org/abs/2509.02530",
+        "category": "Computer Vision",
+        "summary": "This paper addresses the challenge of accurate geometry perception in robotic manipulation by proposing a novel approach called \"Manipulation as in Simulation\" (Mani-Sim). The main objective is to overcome the limitations of traditional depth sensing in real-world scenarios due to light transport phenomena, which causes inaccuracies in object geometry representation crucial for robotic interaction. The key methodology involves using a differentiable renderer to fine-tune the geometry of objects within a simulation by minimizing the discrepancy between rendered and real-world depth images. This approach successfully improved geometry perception, reducing the mean absolute error (MAE) in depth estimation by 58% compared to direct depth sensor readings. The primary implication for AI practitioners is the potential for more robust and precise robotic manipulation through enhanced geometric understanding, paving the way for more reliable autonomous systems in complex environments."
+    },
+    {
+        "title": "SATQuest: A Verifier for Logical Reasoning Evaluation and Reinforcement Fine-Tuning of LLMs",
+        "authors": "Haojia Hui, Rinyoichi Takezoe, Zihao Bo, Yaqian Li, sdpkjc",
+        "arxiv_id": "2509.00930",
+        "link": "https://arxiv.org/abs/2509.00930",
+        "category": "Reinforcement Learning",
+        "summary": "SATQuest introduces a novel verifier for evaluating and fine-tuning Large Language Models (LLMs) in logical reasoning tasks. The paper addresses the challenge of enhancing LLMs' ability to perform complex logical deductions by providing immediate feedback on solution correctness. Its methodology involves using a specialized SAT-solver-based verifier to assess the accuracy of LLM-generated solutions to logical reasoning problems, which then guides a reinforcement fine-tuning process. Experimental results demonstrate that LLMs fine-tuned with SATQuest achieve a 10-15% improvement in solving rate on SAT problems compared to baseline methods. This work implies that AI practitioners can significantly improve the logical reasoning capabilities of LLMs by integrating external, precise verification mechanisms into their training pipelines."
+    },
+    {
+        "title": "Beyond Correctness: Harmonizing Process and Outcome Rewards through RL Training",
+        "authors": "Narayanan Sadagopan, Hao Chen, Ziji Zhang, Zhou Yu, Chenlu Ye",
+        "arxiv_id": "2509.03403",
+        "link": "https://arxiv.org/abs/2509.03403",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates how to integrate both process-based and outcome-based rewards in reinforcement learning (RL) to enhance training. The main objective is to overcome the limitations of purely outcome-based rewards, which often neglect the quality of the solution process, by introducing a framework that explicitly harmonizes these two reward types. The key methodology involves a novel reward function design that incorporates auxiliary process rewards alongside traditional outcome rewards, trained using standard RL algorithms like PPO. Experimental results demonstrate that the proposed approach leads to agents exhibiting significantly improved process quality, achieving up to a 20% reduction in suboptimal actions while maintaining comparable or superior outcome performance. The main implication for AI practitioners is the potential to develop more robust and human-aligned RL systems, especially in domains where the 'how' is as crucial as the 'what'."
+    }
+]
