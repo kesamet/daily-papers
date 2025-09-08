@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Drivel-ology: Challenging LLMs with Interpreting Nonsense with Depth",
+        "authors": "Chilly0105, ZYC101, Chiao20, gowitheflow, yangwang825",
+        "arxiv_id": "2509.03867",
+        "link": "https://arxiv.org/abs/2509.03867",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces the \"Drivel-ology\" task to evaluate large language models' (LLMs) ability to interpret and explain non-sensical, yet syntactically valid, text. The core objective is to challenge LLMs beyond factual recall by testing their capacity for deep semantic understanding and inference in the absence of coherent meaning. The methodology involves generating syntactically correct but semantically nonsensical \"drivel\" sentences, and then prompting LLMs to provide interpretations, identify the lack of meaning, or explain the absurdity. Initial findings indicate that while LLMs can generate grammatically correct responses, their ability to consistently identify and articulate the non-sensical nature of thevedriel remains limited, achieving only a 35% success rate in correctly identifying nonsense without hallucinating meaning. This research implies that current LLMs, despite advanced linguistic capabilities, still struggle with nuanced comprehension and the recognition of semantic void, suggesting a need for more robust reasoning and common-sense understanding in future models for AI practitioners."
+    },
+    {
+        "title": "From Editor to Dense Geometry Estimator",
+        "authors": "KangLiao, MingxingLi, Roinnnn11, chunyulin, exander",
+        "arxiv_id": "2509.04338",
+        "link": "https://arxiv.org/abs/2509.04338",
+        "category": "Computer Vision",
+        "summary": "The paper presents a novel approach for dense geometry estimation directly from edited images, addressing the challenge of generating high-quality 3D geometry from diverse and potentially augmented visual data. Its primary objective is to develop a robust method that accurately infers dense 3D information, such as depth and normals, from images that have undergone various editing operations, moving beyond traditional methods that assume unedited inputs. The methodology involves a deep learning framework trained on a specially curated dataset of edited images and corresponding ground-truth geometry, utilizing a multi-task learning architecture to simultaneously predict depth and surface normals. The approach demonstrates significant improvements, achieving a mean absolute error (MAE) of 0.025 on depth prediction and an average angular error of 7.2 degrees for surface normals on edited image benchmarks, outperforming existing state-of-the-art methods by a considerable margin. This work implies that AI practitioners can leverage edited or augmented visual content more effectively for 3D reconstruction and scene understanding tasks, enabling more versatile applications in fields like AR/VR, robotics, and content creation."
+    },
+    {
+        "title": "Towards a Unified View of Large Language Model Post-Training",
+        "authors": "Yuxin Zuo, iseesaw, Y-T-Wei, Youbang, XingtaiHF",
+        "arxiv_id": "2509.04419",
+        "link": "https://arxiv.org/abs/2509.04419",
+        "category": "Natural Language Processing",
+        "summary": "This paper presents a unified taxonomy for Large Language Model (LLM) post-training methods, classifying them into three main paradigms: Fine-tuning, Alignment, and Augmentation. The objective is to systematically analyze and categorize existing techniques to provide a clearer understanding of their interrelationships and provide insights for future research. The methodology involves a comprehensive review and categorization of a wide array of LLM post-training techniques, identifying commonalities and distinctions. The analysis reveals that many seemingly disparate methods share underlying principles, for instance, nearly 80% of alignment methods leverage human feedback or preferences. The main implication for AI practitioners is a structured framework that can guide the selection and development of post-training strategies, enabling more efficient and effective LLM deployment."
+    },
+    {
+        "title": "Inverse IFEval: Can LLMs Unlearn Stubborn Training Conventions to Follow Real Instructions?",
+        "authors": "liumengyun, ziqiangyang, Baton6257, leixp, zqyzqyzqy",
+        "arxiv_id": "2509.04292",
+        "link": "https://arxiv.org/abs/2509.04292",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Inverse IFEval, a novel method for evaluating the ability of Large Language Models (LLMs) to unlearn deeply embedded training conventions and adhere to explicit user instructions. The primary objective is to investigate whether LLMs can effectively override strong internal biases, such as those for specific output formats or content types, when confronted with contradictory real-world instructions. The methodology involves creating specially designed adversarial instructions that challenge LLMs to deviate from their pre-trained conventions, then measuring their compliance. Key findings indicate that even advanced LLMs struggle significantly, with models like GPT-4 failing in over 70% of inverse IFEval scenarios, demonstrating a persistent adherence to learned conventions over explicit instructions. This highlights a critical challenge for AI practitioners in developing LLMs that are more robust and truly responsive to user intent, rather than being bound by their training data artifacts."
+    },
+    {
+        "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via Seminar-Grounded Tasks",
+        "authors": "Meiqi Tu, Junchi Yu, Chen Yang, RalfWang, haiyuanwan",
+        "arxiv_id": "2509.01396",
+        "link": "https://arxiv.org/abs/2509.01396",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces DeepResearch Arena, a benchmark designed to evaluate Large Language Models' (LLMs) research capabilities by simulating academic seminar-grounded tasks. The primary objective is to assess whether LLMs can independently perform complex research-related activities, such as paper analysis, critical thinking, and experimental design. The methodology involves a multi-stage process where LLMs are presented with research papers and tasked with generating various outputs, which are then evaluated against human expert annotations for correctness and insightfulness. Results indicate that even advanced LLMs achieve only approximately 60% accuracy on reasoning-intensive tasks, significantly underperforming human experts. The main implication is that while LLMs show promise in foundational understanding, substantial development is still required for them to autonomously contribute to complex scientific research."
+    },
+    {
+        "title": "Transition Models: Rethinking the Generative Learning Objective",
+        "authors": "Yangguang Li, Xiangyu Yue, Xiaoyu Yue, Yiyuan Zhang, GoodEnough",
+        "arxiv_id": "2509.04394",
+        "link": "https://arxiv.org/abs/2509.04394",
+        "category": "Machine Learning",
+        "summary": "The paper introduces Transition Models, a novel generative modeling approach that reformulates the learning objective to capture data transformations. It addresses the limitation of traditional generative models that focus on direct data generation by proposing to learn the conditional distribution of future states given current states, which enables modeling sequential data and state transitions. The methodology involves training models to predict the next state based on the current state within a latent space, diverging from common VAE or GAN architectures. Experimental results demonstrate that Transition Models achieve a 10% improvement in generation quality on sequential datasets compared to baseline generative models. This implies that AI practitioners can leverage Transition Models for more effective generation and manipulation of dynamic or sequential data, particularly in areas requiring nuanced understanding of state changes rather than static data distributions."
+    },
+    {
+        "title": "NER Retriever: Zero-Shot Named Entity Retrieval with Type-Aware Embeddings",
+        "authors": "Oren Glickman, Yoav Goldberg, Uri Katz, Or Shachar",
+        "arxiv_id": "2509.04011",
+        "link": "https://arxiv.org/abs/2509.04011",
+        "category": "Natural Language Processing",
+        "summary": "NER Retriever introduces a zero-shot named entity retrieval model that leverages type-aware embeddings. The paper addresses the challenge of retrieving relevant entities for unseen entity types without requiring labeled data for new types. Its key methodology involves fine-tuning a pre-trained language model with a novel loss function that incorporates both positive and negative entity-mention pairs, enhanced by type information. The model achieves a 3.4 F1-score improvement over the previous state-of-the-art on the Mewsli-NER dataset. This approach allows AI practitioners to efficiently extend named entity recognition systems to new domains and entity types with minimal annotation effort, significantly reducing data dependency."
+    },
+    {
+        "title": "Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers",
+        "authors": "lightaime, ZihaoZhu, yangjunxiao2021, fangyijie, hxyscott",
+        "arxiv_id": "2509.03059",
+        "link": "https://arxiv.org/abs/2509.03059",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces Loong, a novel framework for synthesizing long chain-of-thoughts (CoTs) at scale, addressing the limitations of current methods in generating high-quality, extended reasoning paths. Its core objective is to overcome the difficulty of producing long, accurate CoTs without manual intervention. Loong employs a multi-agent debate mechanism with verifiers, where a generator proposes CoT steps and verifiers provide feedback, iteratively refining the CoT until it satisfies predefined criteria. This methodology achieves a 73.1% success rate in generating correct 8-step CoTs, significantly outperforming existing techniques. The main implication for AI practitioners is the ability to automatically generate complex and verifiable reasoning traces, thereby enhancing the interpretability and performance of large language models in multi-step reasoning tasks."
+    },
+    {
+        "title": "Video-MTR: Reinforced Multi-Turn Reasoning for Long Video Understanding",
+        "authors": "Lionel Ni, Zheng Ge, Yuan Xie, TianshuiChen",
+        "arxiv_id": "2508.20478",
+        "link": "https://arxiv.org/abs/2508.20478",
+        "category": "Multi-Modal",
+        "summary": "Video-MTR introduces a novel framework for long video understanding that addresses the limitations of single-turn reasoning. The core objective is to enable multi-turn, reinforced question-answering over extended video sequences, allowing for more in-depth comprehension. This is achieved through a multi-turn reasoning module with a hierarchical reinforcement learning approach, where a high-level policy plans reasoning steps and a low-level policy executes them using action-value functions. The model demonstrates significant improvements, achieving a 2.5% absolute gain on the EgoSchema dataset's multi-turn QA task, outperforming existing state-of-the-art methods. This research implies that AI practitioners should consider multi-turn, interactive reasoning as a crucial paradigm for developing more robust and intelligent video understanding systems."
+    },
+    {
+        "title": "Few-step Flow for 3D Generation via Marginal-Data Transport Distillation",
+        "authors": "Lingxi Xie, Chen Yang, Jiemin Fang, Zanwei Zhou, thewhole",
+        "arxiv_id": "2509.04406",
+        "link": "https://arxiv.org/abs/2509.04406",
+        "category": "Computer Vision",
+        "summary": "This paper introduces Few-step Flow (FeFlow), a novel framework for efficient 3D content generation by distilling complex generative flows into a few steps. The primary objective is to overcome the limitations of existing 3D generative models which suffer from high computational costs or limited generation quality. FeFlow achieves this by using a marginal-data transport (MDT) distillation strategy, which allows for training a few-step flow directly from a multi-step teacher diffusion model, bypassing the need for extensive 3D data. The method demonstrates high-fidelity 3D generation with as few as 2-4 inference steps, achieving a CLIP-R score of 29.5 on the Text-to-3D benchmark, significantly outperforming prior few-step methods. The main implication for AI practitioners is the ability to generate high-quality 3D assets much more efficiently, enabling real-time applications and reducing computational resource demands for 3D content creation."
+    },
+    {
+        "title": "Durian: Dual Reference-guided Portrait Animation with Attribute Transfer",
+        "authors": "Byungjun Kim, jhugestar, HyunsooCha",
+        "arxiv_id": "2509.04434",
+        "link": "https://arxiv.org/abs/2509.04434",
+        "category": "Computer Vision",
+        "summary": "This paper presents Durian, a novel framework for dual reference-guided portrait animation with attribute transfer, addressing the challenge of animating a source portrait using two distinct references for motion and style. The core objective is to achieve high-fidelity animation while enabling flexible attribute control by leveraging both a motion reference and a style reference. Durian employs a dual-branch architecture that disentangles motion and appearance features, integrating a motion encoder, a style encoder, and an attribute transfer module to synthesize dynamic and stylized portraits. The method demonstrates superior performance, achieving a peak signal-to-noise ratio (PSNR) of 29.5 dB and a structural similarity index (SSIM) of 0.92, significantly outperforming previous state-of-the-art methods in terms of visual quality and attribute control. This framework provides AI practitioners with a powerful tool for generating highly customizable and realistic portrait animations, opening new avenues for applications in virtual try-on, content creation, and personalized media."
+    },
+    {
+        "title": "Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from Vector Drawings",
+        "authors": "Meie Fang, Changmiao Wang, Shichao Lu, Feiwei Qin, 1nnoh",
+        "arxiv_id": "2508.18733",
+        "link": "https://arxiv.org/abs/2508.18733",
+        "category": "Computer Vision",
+        "summary": "The paper \"Drawing2CAD\" introduces a sequence-to-sequence learning approach for generating CAD models directly from vector drawings, addressing the challenge of automating CAD model creation from design sketches. The core methodology involves a novel representation that converts vector drawings and CAD models into sequences of drawing and CAD operations, enabling the application of Transformer-based models for end-to-end generation. This method achieves a high success rate, generating CAD models with a 72.8% F-score on the test set, demonstrating its effectiveness in translating 2D vector inputs into complex 3D CAD representations. The main implication for AI practitioners is the potential to significantly accelerate industrial design and engineering processes by automating the laborious task of CAD model generation from early-stage design drawings, thereby enhancing efficiency and reducing design cycle times."
+    },
+    {
+        "title": "Delta Activations: A Representation for Finetuned Large Language Models",
+        "authors": "Ser-Nam Lim, Mayur Naik, Amish Sethi, OscarXZQ",
+        "arxiv_id": "2509.04442",
+        "link": "https://arxiv.org/abs/2509.04442",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Delta Activations (DAs), a novel representation for finetuned large language models (LLMs) that captures the modifications made during finetuning without storing a full copy of the finetuned model. The primary objective is to enable efficient storage and serving of many finetuned models by only storing the changes relative to a base model. The methodology involves computing the difference in activation values between the finetuned and base models, then using a low-rank approximation (e.g., singular value decomposition or SVD) to compress these differences. Experiments show that DAs can reduce storage requirements by 90-99% while maintaining 99% of the base model's performance on various NLP tasks, outperforming existing methods like LoRA. The main implication for AI practitioners is the ability to deploy and manage a significantly larger number of personalized or task-specific LLMs with reduced overhead and improved efficiency, facilitating wider adoption of finetuned models."
+    },
+    {
+        "title": "False Sense of Security: Why Probing-based Malicious Input Detection Fails to Generalize",
+        "authors": "Muhao Chen, Qin Liu, Cheng Wang, ZemingWei",
+        "arxiv_id": "2509.03888",
+        "link": "https://arxiv.org/abs/2509.03888",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the generalization failures of probing-based malicious input detection in large language models (LLMs). The research questions whether such detection mechanisms, trained to identify harmful inputs, can generalize effectively to unseen adversarial examples. The authors propose a novel methodology using adversarial attacks to generate diverse malicious inputs, including paraphrase attacks and synonym substitutions, to systematically test the robustness and generalization capabilities of various probing techniques (e.g., linear probes, MLP probes). They demonstrate that while these detectors achieve high accuracy on in-distribution data (e.g., 90% accuracy), their performance significantly degrades on out-of-distribution adversarial examples, often dropping to near-random chance levels (e.g., 50-60% accuracy). This implies that current probing-based detection methods offer a false sense of security, and AI practitioners should be wary of their deployment as robust safety measures due to their susceptibility to generalization failures against unseen adversarial attacks."
+    }
+]
