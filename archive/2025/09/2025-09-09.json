@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Why Language Models Hallucinate",
+        "authors": "Edwin Zhang, Santosh S. Vempala, Ofir Nachum, Adam Tauman Kalai",
+        "arxiv_id": "2509.04664",
+        "link": "https://arxiv.org/abs/2509.04664",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the underlying causes and mechanisms of hallucination in large language models (LLMs). The research aims to understand why LLMs generate factually incorrect yet confidently presented information, often misaligned with their training data. Employing a multi-pronged methodology, the authors analyze factors such as decoding strategies, training data characteristics, and model architecture, utilizing both qualitative analysis and quantitative experiments on various LLM checkpoints. A key finding is that hallucination rates can be significantly influenced by the entropy of the decoding process, with lower entropy leading to a 25% reduction in factual errors in some settings. The primary implication for AI practitioners is the need for more robust evaluation metrics for factual consistency and the development of training techniques that explicitly penalize confident falsehoods, moving beyond simple perplexity optimization."
+    },
+    {
+        "title": "Symbolic Graphics Programming with Large Language Models",
+        "authors": "Kaipeng Zhang, Zeju Qiu, Haoquan Zhang, Yamei Chen, YangyiH",
+        "arxiv_id": "2509.05208",
+        "link": "https://arxiv.org/abs/2509.05208",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates using Large Language Models (LLMs) for symbolic graphics programming, specifically for generating SVG code. The core objective is to determine if LLMs can effectively translate natural language descriptions into executable graphic commands. The methodology involves fine-tuning LLMs on a dataset of natural language descriptions paired with SVG code, and employing a multi-turn, self-correction approach using feedback from a graphics interpreter. Key results show the fine-tuned LLM achieves an average SVG rendering accuracy of 80% and can correct over 75% of initial errors. The main implication for AI practitioners is the potential to automate complex graphic design tasks through natural language interfaces, reducing manual coding effort and expanding accessibility."
+    },
+    {
+        "title": "Set Block Decoding is a Language Model Inference Accelerator",
+        "authors": "Jeremy Reizenstein, Daniel Haziza, Marton Havasi, Heli Ben-Hamu, Itai Gat",
+        "arxiv_id": "2509.04185",
+        "link": "https://arxiv.org/abs/2509.04185",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces Set Block Decoding (SBD), an inference acceleration technique for large language models (LLMs) that improves upon speculative decoding. SBD addresses the challenge of efficient LLM inference by allowing the language model to propose multiple candidate tokens simultaneously within a block, increasing the probability of correct speculation. The methodology involves generating a set of candidate blocks and scoring them based on their likelihood under a draft model, then verifying with the full LLM. Experiments show that SBD achieves up to 2.5x speedups on LLama-7B without sacrificing output quality, making it a highly efficient method for deploying LLMs. This implies that AI practitioners can significantly reduce inference latency and computational costs for LLMs, enabling faster and more economical applications."
+    },
+    {
+        "title": "WildScore: Benchmarking MLLMs in-the-Wild Symbolic Music Reasoning",
+        "authors": "Amit Namburi, Yash Vishe, Gagan Mundada, ZacharyNovack, XinXuNLPer",
+        "arxiv_id": "2509.04744",
+        "link": "https://arxiv.org/abs/2509.04744",
+        "category": "Multi-Modal",
+        "summary": "WildScore introduces a novel benchmark for evaluating Multi-modal Large Language Models (MLLMs) on symbolic music reasoning \"in-the-wild.\" The objective is to assess how MLLMs handle complex, real-world music scores beyond synthetic datasets. The methodology involves creating a diverse dataset of 1000 music score-question pairs from various musical contexts and employing both GPT-4 and human evaluation for answer quality. Key results show that even leading MLLMs like GPT-4o achieve a relatively low average score of 2.98/5.0, highlighting significant limitations in their musical intelligence. This implies that AI practitioners should focus on developing more robust and musically nuanced architectures and training methodologies for MLLMs to improve their understanding and reasoning capabilities with symbolic music."
+    },
+    {
+        "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation",
+        "authors": "Zhan Zhao, Wei Jia, Tongwei Gu, Zhengxia Zou, Yinglin Duan",
+        "arxiv_id": "2509.05263",
+        "link": "https://arxiv.org/abs/2509.05263",
+        "category": "Multi-Modal",
+        "summary": "LatticeWorld introduces a novel multimodal large language model (LLM)-empowered framework designed for interactive and complex world generation. The primary objective is to enable users to generate, refine, and populate intricate virtual environments through natural language and visual interactions, addressing limitations of traditional methods in detail and customization. The methodology leverages an LLM as a central reasoning engine, integrating a scene graph to represent world components and a multimodal interaction module that handles both text and visual inputs for iterative world refinement. LatticeWorld demonstrates superior performance, achieving a 20% improvement in user satisfaction scores for generated world realism and customization compared to baseline methods. This framework offers AI practitioners a robust tool for creating highly detailed and interactive virtual environments, accelerating development in gaming, simulation, and virtual reality applications."
+    },
+    {
+        "title": "LuxDiT: Lighting Estimation with Video Diffusion Transformer",
+        "authors": "Sanja Fidler, Igor Gilitschenski, Zan Gojcic, Kai He, Ruofan Liang",
+        "arxiv_id": "2509.03680",
+        "link": "https://arxiv.org/abs/2509.03680",
+        "category": "Computer Vision",
+        "summary": "LuxDiT addresses the challenging problem of lighting estimation from video, a critical aspect for consistent visual quality in virtual content integration. The paper proposes a novel transformer-based diffusion model that leverages spatio-temporal information for robust lighting estimation. It achieves state-of-the-art performance, outperforming previous methods by 0.6 dB in spherical harmonics error on the Adobe HDR dataset, and demonstrating superior robustness to noise and occlusions. The primary implication for AI practitioners is the provision of a more accurate and robust lighting estimation technique for applications like augmented reality, virtual production, and 3D reconstruction."
+    },
+    {
+        "title": "WinT3R: Window-Based Streaming Reconstruction with Camera Token Pool",
+        "authors": "Wenzheng Chang, Yifan Wang, Jianjun Zhou, Zizun Li, ghy0324",
+        "arxiv_id": "2509.05296",
+        "link": "https://arxiv.org/abs/2509.05296",
+        "category": "Computer Vision",
+        "summary": "WinT3R addresses the challenge of real-time 3D scene reconstruction from monocular video streams. The paper proposes a novel window-based streaming reconstruction framework that leverages a camera token pool for efficient and accurate scene representation. Key innovations include a window-based bundle adjustment for local consistency and a global mapping strategy that integrates new observations into a consistent scene graph. Experiments demonstrate that WinT3R achieves state-of-the-art performance, with a notable reduction in reconstruction error by 15% compared to previous methods on benchmark datasets, while maintaining real-time processing speeds. This approach offers significant advancements for applications requiring continuous and robust 3D scene understanding, such as augmented reality and robotics."
+    },
+    {
+        "title": "MedVista3D: Vision-Language Modeling for Reducing Diagnostic Errors in 3D CT Disease Detection, Understanding and Reporting",
+        "authors": "Vanessa Wildman, Jike Zhong, Yuxiang Lai, Yenho Chen, Yuheng Li",
+        "arxiv_id": "2509.03800",
+        "link": "https://arxiv.org/abs/2509.03800",
+        "category": "Multi-Modal",
+        "summary": "MedVista3D is a novel vision-language model designed to enhance 3D CT disease detection, understanding, and reporting, thereby reducing diagnostic errors. The core objective is to integrate 3D medical imaging with textual information to improve diagnostic accuracy and explainability. The methodology involves a 3D medical vision-language pre-training framework that learns fine-grained correspondences between 3D CT volumes and medical reports, employing a masked volume modeling and report-to-volume contrastive learning approach. Key results show that MedVista3D achieves a 4.1% improvement in disease detection and a 6.2% improvement in report generation explainability compared to baseline models. This framework provides AI practitioners with a robust tool to develop more accurate and interpretable AI systems for medical diagnostics, potentially leading to improved patient outcomes."
+    },
+    {
+        "title": "On Robustness and Reliability of Benchmark-Based Evaluation of LLMs",
+        "authors": "Kevin Roitero, Stefano Mizzaro, Vincenzo Della Mea, Riccardo Lunardi",
+        "arxiv_id": "2509.04013",
+        "link": "https://arxiv.org/abs/2509.04013",
+        "category": "Natural Language Processing",
+        "summary": "This paper critically investigates the robustness and reliability of benchmark-based evaluation for Large Language Models (LLMs). The core objective is to determine if current evaluation practices, often relying on fixed benchmarks, accurately reflect the true capabilities and generalization of LLMs. The methodology involves conducting extensive empirical studies on various LLMs across diverse benchmarks, introducing perturbations and adversarial attacks to assess performance stability. Key results demonstrate that LLM performance on benchmarks can fluctuate significantly, with an average drop of 15% under specific adversarial conditions, highlighting the brittleness of current evaluations. The primary implication for AI practitioners is the need to develop more dynamic, comprehensive, and adversarially robust evaluation frameworks beyond static benchmarks to ensure reliable assessment of LLM advancements and deployment readiness."
+    },
+    {
+        "title": "Behavioral Fingerprinting of Large Language Models",
+        "authors": "Xing Li, Zhiyuan Yang, Ying Zhang, Hui-Ling Zhen, Zehua Pei",
+        "arxiv_id": "2509.04504",
+        "link": "https://arxiv.org/abs/2509.04504",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel method for behavioral fingerprinting of Large Language Models (LLMs) to identify the specific model family and size from which a text output originated. The primary objective is to address the provenance problem in LLM-generated text by detecting subtle, inherent behavioral biases unique to different models. The methodology involves analyzing various statistical properties of LLM-generated text, such as token probabilities and syntactic structures, to create a unique behavioral signature. The study successfully achieved an average accuracy of over 90% in identifying the model family and size across a diverse set of LLMs. This capability has significant implications for AI practitioners, particularly in validating the authenticity and provenance of LLM-generated content, which is crucial for applications requiring high integrity and trustworthiness."
+    },
+    {
+        "title": "Bootstrapping Task Spaces for Self-Improvement",
+        "authors": "Yoram Bachrach, Andrei Lupu, Minqi Jiang",
+        "arxiv_id": "2509.04575",
+        "link": "https://arxiv.org/abs/2509.04575",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Bootstrapping Task Spaces for Self-Improvement\" introduces an innovative approach for agents to autonomously create and solve new tasks, thereby fostering self-improvement without external supervision. The core objective is to enable agents to learn diverse skills by generating their own task curricula, overcoming the limitations of fixed task sets. This is achieved through a bootstrapping mechanism where a Task Proposal Network (TPN) generates new tasks for a Task Solving Network (TSN), with an unsupervised reward signal guiding the learning process based on task diversity and solvability. A key result demonstrates that agents trained with this method can achieve state-of-the-art performance, outperforming a baseline on a complex manipulation task by 15% in success rate. This framework offers a scalable solution for developing more generalist AI agents capable of continuous self-directed learning in open-ended environments."
+    },
+    {
+        "title": "U-ARM : Ultra low-cost general teleoperation interface for robot manipulation",
+        "authors": "Junda Huang, Zewei Ye, Chenyang Shi, Zhaoye Zhou, Yanwen Zou",
+        "arxiv_id": "2509.02437",
+        "link": "https://arxiv.org/abs/2509.02437",
+        "category": "Other",
+        "summary": "U-ARM is an ultra low-cost and general teleoperation interface for robot manipulation, addressing the high cost and complexity of current teleoperation systems. The main objective of this research is to develop an affordable, open-source teleoperation solution that enables dexterous robot control. The methodology involves utilizing 3D-printed components, off-the-shelf electronics like Arduino, and custom firmware for data acquisition and motor control, mimicking human arm movements. Primary results demonstrate successful control with a total hardware cost of $350, achieving an average task completion time of 21.6 seconds for pick-and-place tasks. This implies that AI practitioners can leverage U-ARM for cost-effective robot control experimentation, rapid prototyping, and educational purposes without significant financial barriers."
+    }
+]
