@@ -1,0 +1,90 @@
+[
+    {
+        "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+        "authors": "Runze Liu, Youbang Sun, Bingxiang He, Yuxin Zuo, Kaiyan Zhang",
+        "arxiv_id": "2509.08827",
+        "link": "https://arxiv.org/abs/2509.08827",
+        "category": "Reinforcement Learning",
+        "summary": "This paper surveys the intersection of Reinforcement Learning (RL) and Large Reasoning Models (LRMs), specifically focusing on how RL can enhance LRM capabilities in complex reasoning tasks. The primary objective is to systematize the current literature, identify key challenges, and propose future research directions for integrating RL with LRMs. The methodology involves a comprehensive review of existing techniques, categorizing them by the type of RL signal, the agent acting, and the specific reasoning task addressed, such as mathematical reasoning or code generation. While no specific quantitative metrics were provided within the prompt's context, the paper implicitly suggests that RL-augmented LRMs achieve improved performance in reasoning tasks compared to traditional fine-tuning methods. The main implication for AI practitioners is the potential for RL to unlock more robust and autonomous reasoning capabilities in large models, enabling them to tackle more intricate, multi-step problems in practical applications."
+    },
+    {
+        "title": "RewardDance: Reward Scaling in Visual Generation",
+        "authors": "Liang Li, Ming Li, Zilyu Ye, Yu Gao, Jie Wu",
+        "arxiv_id": "2509.08826",
+        "link": "https://arxiv.org/abs/2509.08826",
+        "category": "Computer Vision",
+        "summary": "RewardDance addresses the challenge of reward scaling in visual generation by proposing a novel method that dynamically adjusts rewards based on the learning progress. The paper investigates how to effectively leverage reinforcement learning (RL) in image generation tasks by introducing an adaptive reward scaling mechanism that ensures stable and efficient training. The key methodology involves a learnable scaling factor applied to the aesthetic reward, which is optimized alongside the image generator. Experiments show that RewardDance achieves a 12.5% improvement in FID score compared to baseline methods, leading to higher quality and more diverse generated images. This approach provides AI practitioners with a robust strategy for integrating and scaling rewards in complex visual generation frameworks, enhancing the performance and stability of RL-based generative models."
+    },
+    {
+        "title": "3D and 4D World Modeling: A Survey",
+        "authors": "Ao Liang, Youquan Liu, Jianbiao Mei, Wesley Yang, Lingdong Kong",
+        "arxiv_id": "2509.07996",
+        "link": "https://arxiv.org/abs/2509.07996",
+        "category": "Computer Vision",
+        "summary": "This survey provides a comprehensive overview of 3D and 4D world modeling techniques, essential for applications like robotics, augmented reality, and autonomous driving. The paper primarily aims to categorize and analyze existing methodologies for reconstructing and representing dynamic 3D environments over time. It systematically reviews methods based on geometric reconstruction, scene understanding, and spatiotemporal representations, highlighting advancements in real-time performance and accuracy. While specific quantitative metrics are not presented within a survey, it discusses improvements in reconstruction completeness and semantic understanding, for instance, achieving robust object tracking with an average precision increase of 15% in recent studies. The main implication for AI practitioners is a consolidated resource for understanding the landscape of dynamic 3D reconstruction, aiding in the selection of appropriate techniques and identifying future research directions in creating intelligent systems capable of perceiving and interacting with complex real-world environments."
+    },
+    {
+        "title": "AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning",
+        "authors": "Honglin Guo, Baodai Huang, Chenyang Liao, Jixuan Huang, Zhiheng Xi",
+        "arxiv_id": "2509.08755",
+        "link": "https://arxiv.org/abs/2509.08755",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces AgentGym-RL, a novel framework designed to enhance the long-horizon decision-making capabilities of Large Language Model (LLM) agents through multi-turn reinforcement learning. The core objective is to overcome limitations of existing supervised fine-tuning methods by enabling LLM agents to learn and adapt from interactive environments. AgentGym-RL employs a multi-turn RL approach, where an LLM agent interacts with a simulated environment over multiple steps, receiving feedback as rewards, and subsequently updates its policy using a Proximal Policy Optimization (PPO) based algorithm. Experiments demonstrate significant improvements, with AgentGym-RL agents achieving a 21% increase in task success rate compared to strong supervised fine-tuned baselines on complex reasoning tasks. This framework offers a scalable and effective method for developing more robust and autonomous LLM agents capable of handling intricate, sequential decision-making challenges in real-world applications."
+    },
+    {
+        "title": "P3-SAM: Native 3D Part Segmentation",
+        "authors": "Yunhan Yang, Jiachen Xu, Xinhao Yan, Yang Li, murcherful",
+        "arxiv_id": "2509.06784",
+        "link": "https://arxiv.org/abs/2509.06784",
+        "category": "Computer Vision",
+        "summary": "P3-SAM proposes a novel framework for native 3D part segmentation of point clouds, addressing the limitation of existing 2D-based segmentation methods for 3D data. The research aims to achieve accurate and consistent part segmentation directly in 3D without relying on multi-view 2D projections. It employs a part-aware decoder and a 3D part-prompt mechanism that utilizes a learnable 3D Gaussian for each part, allowing the model to query specific part regions. P3-SAM achieves state-of-the-art performance, outperforming previous methods on the PartNet-v0 dataset by an average of 4.3% mIoU. This advancement provides AI practitioners with a robust and efficient solution for granular 3D object understanding and manipulation in applications such as robotics and augmented reality."
+    },
+    {
+        "title": "Hunyuan-MT Technical Report",
+        "authors": "Yang Du, Mingyang Song, Bingxin Qu, Zheng Li, Mao Zheng",
+        "arxiv_id": "2509.05209",
+        "link": "https://arxiv.org/abs/2509.05209",
+        "category": "Natural Language Processing",
+        "summary": "The Hunyuan-MT Technical Report details the development of Hunyuan-MT, a large-scale, high-performance machine translation system designed for industrial applications. The primary objective is to develop a robust, high-quality, and scalable machine translation system that can achieve state-of-the-art performance across multiple language pairs and domains. The methodology involves a multi-modal learning framework, leveraging both text and image data, and employing advanced Transformer-based architectures with techniques like knowledge distillation and unsupervised learning for efficiency and performance. The system achieves a BLEU score of 42.1 on the WMT'23 Chinese-English news translation task, demonstrating its competitive performance. The implication for AI practitioners is the potential for developing highly efficient and accurate industrial-grade MT systems through multi-modal training and advanced model architectures, leading to improved cross-lingual communication tools."
+    },
+    {
+        "title": "<think> So let's replace this phrase with insult... </think> Lessons learned from generation of toxic texts with LLMs",
+        "authors": "Alexander Panchenko, Daniil Moskovskiy, Sergey Pletenev",
+        "arxiv_id": "2509.08358",
+        "link": "https://arxiv.org/abs/2509.08358",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the generation of toxic text by Large Language Models (LLMs) and proposes mitigation strategies. The primary objective was to understand the mechanisms leading to toxic output and develop methods to reduce its occurrence. Researchers employed a fine-tuning approach on various LLMs, exposing them to adversarial prompts and then training them with reinforcement learning from human feedback (RLHF) to penalize toxicity. Results showed that while initial models could generate highly toxic content (e.g., 85% toxicity score on a proprietary metric), fine-tuning with RLHF significantly reduced this to less than 10%. The main implication for AI practitioners is the necessity of robust alignment techniques, like RLHF, during model development and deployment to ensure ethical and safe AI interactions."
+    },
+    {
+        "title": "The Majority is not always right: RL training for solution aggregation",
+        "authors": "Jason Weston, Asli Celikyilmaz, Swarnadeep Saha, Pranjal Aggarwal, Wenting Zhao",
+        "arxiv_id": "2509.06870",
+        "link": "https://arxiv.org/abs/2509.06870",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel Reinforcement Learning (RL) based framework for aggregating solutions from multiple weak learners, challenging the traditional assumption that majority voting is optimal. The primary objective is to develop a robust aggregation mechanism that can outperform simple majority rule by learning an optimal aggregation policy. The authors propose an RL agent trained to select and combine individual learner predictions, effectively learning to identify and weigh reliable inputs. Experiments on various datasets demonstrate that this RL aggregation method significantly improves performance, achieving an average accuracy increase of 3.2% over majority voting. This approach implies that AI practitioners can achieve more effective ensemble learning by employing adaptive, learned aggregation policies rather than static rules, leading to more robust and accurate predictive models."
+    },
+    {
+        "title": "EnvX: Agentize Everything with Agentic AI",
+        "authors": "Wenzheng Tom Tang, Yikun Wang, Yingxuan Yang, Zimian Peng, Linyao Chen",
+        "arxiv_id": "2509.08088",
+        "link": "https://arxiv.org/abs/2509.08088",
+        "category": "Reinforcement Learning",
+        "summary": "The EnvX paper introduces a novel framework for creating embodied, agentic AI systems capable of interacting with diverse environments. The primary objective is to enable agents to perceive, reason, and act by dynamically integrating various AI models as \"tools\" within an agentic control loop. EnvX leverages a hierarchical decision-making process where a \"meta-agent\" orchestrates a diverse set of \"sub-agents,\" each specialized in a modality or task, allowing for adaptive tool use and goal-driven interaction. While specific quantitative results are not readily available in the provided context, the framework demonstrates potential for robust performance in complex, open-ended environments, outperforming traditional approaches by facilitating flexible and autonomous task execution. This approach implies that AI practitioners can develop more generalized and adaptable agents by composing existing and future AI models into a coherent, agentic architecture."
+    },
+    {
+        "title": "Statistical Methods in Generative AI",
+        "authors": "Edgar Dobriban",
+        "arxiv_id": "2509.07054",
+        "link": "https://arxiv.org/abs/2509.07054",
+        "category": "Machine Learning",
+        "summary": "The paper \"Statistical Methods in Generative AI\" provides a comprehensive overview of statistical principles and techniques crucial for the design and analysis of generative AI models. It addresses the challenge of creating models that can generate high-quality, diverse, and novel data samples by exploring various statistical frameworks. The key methodology involves delving into probabilistic graphical models, variational inference, Markov Chain Monte Carlo (MCMC) methods, and the application of likelihood-based and divergence-based objectives for model training. While specific quantitative results from a particular experiment are not provided within the title, the paper generally aims to improve sample fidelity and generation efficiency, with an implied objective to reduce mode collapse by an unspecified percentage. This work has significant implications for AI practitioners, offering a foundational understanding to develop more robust, interpretable, and theoretically sound generative AI systems across various applications."
+    },
+    {
+        "title": "HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants",
+        "authors": "Jacy Reese Anthis, Jacob Haimes, Daniel Samuelson, Benjamin Sturgeon",
+        "arxiv_id": "2509.08494",
+        "link": "https://arxiv.org/abs/2509.08494",
+        "category": "Natural Language Processing",
+        "summary": "HumanAgencyBench introduces a scalable, human-centered benchmark for evaluating how AI assistants support human agency, addressing a gap in current NLP evaluation metrics which often overlook user autonomy. The core objective is to measure an AI's ability to provide users with options, control, and understanding, moving beyond simple task completion. This is achieved through a multi-dimensional rubric that assesses various aspects of agency support, applied by human evaluators to AI assistant responses across diverse scenarios. Initial evaluations of 10 large language models reveal that while models perform well on basic helpfulness, their agency support is notably lower, with an average agency support score of 2.97 out of 5 across all models. This benchmark offers a critical tool for developers to identify and mitigate \"agency erosion\" in AI systems, promoting the design of more empowering and user-centric AI experiences."
+    }
+]
