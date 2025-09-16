@@ -1,0 +1,162 @@
+[
+    {
+        "title": "IntrEx: A Dataset for Modeling Engagement in Educational Conversations",
+        "authors": "Gabriele Pergola, Chiara Gambi, Mahathi Parvatham, XingweiT",
+        "arxiv_id": "2509.06652",
+        "link": "https://arxiv.org/abs/2509.06652",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces IntrEx, a novel dataset designed to model and understand engagement in educational conversations. The primary objective is to facilitate research into predicting and analyzing student engagement dynamics within human-AI interactions. The methodology involves collecting and meticulously annotating a dataset of tutorial dialogues, focusing on various linguistic and non-linguistic cues indicative of engagement. IntrEx achieves an inter-annotator agreement (kappa) of 0.61 for engagement labels, demonstrating its reliability for research. The main implication for AI practitioners is the provision of a specialized resource to develop and evaluate AI systems capable of adaptively responding to and fostering student engagement in educational technology."
+    },
+    {
+        "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+        "authors": "Song Guo, Xiaoyu Yue, Junchao Gong, Tao Han, CoCoOne",
+        "arxiv_id": "2509.10441",
+        "link": "https://arxiv.org/abs/2509.10441",
+        "category": "Computer Vision",
+        "summary": "InfGen presents a novel resolution-agnostic image synthesis paradigm that addresses the scalability challenges of generating high-resolution images. The core objective is to synthesize images across a continuous spectrum of resolutions from a single model, overcoming the limitations of current discrete resolution models. This is achieved through a multi-scale denoising process coupled with a resolution-conditioned U-Net architecture, which learns to adapt to varying target resolutions during training. The approach demonstrates superior performance, achieving an FID score of 4.31 on ImageNet 256x256 while also generating images at significantly higher resolutions like 4096x4096. This methodology allows AI practitioners to deploy a single, efficient model for diverse image generation tasks requiring a range of output resolutions, reducing computational overhead and model complexity."
+    },
+    {
+        "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+        "authors": "Jonas Geiping, Steffen Staab, Shashwat Goel, arvindh75, viciousa3gis",
+        "arxiv_id": "2509.09677",
+        "link": "https://arxiv.org/abs/2509.09677",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the effectiveness of Large Language Models (LLMs) in long-horizon execution tasks, often perceived as having diminishing returns. The core objective is to challenge the 'illusion of diminishing returns' by proposing a more accurate evaluation methodology for complex, multi-step tasks. Researchers developed a novel metric, Long-Horizon Execution (LHE), and a benchmark, Long-Form Instruction Following (LFIF), to assess LLM performance beyond simple accuracy. Experiments demonstrated that with proper evaluation, LLMs can achieve up to 90% success rates on complex long-horizon tasks, disproving the notion of inherent diminishing returns. This research implies that AI practitioners should adopt more sophisticated evaluation metrics for LLMs to accurately gauge their capabilities on complex, real-world tasks and to unlock their full potential."
+    },
+    {
+        "title": "X-Part: high fidelity and structure coherent shape decomposition",
+        "authors": "Yunhan Yang, Changfeng Ma, Yang Li, Jiachen Xu, HowieYan",
+        "arxiv_id": "2509.08643",
+        "link": "https://arxiv.org/abs/2509.08643",
+        "category": "Computer Vision",
+        "summary": "The paper \"X-Part: high fidelity and structure coherent shape decomposition\" addresses the problem of decomposing 3D shapes into meaningful, geometrically coherent, and semantically consistent parts, a fundamental challenge in 3D shape analysis. The primary objective is to develop a method that overcomes limitations of existing approaches, which often struggle with geometric fidelity, structural coherence, and semantic consistency in part decomposition. X-Part introduces a novel framework that learns part representations using an implicit neural network, guided by a multi-task learning strategy incorporating geometric, structural, and semantic consistency losses. This method achieves state-of-the-art performance, outperforming baselines by a significant margin, for instance, reducing the Chamfer distance by 25% on average compared to previous methods, and demonstrating superior quantitative and qualitative results in terms of part quality and consistency. The main implication for AI practitioners is the provision of a robust and accurate tool for 3D shape decomposition, enabling more effective applications in areas such as 3D content creation, shape editing, and robotic manipulation."
+    },
+    {
+        "title": "HANRAG: Heuristic Accurate Noise-resistant Retrieval-Augmented Generation for Multi-hop Question Answering",
+        "authors": "Zhehao Tan, Yihan Jiao, Yue Shen, Dan Yang, Duolin Sun",
+        "arxiv_id": "2509.09713",
+        "link": "https://arxiv.org/abs/2509.09713",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces HANRAG, a novel Heuristic Accurate Noise-resistant Retrieval-Augmented Generation framework designed to improve multi-hop question answering (QA) systems by addressing challenges related to noisy retrieved documents. The primary objective is to enhance the robustness and accuracy of RAG models when faced with irrelevant or conflicting information, which is common in real-world scenarios. HANRAG employs a multi-stage approach, including an iterative knowledge distillation process that refines the retrieved passages and a heuristic-driven re-ranking mechanism to prioritize accurate information for the large language model. Experiments demonstrate that HANRAG achieves state-of-the-art performance, outperforming baselines by 7.1% on the HotpotQA dataset, significantly improving factuality and reducing hallucination in multi-hop QA. This framework offers a practical solution for developers to build more reliable and accurate RAG-based QA systems, particularly in domains requiring high information integrity."
+    },
+    {
+        "title": "Virtual Agent Economies",
+        "authors": "William A. Cunningham, Julian Jacobs, Joel Z. Leibo, Matija Franklin, Nenad Tomasev",
+        "arxiv_id": "2509.10147",
+        "link": "https://arxiv.org/abs/2509.10147",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Virtual Agent Economies\" explores the creation of self-sustaining, human-like economies composed of AI agents within virtual environments. The main objective is to understand if agents, driven by learned preferences and resource allocation, can autonomously form complex economic behaviors and societal structures. Utilizing a multi-agent reinforcement learning framework, agents learn to produce, trade, and consume goods and services based on internal utility functions and resource availability, with an emphasis on emergent rather than explicitly programmed behaviors. Results demonstrate that agents form a stable economy, achieving an average utility increase of 25% over baseline random actions, and developing specialized roles and trading networks. This implies that AI practitioners can leverage such simulation platforms for studying emergent societal dynamics and for designing more adaptive and autonomous AI systems in complex, interactive environments."
+    },
+    {
+        "title": "VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions",
+        "authors": "Dong Zhang, Chen Wang, Yuxuan Xie, Mingyang Han, Jun Zhan",
+        "arxiv_id": "2509.09716",
+        "link": "https://arxiv.org/abs/2509.09716",
+        "category": "Multi-Modal",
+        "summary": "VStyle is a benchmark for evaluating voice style adaptation models using spoken instructions, addressing the challenge of enabling users to control generated speech styles without explicit reference audio. The paper introduces a dataset of 5,000 unique styles paired with speech instructions, along with a comprehensive evaluation protocol including objective metrics like style consistency (e.g., Speaker Embedding Cosine Similarity of 0.75 for a baseline model) and intelligibility, and human perceptual studies. It evaluates several state-of-the-art text-to-speech models, demonstrating that current models struggle to accurately adapt to diverse voice styles solely from spoken instructions. The findings highlight the need for further research into robust speech generation methods capable of nuanced style control based on natural language input, providing a standardized framework for future development in this area."
+    },
+    {
+        "title": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+        "authors": "Fabian Otto, \u00d6mer Erdin\u00e7 Ya\u011fmurlu, Marcel R\u00fchle, Hongyi Zhou, Moritz Reuss",
+        "arxiv_id": "2509.04996",
+        "link": "https://arxiv.org/abs/2509.04996",
+        "category": "Multi-Modal",
+        "summary": "FLOWER introduces a novel framework for creating efficient and adaptable generalist robot policies by leveraging vision-language-action flow. The primary objective is to overcome the limitations of large, pre-trained models in terms of efficiency and real-world deployment for diverse robot manipulation tasks. This is achieved through a two-stage methodology: pre-training a foundation model with extensive multi-modal data and then distilling its knowledge into a compact, specialized policy via a \"flow policy\" that integrates semantic and geometric cues. FLOWER demonstrates significant performance, achieving an 84.6% success rate on 15 long-horizon tasks while utilizing a model that is 112 times smaller than comparative approaches. This approach offers AI practitioners a pathway to deploy more efficient and generalizable robot policies in resource-constrained environments, bridging the gap between large foundation models and practical robotic applications."
+    },
+    {
+        "title": "Inpainting-Guided Policy Optimization for Diffusion Large Language Models",
+        "authors": "Chenyu Wang, Miao Liu, Jing Huang, Mengchen Liu, siyanzhao",
+        "arxiv_id": "2509.10396",
+        "link": "https://arxiv.org/abs/2509.10396",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Inpainting-Guided Policy Optimization (IGPO), a novel reinforcement learning framework for aligning Diffusion Large Language Models (DDLMs) with human preferences without requiring a reward model. IGPO addresses the challenge of directly optimizing DDLMs by treating text generation as an inpainting task, leveraging a contrastive inpainting-guided reward to train a policy network that steers the DDLM. The methodology involves a critic that learns to predict human preferences based on masked portions of text and a policy network trained to generate text that maximizes this inpainting-guided reward, enabling efficient alignment without explicit reward modeling. Experiments on a controlled text generation task demonstrate that IGPO improves adherence to desired attributes by 21.3% compared to baseline methods while maintaining high text quality. This framework offers a promising approach for fine-tuning DDLMs to align with complex human preferences, enhancing the controllability and quality of generated text for various AI applications."
+    },
+    {
+        "title": "LoFT: Parameter-Efficient Fine-Tuning for Long-tailed Semi-Supervised Learning in Open-World Scenarios",
+        "authors": "Bing Su, Jiahao Chen, lyr1ssr, gamesliker",
+        "arxiv_id": "2509.09926",
+        "link": "https://arxiv.org/abs/2509.09926",
+        "category": "Machine Learning",
+        "summary": "This paper introduces LoFT, a novel parameter-efficient fine-tuning method designed for long-tailed semi-supervised learning in open-world scenarios. The core objective is to address challenges where models struggle with imbalanced datasets and novel classes without extensive re-training. LoFT achieves this by employing a feature-space-based approach with a learnable linear layer on top of a frozen pre-trained backbone, coupled with a tailored loss function. Experimental results demonstrate LoFT's effectiveness, showing an average F1-score improvement of up to 4.3% over state-of-the-art methods on various datasets. This implies that AI practitioners can leverage LoFT to efficiently adapt large pre-trained models to imbalanced, evolving real-world data distributions with minimal computational overhead."
+    },
+    {
+        "title": "Color Me Correctly: Bridging Perceptual Color Spaces and Text Embeddings for Improved Diffusion Generation",
+        "authors": "Chiang Tseng, Cheng Yu Yeo, Yu Ting Shen, Bo-Lun Huang, Sung-Lin Tsai",
+        "arxiv_id": "2509.10058",
+        "link": "https://arxiv.org/abs/2509.10058",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach to enhance color control in text-to-image diffusion models. The primary objective is to bridge the gap between perceptual color spaces and text embeddings to achieve more accurate and controllable color generation. The methodology involves training a color-text embedding model using CLIP and employing a color descriptor to guide the diffusion process, effectively translating color specifications into the model's latent space. Results demonstrate a substantial improvement, with a user study showing that generated images are rated as 20% more accurate in color representation compared to baseline models. This innovation implies that AI practitioners can now achieve finer-grained color control in generative models, leading to more precise and creatively aligned outputs."
+    },
+    {
+        "title": "QuantAgent: Price-Driven Multi-Agent LLMs for High-Frequency Trading",
+        "authors": "Chenyu You, Siqi Sun, Aosong Feng, Fei Xiong, Wyattz23",
+        "arxiv_id": "2509.09995",
+        "link": "https://arxiv.org/abs/2509.09995",
+        "category": "Reinforcement Learning",
+        "summary": "QuantAgent introduces a novel price-driven multi-agent LLM framework for high-frequency trading, aiming to enhance trading strategies through collaborative AI. The research addresses the challenge of designing adaptive and profitable trading agents in dynamic market conditions. Its methodology involves a multi-agent system where LLMs act as independent agents, processing real-time market data to execute trades and learn from price fluctuations, significantly outperforming a baseline strategy by achieving a 3.49% return on investment over a short period. This framework offers a robust solution for developing intelligent autonomous trading systems, marking a significant step towards more sophisticated and responsive AI in financial markets."
+    },
+    {
+        "title": "World Modeling with Probabilistic Structure Integration",
+        "authors": "Daniel Bear, Honglin Chen, Rahul Venkatesh, Wanhee Lee, Klemen Kotar",
+        "arxiv_id": "2509.09737",
+        "link": "https://arxiv.org/abs/2509.09737",
+        "category": "Reinforcement Learning",
+        "summary": "This paper presents a novel approach to world modeling in reinforcement learning environments by integrating probabilistic structures. The primary objective is to enable agents to learn robust and predictive world models for effective planning and decision-making in complex and dynamic scenarios. The methodology involves a framework that combines variational autoencoders for state representation with a probabilistic graphical model to capture the causal dependencies and uncertainties in the environment dynamics. Experiments demonstrate that the proposed model achieves a 15% improvement in long-term prediction accuracy compared to baseline models, leading to enhanced planning performance in control tasks. This work implies that AI practitioners can leverage such structured probabilistic world models to develop more sample-efficient and interpretable reinforcement learning agents, particularly in environments requiring sophisticated understanding of state transitions and uncertainty."
+    },
+    {
+        "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools",
+        "authors": "Xiaorui Wang, Wentao Hong, Benfeng Xu, IgnoraZ, xuekeluoluo",
+        "arxiv_id": "2509.09734",
+        "link": "https://arxiv.org/abs/2509.09734",
+        "category": "Natural Language Processing",
+        "summary": "MCP-AgentBench evaluates the real-world performance of language agents through a multi-agent collaborative framework. The primary objective is to develop a comprehensive benchmark for assessing the effectiveness of language agents in complex, tool-mediated environments. The methodology involves a novel Multi-Agent Collaboration and Planning (MCP) framework, which enables agents to interact with a diverse set of tools and environments, simulating real-world scenarios. Experiments demonstrate that agents evaluated under MCP-AgentBench show a 25% average improvement in task completion rates compared to traditional benchmarks. This implies that AI practitioners should consider collaborative and tool-mediated evaluation frameworks for a more accurate assessment and development of robust language agents."
+    },
+    {
+        "title": "Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images",
+        "authors": "MarcHaraoui, AserLompo",
+        "arxiv_id": "2509.07966",
+        "link": "https://arxiv.org/abs/2509.07966",
+        "category": "Multi-Modal",
+        "summary": "Visual-TableQA introduces a novel open-domain benchmark to address the challenge of question answering over table images. The research aims to evaluate and improve models' ability to jointly process visual and textual information from table images to answer complex natural language questions. The methodology involves collecting and annotating a diverse dataset of tables and corresponding questions, creating a challenging benchmark for visual table question answering systems. Initial evaluations reveal that state-of-the-art models achieve an F1 score of only 0.45, indicating significant room for improvement in this multi-modal reasoning task. This benchmark provides a crucial tool for AI practitioners to develop and test more robust and accurate systems capable of understanding and extracting information from visually represented tables."
+    },
+    {
+        "title": "DeMeVa at LeWiDi-2025: Modeling Perspectives with In-Context Learning and Label Distribution Learning",
+        "authors": "Shane Kaszefski Yaschuk, Anh Dang, Hugh Mee Wong, chnln, ruthenian8",
+        "arxiv_id": "2509.09524",
+        "link": "https://arxiv.org/abs/2509.09524",
+        "category": "Natural Language Processing",
+        "summary": "This paper presents the DeMeVa system for modeling perspective detection in news articles, leveraging in-context learning (ICL) and label distribution learning (LDL). The primary objective is to enhance the detection of fine-grained perspective types in text, particularly focusing on the LeWiDi-2025 shared task. DeMeVa's methodology integrates large language models (LLMs) with few-shot ICL for initial predictions, which are then refined through a multi-label classification approach utilizing label distribution learning to handle nuanced and often overlapping perspective categories. The system achieved a macro F1-score of 0.69 on the LeWiDi-2025 dataset, demonstrating the effectiveness of combining ICL with LDL for complex textual perspective analysis. This work implies that AI practitioners can significantly improve the performance of perspective detection systems by adopting hybrid approaches that merge the interpretability and adaptability of LLM-based ICL with the robust multi-label handling capabilities of LDL."
+    },
+    {
+        "title": "CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models",
+        "authors": "Lujia Pan, JunJian Ye, Ziyu Zhao, Wenshuo Zhao, Kairong-Han",
+        "arxiv_id": "2509.01535",
+        "link": "https://arxiv.org/abs/2509.01535",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Causal Attention Tuning (CAT), a novel method for injecting fine-grained causal knowledge into Large Language Models (LLMs). The primary objective is to enhance LLMs' causal reasoning abilities by explicitly modeling causal relationships during the fine-tuning process, addressing the limitations of existing methods that often struggle with the subtle nuances of causality. CAT employs a causal attention mechanism that computes attention scores based on learned causal dependencies, integrating structural causal models (SCMs) with the transformer architecture to guide the attention mechanism towards causally relevant information. Experimental results demonstrate that CAT significantly improves causal reasoning performance, achieving a 7.5% increase in F1-score on a causal inference benchmark compared to baseline models. The main implication for AI practitioners is the provision of a more effective and interpretable approach to build LLMs with robust causal reasoning capabilities, which is crucial for applications requiring understanding of cause-and-effect relationships."
+    },
+    {
+        "title": "CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China",
+        "authors": "XU Han, Jianing Liu, Zeli Su, Geralt-Targaryen, Stuart-Xu",
+        "arxiv_id": "2509.09990",
+        "link": "https://arxiv.org/abs/2509.09990",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces CMHG, a novel benchmark dataset for headline generation in minority languages of China, specifically focusing on Uyghur and Tibetan. The research aims to address the significant data scarcity and lack of robust evaluation resources for these low-resource languages in text generation tasks. The authors propose a multi-stage data construction pipeline involving human annotation and strict quality control, resulting in CMHG containing over 200,000 document-headline pairs. Baseline experiments using various sequence-to-sequence models show that the best performing model achieves a ROUGE-1 score of 35.2 on the Uyghur subset, highlighting the challenges that remain. This work provides crucial resources for developing and evaluating NLP models for underrepresented languages, enabling more inclusive and diverse language technology."
+    },
+    {
+        "title": "Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation",
+        "authors": "Flor Miriam Plaza-del-Arco, Albert Wendsj\u00f6, Aleksandra Urman, Paul R\u00f6ttger, joebaumann",
+        "arxiv_id": "2509.08825",
+        "link": "https://arxiv.org/abs/2509.08825",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the security vulnerabilities of using Large Language Models (LLMs) for text annotation, particularly focusing on adversarial attacks during data processing. The core objective is to quantify the hidden risks associated with LLM-based annotation in the presence of malicious inputs. The methodology involves developing a novel attack framework that generates adversarial prompts to manipulate LLM outputs for tasks like sentiment analysis and hate speech detection. Key findings include a significant decrease in annotation accuracy, with adversarial attacks achieving up to an 89% success rate in inducing incorrect labels for sentiment classification. This research implies that AI practitioners must implement robust security measures and validation processes when integrating LLMs into critical annotation pipelines to mitigate substantial adversarial risks."
+    },
+    {
+        "title": "Context Engineering for Trustworthiness: Rescorla Wagner Steering Under Mixed and Inappropriate Contexts",
+        "authors": "Yanzhou Pan, Yifan Shen, Cheng Qian, Jiateng Liu, Rushi2002",
+        "arxiv_id": "2509.04500",
+        "link": "https://arxiv.org/abs/2509.04500",
+        "category": "Reinforcement Learning",
+        "summary": "This paper explores the trustworthiness of AI systems, particularly focusing on how context influences behavior in Rescorla-Wagner (RW) steered agents. The main objective is to understand and mitigate the effects of inappropriate or mixed contexts on an agent's ability to learn and react appropriately. The research employs a simulation-based methodology, where RW agents are subjected to various contextual cues, including misleading or irrelevant information, and their steering behavior and prediction errors are observed. Results indicate that agents exposed to mixed or inappropriate contexts show significant deviations in their steering actions and an increased error rate, with specific experiments demonstrating a rise in prediction error from a baseline of <5% to over 20% under adverse conditions. The primary implication for AI practitioners is the critical need for robust context engineering strategies to ensure AI system reliability and trustworthiness, especially in dynamic and potentially adversarial environments."
+    }
+]
