@@ -1,0 +1,162 @@
+[
+    {
+        "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+        "authors": "Yang Zhou, MingyuLiu, Xxxy13, lizizun, ZhouTimeMachine",
+        "arxiv_id": "2509.12201",
+        "link": "https://arxiv.org/abs/2509.12201",
+        "category": "Multi-Modal",
+        "summary": "OmniWorld introduces a novel multi-domain and multi-modal dataset for 4D world modeling, aiming to address the limitations of existing datasets in comprehensive real-world representation. The research establishes a new paradigm for 4D reconstruction and rendering by integrating diverse data sources from indoor, outdoor, and aerial environments. Key methodologies include the acquisition and annotation of high-fidelity data incorporating Lidar, RGB-D, and visual data streams. Experimental results demonstrate that models trained on OmniWorld achieve superior performance, with a 15% improvement in novel view synthesis quality compared to prior datasets. This dataset provides a robust benchmark and resource for advancing research in embodied AI, robotics, and immersive virtual reality experiences."
+    },
+    {
+        "title": "UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning",
+        "authors": "Yongliang Shen, Fei Tang, xhyandwyy, Mizukiluke, LZXzju",
+        "arxiv_id": "2509.11543",
+        "link": "https://arxiv.org/abs/2509.11543",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning\" introduces a novel semi-online reinforcement learning framework to enhance GUI automation efficiency and robustness. The main objective is to overcome the limitations of traditional offline and online RL methods in GUI automation by leveraging the benefits of both paradigms. UI-S1 employs a multi-agent actor-critic architecture, integrating a policy manager and a policy executor, to handle diverse GUI tasks and adapt to dynamic environments. Experimental results show that UI-S1 outperforms state-of-the-art methods, achieving a 15% increase in task completion rate and reducing interaction steps by 20% on complex GUI benchmarks. This approach offers AI practitioners a more adaptable and robust solution for developing advanced GUI automation systems, particularly in scenarios requiring both prior knowledge utilization and real-time adaptation."
+    },
+    {
+        "title": "InternScenes: A Large-scale Simulatable Indoor Scene Dataset with Realistic Layouts",
+        "authors": "Wenzhe Cai, Li Luo, Yichen Jin, Peizhou Cao, Weipeng Zhong",
+        "arxiv_id": "2509.10813",
+        "link": "https://arxiv.org/abs/2509.10813",
+        "category": "Computer Vision",
+        "summary": "InternScenes introduces a large-scale, simulatable indoor scene dataset designed to enhance the realism and diversity of virtual environments for embodied AI research. The primary objective is to overcome limitations of existing datasets by generating scenes with realistic layouts and diverse object arrangements. This is achieved through a novel generation pipeline that leverages real-world layout statistics and a custom placement algorithm for furniture and objects, allowing for programmatic variations. The dataset comprises 11,000 unique scenes, outperforming existing datasets by achieving a layout diversity score of 0.85 (compared to typical scores below 0.6 for synthetic datasets). This significantly impacts AI practitioners by providing a robust, high-fidelity platform for training and evaluating embodied agents in more realistic and complex indoor environments."
+    },
+    {
+        "title": "LazyDrag: Enabling Stable Drag-Based Editing on Multi-Modal Diffusion Transformers via Explicit Correspondence",
+        "authors": "Lionel M. Ni, Xianfang Zeng, Xili Dai, Zixin Yin, dorni",
+        "arxiv_id": "2509.12203",
+        "link": "https://arxiv.org/abs/2509.12203",
+        "category": "Multi-Modal",
+        "summary": "LazyDrag introduces a novel framework for stable drag-based editing within multi-modal diffusion transformers by establishing explicit correspondence. The primary objective is to overcome limitations in existing drag-based editing methods, which struggle with maintaining object identity and stability due to the multi-modal nature of models like Diffusion Transformers. Their methodology involves using an object-level image feature to represent the object's appearance, which is then used to explicitly guide the editing process and ensure consistent object identity throughout the dragging operation. LazyDrag achieves significantly more stable and consistent editing, demonstrated by a 78.5% success rate in maintaining object identity during complex transformations, compared to baseline methods. This advancement provides AI practitioners with a robust and precise tool for interactive image manipulation, enhancing control and consistency in creative content generation workflows."
+    },
+    {
+        "title": "SearchInstruct: Enhancing Domain Adaptation via Retrieval-Based Instruction Dataset Creation",
+        "authors": "Heshaam Faili, Mostafa Amiri, Iman998",
+        "arxiv_id": "2509.10708",
+        "link": "https://arxiv.org/abs/2509.10708",
+        "category": "Natural Language Processing",
+        "summary": "SearchInstruct addresses the challenge of domain adaptation for Large Language Models by generating high-quality, domain-specific instruction datasets using a retrieval-augmented approach. The paper introduces a method that leverages a small set of seed instructions to retrieve relevant domain documents, which are then used to synthesize new instruction-response pairs. This framework significantly improves model performance on target domains, achieving an average gain of 5.1 BLEU on the MMLU benchmark compared to models fine-tuned without SearchInstruct. The key implication for AI practitioners is the provision of an efficient and scalable method for creating customized instruction datasets, thereby reducing the manual effort and expertise typically required for domain-specific fine-tuning."
+    },
+    {
+        "title": "Learning to Optimize Multi-Objective Alignment Through Dynamic Reward Weighting",
+        "authors": "Changlong Yu, Xin Liu, Shiyang Li, Zilong Wang, ylu610",
+        "arxiv_id": "2509.11452",
+        "link": "https://arxiv.org/abs/2509.11452",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of aligning AI models with multiple, potentially conflicting human preferences. The authors propose a novel reinforcement learning approach called Dynamic Reward Weighting (DRW) that adaptively adjusts the weights of different reward components during training. DRW employs a meta-policy to learn optimal reward weight schedules, improving convergence and Pareto optimality across diverse objectives. Experimental results on large language models demonstrate that DRW achieves up to 15% better Pareto front coverage compared to static weighting methods, leading to more robust and aligned models. This method provides a practical solution for AI practitioners seeking to develop complex AI systems that satisfy a variety of human values and constraints, particularly in safety and helpfulness."
+    },
+    {
+        "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
+        "authors": "Vincent Sitzmann, Justin Solomon, Chenyang Yuan, Artem Lukoianov",
+        "arxiv_id": "2509.09672",
+        "link": "https://arxiv.org/abs/2509.09672",
+        "category": "Computer Vision",
+        "summary": "This paper investigates the emergence of locality in image diffusion models. The primary objective is to determine whether the locality observed in these models is an intrinsic property or a learned phenomenon derived from data. The methodology involves training diffusion models with carefully curated, non-local datasets, such as shuffled pixels or patch-shuffled images, and analyzing the resulting receptive fields. The key finding is that models trained on shuffled-pixel data exhibit significantly larger receptive fields (e.g., 20x larger than standard models) and struggle to reconstruct images effectively, achieving only 0.1 PSNR on standard images. This indicates that locality is largely learned from the statistics of natural images, implying that data curation is crucial for efficient and effective image generation models."
+    },
+    {
+        "title": "Lost in Embeddings: Information Loss in Vision-Language Models",
+        "authors": "Ivan Vuli\u0107, Caiqi Zhang, Chengzu Li, Raphael Tang, lyan62",
+        "arxiv_id": "2509.11986",
+        "link": "https://arxiv.org/abs/2509.11986",
+        "category": "Multi-Modal",
+        "summary": "This paper investigates information loss within Vision-Language Models (VLMs) when converting high-dimensional images into lower-dimensional embeddings. The main objective is to quantify and analyze the extent of this information compression and its impact on VLM performance across various tasks. The study employs an information-theoretic framework, using metrics like Mutual Information and reconstruction error, to evaluate different VLM architectures and embedding strategies. Key findings reveal significant information loss, with up to 70% of spatial details being discarded in some embedding layers, leading to degraded performance in fine-grained visual understanding tasks. The primary implication for AI practitioners is the necessity to design VLM architectures that explicitly mitigate information loss during the embedding process, especially for applications requiring detailed visual reasoning."
+    },
+    {
+        "title": "Measuring Epistemic Humility in Multimodal Large Language Models",
+        "authors": "Kaiyang Zhou, Sifeng Shang, Bingkui Tong, JiaerX",
+        "arxiv_id": "2509.09658",
+        "link": "https://arxiv.org/abs/2509.09658",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel framework to measure epistemic humility in multimodal large language models (MLLMs). The research aims to quantify MLLMs' ability to express uncertainty or lack of knowledge when faced with out-of-distribution (OOD) or ambiguous visual inputs. The methodology involves creating a specialized dataset of challenging visual questions and evaluating MLLMs' responses based on calibrated uncertainty scores and explicit disclaimers. Experiments show that current MLLMs exhibit limited epistemic humility, with models like InstructBLIP achieving only 0.25 on a 0-1 humility score. The main implication for AI practitioners is the critical need to develop MLLMs that are more aware of their own limitations, especially when deployed in real-world scenarios requiring robust and trustworthy AI systems."
+    },
+    {
+        "title": "Nav-R1: Reasoning and Navigation in Embodied Scenes",
+        "authors": "Hao Tang, Ting Huang, Qingxiang Liu, SteveZeyuZhang",
+        "arxiv_id": "2509.10884",
+        "link": "https://arxiv.org/abs/2509.10884",
+        "category": "Multi-Modal",
+        "summary": "Nav-R1 introduces a novel framework for embodied AI agents to perform complex reasoning and navigation in unseen environments by integrating large language models (LLMs) and visual-language models (VLMs). The core objective is to enable agents to execute high-level instructions, such as \"find a coffee cup and bring it to the kitchen,\" by dynamically generating sub-goals and navigating based on environmental cues. The methodology involves a hierarchical planning approach where an LLM generates abstract plans and an embodied VLM (e.g., VLaMo) grounds these plans into actionable navigation commands, using real-time visual and semantic information. Experiments show that Nav-R1 significantly outperforms baseline methods, achieving a success rate of 72.5% in complex instruction following tasks within interactive environments like ALFRED. This work implies that by synergistically combining the symbolic reasoning capabilities of LLMs with the perceptual understanding of VLMs, AI practitioners can develop more robust and adaptable embodied agents for real-world applications."
+    },
+    {
+        "title": "Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models",
+        "authors": "Shuo Ren, Chen Wang, Wei Sun, Junhong Wu, Pu Jian",
+        "arxiv_id": "2509.12132",
+        "link": "https://arxiv.org/abs/2509.12132",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach to enhance visual reflection in Vision-Language Models (VLMs) by prompting them to \"Look Again, Think Slowly.\" The research aims to improve VLM performance on complex visual reasoning tasks by integrating iterative visual re-examination and step-by-step thinking. The methodology involves a multi-stage prompting strategy that guides the VLM to first generate an initial answer, then reflect on its visual observations, and finally revise its answer based on this structured self-correction process. Experiments on various benchmarks show that this method significantly boosts VLM performance, achieving an average improvement of 5.8% on science QA tasks and 4.2% on visual reasoning tasks. This approach provides a practical framework for AI practitioners to develop more robust and accurate VLMs capable of deeper visual understanding and reasoning."
+    },
+    {
+        "title": "CognitiveSky: Scalable Sentiment and Narrative Analysis for Decentralized Social Media",
+        "authors": "Subasish Das, Anandi Dutta, gauravfs-14",
+        "arxiv_id": "2509.11444",
+        "link": "https://arxiv.org/abs/2509.11444",
+        "category": "Natural Language Processing",
+        "summary": "CognitiveSky addresses the challenges of scalable sentiment and narrative analysis on decentralized social media platforms. The primary objective is to develop a robust system capable of processing large volumes of unstructured text data from decentralized networks to extract sentiment and identify emerging narratives. It employs a multi-component methodology integrating transformer-based language models for sentiment classification with graph-based clustering algorithms for narrative detection, leveraging parallel processing architectures for scalability. The system demonstrated a 15% improvement in F1-score for sentiment analysis compared to baseline models and processed over 1 million posts per hour. This enables AI practitioners to monitor public discourse and detect misinformation more effectively across increasingly fragmented online environments."
+    },
+    {
+        "title": "PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits",
+        "authors": "Zhenhao Chen, Guangyi Chen, Minghao Fu, Wong Yu Kang, Loka Li",
+        "arxiv_id": "2509.11362",
+        "link": "https://arxiv.org/abs/2509.11362",
+        "category": "Multi-Modal",
+        "summary": "PersonaX introduces multimodal datasets enhanced with LLM-inferred behavior traits to study the impact of persona in human-AI interaction. The primary objective is to investigate how explicit persona conditioning influences AI agent performance and user perception in various tasks. The methodology involves generating synthetic datasets where LLMs infer personality traits from user utterances and then using these traits to condition AI agents in tasks like empathetic dialogue and referential games. Preliminary results indicate that persona-conditioned models show a 3.5% improvement in task-specific performance and exhibit more human-like communication as rated by human evaluators. The main implication for AI practitioners is the potential to develop more adaptable and context-aware AI systems by integrating richer, persona-driven conditioning based on multimodal inputs."
+    },
+    {
+        "title": "Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding",
+        "authors": "Li Zheng, Tianjie Ju, Liqiang Jing, Shengqiong Wu, Meng Luo",
+        "arxiv_id": "2509.11866",
+        "link": "https://arxiv.org/abs/2509.11866",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Dr.V, a novel hierarchical framework designed to diagnose and mitigate video hallucination in large multi-modal models (LMMs) by performing fine-grained spatial-temporal grounding. The primary objective is to develop a systematic approach to identify, localize, and explain hallucinations in video-LMMs, which currently lack robust diagnostic tools. Dr.V employs a three-stage methodology: Perception-level (detecting object/event presence), Temporal-level (analyzing inter-frame consistency), and Cognition-level (evaluating factual consistency against external knowledge). Experimental results demonstrate that Dr.V effectively diagnoses hallucinations, achieving a 78.5% Pearson correlation with human judgments on a benchmark dataset. The main implication for AI practitioners is the provision of a robust and interpretable diagnostic tool for enhancing the reliability and trustworthiness of video-LMMs by pinpointing the sources of hallucinatory behavior."
+    },
+    {
+        "title": "EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI",
+        "authors": "UVSKKR",
+        "arxiv_id": "2509.11648",
+        "link": "https://arxiv.org/abs/2509.11648",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces EthicsMH, a pilot benchmark designed to evaluate the ethical reasoning capabilities of Large Language Models (LLMs) in mental health contexts. The primary objective is to assess how LLMs navigate ethically challenging scenarios related to mental health support, focusing on aspects like privacy, informed consent, and avoiding harm. The methodology involves creating a dataset of mental health vignettes, each accompanied by multiple-choice questions requiring ethical judgment, and then evaluating several LLMs (including GPT-3.5 and GPT-4) on their ability to select ethically sound responses. Key findings indicate that while advanced LLMs like GPT-4 demonstrate improved performance, achieving an average accuracy of 75.8% compared to GPT-3.5's 61.2%, there remains a significant gap in robust ethical reasoning, especially in nuanced situations. The main implication for AI practitioners is the critical need to develop and integrate more sophisticated ethical alignment mechanisms into LLMs intended for sensitive applications like mental health, ensuring safety and trustworthiness."
+    },
+    {
+        "title": "ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims",
+        "authors": "Sagnik Ray Choudhury, Andrew Wyckoff, Md Fahimul Kabir Chowdhury, Anirban Saha Anik",
+        "arxiv_id": "2509.11492",
+        "link": "https://arxiv.org/abs/2509.11492",
+        "category": "Natural Language Processing",
+        "summary": "This paper presents ClaimIQ's participation in the CheckThat! 2025 Shared Task on detecting and verifying numerical claims. The primary objective was to compare the effectiveness of prompted Large Language Models (LLMs) against fine-tuned smaller models for numerical claim verification, specifically for tasks 1a and 2a. The methodology involved evaluating various LLM prompting strategies, including Chain-of-Thought, and fine-tuning smaller models like BERT and RoBERTa on annotated datasets. Key results indicate that fine-tuned RoBERTa-large achieved the highest F1-score of 0.65 for claim detection, while LLMs generally performed better in claim verification, with GPT-4 achieving an F1-score of 0.48 for Task 2a. The main implication for AI practitioners is that a hybrid approach combining fine-tuned models for detection and prompted LLMs for verification could be optimal for robust numerical claim verification systems."
+    },
+    {
+        "title": "FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs",
+        "authors": "Tariq Iqbal, Aman Chadha, Tasnim Mohiuddin, Rafat Hasan Khan, Md Mubtasim Ahasan",
+        "arxiv_id": "2509.11425",
+        "link": "https://arxiv.org/abs/2509.11425",
+        "category": "Computer Vision",
+        "summary": "FuseCodec introduces a novel neural image codec that integrates semantic and contextual information through a multi-stage fusion network and dual supervision to enhance compression efficiency. The main objective is to overcome the limitations of existing neural codecs by effectively modeling high-level semantic context, which significantly improves rate-distortion performance. The methodology involves a contextual transformer for global and local feature interaction, a semantic segmentation-based fusion module, and joint perceptual-distortion supervision. FuseCodec achieves state-of-the-art performance, outperforming VVC intra by 11.2% BD-rate reduction on MS-COCO, demonstrating superior quality across various bitrates. This advancement implies that AI practitioners can leverage more intelligent compression techniques for image and video data, leading to more efficient storage and transmission in real-world applications."
+    },
+    {
+        "title": "GAPrune: Gradient-Alignment Pruning for Domain-Aware Embeddings",
+        "authors": "Yixuan Tang, yixuantt",
+        "arxiv_id": "2509.10844",
+        "link": "https://arxiv.org/abs/2509.10844",
+        "category": "Machine Learning",
+        "summary": "GAPrune introduces a novel gradient-alignment pruning method to enhance the domain generalization of pre-trained embeddings by removing redundant parameters. The primary objective is to improve embedding robustness across diverse domains while maintaining or improving performance on target tasks. The methodology involves a gradient-alignment scoring function to identify and prune parameters that exhibit low alignment with domain-specific gradients, thereby promoting more generalizable representations. Experimental results demonstrate that GAPrune achieves up to a 10.4% improvement in domain generalization accuracy on various benchmarks. This approach provides AI practitioners with a method to create more efficient and adaptable embedding models for real-world applications where domain shifts are common."
+    },
+    {
+        "title": "ToolRM: Outcome Reward Models for Tool-Calling Large Language Models",
+        "authors": "Luis A. Lastras, Merve Unuvar, Kinjal Basu, Ibrahim Abdelaziz, Mayank Agarwal",
+        "arxiv_id": "2509.11963",
+        "link": "https://arxiv.org/abs/2509.11963",
+        "category": "Reinforcement Learning",
+        "summary": "ToolRM introduces an outcome reward modeling framework to enhance the reliability of tool-calling Large Language Models (LLMs) by addressing issues like hallucination and incorrect tool usage. The primary objective is to align LLMs with successful tool-use outcomes rather than just intermediate actions, thereby improving decision-making in complex environments. ToolRM achieves this by training a reward model to predict the success of tool use given the LLM's output and the environment's response, using both positive and negative demonstrations. Experiments show that ToolRM improves success rates by an average of 10-20% across various tasks, particularly excelling in scenarios requiring multi-turn interactions and complex reasoning. This framework provides AI practitioners with a robust method to fine-tune LLMs for more dependable and efficient real-world tool integration."
+    },
+    {
+        "title": "LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction",
+        "authors": "Zixuan Li, Yuxuan Hu, Weichu Liu, Cloudriver, menik1126",
+        "arxiv_id": "2509.07403",
+        "link": "https://arxiv.org/abs/2509.07403",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces LongEmotion, a novel benchmark designed to evaluate the emotional intelligence (EQ) of Large Language Models (LLMs) in long-context conversational settings. The primary objective is to assess how LLMs maintain emotional understanding and responsiveness over extended dialogues, a critical aspect for empathetic and effective AI interaction. LongEmotion employs a semi-automatic data construction pipeline to create 800 multi-turn conversations, each containing at least 20 turns, and evaluates LLMs across four dimensions: emotion awareness, emotion understanding, emotion expression, and emotion regulation. Experimental results demonstrate a significant performance drop for current advanced LLMs, with Llama-3-70B achieving only 55.4% accuracy, highlighting a considerable gap in their ability to handle long-context emotional interactions. The findings suggest that existing LLMs struggle with maintaining emotional coherence over extended dialogues, underscoring the need for further research into long-context emotional intelligence for more human-like AI systems."
+    }
+]
