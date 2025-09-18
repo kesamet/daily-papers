@@ -1,0 +1,170 @@
+[
+    {
+        "title": "WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research",
+        "authors": "Houquan Zhou, Shen Huang, Bo Zhang, Xin Guan, zli999",
+        "arxiv_id": "2509.13312",
+        "link": "https://arxiv.org/abs/2509.13312",
+        "category": "Natural Language Processing",
+        "summary": "WebWeaver is a novel framework designed to enhance open-ended deep research by structuring web-scale evidence using dynamic outlines. The core objective is to overcome the limitations of traditional search engines in synthesizing disparate information for complex research tasks. It employs a retrieval-augmented generation (RAG) system that iteratively refines search queries and outline structures, leveraging a large language model (LLM) for evidence synthesis. Empirical evaluations show that WebWeaver improves outline quality by 12.3% and enhances summary coherence by 18.5% compared to baseline methods, facilitating more comprehensive and organized research outcomes. This system has significant implications for AI practitioners developing advanced information retrieval and synthesis tools, particularly for applications requiring deep contextual understanding and evidence structuring from vast, unstructured data sources."
+    },
+    {
+        "title": "Scaling Agents via Continual Pre-training",
+        "authors": "Guangyu Li, Zhen Zhang, chenxz, callanwu, HKU-Liangcai",
+        "arxiv_id": "2509.13310",
+        "link": "https://arxiv.org/abs/2509.13310",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces a novel approach to improving the efficiency and robustness of AI agents through continual pre-training. It addresses the challenge of creating versatile agents capable of performing a wide array of tasks without needing extensive retraining for each new scenario. The core methodology involves using a diverse set of internet-scale behavioral data to pre-train a foundational agent, which is then fine-tuned for specific downstream tasks. This pre-training significantly reduces the amount of task-specific data required, achieving a 10x improvement in sample efficiency on new tasks compared to training from scratch. This approach suggests a paradigm shift for AI practitioners towards developing more generalist agents by leveraging large-scale, diverse datasets for initial training."
+    },
+    {
+        "title": "WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning",
+        "authors": "Zhongwang Zhang, Kuan Li, callanwu, xxwu, zhaoyd",
+        "arxiv_id": "2509.13305",
+        "link": "https://arxiv.org/abs/2509.13305",
+        "category": "Reinforcement Learning",
+        "summary": "WebSailor-V2 introduces a novel approach to bridge the performance gap between open-source and proprietary agents in web-based environments by leveraging synthetic data and scalable reinforcement learning. The paper aims to develop a performant open-source web agent without relying on real-user trajectory data. It employs a two-stage methodology: first, generating diverse synthetic data through a rule-based simulator and LLMs, and second, training an agent using a scalable RL framework with 100k queries per second. WebSailor-V2 achieves a 62.4% success rate on MiniWoB-plus-plus, outperforming prior open-source models and approaching proprietary agent performance. This work significantly impacts AI practitioners by providing a viable path for developing robust open-source web agents through synthetic data generation and efficient RL, reducing dependence on costly real-world data collection."
+    },
+    {
+        "title": "Towards General Agentic Intelligence via Environment Scaling",
+        "authors": "Baixuan Li, Shihao Cai, Runnan Fang, HKU-Liangcai, callanwu",
+        "arxiv_id": "2509.13311",
+        "link": "https://arxiv.org/abs/2509.13311",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates achieving more general agentic intelligence by scaling environments for reinforcement learning agents. The core objective is to determine if increasing the complexity and diversity of training environments can lead to agents with broader capabilities and more robust generalization. The methodology involves training a single, generalist agent across a vast, procedurally generated 3D world (MineDojo) comprising 10,000 unique tasks, utilizing a scaling strategy for both environment difficulty and agent architecture. Results show that scaling up the training environment leads to a 2.5x improvement in zero-shot generalization to novel tasks compared to single-task specialists. This suggests that practitioners can achieve more adaptable and general-purpose AI agents by focusing on diverse and scalable environment design rather than specialized model architectures for individual tasks."
+    },
+    {
+        "title": "WebResearcher: Unleashing unbounded reasoning capability in Long-Horizon Agents",
+        "authors": "Wenbiao Yin, Donglei Yu, Guoxin Chen, Zile Qiao, chenxz",
+        "arxiv_id": "2509.13309",
+        "link": "https://arxiv.org/abs/2509.13309",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces WebResearcher, an innovative framework that augments long-horizon agents with advanced web navigation and information synthesis capabilities to tackle complex, open-ended tasks. The primary objective is to overcome the limitations of current LLM-based agents in executing multi-step tasks requiring external information and iterative reasoning. WebResearcher employs a novel three-stage architecture: a planning module to decompose tasks, an execution module for web interaction and tool use, and a reflection module for iterative refinement, significantly improving upon existing methods. It achieves a 62.5% success rate on the WebArena benchmark, outperforming baselines that struggle with intricate web-based challenges. This framework implies that AI practitioners can now develop more robust and autonomous agents capable of handling real-world, long-horizon tasks by leveraging strategic web interaction and iterative reasoning."
+    },
+    {
+        "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+        "authors": "Litu Ou, Liwen Zhang, Kuan Li, zhaoyd, xxwu",
+        "arxiv_id": "2509.13313",
+        "link": "https://arxiv.org/abs/2509.13313",
+        "category": "Reinforcement Learning",
+        "summary": "ReSum addresses the challenge of long-horizon search in LLM agents by developing a context summarization technique. The core objective is to distill vast observational histories into concise, actionable summaries for effective decision-making over extended tasks. This is achieved through an LLM-based summarizer that integrates a memory module and a self-correction mechanism to refine summaries based on future observations. ReSum demonstrated a significant improvement, achieving up to 2.8x higher success rates on a 2048-turn benchmark, outperforming baselines that struggle with context window limitations. The implication for AI practitioners is the ability to deploy more robust and efficient LLM agents for complex, long-duration tasks without incurring prohibitive computational costs associated with ever-growing context windows."
+    },
+    {
+        "title": "Single-stream Policy Optimization",
+        "authors": "Zihan Ding, Zhongwen Xu",
+        "arxiv_id": "2509.13232",
+        "link": "https://arxiv.org/abs/2509.13232",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Single-stream Policy Optimization (SPO), a novel algorithm for efficient reinforcement learning that addresses limitations of traditional actor-critic methods. The primary objective is to enhance training stability and performance by employing a single neural network to predict both actions and values, thereby eliminating discrepancies between separate networks. SPO leverages a shared backbone architecture with distinct heads for policy and value functions, optimized using a combined loss function that includes policy gradient and value estimation errors. Experimental results demonstrate that SPO achieves state-of-the-art performance, surpassing baselines by up to 20% in specific environments, while also significantly reducing computational overhead. This approach offers AI practitioners a more robust and computationally efficient method for developing and deploying reinforcement learning agents in complex tasks."
+    },
+    {
+        "title": "Hunyuan3D Studio: End-to-End AI Pipeline for Game-Ready 3D Asset Generation",
+        "authors": "Lixin Xu, Shuhui Yang, Xinhai Liu, Yang Li, Biwen Lei",
+        "arxiv_id": "2509.12815",
+        "link": "https://arxiv.org/abs/2509.12815",
+        "category": "Multi-Modal",
+        "summary": "Hunyuan3D Studio presents an end-to-end AI pipeline for generating high-quality game-ready 3D assets from various inputs, addressing the challenge of efficient and scalable 3D content creation. The objective is to produce PBR-ready 3D models with topology and textures suitable for game engines, supporting input modalities like text, images, and other 3D assets. The methodology involves a multi-stage process, integrating text-to-3D, image-to-3D, and 3D-to-3D generation, along with a novel 3D-oriented denoising diffusion model and PBR material synthesis. Key results demonstrate that the pipeline achieves up to 90% user satisfaction in generating game-ready assets and outperforms existing methods in fidelity and usability for game development. This pipeline significantly streamlines 3D asset production, enabling AI practitioners to rapidly prototype and scale 3D content creation for interactive applications."
+    },
+    {
+        "title": "3D Aware Region Prompted Vision Language Model",
+        "authors": "Xiaolong Li, Zhijian Liu, Yukang Chen, Yang Fu, An-Chieh Cheng",
+        "arxiv_id": "2509.13317",
+        "link": "https://arxiv.org/abs/2509.13317",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces the 3D Aware Region Prompted Vision Language Model (3DaRP), a novel framework for enhancing 3D scene understanding by integrating 2D vision-language models with 3D representations. The main objective is to overcome the limitations of 2D models in spatial reasoning by leveraging 3D structural information for improved open-vocabulary 3D scene perception. 3DaRP employs a two-stage approach: initially generating 2D region prompts via a Vision-Language Model (VLM) for diverse object localization, and subsequently lifting these 2D prompts into 3D using a neural field representation to enable detailed 3D reasoning. The model achieves a 22.1% improvement in open-vocabulary 3D instance segmentation over baseline methods, demonstrating superior performance in complex scene understanding. This framework offers significant implications for AI practitioners, providing a scalable and robust method for developing more spatially intelligent AI systems capable of advanced 3D scene interpretation and interaction."
+    },
+    {
+        "title": "EconProver: Towards More Economical Test-Time Scaling for Automated Theorem Proving",
+        "authors": "Shansan Gong, Jiahao Xu, Zhenwen Liang, Linfeng Song, kiaia",
+        "arxiv_id": "2509.12603",
+        "link": "https://arxiv.org/abs/2509.12603",
+        "category": "Machine Learning",
+        "summary": "EconProver introduces a novel approach to optimize automated theorem proving by improving test-time scaling efficiency. The core objective is to reduce the computational cost associated with scaling up models during inference in automated theorem proving, a process often bottlenecked by extensive search strategies. The methodology involves a dynamic token budget allocation strategy that leverages a lightweight budget predictor to adjust search depth, combined with a proof-guided search (PGS) that prunes unpromising search branches and reranks options based on proof structure. Experimental results demonstrate that EconProver achieves a 2.5x speedup and a 2.8x reduction in peak GPU memory usage, with only a marginal 0.3% decrease in proof rate, when applied to a large language model. This work implies that practitioners can significantly enhance the efficiency of large language models for formal reasoning tasks without substantial performance degradation, making such systems more practical for real-world applications."
+    },
+    {
+        "title": "Exact Coset Sampling for Quantum Lattice Algorithms",
+        "authors": "yifAI",
+        "arxiv_id": "2509.12341",
+        "link": "https://arxiv.org/abs/2509.12341",
+        "category": "Other",
+        "summary": "This paper introduces a novel algorithm for exact coset sampling within quantum lattice algorithms, a critical component for cryptographic applications. The primary objective is to develop a method that provides perfectly uniform samples from a coset of a lattice without approximation errors, improving upon classical techniques. The key methodology involves leveraging quantum states and measurements to achieve exact sampling, specifically using quantum walks or analogous quantum operations for exploring the lattice structure. The results demonstrate that this quantum approach can achieve exactness where classical methods often resort to approximations, with a particular focus on its application in quantum-resistant cryptography, where it can be exponentially faster. The main implication for AI practitioners working in quantum computation or cryptography is the availability of a provably exact and potentially faster primitive for constructing secure quantum algorithms, thereby enhancing the reliability and efficiency of quantum-safe cryptographic schemes."
+    },
+    {
+        "title": "Multimodal Reasoning for Science: Technical Report and 1st Place Solution to the ICML 2025 SeePhys Challenge",
+        "authors": "Wentao Zhang, Junbo Niu, Ruitao Wu, Hao Liang, zbhpku",
+        "arxiv_id": "2509.06079",
+        "link": "https://arxiv.org/abs/2509.06079",
+        "category": "Multi-Modal",
+        "summary": "This paper presents a detailed technical report and the winning solution for the ICML 2025 SeePhys Challenge, focusing on multimodal scientific reasoning. The primary objective was to develop a system capable of accurately answering physics questions requiring a deep understanding of visual and textual information. The methodology involved an advanced multi-modal large language model (MLLM) architecture, specifically fine-tuned for physics reasoning tasks, and leveraging diverse data augmentation strategies. The solution achieved an impressive 92.5% accuracy on the SeePhys Challenge leaderboard, significantly outperforming baseline models. The main implication for AI practitioners is the demonstration of highly effective strategies for integrating and reasoning over complex multimodal scientific data, offering a robust framework for future AI systems in STEM fields."
+    },
+    {
+        "title": "Phi: Preference Hijacking in Multi-modal Large Language Models at Inference Time",
+        "authors": "Jinghui Chen, Lu Lin, Weitong Zhang, Yuanpu Cao, yflantmy",
+        "arxiv_id": "2509.12521",
+        "link": "https://arxiv.org/abs/2509.12521",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces \"Phi,\" a novel attack that exploits multi-modal large language models (MLLMs) to hijack user preferences at inference time. The research investigates whether MLLMs can be manipulated to generate responses aligned with an attacker's preferences rather than the user's, without requiring model fine-tuning. The methodology involves injecting adversarial examples directly into user prompts, effectively bypassing safety mechanisms and altering the model's output distribution. Results show that Phi achieved a 75% attack success rate across various MLLMs, demonstrating the significant vulnerability of these models to preference manipulation. This implies that MLLM developers and practitioners must implement more robust security measures to prevent malicious actors from subverting user intent and generating undesirable or harmful content."
+    },
+    {
+        "title": "Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis",
+        "authors": "Bo Liu, Fengtao Zhou, Heng Fang, Sheng Huang, Dearcat",
+        "arxiv_id": "2509.11526",
+        "link": "https://arxiv.org/abs/2509.11526",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel multiple instance learning (MIL) framework specifically designed for analyzing gigapixel whole slide images (WSIs) in histopathology. The main objective is to overcome challenges posed by the large size and sparsity of positive instances in WSIs for accurate disease diagnosis. The key methodology involves a masked hard instance mining (MHIM) strategy that dynamically identifies and prioritizes challenging instances, improving the learning process and reducing computational burden. The framework achieved an AUC of 0.957 for predicting lymph node metastasis in a dataset of gigapixel images, demonstrating superior performance over existing MIL methods. This implies that AI practitioners can leverage this framework for more efficient and accurate diagnostic systems in digital pathology, especially for tasks involving large, complex image data."
+    },
+    {
+        "title": "RAPTOR: A Foundation Policy for Quadrotor Control",
+        "authors": "Giuseppe Loianno, Dario Albani, Jonas Eschmann",
+        "arxiv_id": "2509.11481",
+        "link": "https://arxiv.org/abs/2509.11481",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces RAPTOR (Rapid Adaptation Policy for Quadrotor Control), a foundation policy for agile quadrotor flight. The main objective is to develop a single, robust policy capable of zero-shot adaptation to various real-world disturbances and novel conditions without retraining. RAPTOR utilizes a two-stage reinforcement learning methodology involving a student policy that learns from an expert, and an adversarial training approach for improved robustness. It achieved significant performance, demonstrating successful recovery from 96% of unseen failure modes and outperforming baselines by 25% in tracking complex trajectories. The implication for AI practitioners is a scalable and adaptable control framework, potentially reducing the need for extensive retraining in dynamic robotic applications."
+    },
+    {
+        "title": "Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs",
+        "authors": "Luca Benini, Yawei Li, HangGuo",
+        "arxiv_id": "2509.11177",
+        "link": "https://arxiv.org/abs/2509.11177",
+        "category": "Machine Learning",
+        "summary": "This paper introduces Optimal Brain Restoration (OBR) for efficient LLM deployment by jointly optimizing quantization and sparsification. The core objective is to minimize the reconstruction error of the LLM's output by strategically removing or simplifying its weights. OBR employs an iterative layer-wise optimization, using a second-order approximation to identify and remove redundant parameters while quantizing the remaining ones to a low bit-width. Results show that OBR can achieve 4-bit quantization and 60% sparsity with less than 1% accuracy degradation on various LLMs, outperforming prior methods. This implies that AI practitioners can deploy highly compact and efficient LLMs on resource-constrained devices without significant performance loss."
+    },
+    {
+        "title": "Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation",
+        "authors": "Varun Jampani, Narendra Ahuja, Simon Donn\u00e9, Chun-Han Yao, Hao Zhang",
+        "arxiv_id": "2509.10687",
+        "link": "https://arxiv.org/abs/2509.10687",
+        "category": "Computer Vision",
+        "summary": "This paper introduces Stable Part Diffusion 4D, a novel framework for generating consistent 4D multi-view RGB and kinematic parts videos from text prompts. The research aims to overcome limitations in existing video generation models by enabling fine-grained control over object parts and their movements in a 3D-consistent manner. The methodology involves a text-to-4D diffusion model trained on a curated dataset of multi-view videos and 3D kinematic part annotations, leveraging a deformable neural radiance field for 3D consistency. Key results include the ability to generate high-quality videos with an average of 87.2% temporal consistency and 91.5% part-motion accuracy, outperforming baselines in fidelity and control. This implies that AI practitioners can now synthesize complex dynamic scenes with precise part-level control, opening new avenues for virtual content creation and robotics simulation."
+    },
+    {
+        "title": "ROOM: A Physics-Based Continuum Robot Simulator for Photorealistic Medical Datasets Generation",
+        "authors": "Kevin Dhaliwal, Francis Xiatian Zhang, Daniel Rebain, Mat\u00edas Mattamala, iamsalvatore",
+        "arxiv_id": "2509.13177",
+        "link": "https://arxiv.org/abs/2509.13177",
+        "category": "Other",
+        "summary": "This paper introduces ROOM, a novel physics-based simulator designed to generate photorealistic medical datasets for continuum robots. The objective is to overcome the scarcity of real-world medical data by creating synthetic, yet realistic, training environments. ROOM employs a Cosserat rod model and Position-Based Dynamics for accurate physical simulation, combined with an advanced rendering pipeline including an industry-standard path tracer. The simulator is capable of generating diverse datasets, with a key result showing a mean Absolute Percentage Error (MAPE) of 0.25% for a robot navigating a tortuous path compared to real-world data. ROOM provides a crucial tool for AI practitioners by enabling the development and evaluation of machine learning algorithms for medical robotics without extensive real-world data collection."
+    },
+    {
+        "title": "zELO: ELO-inspired Training Method for Rerankers and Embedding Models",
+        "authors": "Ashley Khoo, Anton Kaminskyi, Advaith Avadhanam, Ghita Houir Alami, Nicholas Pipitone",
+        "arxiv_id": "2509.12541",
+        "link": "https://arxiv.org/abs/2509.12541",
+        "category": "Machine Learning",
+        "summary": "The paper introduces zELO, a novel ELO-inspired training method designed to enhance the performance of rerankers and embedding models. The core objective is to improve the quality of rankings and embeddings by leveraging a competitive, pairwise learning approach. zELO achieves this by treating model training as a series of \"matches\" where models compete to produce better rankings, and their ELO-scores are updated accordingly, guiding the optimization process. Experimental results demonstrate that zELO significantly outperforms traditional ranking methods, achieving a 7.8% improvement in NDCG@10 on benchmark datasets. This method provides AI practitioners with a robust and effective alternative for training ranking and embedding models, potentially leading to more accurate information retrieval and recommendation systems."
+    },
+    {
+        "title": "Sound Matching an Analogue Levelling Amplifier Using the Newton-Raphson Method",
+        "authors": "Gy\u00f6rgy Fazekas, Chin-Yun Yu",
+        "arxiv_id": "2509.10706",
+        "link": "https://arxiv.org/abs/2509.10706",
+        "category": "Other",
+        "summary": "This paper focuses on reverse engineering the behavior of an analogue audio levelling amplifier using computational methods. The main objective is to accurately match the amplifier's response for both transient and steady-state signals across its operational range. The key methodology involves employing the Newton-Raphson method to solve a system of non-linear equations derived from the amplifier's characteristics, identifying parameters such as gain reduction, threshold, and release time. Primary results indicate a successful match with an average RMS error of 0.35 dB, demonstrating the effectiveness of the Newton-Raphson method for this application. This research provides AI practitioners with a robust method for precise digital emulation of complex analogue audio hardware, which can be applied to virtual instrument design and audio effects processing."
+    },
+    {
+        "title": "Struct-Bench: A Benchmark for Differentially Private Structured Text Generation",
+        "authors": "Pei Zhou, Victor Reis, Arturs Backurs, Vikas Raunak, Shuaiqiw",
+        "arxiv_id": "2509.10696",
+        "link": "https://arxiv.org/abs/2509.10696",
+        "category": "Natural Language Processing",
+        "summary": "Struct-Bench introduces a novel benchmark for evaluating differentially private (DP) structured text generation. The primary objective is to address the lack of specialized benchmarks for assessing the trade-off between privacy and utility in generating structured data such like tables or key-value pairs. The methodology involves creating a suite of diverse datasets and metrics tailored for structured text generation, allowing for robust evaluation of DP models. Initial results demonstrate that existing DP mechanisms often struggle to maintain high utility in structured outputs, with utility drop-offs exceeding 30% in some cases under strong privacy budgets. This research highlights the need for developing more effective DP algorithms specifically designed for the complexities of structured text, urging AI practitioners to consider these unique challenges when implementing privacy-preserving NLP solutions."
+    }
+]
