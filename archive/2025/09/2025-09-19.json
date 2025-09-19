@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Hala Technical Report: Building Arabic-Centric Instruction & Translation Models at Scale",
+        "authors": "Bernard Ghanem, Hasan Abed Al Kader Hammoud, zbeeb",
+        "arxiv_id": "2509.14008",
+        "link": "https://arxiv.org/abs/2509.14008",
+        "category": "Natural Language Processing",
+        "summary": "The paper presents the development of Hala, a suite of Arabic-centric instruction-following and machine translation models, to address the scarcity of high-quality Arabic NLP resources. The primary objective was to build models capable of generating high-quality Arabic responses for instruction-following and improving Arabic-English translation. The methodology involved collecting and curating over 200,000 instruction-following examples and more than 600,000 parallel sentences, along with leveraging existing datasets and pre-trained models. Hala achieved a 69.3 BLEU score on Arabic-English translation, outperforming mGPT-7B by 5.3 BLEU points. The main implication for AI practitioners is the provision of robust, open-source models and datasets that significantly advance Arabic NLP capabilities and facilitate further research and application development in this domain."
+    },
+    {
+        "title": "SAIL-VL2 Technical Report",
+        "authors": "Yongjie Ye, Weijie Yin, stormthunder, hyyu20, Shuhuhuhu",
+        "arxiv_id": "2509.14033",
+        "link": "https://arxiv.org/abs/2509.14033",
+        "category": "Multi-Modal",
+        "summary": "The SAIL-VL2 technical report details the development and evaluation of SAIL-VL2, a new vision-language model. The primary objective is to advance state-of-the-art multi-modal AI capabilities by integrating a 3-billion parameter vision transformer (EVA02-CLIP-L/14) with a 7-billion parameter language model (Mistral-7B). The methodology involves training the model on a diverse dataset comprising 12 million images paired with text, totaling 11 billion tokens, which significantly expands upon the dataset used for its predecessor, SAIL-VL. Key results include achieving a new state-of-the-art zero-shot performance on ImageNet-1K with an accuracy of 92.4%, demonstrating superior generalization compared to previous models like LLaVA-1.5-13B and OpenFlamingo-9B. This advancement implies that SAIL-VL2 provides a robust foundation for various vision-language applications, offering enhanced reasoning and generation capabilities for AI practitioners working on multi-modal tasks."
+    },
+    {
+        "title": "PANORAMA: The Rise of Omnidirectional Vision in the Embodied AI Era",
+        "authors": "Kaiyu Lei, Ziqiao Weng, Chenfei Liao, Xu Zheng, LutaoJiang",
+        "arxiv_id": "2509.12989",
+        "link": "https://arxiv.org/abs/2509.12989",
+        "category": "Computer Vision",
+        "summary": "The paper \"PANORAMA: The Rise of Omnidirectional Vision in the Embodied AI Era\" comprehensively reviews the advancements and challenges of omnidirectional vision in embodied AI. Its primary objective is to survey the current landscape, identify key research questions, and propose future directions for this field. The methodology involves a systematic review of existing literature, categorizing approaches by sensor types, model architectures, and application domains such as navigation and manipulation. A notable finding is the significant improvement in navigation tasks, with some panoramic vision systems achieving over 90% success rates in complex environments, outperforming narrow field-of-view counterparts. This work implies that AI practitioners should prioritize integrating omnidirectional sensing for more robust and generalizable embodied AI systems, recognizing its potential for enhanced perception and decision-making."
+    },
+    {
+        "title": "GenExam: A Multidisciplinary Text-to-Image Exam",
+        "authors": "Yu Qiao, Changyao Tian, Xiangyu Zhao, Penghao Yin, wzk1015",
+        "arxiv_id": "2509.14232",
+        "link": "https://arxiv.org/abs/2509.14232",
+        "category": "Multi-Modal",
+        "summary": "GenExam introduces a novel benchmark for evaluating text-to-image (T2I) models through multidisciplinary exams, addressing the need for robust, objective assessment beyond subjective metrics. The primary objective is to evaluate the ability of T2I models to generate images that accurately reflect complex textual prompts across various domains. The methodology involves generating question-answer pairs and corresponding reference images, then using a zero-shot multi-modal large language model (MM-LLM) to score the T2I model's output against these references, achieving an average correlation of 0.86 with human evaluations. GenExam demonstrates that current T2I models struggle with nuanced prompt understanding, with models like DALL-E 3 achieving only a 36.5% overall accuracy. This benchmark offers a standardized, automatic evaluation framework for T2I models, facilitating targeted improvements in image generation fidelity and prompt adherence for AI practitioners."
+    },
+    {
+        "title": "Scrub It Out! Erasing Sensitive Memorization in Code Language Models via Machine Unlearning",
+        "authors": "Zhou Yang, Di Wang, Zhikun Zhang, Yao Wan, Zhaoyang Chu",
+        "arxiv_id": "2509.13755",
+        "link": "https://arxiv.org/abs/2509.13755",
+        "category": "Machine Learning",
+        "summary": "This paper introduces a novel machine unlearning framework to erase sensitive data memorized by code language models (CLMs). The primary objective is to develop an efficient and effective method for unlearning specific memorized data in CLMs without significant performance degradation on general tasks. The methodology involves a two-stage unlearning process:  initial unlearning via gradient ascent and a subsequent fine-tuning step on a clean dataset with a lightweight adapter. Experimental results demonstrate that the proposed method achieves an average unlearning rate of 88.5% across various memorized data types, while maintaining less than a 1% drop in task performance. This research offers a practical solution for developers to enhance the privacy and security of CLMs by enabling the removal of sensitive information, thereby mitigating risks associated with data leakage and compliance."
+    },
+    {
+        "title": "MedReseacher-R1: Expert-Level Medical Deep Researcher via A Knowledge-Informed Trajectory Synthesis Framework",
+        "authors": "Jingnan Liu, Lan Yao, Ailing Yu, dannygjj, yzlnew",
+        "arxiv_id": "2508.14880",
+        "link": "https://arxiv.org/abs/2508.14880",
+        "category": "Other",
+        "summary": "The MedReseacher-R1 paper introduces an expert-level medical deep researcher framework that leverages a knowledge-informed trajectory synthesis approach. This work addresses the challenge of achieving high-fidelity medical research by integrating a pre-trained Large Language Model (LLM) with a medical knowledge graph. The core methodology involves using a trajectory synthesis framework, which guides the LLM to navigate and synthesize information from a medical knowledge base, thereby enhancing its reasoning capabilities. Experiments demonstrate that MedReseacher-R1 outperforms GPT-4, achieving a 7.5% higher average F1 score in medical question-answering tasks and showing superior performance across various medical reasoning benchmarks. This implies that practitioners can develop more accurate and reliable AI systems for medical diagnosis, treatment planning, and drug discovery by integrating structured medical knowledge with advanced LLMs."
+    },
+    {
+        "title": "THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning",
+        "authors": "Yicheng Pan, Jiefeng Ma, Pengfei Hu, Zhenrong Zhang, JsingMog",
+        "arxiv_id": "2509.13761",
+        "link": "https://arxiv.org/abs/2509.13761",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces THOR, a novel framework for enhancing mathematical reasoning in large language models (LLMs) by integrating tool use and hierarchical reinforcement learning. The core objective is to improve LLM performance on complex mathematical tasks by breaking them down into sub-problems and dynamically selecting appropriate tools. THOR employs a two-level hierarchical policy: a high-level policy for task decomposition and tool selection, and a low-level policy for generating tool inputs. Experiments demonstrate that THOR achieves a new state-of-the-art accuracy of 82.0% on the MATH dataset, significantly outperforming existing methods. This approach provides a robust framework for AI practitioners to develop more capable mathematical reasoning systems by effectively leveraging external tools and structured decision-making."
+    },
+    {
+        "title": "MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook",
+        "authors": "Bowen Zhou, Yaxiong Chen, Jiajun Zhang, Shengwu Xiong, Peng Xu",
+        "arxiv_id": "2509.14142",
+        "link": "https://arxiv.org/abs/2509.14142",
+        "category": "Multi-Modal",
+        "summary": "The MARS2 2025 Challenge addresses multimodal reasoning, aiming to foster advancements in AI systems capable of integrating and processing information from diverse data types. The primary objective is to evaluate and improve models' abilities to perform complex reasoning tasks by leveraging new multimodal datasets that combine visual, textual, and audio inputs. The methodology involves the development of novel benchmarks and evaluation protocols for multimodal reasoning, including tasks that require common-sense understanding and sequential decision-making across modalities. Preliminary results from baseline models indicate significant challenges, with top-performing models achieving an average accuracy of approximately 62% on cross-modal inference tasks, highlighting ample room for improvement. This work implies the need for AI practitioners to develop more robust and integrated architectures for multimodal data fusion and reasoning to address the complexities of real-world scenarios."
+    },
+    {
+        "title": "Wan-Animate: Unified Character Animation and Replacement with Holistic Replication",
+        "authors": "Mingyang Huang, Siqi Hu, Li Hu, Xin Gao, Gang Cheng",
+        "arxiv_id": "2509.14055",
+        "link": "https://arxiv.org/abs/2509.14055",
+        "category": "Computer Vision",
+        "summary": "Wan-Animate introduces a unified framework for character animation and replacement, addressing the challenges of high-fidelity, controllable avatar generation from a single image or video. The core objective is to create realistic, controllable animated characters and to replace existing characters in a video while maintaining temporal consistency and identity. This is achieved through a novel holistic replication process that integrates identity, pose, and motion, utilizing a generative adversarial network architecture for synthesis. The method demonstrates superior performance, achieving a 0.72 F-Score for realism and 0.85 F-Score for identity preservation compared to existing methods, even under challenging conditions with complex poses and occlusions. This advancement offers significant implications for animation studios, content creators, and virtual reality applications, enabling more efficient and higher-quality character generation and manipulation."
+    },
+    {
+        "title": "Improving Context Fidelity via Native Retrieval-Augmented Reasoning",
+        "authors": "Xiangru Tang, Xinyu Wang, Jinlin Wang, siky, sheryc",
+        "arxiv_id": "2509.13683",
+        "link": "https://arxiv.org/abs/2509.13683",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Native Retrieval-Augmented Reasoning (NAR) to enhance context fidelity in large language models (LLMs) by integrating retrieval directly within the reasoning process. The objective is to mitigate issues like hallucination and irrelevance by ensuring LLMs only retrieve necessary information for each reasoning step. NAR employs a fine-tuned retriever that predicts when and what to retrieve during intermediate reasoning, achieving a 5.8% F1 score improvement on the HotpotQA dataset. This method allows LLMs to dynamically adapt their information retrieval, leading to more accurate and context-aware responses, which is crucial for building reliable AI applications."
+    },
+    {
+        "title": "AERIS: Argonne Earth Systems Model for Reliable and Skillful Predictions",
+        "authors": "Eugene Ku, V\u00e4in\u00f6 Hatanp\u00e4\u00e4, Sand33p, samforeman, stockeh",
+        "arxiv_id": "2509.13523",
+        "link": "https://arxiv.org/abs/2509.13523",
+        "category": "Other",
+        "summary": "The paper introduces AERIS, a comprehensive Earth system model designed for reliable and skillful predictions, addressing the challenge of integrating complex Earth system components. Its primary objective is to develop a highly configurable and scalable model capable of representing interactions across atmospheric, oceanic, and terrestrial systems with improved fidelity. The methodology involves a modular architecture integrating various component models (e.g., E3SM, CESM) and advanced numerical schemes, utilizing high-performance computing resources for coupled simulations. Initial results demonstrate enhanced predictability in subseasonal-to-seasonal forecasts, with a 15% improvement in temperature anomaly correlation compared to uncoupled models. The implication for AI practitioners is the potential for developing more robust and interpretable machine learning models for climate forecasting, leveraging AERIS's high-resolution and multi-component data for training and validation."
+    },
+    {
+        "title": "SteeringControl: Holistic Evaluation of Alignment Steering in LLMs",
+        "authors": "Zhun Wang, Nathan W. Henry, David Park, Vincent Siu, ncrispino",
+        "arxiv_id": "2509.13450",
+        "link": "https://arxiv.org/abs/2509.13450",
+        "category": "Natural Language Processing",
+        "summary": "SteeringControl introduces a comprehensive framework for evaluating alignment steering in Large Language Models (LLMs) to ensure safe and responsible AI. The study aims to rigorously assess how different steering mechanisms influence LLM behavior across various dimensions. It proposes a novel evaluation suite, SteeringControl, comprising 20 datasets and 100 metrics, to holistically measure steering effectiveness and unintended side effects. Experiments on 16 LLMs demonstrate that existing steering methods often exhibit trade-offs, with a 20% average decrease in helpfulness for a 15% increase in safety. The findings underscore the critical need for a balanced approach to alignment steering, providing a benchmark for future research and development in safer LLM deployment."
+    },
+    {
+        "title": "Quantum Variational Activation Functions Empower Kolmogorov-Arnold Networks",
+        "authors": "Hsi-Sheng Goan, Tianlong Chen, Morris Yu-Chao Huang, Jim137",
+        "arxiv_id": "2509.14026",
+        "link": "https://arxiv.org/abs/2509.14026",
+        "category": "Machine Learning",
+        "summary": "The paper introduces Quantum Variational Activation Functions (QVAFs) to enhance Kolmogorov-Arnold Networks (KANs). The main objective is to overcome the limitations of traditional activation functions in KANs by integrating quantum computing principles. The methodology involves replacing fixed activation functions in KANs with parameterized quantum circuits, which are optimized alongside network weights during training. Experiments show that KANs with QVAFs achieve a 20% improvement in accuracy on the FashionMNIST dataset compared to classical KANs. This implies that integrating quantum-inspired activation functions can lead to more powerful and efficient neural network architectures for AI practitioners."
+    },
+    {
+        "title": "Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs",
+        "authors": "Akhil-Theerthala",
+        "arxiv_id": "2509.14180",
+        "link": "https://arxiv.org/abs/2509.14180",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel data-generation framework for enhancing personal finance Large Language Models (LLMs) through synthetic reasoning chains. The core objective is to synthesize behaviorally-grounded, multi-step reasoning processes to improve LLM performance in complex financial scenarios, addressing the lack of diverse, high-quality training data. The methodology involves an iterative process using a seed LLM to generate initial reasoning paths, followed by expert-guided refinement and a custom re-ranking mechanism leveraging a smaller, specialized LLM to filter for coherence and accuracy. Experimental results demonstrate that fine-tuning an LLM on this synthetic dataset led to a 13% improvement in accuracy on a multi-choice reasoning task compared to a baseline, indicating its effectiveness. This framework provides AI practitioners with a scalable method to create high-quality, domain-specific datasets, thereby mitigating data scarcity and improving the robustness of LLMs for nuanced applications like personal finance."
+    },
+    {
+        "title": "LLM-I: LLMs are Naturally Interleaved Multimodal Creators",
+        "authors": "Tao Jin, Kai Jia, Feng Zhang, kkwok",
+        "arxiv_id": "2509.13642",
+        "link": "https://arxiv.org/abs/2509.13642",
+        "category": "Multi-Modal",
+        "summary": "The paper \"LLM-I: LLMs are Naturally Interleaved Multimodal Creators\" proposes a novel paradigm where Large Language Models (LLMs) act as interleaved multimodal creators. The main objective is to explore and demonstrate the inherent capability of LLMs to generate diverse multimodal outputs (text, image, audio, video) in an interleaved fashion, without specific architectural modifications for multimodal generation. The methodology involves training LLMs to output interleaved multimodal content through a unified representation that treats different modalities as tokens, leveraging existing text-to-image/audio/video models for generation. Key results indicate that LLM-I achieves a 79.2% success rate in generating coherent interleaved multimodal content across various benchmarks, outperforming baseline unimodal generation by a significant margin. This implies that AI practitioners can leverage the generative power of LLMs for complex multimodal content creation by treating different modalities as a unified sequence, simplifying development and enabling richer interactive AI systems."
+    },
+    {
+        "title": "WildSmoke: Ready-to-Use Dynamic 3D Smoke Assets from a Single Video in the Wild",
+        "authors": "Wuyang Chen, Manolis Savva, Jialin Song, qiuqiu99",
+        "arxiv_id": "2509.11114",
+        "link": "https://arxiv.org/abs/2509.11114",
+        "category": "Computer Vision",
+        "summary": "The paper \"WildSmoke\" introduces a novel method for generating dynamic 3D smoke assets from a single in-the-wild video. Its main objective is to overcome the limitations of existing 3D smoke modeling techniques, which typically require controlled environments or extensive manual effort, by automating the process from unconstrained video footage. The methodology involves an inverse graphics approach that leverages neural rendering and differentiable simulation to reconstruct the 3D smoke density and dynamics. Key results demonstrate that WildSmoke can reconstruct complex smoke plumes, achieving a PSNR of 28.5 dB on novel views, and it significantly reduces the time and resources needed for creating realistic smoke assets. This implies that AI practitioners can now more easily integrate highly realistic and dynamic smoke effects into various applications, from visual effects to virtual reality, without needing specialized capture setups."
+    },
+    {
+        "title": "Image Tokenizer Needs Post-Training",
+        "authors": "Xiaohao Xu, Jason Kuen, Hao Chen, Xiang Li, Kai Qiu",
+        "arxiv_id": "2509.12474",
+        "link": "https://arxiv.org/abs/2509.12474",
+        "category": "Computer Vision",
+        "summary": "The paper investigates the necessity of post-training for image tokenizers, a crucial component for large vision-language models. The primary objective is to demonstrate that existing image tokenizers, which often use VQ-VAE with a codebook, suffer from limitations when directly applied to novel tasks without further optimization. The key methodology involves proposing a post-training scheme that fine-tunes the VQ-VAE tokenizer on target datasets, specifically focusing on improving codebook utilization and reconstruction quality. Experimental results show that the proposed post-training method significantly enhances performance, achieving an average FID score reduction of 8.2% across various generation tasks compared to models using pre-trained tokenizers. The main implication for AI practitioners is the importance of a task-specific post-training phase for image tokenizers to unlock their full potential and improve the generation quality of downstream vision-language models."
+    },
+    {
+        "title": "Hybrid Quantum-Classical Model for Image Classification",
+        "authors": "adnanphp",
+        "arxiv_id": "2509.13353",
+        "link": "https://arxiv.org/abs/2509.13353",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel hybrid quantum-classical model specifically designed for image classification tasks. The main objective is to explore the efficacy of integrating quantum computing principles with classical machine learning for enhanced image recognition performance. The methodology involves a convolutional neural network (CNN) for initial feature extraction, followed by a quantum circuit for further processing and classification. Experimental results demonstrate that the hybrid model achieves a classification accuracy of 92.5% on a standard image dataset, outperforming a purely classical baseline by 3%. The main implication for AI practitioners is the potential for improved model accuracy and efficiency in image classification by leveraging the unique computational capabilities of quantum circuits in conjunction with established classical techniques."
+    }
+]
