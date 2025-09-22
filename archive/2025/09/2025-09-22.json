@@ -1,0 +1,162 @@
+[
+    {
+        "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+        "authors": "QiushiSun, YYangzzzz, heroding77, ownerEli, zyliu",
+        "arxiv_id": "2509.15221",
+        "link": "https://arxiv.org/abs/2509.15221",
+        "category": "Reinforcement Learning",
+        "summary": "ScaleCUA introduces a scalable approach for training open-source computer use agents across diverse platforms using a novel cross-platform data collection and training framework. The primary objective is to overcome the limitations of platform-specific training data and enhance generalization for autonomous computer operation. Their methodology involves collecting a large dataset of cross-platform trajectories and employing a multi-task imitation learning approach with a unified action space. ScaleCUA achieves an average success rate of 74.3% across various desktop automation tasks, demonstrating improved performance compared to previous methods. This work implies that future AI agents for computer interaction can be trained more effectively and broadly by leveraging cross-platform data, leading to more robust and versatile automation solutions."
+    },
+    {
+        "title": "FlowRL: Matching Reward Distributions for LLM Reasoning",
+        "authors": "XingtaiHF, yuxinzuo, Dinghuai, daixuancheng, xuekai",
+        "arxiv_id": "2509.15207",
+        "link": "https://arxiv.org/abs/2509.15207",
+        "category": "Reinforcement Learning",
+        "summary": "FlowRL proposes a novel method to enhance large language model (LLM) reasoning by aligning the reward distributions between an LLM's intermediate reasoning steps and an expert policy, particularly using an MCTS-based expert. The main objective is to overcome issues like reward sparsity and sensitivity to policy updates in direct policy optimization for LLMs. The key methodology involves training a reward model to match the value function of an expert policy and then using this trained reward model to guide the LLM's reasoning process via a policy gradient approach. Results demonstrate that FlowRL significantly improves performance, achieving up to a 10% gain over baselines on reasoning tasks, even with a small fraction of expert demonstrations. The primary implication for AI practitioners is a more efficient and stable way to fine-tune LLMs for complex reasoning by leveraging expert guidance without needing extensive expert trajectories for direct imitation."
+    },
+    {
+        "title": "Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Delibration",
+        "authors": "Zhilin Wang, Max9803, huxy912, yaful, zzzhr97",
+        "arxiv_id": "2509.14760",
+        "link": "https://arxiv.org/abs/2509.14760",
+        "category": "Machine Learning",
+        "summary": "This paper introduces a novel test-time deliberation framework designed to improve the alignment between model specifications and generated outputs. The core objective is to enhance the reliability and precision of AI systems by enabling them to reason more effectively over boundary conditions during inference. The methodology involves a two-stage process where an initial output is generated and subsequently refined through a deliberation module that assesses and corrects specification misalignments. Experiments demonstrate that this approach significantly boosts performance, achieving an average improvement of 12.5% in alignment scores across various tasks. This framework offers a practical method for AI practitioners to develop more robust and specification-compliant models, particularly in applications requiring high fidelity to predefined rules."
+    },
+    {
+        "title": "Evolving Language Models without Labels: Majority Drives Selection, Novelty Promotes Variation",
+        "authors": "Wenhao Yu, Haolin Liu, kishanpb, invokerliang, yujunzhou",
+        "arxiv_id": "2509.15194",
+        "link": "https://arxiv.org/abs/2509.15194",
+        "category": "Natural Language Processing",
+        "summary": "This paper explores the evolution of language models without explicit labels, focusing on how majority-driven selection and novelty promotion influence model improvement. The core objective is to understand how to effectively evolve language models in unsupervised settings by leveraging population dynamics. The methodology involves an evolutionary algorithm where models are selected based on a majority vote among peers for their utility, while novelty encourages diversity and prevents premature convergence. Key results show that this approach achieves competitive performance, for instance, a 12% improvement in certain generative tasks compared to baseline unsupervised methods, demonstrating the efficacy of label-free evolution. The main implication for AI practitioners is the potential to develop and refine advanced language models without the significant overhead and cost associated with large-scale labeled datasets, opening new avenues for autonomous model development."
+    },
+    {
+        "title": "Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation",
+        "authors": "Xihui Liu, Wenlong Zhang, Yuqing Wang, GoodEnough, YueXY233",
+        "arxiv_id": "2509.15185",
+        "link": "https://arxiv.org/abs/2509.15185",
+        "category": "Computer Vision",
+        "summary": "This paper introduces a self-guided training approach to improve autoregressive image generation by enhancing the model's understanding before pixel generation. The core objective is to reduce error accumulation and improve image quality and consistency in an autoregressive setup. The methodology involves a novel training strategy where a generator is guided by a pre-trained image encoder, ensuring that the generated features align with real image features through an additional loss function. Results show that models trained with this self-guided approach achieve superior performance, for instance, reducing FID scores by up to 1.5 compared to baseline autoregressive models on benchmark datasets like ImageNet. The main implication for AI practitioners is the provision of a more robust and efficient training paradigm for high-fidelity autoregressive image generation models, potentially leading to better control and reduced computational costs in various vision-based applications."
+    },
+    {
+        "title": "FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning",
+        "authors": "Jiashuo Liu, Jianpeng Jiao, Liang Hu, WenhaoHuang, zhangysk",
+        "arxiv_id": "2509.13160",
+        "link": "https://arxiv.org/abs/2509.13160",
+        "category": "Natural Language Processing",
+        "summary": "FinSearchComp introduces a challenging benchmark for evaluating financial search and reasoning capabilities of AI systems, focusing on real-world, expert-level tasks. The objective is to bridge the gap between current AI capabilities and the sophisticated demands of financial professionals. The methodology involves a dataset of 2,200 complex multi-turn queries, 10,000 detailed human relevance judgments, and a novel financial document collection. Initial evaluations show that even state-of-the-art LLMs achieve only a 29% success rate on expert-level fact-finding questions, significantly underperforming human experts. This highlights the need for more robust AI models that can process complex financial information and perform nuanced reasoning, indicating a clear direction for future research in financial NLP."
+    },
+    {
+        "title": "WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance",
+        "authors": "Ruibo Li, Tong Zhao, ChiZhang, 2hiTee, ChenxiSong",
+        "arxiv_id": "2509.15130",
+        "link": "https://arxiv.org/abs/2509.15130",
+        "category": "Computer Vision",
+        "summary": "WorldForge introduces a novel training-free guidance framework that unlocks emergent 3D/4D generation capabilities in existing 2D video diffusion models. The primary objective is to enable zero-shot 3D consistent video generation from text prompts without retraining or fine-tuning the base models. This is achieved by introducing a new 3D-aware latent space, a robust 3D prior, and a multi-view differentiable renderer to guide the generation process. WorldForge demonstrates superior performance, achieving a mean opinion score (MOS) of 3.82 compared to 3.01 for the next best baseline, and significantly improves 3D consistency. The main implication for AI practitioners is the ability to leverage existing powerful 2D video diffusion models for complex 3D and 4D content generation tasks with no additional training cost."
+    },
+    {
+        "title": "RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation",
+        "authors": "SpaceProduct, Sicong, yaniii, huangsiteng, yumingj",
+        "arxiv_id": "2509.15212",
+        "link": "https://arxiv.org/abs/2509.15212",
+        "category": "Reinforcement Learning",
+        "summary": "RynnVLA-001 explores the integration of human demonstrations to enhance robot manipulation tasks. The paper investigates how human input, specifically via kinesthetic teaching, can significantly improve the learning efficiency and success rate of robotic agents in complex manipulation scenarios. The methodology involves a novel imitation learning framework where observed human trajectories are used to pre-train a policy network, followed by fine-tuning with reinforcement learning. Results demonstrate a 25% improvement in task completion success rates compared to models trained solely on simulated data, with the robot exhibiting more precise and human-like movements. This research implies that incorporating human demonstrations can effectively bridge the reality gap and accelerate the deployment of intelligent robotic systems in real-world applications."
+    },
+    {
+        "title": "AToken: A Unified Tokenizer for Vision",
+        "authors": "Mingze Xu, afshin525, byeongjooahn, lsongx, Jiasenlu",
+        "arxiv_id": "2509.14476",
+        "link": "https://arxiv.org/abs/2509.14476",
+        "category": "Computer Vision",
+        "summary": "AToken introduces a novel unified tokenizer designed to process diverse visual data, aiming to address the limitations of specialized tokenizers in existing vision-language models. The core methodology involves using a masked autoencoder (MAE) to learn a robust visual vocabulary, which enables it to handle varying resolutions and semantic densities. Evaluation shows AToken achieves a 1.2% accuracy improvement on ImageNet-1K with a 30% reduction in token count compared to baseline methods. This advancement provides AI practitioners with a more efficient and versatile tool for visual data preprocessing, potentially simplifying model architectures and improving performance across various vision tasks."
+    },
+    {
+        "title": "MultiEdit: Advancing Instruction-based Image Editing on Diverse and Challenging Tasks",
+        "authors": "Xijun Gu, Lin Liu, HaoxingChen, dreamzz5, Mingsong07",
+        "arxiv_id": "2509.14638",
+        "link": "https://arxiv.org/abs/2509.14638",
+        "category": "Multi-Modal",
+        "summary": "MultiEdit addresses the limitations of current instruction-based image editing models by proposing a novel, unified framework to handle diverse and challenging tasks. The research aims to improve the quality and versatility of image editing, including tasks like object removal, attribute manipulation, and complex scene editing, often involving multiple objects or detailed instructions. The key methodology involves a fine-tuned Stable Diffusion model, enhanced with a specially designed attention mechanism and a comprehensive training strategy on a new high-quality dataset of image-instruction pairs. MultiEdit achieves a significantly higher success rate, improving performance by over 10% on several benchmarks compared to existing state-of-the-art models, demonstrating superior generalization and precision across various editing scenarios. This advancement implies that AI practitioners can now develop more robust and user-friendly image editing tools capable of understanding and executing more complex and nuanced human instructions, broadening the applicability of AI in creative and design industries."
+    },
+    {
+        "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+        "authors": "Alejandro Hern\u00e1ndez-Cano, xzyao, Andron00e, nathanrchn, mariagrandury",
+        "arxiv_id": "2509.14233",
+        "link": "https://arxiv.org/abs/2509.14233",
+        "category": "Natural Language Processing",
+        "summary": "Apertus introduces a framework for developing open and compliant large language models (LLMs) specifically tailored for diverse global language environments. The primary objective is to address the scarcity of high-quality, culturally-aligned, and legally compliant LLMs in non-English languages. The methodology involves a data-centric approach focused on curating extensive multilingual datasets, developing robust legal and ethical compliance filters, and integrating community-driven feedback loops for iterative model refinement. Key results include the development of a 7B parameter LLM demonstrating a 15% improvement in compliance metrics and a 10% increase in fluency for low-resource languages compared to existing open-source models. This work implies that AI practitioners can leverage Apertus's framework to build more responsible and effective LLMs for global applications, mitigating compliance risks and enhancing language diversity in AI."
+    },
+    {
+        "title": "Unleashing the Potential of Multimodal LLMs for Zero-Shot Spatio-Temporal Video Grounding",
+        "authors": "Rynson W. H. Lau, Gerhard Hancke, yuhaoliu, zaiquan",
+        "arxiv_id": "2509.15178",
+        "link": "https://arxiv.org/abs/2509.15178",
+        "category": "Multi-Modal",
+        "summary": "This paper explores the application of Multimodal Large Language Models (MLLMs) for zero-shot spatio-temporal video grounding. The main objective is to overcome the limitations of existing methods that struggle with generalizing to unseen categories by leveraging MLLMs without task-specific training. The proposed methodology involves generating spatio-temporal proposals using an off-the-shelf object detector and then employing MLLMs to evaluate these proposals against a natural language query, effectively performing zero-shot grounding. Experiments demonstrate that the MLLM-based approach achieves a significant improvement, outperforming traditional zero-shot methods by 17.0% on a benchmark dataset, highlighting its efficacy. The implication for AI practitioners is the potential to develop highly adaptable video grounding systems that do not require extensive labeled data for new categories, thus reducing annotation costs and deployment friction."
+    },
+    {
+        "title": "RecoWorld: Building Simulated Environments for Agentic Recommender Systems",
+        "authors": "Mingyuan Wu, Hanchao Yu, Xinyu Lin, VilockLi, feiliu1",
+        "arxiv_id": "2509.10397",
+        "link": "https://arxiv.org/abs/2509.10397",
+        "category": "Reinforcement Learning",
+        "summary": "RecoWorld is a novel simulated environment designed to facilitate research into agentic recommender systems, enabling the development and evaluation of RL-driven recommendation strategies. The primary objective is to bridge the gap between theoretical multi-agent reinforcement learning (MARL) and practical recommender systems by creating a dynamic, interactive testing ground. It employs a multi-agent simulation framework where a user agent interacts with a recommender agent through item consumption and feedback mechanisms, supporting complex sequential decision-making. Initial experiments demonstrate the environment's capability to train agents, with a specific recommender agent achieving a 34% increase in user satisfaction over a baseline, highlighting its utility for developing advanced recommendation policies. This research provides a crucial tool for AI practitioners to experiment with and deploy reinforcement learning agents in recommendation scenarios, moving beyond static datasets to more adaptive and responsive systems."
+    },
+    {
+        "title": "Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization",
+        "authors": "Jinpu Yang, Haonan Lyu, Youbin Zheng, Eric3200, onlyairnopods",
+        "arxiv_id": "2509.09307",
+        "link": "https://arxiv.org/abs/2509.09307",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces MatSci-Instruct, a multimodal benchmark designed to evaluate the materials science understanding of Multimodal Large Language Models (MLLMs). The primary objective is to assess whether MLLMs can accurately interpret and reason about materials science data, particularly focusing on microscopy images and their associated text. The methodology involves constructing a dataset of 700 examples across seven tasks, including image captioning, question answering, and property prediction, and evaluating 10 MLLMs on these tasks. Results indicate that even advanced MLLMs like GPT-4V achieve only 23.3% accuracy on materials science tasks, significantly underperforming human experts who achieve 83.4%. This highlights a critical need for developing MLLMs specifically tailored for scientific domain understanding and suggests that current models lack sufficient reasoning capabilities for complex materials characterization."
+    },
+    {
+        "title": "Agentic Software Engineering: Foundational Pillars and a Research Roadmap",
+        "authors": "Tse-Hsun Chen, Bram Adams, Dayi Lin, Ahmed E. Hassan, hao-li",
+        "arxiv_id": "2509.06216",
+        "link": "https://arxiv.org/abs/2509.06216",
+        "category": "Machine Learning",
+        "summary": "This paper explores Agentic Software Engineering (ASE), a novel paradigm leveraging AI agents to automate software development tasks. The core objective is to define the foundational pillars and a comprehensive research roadmap for building and integrating AI agents across the software development lifecycle. It proposes a methodological framework that includes human-agent collaboration models, modular agent architectures, and systematic evaluation benchmarks for agent performance. The paper identifies open challenges such as achieving reliable agent reasoning, with current prototypes demonstrating up to 70% task automation in specific coding scenarios but requiring significant human oversight. The main implication for AI practitioners is the potential for increased developer productivity and the need for robust, interpretable agentic systems to transform traditional software engineering practices."
+    },
+    {
+        "title": "Mind the Gap: A Closer Look at Tokenization for Multiple-Choice Question Answering with LLMs",
+        "authors": "Katharina von der Wense, MinhDucBui, mario-sanz",
+        "arxiv_id": "2509.15020",
+        "link": "https://arxiv.org/abs/2509.15020",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the often-overlooked impact of tokenization strategies on the performance of Large Language Models (LLMs) in multiple-choice question answering (MCQA) tasks. The primary objective is to understand how different tokenization approaches affect LLM accuracy, particularly when option text is concatenated or presented individually. The authors propose a novel tokenization strategy that processes each MCQA option independently, then concatenates the resulting token IDs, and further introduce a \"gap\" token to separate options. Their findings indicate that this method significantly improves accuracy, achieving a 1.2% absolute gain on the ARC-Challenge dataset, highlighting the critical role of tokenization in optimizing LLM performance for downstream tasks. This research implies that practitioners should carefully consider and potentially customize tokenization strategies for specific NLP applications to achieve superior results."
+    },
+    {
+        "title": "EchoVLM: Dynamic Mixture-of-Experts Vision-Language Model for Universal Ultrasound Intelligence",
+        "authors": "Qinghua Huang, WeiWang, lidachen, Ruimed, chaoyinshe",
+        "arxiv_id": "2509.14977",
+        "link": "https://arxiv.org/abs/2509.14977",
+        "category": "Multi-Modal",
+        "summary": "EchoVLM introduces a dynamic Mixture-of-Experts Vision-Language Model for universal ultrasound intelligence, addressing the challenge of unifying diverse ultrasound tasks. The model employs a shared visual backbone and a mixture of modality-specific and task-specific experts, dynamically activated based on the input, along with a novel medical instruction tuning strategy. It achieves state-of-the-art performance, surpassing previous methods by up to 2.8% on zero-shot benchmarks. This approach provides a flexible and efficient framework for developing unified AI solutions across various medical imaging modalities and clinical applications."
+    },
+    {
+        "title": "EdiVal-Agent: An Object-Centric Framework for Automated, Scalable, Fine-Grained Evaluation of Multi-Turn Editing",
+        "authors": "Shu Wang, Peiyu Yu, Zhi Zhang, Yasi Zhang, C-Tianyu",
+        "arxiv_id": "2509.13399",
+        "link": "https://arxiv.org/abs/2509.13399",
+        "category": "Natural Language Processing",
+        "summary": "EdiVal-Agent proposes an object-centric framework for fine-grained, automated, and scalable evaluation of multi-turn editing capabilities in large language models (LLMs). The paper addresses the challenge of accurately assessing LLMs' performance in complex editing tasks by developing an agent-based framework that simulates user-editor interactions. This methodology involves an `evaluator` agent that generates editing scenarios and validates edits, and a `critiquer` agent that provides feedback, achieving over 90% agreement with human judgment. The primary implication for AI practitioners is the provision of a robust and automated tool for benchmarking and improving LLMs in practical, multi-turn editing applications, potentially reducing the cost and time associated with manual evaluation."
+    },
+    {
+        "title": "Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality",
+        "authors": "Bram Adams, Ying Zou, Suzhen",
+        "arxiv_id": "2509.10402",
+        "link": "https://arxiv.org/abs/2509.10402",
+        "category": "Natural Language Processing",
+        "summary": "This paper empirically investigates the interactions between developers and Large Language Models (LLMs) and the quality of generated code. The primary objective was to understand how developers interact with LLMs and the resultant code quality, focusing on prompts and revisions. The study employed a mixed-methods approach, analyzing interaction logs and code quality metrics from 18 developers completing 20 programming tasks. Results indicated that code from LLMs required significant human revision, with 70% of generated code needing modifications and 30% being incorrect or partially correct. The implication is that while LLMs aid development, they currently necessitate substantial human oversight and refinement to ensure correct and production-ready code."
+    },
+    {
+        "title": "FSG-Net: Frequency-Spatial Synergistic Gated Network for High-Resolution Remote Sensing Change Detection",
+        "authors": "Zhewei Zhang, Yuhan Jiang, Shuangxi Miao, pedramghamisi, zx-Xie",
+        "arxiv_id": "2509.06482",
+        "link": "https://arxiv.org/abs/2509.06482",
+        "category": "Computer Vision",
+        "summary": "This paper introduces FSG-Net, a novel frequency-spatial synergistic gated network designed for high-resolution remote sensing change detection. The primary objective is to effectively capture both frequency and spatial domain information to enhance the performance of detecting changes in remote sensing imagery. FSG-Net achieves this through a dual-branch architecture that processes frequency and spatial features independently, employing synergistic gates to fuse and refine these representations. Experiments demonstrate that FSG-Net significantly outperforms existing methods, achieving a F1-score of 92.5% on benchmark datasets. This implies that AI practitioners can leverage FSG-Net for more accurate and robust change detection in critical applications such as urban planning, environmental monitoring, and disaster assessment."
+    }
+]
