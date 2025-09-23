@@ -1,0 +1,114 @@
+[
+    {
+        "title": "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation",
+        "authors": "Steven Liu, Xin Zhang, Kyleraha, Cipherxzc, Luo2003",
+        "arxiv_id": "2509.16198",
+        "link": "https://arxiv.org/abs/2509.16198",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces RPG (Repository Planning Graph), a novel approach for unified and scalable codebase generation. The main objective is to overcome limitations of existing methods in handling complex, multi-file code generation tasks by leveraging a repository-level planning mechanism. RPG employs a two-stage process: first, it constructs a planning graph that abstracts the repository structure and dependencies, and then it generates code iteratively using this graph to guide the generation of individual files and their interactions. Experiments on a multi-file code generation benchmark show that RPG achieves a 22.5% higher success rate compared to state-of-the-art baselines. This methodology provides a significant advancement for AI practitioners in developing more robust and scalable systems for automated code generation, especially for large software projects."
+    },
+    {
+        "title": "MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision Tokenizer",
+        "authors": "jialingt, haosoul122, haotiz, bpan, FrozzZen",
+        "arxiv_id": "2509.16197",
+        "link": "https://arxiv.org/abs/2509.16197",
+        "category": "Multi-Modal",
+        "summary": "MANZANO is a simple, scalable unified multimodal model with a hybrid vision tokenizer. The paper aims to address the challenge of achieving effective multimodal representation learning without excessive computational complexity or reliance on large-scale datasets. It introduces a hybrid vision tokenizer that integrates discrete visual tokens with continuous visual embeddings, followed by a Transformer-based architecture for joint multimodal processing. Experimental results demonstrate that MANZANO achieves competitive performance, for example, obtaining an 82.5% accuracy on the ImageNet zero-shot classification task, outperforming several existing unified models. This implies that AI practitioners can leverage MANZANO's approach to develop more efficient and effective multimodal systems with reduced resource requirements."
+    },
+    {
+        "title": "Latent Zoning Network: A Unified Principle for Generative Modeling, Representation Learning, and Classification",
+        "authors": "Wenyu Wang, Junyi Zhu, Xuefei Ning, Enshu Liu, fjxmlzn",
+        "arxiv_id": "2509.15591",
+        "link": "https://arxiv.org/abs/2509.15591",
+        "category": "Machine Learning",
+        "summary": "The paper introduces the Latent Zoning Network (LZN), a unified framework that concurrently addresses generative modeling, representation learning, and classification within a single architecture. The primary objective is to demonstrate that a common principle, based on latent space organization, can effectively solve diverse machine learning tasks. LZN achieves this by organizing the latent space into 'zones' associated with different data classes, which facilitates both data generation from these zones and learning discriminative representations. Experiments show that LZN can achieve competitive classification accuracy, such as 98.7% on MNIST, while also generating high-quality samples and learning meaningful representations. This unified approach implies that AI practitioners could potentially streamline model development and deployment across different tasks using a single, cohesive framework, reducing complexity and enhancing interpretability in various applications."
+    },
+    {
+        "title": "BaseReward: A Strong Baseline for Multimodal Reward Model",
+        "authors": "jianfeipan, xuwang, KaiWu123, achernarcursa, yifanzhang114",
+        "arxiv_id": "2509.16127",
+        "link": "https://arxiv.org/abs/2509.16127",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces BaseReward, a novel approach for developing multimodal reward models that significantly outperforms existing methods. The primary objective is to address the limitations of current reward models in effectively integrating and processing information from diverse modalities, particularly in open-ended generative AI. BaseReward employs a strategy of fine-tuning powerful large language models (LLMs) on high-quality multimodal preference data, leveraging the LLM's inherent reasoning capabilities for cross-modal alignment and evaluation. Experimental results demonstrate that BaseReward achieves a 12.2% absolute improvement in win rate against state-of-the-art multimodal reward models. The main implication for AI practitioners is the provision of a robust and scalable baseline for building highly effective multimodal reward systems, crucial for advancing multimodal large language models and other generative AI applications."
+    },
+    {
+        "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+        "authors": "Yongsen Mao, Yixun Liang, Heng Li, Chuan Fang, bertjiazheng",
+        "arxiv_id": "2509.14981",
+        "link": "https://arxiv.org/abs/2509.14981",
+        "category": "Computer Vision",
+        "summary": "SPATIALGEN introduces a novel layout-guided 3D indoor scene generation framework that addresses the challenge of creating high-quality, diverse, and controllable scenes from a single 2D room layout. The core objective is to synthesize realistic 3D scenes by effectively capturing spatial relationships and generating 3D objects that fit the layout constraints. Their methodology involves a two-stage approach: initially generating a rough scene layout and then refining it with detailed 3D object placements using a conditional generative model, leveraging a novel spatial-transformer architecture. Experimental results demonstrate that SPATIALGEN achieves a 15% improvement in scene realism and layout compliance compared to state-of-the-art methods, as measured by user studies and quantitative metrics like FID and Fr\tR\tscore. This work provides AI practitioners with a robust tool for efficient and controllable 3D content creation, significantly reducing manual effort in virtual environment design and simulation."
+    },
+    {
+        "title": "Lynx: Towards High-Fidelity Personalized Video Generation",
+        "authors": "Linjie Luo, Jing Liu, gutianpei, tzhi-bytedance, shensang",
+        "arxiv_id": "2509.15496",
+        "link": "https://arxiv.org/abs/2509.15496",
+        "category": "Multi-Modal",
+        "summary": "Lynx is a novel framework for high-fidelity personalized video generation, aiming to create consistent and dynamic videos from a single image and text prompts. The core methodology involves a two-stage process: an initial pre-alignment with a Vision-Language Model (VLM) for subject consistency, followed by multi-stage generation that incorporates an ID-preserving spatial adapter and a motion module. Quantitative evaluations demonstrate that Lynx outperforms state-of-the-art methods, achieving a 0.70 D-ID score and a 0.81 D-CLIP score, indicating superior identity preservation and text alignment. This framework provides AI practitioners with a robust solution for generating highly personalized and consistent videos, applicable in areas like content creation and virtual try-on."
+    },
+    {
+        "title": "A Vision-Language-Action-Critic Model for Robotic Real-World Reinforcement Learning",
+        "authors": "Jiangmiao, simonlin123, andyzsz123, haoranzhang, fuxian",
+        "arxiv_id": "2509.15937",
+        "link": "https://arxiv.org/abs/2509.15937",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces VLAC, a novel vision-language-action-critic model for real-world reinforcement learning in robotics. The primary objective is to enable robots to learn diverse, long-horizon tasks from sparse rewards using a multi-modal approach. VLAC utilizes a vision-language model (VLM) for state encoding and a transformer-based critic to provide more informative value estimates, enhancing policy learning efficiency. Experiments show that VLAC achieves a 70% success rate on 15 long-horizon tasks, outperforming prior methods that often struggle with similar task complexity and sparse rewards. The main implication for AI practitioners is the potential for more robust and generalizable robotic learning systems that can interpret and act upon multi-modal information, reducing the need for extensive reward engineering."
+    },
+    {
+        "title": "BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent",
+        "authors": "Jiahui Yang, Shaokang Wang, Pei Fu, Ruoceng Zhang, Shaojie Zhang",
+        "arxiv_id": "2509.15566",
+        "link": "https://arxiv.org/abs/2509.15566",
+        "category": "Reinforcement Learning",
+        "summary": "BTL-UI introduces a novel Blink-Think-Link (BTL) reasoning model for GUI agents, aiming to enhance their ability to interact with and understand graphical user interfaces. The main objective is to overcome the limitations of existing GUI agents in complex, real-world scenarios by integrating human-like cognitive processes. The key methodology involves a three-stage reasoning process: \"Blink\" for initial observation, \"Think\" for planning and decision-making, and \"Link\" for execution and interaction, often using a combination of large language models and vision-based techniques. Experimental results demonstrate that BTL-UI achieves a 79% success rate on the AITW benchmark, outperforming previous state-of-the-art methods by a significant margin. This implies that AI practitioners can develop more robust and adaptable GUI automation tools by adopting cognitive-inspired reasoning architectures, leading to improved task completion in diverse applications."
+    },
+    {
+        "title": "RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes",
+        "authors": "Narendra Ahuja, Hao Zhang, fangli3",
+        "arxiv_id": "2509.15123",
+        "link": "https://arxiv.org/abs/2509.15123",
+        "category": "Computer Vision",
+        "summary": "This paper addresses camera parameter optimization in dynamic scenes using only RGB supervision, overcoming limitations of traditional methods that rely on specialized hardware or static environments. The main objective is to accurately estimate camera intrinsic and extrinsic parameters, along with scene depth and ego-motion, from standard video footage without relying on depth sensors or multi-view stereo. The authors propose a novel photometric loss function that integrates motion and appearance consistency across frames, coupled with a per-pixel confidence weighting strategy to handle dynamic elements. Experiments demonstrate that their method achieves state-of-the-art performance, outperforming baselines by an average of 15% in terms of pose accuracy on challenging datasets like KITTI. This research enables more robust and accessible camera calibration and 3D reconstruction in real-world, dynamic settings for applications such as autonomous driving and augmented reality."
+    },
+    {
+        "title": "Do You Hear What I Mean? Quantifying the Instruction-Perception Gap in Instruction-Guided Expressive Text-To-Speech Systems",
+        "authors": "Hung-yi Lee, Kuan-Yu Chen, Tzu-Chieh Wei, Huang-Cheng Chou, Yi-Cheng Lin",
+        "arxiv_id": "2509.13989",
+        "link": "https://arxiv.org/abs/2509.13989",
+        "category": "Multi-Modal",
+        "summary": "This paper quantifies the instruction-perception gap in instruction-guided expressive Text-To-Speech (TTS) systems. The research objective is to assess how well human perceptions of speech expressivity align with the instructions provided to TTS models, particularly focusing on style and emotion. The methodology involves a human evaluation study where listeners rate synthesized speech on various expressive attributes based on explicit instructions and a baseline without instructions. Key results indicate a significant instruction-perception gap, with 48.7% of instructed attributes not being perceived as intended, while uninstructed attributes were perceived significantly more accurately (63.8% of the time). The main implication for AI practitioners is the necessity for more robust evaluation metrics and training paradigms for expressive TTS systems that directly address the inherent discrepancies between input instructions and perceived output expressivity."
+    },
+    {
+        "title": "Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech",
+        "authors": "Taehwan Kim, Hyunmin Song, Yongsik Jo, TAESOO98",
+        "arxiv_id": "2509.14627",
+        "link": "https://arxiv.org/abs/2509.14627",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel multimodal conversational agent that generates human-like engaging speech. The core objective is to synthesize speech that encompasses both linguistic content and expressive prosodic features to enhance conversational engagement. The methodology involves a multi-task learning framework that integrates text-to-speech synthesis with prosody prediction using a transformer-based architecture. Experimental results demonstrate a significant improvement in perceived engagement, with human evaluations showing a 78% preference for the proposed model over baselines in terms of naturalness and expressiveness. The main implication for AI practitioners is the potential to develop more lifelike and interactive conversational AI systems that can foster deeper user engagement."
+    },
+    {
+        "title": "Video2Roleplay: A Multimodal Dataset and Framework for Video-Guided Role-playing Agents",
+        "authors": "Chao Zhang, Xueqiao Zhang, RoyalVane, YifanZhu, raul678",
+        "arxiv_id": "2509.15233",
+        "link": "https://arxiv.org/abs/2509.15233",
+        "category": "Multi-Modal",
+        "summary": "Video2Roleplay introduces a novel multimodal dataset and framework for training video-guided role-playing agents. The primary objective is to enable agents to learn and simulate human behaviors and interactions from video demonstrations, addressing the challenge of creating agents that can perform complex, interactive tasks. The methodology involves constructing a dataset with diverse role-playing scenarios and developing a framework that leverages video, audio, and text modalities to guide agent actions and dialogue generation. Initial results show that agents trained with Video2Roleplay achieve a 15% improvement in task completion rate compared to text-only baselines. This work implies that AI practitioners can develop more realistic and contextually aware interactive agents by integrating multimodal data, particularly for applications requiring complex social or task-oriented interactions."
+    },
+    {
+        "title": "WhisTLE: Deeply Supervised, Text-Only Domain Adaptation for Pretrained Speech Recognition Transformers",
+        "authors": "Karun Kumar, Akshat Pandey, tetrisd",
+        "arxiv_id": "2509.10452",
+        "link": "https://arxiv.org/abs/2509.10452",
+        "category": "Natural Language Processing",
+        "summary": "WhisTLE introduces a novel text-only domain adaptation method for pretrained Automatic Speech Recognition (ASR) Transformers, addressing the challenge of adapting ASR models to new domains without requiring paired speech-text data. The core methodology involves using a text-only corpus from the target domain to refine the ASR model's text encoder and output layers through deep supervision, leveraging techniques like masked language modeling and text generation. Experiments demonstrate that WhisTLE achieves significant performance gains, reducing word error rate (WER) by up to 22.8% relative to unadapted models and outperforming conventional text-only adaptation methods. This approach offers AI practitioners a highly efficient and data-scarce solution for deploying robust ASR systems across diverse and specialized domains. The paper highlights the potential for substantial improvements in ASR performance with minimal additional data requirements."
+    },
+    {
+        "title": "Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue",
+        "authors": "Hui Zhang, Sicheng Xie, Tianyi Lu, Xinghao Zhu, leolin9248",
+        "arxiv_id": "2509.15061",
+        "link": "https://arxiv.org/abs/2509.15061",
+        "category": "Natural Language Processing",
+        "summary": "The paper \"Ask-to-Clarify\" introduces a novel approach for resolving ambiguous instructions in natural language through multi-turn dialogue. The primary objective is to enable AI systems to proactively ask clarifying questions to achieve a shared understanding with users, particularly in tasks where instructions may be underspecified. The methodology involves training a large language model on a dataset of human-AI clarification dialogues, employing techniques like prompt engineering and fine-tuning for question generation and answer processing. Experiments show that this dialogue-based clarification improves task success rates by 15-20% compared to systems that do not clarify. This work implies that AI practitioners should integrate interactive clarification mechanisms into their NLP applications to enhance robustness and user satisfaction, especially in complex instructional settings."
+    }
+]
