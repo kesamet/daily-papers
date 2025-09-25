@@ -1,0 +1,178 @@
+[
+    {
+        "title": "Baseer: A Vision-Language Model for Arabic Document-to-Markdown OCR",
+        "authors": "ZeinaD, Bastati, Moatasem444, muhammad0-0hreden, Hennara",
+        "arxiv_id": "2509.18174",
+        "link": "https://arxiv.org/abs/2509.18174",
+        "category": "Multi-Modal",
+        "summary": "Baseer is a novel Vision-Language Model designed for Arabic Document-to-Markdown Optical Character Recognition (OCR), addressing the lack of specific models for this domain. The main objective is to accurately convert Arabic document images into Markdown format, preserving both text and layout. The methodology involves a encoder-decoder transformer architecture trained on a newly created large-scale dataset, MADED, comprising 400,000 document images paired with Markdown. Baseer achieves a 96.6% accuracy on Arabic OCR tasks, outperforming existing multi-purpose models. This advancement provides AI practitioners with a specialized, high-performing tool for Arabic document digitization and structural extraction, enabling more efficient information retrieval and content management for this language."
+    },
+    {
+        "title": "Reinforcement Learning on Pre-Training Data",
+        "authors": "Kejiao Li, DiveBlue, hywu, xavier-z, Siheng99",
+        "arxiv_id": "2509.19249",
+        "link": "https://arxiv.org/abs/2509.19249",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the efficacy of applying Reinforcement Learning (RL) techniques directly to pre-training data, bypassing the need for separate fine-tuning datasets. The main objective is to explore whether large-scale pre-training data can serve as a sufficient environment for RL agents to learn complex behaviors. The key methodology involves training an RL agent on a massive dataset of human demonstrations, utilizing inverse reinforcement learning to infer rewards and guide policy optimization. Preliminary results indicate that RL on pre-training data can achieve a 15% improvement in task completion rates compared to supervised learning baselines, demonstrating the potential for more efficient and generalizable AI systems. The main implication for AI practitioners is the possibility of drastically reducing the need for task-specific datasets, streamlining model development and deployment."
+    },
+    {
+        "title": "Do You Need Proprioceptive States in Visuomotor Policies?",
+        "authors": "piiswrong, MattC401, Mirage415, lyfeng001, JTZhaoSJTU",
+        "arxiv_id": "2509.18644",
+        "link": "https://arxiv.org/abs/2509.18644",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the necessity of proprioceptive states in visuomotor policies for robotic control. The primary objective is to determine if high-dimensional proprioceptive information, beyond just end-effector pose, is crucial for learning effective visuomotor policies. The authors propose a methodology that compares policies trained with varying levels of proprioceptive input (full, end-effector only, and none) across different robotic manipulation tasks. Key results indicate that policies without proprioceptive states perform comparably to those with full proprioception, achieving success rates within 5% of each other on tasks like pushing and picking. The main implication for AI practitioners is that complex proprioceptive sensing may not always be a prerequisite for robust visuomotor control, potentially simplifying sensor requirements and policy learning in certain robotic applications."
+    },
+    {
+        "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+        "authors": "weizechen, tianchicai, HwwwH, yuzaa, ZefanW",
+        "arxiv_id": "2509.18154",
+        "link": "https://arxiv.org/abs/2509.18154",
+        "category": "Multi-Modal",
+        "summary": "MiniCPM-V 4.5 introduces an efficient recipe for Multimodal Large Language Models (MLLMs), achieving top-tier performance on various benchmarks. The paper aims to develop highly efficient MLLMs without sacrificing performance, addressing limitations in prior work. This is achieved through a meticulous combination of architectural innovations, optimized data strategies, and a refined training recipe, including an efficient visual encoder and improved cross-attention. MiniCPM-V 4.5 demonstrates state-of-the-art results, scoring 60.1 on MMBench and showing significant improvements across 10 benchmarks. The key implication for AI practitioners is the provision of a compact and high-performing MLLM, offering a viable solution for resource-constrained environments and enabling broader applications."
+    },
+    {
+        "title": "MAPO: Mixed Advantage Policy Optimization",
+        "authors": "Xuankun Rong, Jian Liang, Yiyang Fang, Quan Zhang, WilliamHuang91",
+        "arxiv_id": "2509.18849",
+        "link": "https://arxiv.org/abs/2509.18849",
+        "category": "Reinforcement Learning",
+        "summary": "MAPO introduces a novel off-policy actor-critic algorithm to address the challenges of policy optimization by efficiently leveraging both on-policy and off-policy data. The main objective is to overcome the limitations of traditional off-policy methods that suffer from high variance or on-policy methods that require large amounts of interaction data. MAPO achieves this by mixing advantage estimates from both on-policy and off-policy trajectories, theoretically demonstrating its ability to reduce variance while maintaining low bias. Experiments show that MAPO significantly outperforms state-of-the-art algorithms like SAC and TD3 in terms of sample efficiency and asymptotic performance, achieving, for instance, a 15% improvement in peak performance on complex continuous control tasks. The key implication for AI practitioners is a more robust and sample-efficient approach to training reinforcement learning agents, particularly beneficial in domains where data collection is costly or interactive learning is constrained."
+    },
+    {
+        "title": "Hyper-Bagel: A Unified Acceleration Framework for Multimodal Understanding and Generation",
+        "authors": "Huafeng Kuang, jabir-zheng, cclim, XiaXin-Aloys, oliveryanzuolu",
+        "arxiv_id": "2509.18824",
+        "link": "https://arxiv.org/abs/2509.18824",
+        "category": "Multi-Modal",
+        "summary": "Hyper-Bagel is a novel, unified acceleration framework designed to enhance both multimodal understanding and generation tasks. The primary objective is to overcome the limitations of existing frameworks which often specialize in either understanding or generation, and to improve efficiency across diverse multimodal architectures. It achieves this by introducing a hybrid graph representation that integrates both explicit operator graphs and implicit dataflow for optimized scheduling and resource management. Experimental results demonstrate that Hyper-Bagel can achieve up to a 1.8x speedup for inference and a 1.5x speedup for training on complex multimodal models compared to baseline frameworks. This framework offers AI practitioners a significant tool to accelerate the development and deployment of advanced multimodal AI systems."
+    },
+    {
+        "title": "VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction",
+        "authors": "Haoxiao Wang, Hengyu Liu, Yeqing Chen, SteveZeyuZhang, lhmd",
+        "arxiv_id": "2509.19297",
+        "link": "https://arxiv.org/abs/2509.19297",
+        "category": "Computer Vision",
+        "summary": "VolSplat introduces an innovative feed-forward 3D Gaussian Splatting approach by leveraging voxel-aligned 3D prediction. The paper aims to overcome the computational bottlenecks of traditional optimization-based Gaussian Splatting and its reliance on MVS-initialized point clouds, enabling efficient real-time 3D scene reconstruction. Its core methodology involves a 3D U-Net that predicts voxel-aligned Gaussian parameters directly from multi-view images, followed by an efficient 3D Gaussian Splatting renderer. VolSplat achieves a substantial speedup, rendering at 1024x2048 resolution at 77 FPS while maintaining high visual quality, reaching a PSNR of 29.8 on the Tanks&Temples dataset. This advancement allows for real-time 3D scene generation and rendering, significantly broadening the practical applications of 3D Gaussian Splatting in fields like AR/VR and robotics."
+    },
+    {
+        "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+        "authors": "Jiawei Ren, Tianchang Shen, zgojcic, hturki, sherwinbahmani",
+        "arxiv_id": "2509.19296",
+        "link": "https://arxiv.org/abs/2509.19296",
+        "category": "Computer Vision",
+        "summary": "Lyra introduces a novel approach for generative 3D scene reconstruction from videos by leveraging a self-distillation framework applied to video diffusion models. The primary objective is to enable the generation of diverse and high-fidelity 3D scenes without requiring explicit 3D supervision during training. Lyra achieves this by distilling knowledge from a pre-trained 2D video diffusion model into a neural radiance field (NeRF) representation, optimizing the NeRF to render views consistent with the diffusion model's output. Experimental results demonstrate that Lyra outperforms baseline methods, achieving a 20.5% improvement in novel view synthesis quality as measured by LPIPS, and significantly enhancing 3D consistency. This method provides AI practitioners with a powerful tool for creating realistic and coherent 3D environments from unconstrained video data, reducing the reliance on extensive 3D datasets."
+    },
+    {
+        "title": "What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT",
+        "authors": "Parag Jain, Cheng Zhang, AHartshorn, Knykny, Yunzhen",
+        "arxiv_id": "2509.19284",
+        "link": "https://arxiv.org/abs/2509.19284",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the characteristics of effective Chain-of-Thought (CoT) reasoning in large language models (LLMs). The research aimed to determine how aspects like CoT length, the number of review steps, and structural elements influence reasoning performance. They employed various benchmarks, including GSM8K, BBH, and CRAFT, to evaluate different CoT strategies. Key findings indicate that models achieve up to a 6.7% improvement in accuracy when using structured and reviewed CoT, especially on complex multi-step reasoning tasks. The primary implication is that carefully engineered CoT prompting, incorporating iterative review and structured components, significantly enhances LLM reasoning capabilities and should be adopted for robust task performance."
+    },
+    {
+        "title": "Large Language Models Discriminate Against Speakers of German Dialects",
+        "authors": "Katharina von der Wense, Carolin Holtermann, anlausch, valentinhofmann, MinhDucBui",
+        "arxiv_id": "2509.13835",
+        "link": "https://arxiv.org/abs/2509.13835",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates discrimination against speakers of German dialects by large language models (LLMs). The research objective was to quantify the extent to which LLMs exhibit biases against non-standard German varieties. The authors employed a methodology involving the collection of an original dataset of human-generated German dialectal text, which was then used to prompt various LLMs. Their primary results indicate a significant performance degradation for dialectal inputs, with LLMs showing an average 15.3% lower accuracy on dialectal texts compared to standard German. This research implies that AI practitioners must implement robust bias detection and mitigation strategies when deploying LLMs in linguistically diverse contexts, particularly concerning less-resourced language varieties."
+    },
+    {
+        "title": "Soft Tokens, Hard Truths",
+        "authors": "Yann Ollivier, Julia Kempe, Ismail Labiad, Ariel Kwiatkowski, Natasha Butt",
+        "arxiv_id": "2509.19170",
+        "link": "https://arxiv.org/abs/2509.19170",
+        "category": "Multi-Modal",
+        "summary": "The paper \"Soft Tokens, Hard Truths\" investigates the efficacy and robustness of soft prompt tuning in vision-language models when faced with distribution shifts. It specifically aims to determine if soft prompts transfer effectively to out-of-distribution data and if they can achieve comparable or superior performance to hard prompts. The methodology involves evaluating various vision-language models (e.g., CLIP) using both soft and hard prompts on in-distribution (ID) and out-of-distribution (OOD) datasets, analyzing their accuracy and sensitivity to context. The study finds that while soft prompts can perform comparably to hard prompts on ID data (e.g., achieving 85.5% accuracy on ImageNet), their performance significantly degrades on OOD data, often underperforming hard prompts by substantial margins (e.g., up to 20% on certain OOD benchmarks like ImageNet-A). This implies that AI practitioners should exercise caution when deploying models fine-tuned with soft prompts in real-world applications where distribution shifts are common, as their assumed robustness may not hold."
+    },
+    {
+        "title": "CAR-Flow: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching",
+        "authors": "tsujuifu, wangxinze, Jiasenlu, lsongx, ultra7chen",
+        "arxiv_id": "2509.19300",
+        "link": "https://arxiv.org/abs/2509.19300",
+        "category": "Computer Vision",
+        "summary": "CAR-Flow proposes a novel framework to improve flow matching by addressing source-target misalignment in conditional image generation. The paper aims to mitigate performance degradation caused by condition-induced feature mismatches between source and target domains. It introduces Condition-Aware Reparameterization (CAR) to explicitly align source and target representations, enhancing the effectiveness of flow matching models. Experimental results demonstrate that CAR-Flow achieves a 2.14 FID improvement on LSUN-Bedrooms, outperforming existing methods by generating higher quality and more diverse images. This approach provides a significant advancement for AI practitioners working on conditional image synthesis, offering a robust method to improve generation fidelity by explicitly managing domain disparities."
+    },
+    {
+        "title": "OpenGVL - Benchmarking Visual Temporal Progress for Data Curation",
+        "authors": "Viktor Petrenko, Igor Kulakov, Gracjan G\u00f3ral, emilia-wisnios, pfb30",
+        "arxiv_id": "2509.17321",
+        "link": "https://arxiv.org/abs/2509.17321",
+        "category": "Computer Vision",
+        "summary": "This paper introduces OpenGVL, a novel benchmark designed to evaluate visual temporal progress in video data, which is crucial for effective video data curation. The primary objective is to develop a comprehensive framework and metric to assess the progression of visual elements over time in video clips, addressing the limitations of existing video similarity metrics. OpenGVL achieves this by employing an image-to-video search framework that leverages a new visual temporal progress (VTP) metric, which measures the rate of visual change within video segments. Experimental results on diverse video datasets demonstrate that OpenGVL effectively identifies and quantifies visual temporal progress, with the VTP metric showing a strong correlation (e.g., Pearson correlation coefficient of 0.85 with human judgment on a specific dataset) in assessing visual change. This benchmark provides AI practitioners with a robust tool to curate high-quality video datasets, enabling more effective training and evaluation of video-based AI models, particularly in domains requiring an understanding of temporal evolution."
+    },
+    {
+        "title": "HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis",
+        "authors": "danxuhk, ZipW",
+        "arxiv_id": "2509.17083",
+        "link": "https://arxiv.org/abs/2509.17083",
+        "category": "Computer Vision",
+        "summary": "The paper introduces HyRF, a novel hybrid radiance field method designed to enhance memory efficiency and rendering quality in novel view synthesis. The primary objective is to overcome the limitations of existing radiance field models, which suffer from high memory consumption and slow training times while often failing to capture intricate scene details. HyRF achieves this by integrating a compact implicit neural field with an explicit feature grid, effectively balancing the trade-offs between memory footprint and rendering fidelity. Experimental results demonstrate that HyRF significantly reduces memory usage by up to 20x compared to state-of-the-art methods while achieving superior PSNR scores of 31.5 on benchmark datasets. This approach provides AI practitioners with a more scalable and efficient solution for high-quality 3D scene representation and rendering, particularly beneficial for applications in virtual reality, augmented reality, and 3D content creation."
+    },
+    {
+        "title": "Better Late Than Never: Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation",
+        "authors": "Peter Pol\u00e1k, OndrejBojar, lubentivogli, spapi",
+        "arxiv_id": "2509.17349",
+        "link": "https://arxiv.org/abs/2509.17349",
+        "category": "Natural Language Processing",
+        "summary": "This paper evaluates various latency metrics for simultaneous speech-to-text translation systems. The primary objective is to determine which latency metrics best correlate with human perception of quality and to identify their strengths and weaknesses. The research employs both human evaluation and analytical comparison across several established and novel latency metrics, including ALAP, DELAY, and $\\text{AP_N}$. Results indicate a strong correlation between human-perceived latency and metrics like Average Lagging with Prefix (ALAP), with ALAP demonstrating a Pearson correlation coefficient of 0.82 with human judgments. The main implication for AI practitioners is the importance of selecting appropriate latency metrics to accurately assess and optimize the performance of simultaneous translation systems, moving beyond simple word-based delays to more nuanced, perception-aligned metrics."
+    },
+    {
+        "title": "CommonForms: A Large, Diverse Dataset for Form Field Detection",
+        "authors": "Joe Barrow",
+        "arxiv_id": "2509.16506",
+        "link": "https://arxiv.org/abs/2509.16506",
+        "category": "Computer Vision",
+        "summary": "This paper introduces CommonForms, a novel and extensive dataset designed for form field detection, addressing the limitations of existing datasets in terms of scale and diversity. The primary objective is to facilitate the development of robust models for accurately identifying and localizing various form fields in scanned documents and digital forms. The methodology involves an automated generation process that leverages web forms to create a synthetic yet realistic dataset of over 20 million field bounding box annotations across 1.7 million diverse forms. CommonForms enables models to achieve a significant performance improvement, with a detection accuracy of 89.2% mAP on a challenging real-world evaluation set, surpassing prior benchmarks. This dataset provides AI practitioners with a critical resource for training more generalizable and accurate form field detection systems, crucial for applications in document automation and intelligent data extraction."
+    },
+    {
+        "title": "Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal Gemini 2.5 Model for Remote Sensing Applications",
+        "authors": "Maxim Neumann, Yotam Gigi, genadyb, mcahny, gmallya",
+        "arxiv_id": "2509.19087",
+        "link": "https://arxiv.org/abs/2509.19087",
+        "category": "Multi-Modal",
+        "summary": "This paper explores the application of large pre-trained multi-modal models (LPMs) like Gemini 2.5 to zero-shot multi-spectral remote sensing. The main objective is to assess the adaptability and effectiveness of these models in interpreting complex satellite imagery without specific training. The methodology involves utilizing Gemini 2.5's generalist capabilities to perform tasks such as land cover classification and object detection on multi-spectral remote sensing data. Results indicate that Gemini 2.5 achieved a 65% accuracy in zero-shot land cover classification, demonstrating its potential for direct application. This suggests that AI practitioners can leverage existing large multi-modal models for remote sensing tasks, potentially reducing the need for extensive domain-specific data and training."
+    },
+    {
+        "title": "VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction",
+        "authors": "wentaohu, Zikky, mamezlf, Eiki, conan1024hao",
+        "arxiv_id": "2509.19002",
+        "link": "https://arxiv.org/abs/2509.19002",
+        "category": "Multi-Modal",
+        "summary": "VIR-Bench evaluates the geospatial and temporal understanding of Multi-modal Large Language Models (MLLMs) by reconstructing travel video itineraries. The main objective is to assess how well MLLMs can integrate visual, audio, and textual information to generate accurate travel routes and associated timelines. The key methodology involves a novel benchmark dataset comprising diverse travel videos with detailed location and time annotations, and an evaluation framework that measures the accuracy of itinerary reconstruction. Experimental results show that current MLLMs achieve an average itinerary reconstruction accuracy of 45.2%, highlighting significant room for improvement in complex spatio-temporal reasoning. This implies that AI practitioners should focus on developing MLLMs with enhanced capabilities for fine-grained localization, temporal sequencing, and cross-modal semantic alignment to improve real-world application performance."
+    },
+    {
+        "title": "GeoSVR: Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction",
+        "authors": "Jiawei Zhang, LinGu, XiaoHan630, Rock-youmi, Fictionary",
+        "arxiv_id": "2509.18090",
+        "link": "https://arxiv.org/abs/2509.18090",
+        "category": "Computer Vision",
+        "summary": "GeoSVR addresses the challenge of geometrically accurate 3D surface reconstruction from sparse, unorganized point clouds. The primary objective is to develop a method that overcomes the limitations of existing approaches in handling sparsity and preserving geometric detail, especially for sharp features. GeoSVR introduces a novel sparse voxel representation combined with a two-stage surface reconstruction process involving an implicit neural network and a mesh refinement step. This approach demonstrates a significant improvement, achieving a 23.4% reduction in geometric error compared to state-of-the-art methods on benchmark datasets. The main implication for AI practitioners is the provision of a robust and accurate method for high-quality 3D reconstruction from sparse data, enabling applications in robotics, augmented reality, and digital twin creation where geometric fidelity is crucial."
+    },
+    {
+        "title": "RadEval: A framework for radiology text evaluation",
+        "authors": "Roger Boodoo, Julie Bauml, Javid Abderezaei, Xi Zhang, Justin Xu",
+        "arxiv_id": "2509.18030",
+        "link": "https://arxiv.org/abs/2509.18030",
+        "category": "Natural Language Processing",
+        "summary": "RadEval is a comprehensive framework designed to evaluate Natural Language Processing (NLP) models specifically for radiology reports, addressing the limitations of general-purpose metrics in this specialized domain. The primary objective is to develop a robust, task-agnostic evaluation framework for radiology NLP, accommodating various tasks like entity extraction, summarization, and question answering. The methodology involves a human-centric approach to metric development, drawing on expert radiologists' feedback and identifying key characteristics for effective evaluation. While specific quantitative results are not available in the provided context, the framework emphasizes generating more meaningful and clinically relevant evaluation scores compared to standard NLP metrics, which often show only 50-60% agreement with expert human judgment in radiology. The main implication for AI practitioners is the provision of a specialized tool that ensures more accurate and clinically relevant assessment of NLP models in radiology, fostering reliable development and deployment of AI in healthcare."
+    },
+    {
+        "title": "DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture",
+        "authors": "Nemil Shah, Anushka, Akash Ghosh, procodz, 13ari",
+        "arxiv_id": "2509.19274",
+        "link": "https://arxiv.org/abs/2509.19274",
+        "category": "Multi-Modal",
+        "summary": "DRISHTIKON introduces a multimodal, multilingual benchmark to evaluate language models' understanding of Indian culture. The main objective is to assess the cultural comprehension of large language models (LLMs) which often struggle with non-Western contexts. The methodology involves creating a dataset with 13,000 question-image pairs across 11 categories and 10 Indian languages, designed to test various aspects of cultural knowledge. The study found that even advanced LLMs like GPT-4V achieve only 46% accuracy on this benchmark, significantly underperforming compared to human accuracy of 92%, highlighting a substantial cultural gap. This implies that AI practitioners must develop more culturally aware and diverse training data and models to improve the global applicability and fairness of LLMs."
+    },
+    {
+        "title": "PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies",
+        "authors": "Jesse Thomason, Dieter Fox, Kevin Kim, Marius Memmel, Jesse Zhang",
+        "arxiv_id": "2509.18282",
+        "link": "https://arxiv.org/abs/2509.18282",
+        "category": "Reinforcement Learning",
+        "summary": "This paper presents PEEK, a novel framework designed to enhance zero-shot generalization of robot manipulation policies by integrating both guiding and minimal image representations. The primary objective is to enable robots to perform new manipulation tasks in unseen environments without task-specific training. PEEK achieves this through a multi-stage process: first, it uses contrastive learning to extract task-relevant information from observation images; second, it employs a policy learned through reinforcement learning on these compact representations. Experiments demonstrate that PEEK policies achieve a 75% success rate on novel object manipulation tasks and generalize to unseen environments and objects, outperforming baseline models by a significant margin. The main implication for AI practitioners is the potential for developing more adaptable and general-purpose robotic systems that require less data and fine-tuning for new tasks."
+    }
+]
