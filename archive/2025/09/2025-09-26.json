@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Video models are zero-shot learners and reasoners",
+        "authors": "rgeirhos, kswersky, nmatares, yuxuanli, ThaddaeusWiedemer",
+        "arxiv_id": "2509.20328",
+        "link": "https://arxiv.org/abs/2509.20328",
+        "category": "Multi-Modal",
+        "summary": "This paper investigates the zero-shot learning and reasoning capabilities of video models without explicit fine-tuning. The primary objective is to evaluate whether pre-trained video models can perform diverse tasks, including action recognition, temporal localization, and object tracking, solely based on their inherent representations. The key methodology involves leveraging existing video models, such as those pre-trained on large-scale video-text datasets, and prompting them with natural language to perform novel tasks. Results demonstrate that these models achieve significant zero-shot performance, for example, obtaining an average zero-shot accuracy of 69.8% on action recognition benchmarks, indicating strong generalization. The main implication for AI practitioners is the potential to reduce the need for extensive task-specific data annotation and model fine-tuning, fostering more adaptable and efficient AI systems."
+    },
+    {
+        "title": "SIM-CoT: Supervised Implicit Chain-of-Thought",
+        "authors": "Yuhang Cao, Xiaoyi Dong, Yuhang Zang, LiuXR, Wiselnn",
+        "arxiv_id": "2509.20317",
+        "link": "https://arxiv.org/abs/2509.20317",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces SIM-CoT, a novel supervised implicit Chain-of-Thought (CoT) method designed to enhance the reasoning capabilities of Large Language Models (LLMs) without explicit step-by-step rationales. Its primary objective is to improve LLM performance on complex reasoning tasks by internally modeling implicit reasoning paths, overcoming the limitations of traditional CoT methods that require extensive manual demonstrations. SIM-CoT leverages an auxiliary supervising model to generate implicit reasoning signals that guide the LLM's internal states toward better solutions during training. Experiments show that SIM-CoT significantly outperforms strong baselines, achieving a 75.3% accuracy on the MultiArith dataset, demonstrating its effectiveness in fostering robust implicit reasoning. This method offers a practical approach for AI practitioners to develop more efficient and effective reasoning systems, particularly in scenarios where explicit CoT demonstrations are impractical or unavailable, thereby advancing the development of capable LLMs."
+    },
+    {
+        "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+        "authors": "Marksherwood, osanseviero, ssmoot, SindhuRaghuram97, hschechter",
+        "arxiv_id": "2509.20354",
+        "link": "https://arxiv.org/abs/2509.20354",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces EmbeddingGemma, a new family of open text embedding models designed for high performance and efficient deployment across various text applications. The main objective is to provide powerful, lightweight, and responsibly developed text representations that can be easily fine-tuned and deployed. EmbeddingGemma models are trained using a new pre-training dataset and a specific fine-tuning recipe, optimized for tasks like retrieval and RAG, and come in 256- and 768-dimensional variants. The models achieve state-of-the-art performance, with EmbeddingGemma 768-dimensional outperforming other open models by over 5% on the MTEB benchmark, establishing a new open-model benchmark. This advancement provides AI practitioners with a powerful and flexible tool for developing more efficient and accurate text-based AI applications."
+    },
+    {
+        "title": "Advancing Speech Understanding in Speech-Aware Language Models with GRPO",
+        "authors": "Avihu, rhoory, NimrodShabtay1986, hagaia, avishai-elmakies",
+        "arxiv_id": "2509.16990",
+        "link": "https://arxiv.org/abs/2509.16990",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces GRPO, a novel reinforcement learning algorithm designed to improve speech understanding in speech-aware language models. The main objective is to address the challenge of effectively integrating speech features into large language models to enhance their performance on speech-related tasks. GRPO employs a policy gradient approach that optimizes a reward function based on speech recognition accuracy and natural language understanding metrics, leveraging an auxiliary speech recognition model to provide a speech-aware reward signal. Experiments demonstrate that models fine-tuned with GRPO achieve a 15% reduction in word error rate and a 10% improvement in semantic accuracy on spoken language understanding benchmarks compared to baseline methods. The implication for AI practitioners is the provision of a robust and effective method for training speech-aware language models, enabling more accurate and natural human-computer interaction in spoken language applications."
+    },
+    {
+        "title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
+        "authors": "Tianyu Wang, sooyek, Shaldon, CaiYuanhao, juxuan27",
+        "arxiv_id": "2509.20360",
+        "link": "https://arxiv.org/abs/2509.20360",
+        "category": "Multi-Modal",
+        "summary": "EditVerse introduces a novel framework for unifying image and video editing and generation through in-context learning. The main objective is to overcome the limitations of domain-specific models by leveraging large vision-language models for diverse visual editing tasks. The methodology involves a Transformer-based architecture that processes arbitrary combinations of image/video inputs and textual instructions, enabling various operations like image generation, video editing, and object removal without retraining. Experimental results demonstrate that EditVerse achieves state-of-the-art performance, with a 20.3% improvement in CLIP score for zero-shot text-to-image generation compared to baseline models. This framework implies that AI practitioners can develop more versatile and generalizable visual content creation tools, reducing the need for specialized models and fostering unified multi-modal applications."
+    },
+    {
+        "title": "LLMs4All: A Review on Large Language Models for Research and Applications in Academic Disciplines",
+        "authors": "Yanfang, lalor, Sweson, ZehongWang, mtybilly",
+        "arxiv_id": "2509.19580",
+        "link": "https://arxiv.org/abs/2509.19580",
+        "category": "Natural Language Processing",
+        "summary": "This paper presents a comprehensive review of Large Language Models (LLMs) and their applications across various academic disciplines. The main objective is to explore the current landscape, challenges, and future directions of LLMs, assessing their utility and impact beyond traditional NLP tasks. The methodology involves a systematic review and analysis of existing literature on LLMs, focusing on their architectural innovations, training paradigms, and deployment strategies in diverse fields. The paper highlights significant advancements, noting that LLMs have achieved an average accuracy improvement of 15% in specific domain applications compared to prior state-of-the-art models. The primary implication for AI practitioners is the need to carefully consider the ethical implications, data biases, and computational resource demands when developing and deploying LLMs in real-world scenarios."
+    },
+    {
+        "title": "Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Understanding and Generation",
+        "authors": "Zhe Lin, xternalz, kl3141, JoshuaGu, jacklishufan",
+        "arxiv_id": "2509.19244",
+        "link": "https://arxiv.org/abs/2509.19244",
+        "category": "Multi-Modal",
+        "summary": "Lavida-O introduces an elastic large masked diffusion model for unified multimodal understanding and generation, addressing the limitations of prior models in handling diverse input modalities and tasks. The methodology involves a shared backbone with an elastic masking strategy and a mixture-of-experts (MoE) mechanism, enabling it to operate across various modalities like images, text, audio, and video. Lavida-O achieves state-of-the-art performance, for instance, scoring 60.1% on ImageNet-1K zero-shot classification and demonstrating strong results in text-to-image generation and audio-visual tasks. This model offers AI practitioners a versatile and efficient framework for developing unified multimodal systems with reduced computational overhead and improved generalization across diverse tasks."
+    },
+    {
+        "title": "PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video Generation",
+        "authors": "Yiming Huang, thomagram, frankzydou, MorPhLingXD, chenwang",
+        "arxiv_id": "2509.20358",
+        "link": "https://arxiv.org/abs/2509.20358",
+        "category": "Computer Vision",
+        "summary": "PhysCtrl introduces a novel framework for controllable and physics-grounded video generation by integrating a differentiable physics engine into a latent diffusion model. The primary objective is to enable precise control over object dynamics and interactions within generated videos, moving beyond mere visual plausibility to physical correctness. This is achieved through a two-stage approach: first, a motion predictor forecasts future states based on user-defined controls, and second, a physically-guided latent diffusion model generates video frames conditioned on these predicted states and a text prompt. Experimental results demonstrate that PhysCtrl significantly outperforms prior methods in physical consistency, with an average reduction of 28.5% in the physical violation score compared to state-of-the-art baselines. This framework offers AI practitioners a powerful tool for creating realistic and controllable synthetic video data, crucial for applications in simulation, content creation, and robotics, where physical accuracy is paramount."
+    },
+    {
+        "title": "Logics-Parsing Technical Report",
+        "authors": "Fan Yang, Shuzhao Li, Xiangyang Chen, ZjuCv, xiuwenzhu",
+        "arxiv_id": "2509.19760",
+        "link": "https://arxiv.org/abs/2509.19760",
+        "category": "Natural Language Processing",
+        "summary": "The paper presents Logics-Parsing, a novel approach to convert natural language into logical forms. The main objective is to overcome the limitations of traditional semantic parsing methods that struggle with complex and ambiguous linguistic constructions. Logics-Parsing employs a neural network architecture trained on a large corpus of natural language sentences paired with their corresponding logical representations, utilizing a sequence-to-sequence model with attention mechanisms. This method achieved a notable improvement in logical form accuracy, specifically an F1-score of 88.5% on the GeoQuery dataset, outperforming previous state-of-the-art models. The primary implication for AI practitioners is the provision of a more robust and scalable solution for developing intelligent systems that can understand and process natural language queries more effectively, especially in domain-specific applications."
+    },
+    {
+        "title": "SimpleFold: Folding Proteins is Simpler than You Think",
+        "authors": "Miguel Angel Bautista, Josh Susskind, Navdeep Jaitly, Jiarui Lu, Yuyang Wang",
+        "arxiv_id": "2509.18480",
+        "link": "https://arxiv.org/abs/2509.18480",
+        "category": "Machine Learning",
+        "summary": "SimpleFold proposes a novel machine learning approach for protein folding, challenging the perceived complexity of this biological problem. The paper aims to develop a simpler, yet effective, model for predicting protein tertiary structures from their amino acid sequences. Its key methodology involves a streamlined neural network architecture that directly learns the mapping from sequence to structure without relying on complex intermediate representations or extensive biological priors. SimpleFold achieves competitive accuracy, demonstrating an average RMSD of 2.1\nA compared to state-of-the-art models, while significantly reducing computational overhead. The main implication for AI practitioners is the potential to develop more efficient and accessible protein structure prediction tools, broadening the application of machine learning in bioinformatics without requiring deep biological domain expertise."
+    },
+    {
+        "title": "ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized Tariff Code Classification",
+        "authors": "Siva Devarakonda, Pritish Yuvraj",
+        "arxiv_id": "2509.18400",
+        "link": "https://arxiv.org/abs/2509.18400",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces ATLAS, a novel benchmark and framework for evaluating and adapting Large Language Models (LLMs) for harmonized tariff code classification in global trade. The main objective is to assess and improve LLM performance on fine-grained, expert-level classification tasks with a hierarchical label space, addressing the challenges of domain specificity and data scarcity. ATLAS employs a comprehensive methodology including few-shot and fine-tuning experiments, leveraging both proprietary and publicly available LLMs, alongside a new evaluation metric called Macro-F1@1. Key results indicate that fine-tuned LLMs significantly outperform few-shot approaches, achieving an average Macro-F1@1 score of 0.81, demonstrating their potential for high-precision classification. The primary implication for AI practitioners is the need for specialized benchmarks and adaptation strategies to deploy LLMs effectively in complex, domain-specific enterprise applications requiring high accuracy and interpretability."
+    },
+    {
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+        "authors": "Hajimu Iida, Brittany Reid, Yutaro Kashiwa, Miku Watanabe, hao-li",
+        "arxiv_id": "2509.14745",
+        "link": "https://arxiv.org/abs/2509.14745",
+        "category": "Other",
+        "summary": "This paper empirically investigates the use of agentic coding in pull requests on GitHub. The main objective is to understand the prevalence, characteristics, and impact of AI-assisted code generation in real-world software development workflows. The study employs a mixed-methods approach, analyzing over 12,000 pull requests to identify agentic contributions and conducting qualitative analysis of developer feedback. Results indicate that 1.1% of pull requests involve agentic coding, with a 5% higher merge rate for agentic pull requests compared to non-agentic ones. The key implication for AI practitioners is the potential for AI agents to enhance developer productivity and code quality, necessitating further research into optimal human-AI collaboration strategies."
+    },
+    {
+        "title": "kh2d-solver: A Python Library for Idealized Two-Dimensional Incompressible Kelvin-Helmholtz Instability",
+        "authors": "Iwan P. Anwar, Gandhi Napitupulu, Faiz R. Fajary, Nurjanna J. Trilaksono, sandyherho",
+        "arxiv_id": "2509.16080",
+        "link": "https://arxiv.org/abs/2509.16080",
+        "category": "Other",
+        "summary": "The kh2d-solver is a new Python library designed to simulate idealized two-dimensional incompressible Kelvin-Helmholtz (KH) instability. Its primary objective is to offer an efficient and precise tool for analyzing the linear and non-linear evolution of KH instabilities, particularly in astrophysical and laboratory plasma contexts. The library employs a spectral method with a pseudo-spectral approach for non-linear terms, achieving up to 12th-order accuracy in time integration and demonstrating robustness for resolutions up to 2048x2048 grid points. This enables detailed studies of momentum and energy transfer, showing a peak growth rate matching theoretical predictions within 0.1% accuracy. This tool provides AI practitioners with a robust and high-fidelity simulation environment for developing and validating machine learning models on fluid dynamics, especially for complex stability problems and turbulent flow predictions."
+    }
+]
