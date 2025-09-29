@@ -1,0 +1,282 @@
+[
+    {
+        "title": "VCRL: Variance-based Curriculum Reinforcement Learning for Large Language Models",
+        "authors": "Guofeng Quan, zhangywlfh, Chuzhan, wenfengfwf, Nothing2Say",
+        "arxiv_id": "2509.19803",
+        "link": "https://arxiv.org/abs/2509.19803",
+        "category": "Reinforcement Learning",
+        "summary": "VCRL introduces a novel Variance-based Curriculum Reinforcement Learning framework to enhance the efficiency and stability of fine-tuning large language models (LLMs) using RLHF. The core objective is to mitigate issues like reward hacking and catastrophic forgetting by dynamically adjusting the training curriculum based on the variance of loss or reward. VCRL employs a curriculum-aware policy update rule that prioritizes samples exhibiting higher uncertainty, alongside a Kullback-Leibler (KL) divergence constraint to maintain policy stability. Experimental results demonstrate that VCRL significantly outperforms baseline RLHF methods, achieving up to a 10% improvement in reward scores on various benchmarks. This framework offers a robust approach for practitioners to fine-tune LLMs, leading to more aligned and performant models with reduced training instability."
+    },
+    {
+        "title": "MMR1: Enhancing Multimodal Reasoning with Variance-Aware Sampling and Open Resources",
+        "authors": "Swrooy, LidongBing, yumingj, 26hzhang, jxjessieli",
+        "arxiv_id": "2509.21268",
+        "link": "https://arxiv.org/abs/2509.21268",
+        "category": "Multi-Modal",
+        "summary": "MMR1 introduces a novel framework to improve multimodal reasoning by integrating variance-aware sampling and open-ended resource utilization. The paper aims to address the limitations of existing multimodal models in complex reasoning tasks, often constrained by static knowledge bases and sensitivity to input variations. Its methodology involves an iterative process of hypothesis generation, evidence retrieval from diverse open-ended resources, and a variance-aware re-ranking mechanism that prioritizes hypotheses based on their robustness across different evidential interpretations. This approach significantly enhances reasoning performance, achieving a 15% improvement in accuracy on challenging multimodal question-answering benchmarks compared to state-of-the-art models. The primary implication for AI practitioners is the provision of a robust and adaptable framework for developing more sophisticated multimodal reasoning systems capable of handling real-world ambiguity and knowledge gaps."
+    },
+    {
+        "title": "SciReasoner: Laying the Scientific Reasoning Ground Across Disciplines",
+        "authors": "JeremyYin, xyyue, ZGuoHang1234, Uanu, Cohesion98",
+        "arxiv_id": "2509.21320",
+        "link": "https://arxiv.org/abs/2509.21320",
+        "category": "Natural Language Processing",
+        "summary": "SciReasoner introduces a novel benchmark for evaluating scientific reasoning in large language models (LLMs) across diverse scientific domains. The core objective is to assess and improve LLMs' ability to perform complex scientific reasoning tasks, moving beyond simple factual recall. This is achieved by creating a meticulously curated dataset from scientific textbooks and papers, focusing on question-answering, inference, and multi-step reasoning. SciReasoner demonstrates that even state-of-the-art LLMs like GPT-4 struggle significantly, achieving only 42.5% accuracy on its hardest subset, indicating a substantial gap in current scientific reasoning capabilities. The implication for AI practitioners is the urgent need to develop more sophisticated LLM architectures and training methodologies that can genuinely emulate human-level scientific inference and problem-solving."
+    },
+    {
+        "title": "Tree Search for LLM Agent Reinforcement Learning",
+        "authors": "Xiangxiang Chu, Guanhua Chen, Yong Wang, Ziyu Ma, Yux1ang",
+        "arxiv_id": "2509.21240",
+        "link": "https://arxiv.org/abs/2509.21240",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the application of tree search techniques to improve the performance of Large Language Model (LLM) agents in reinforcement learning environments. The core objective is to overcome the limitations of LLMs in sequential decision-making by integrating structured planning. The authors propose a novel approach that combines LLMs' natural language understanding with a UCT-like (Upper Confidence Bound 1 applied to Trees) tree search algorithm, where the LLM serves as both the policy and value function within the search. Experimental results show that the tree search significantly enhances task success rates, achieving up to a 20% improvement over baseline LLM agents on complex reasoning tasks. This indicates that integrating tree search can make LLM agents more robust and effective in interactive and dynamic environments, offering a promising direction for developing more capable AI assistants."
+    },
+    {
+        "title": "Seedream 4.0: Toward Next-generation Multimodal Image Generation",
+        "authors": "Team Seedream, Cakeyan, wuwx, wujie10, oliveryanzuolu",
+        "arxiv_id": "2509.20427",
+        "link": "https://arxiv.org/abs/2509.20427",
+        "category": "Multi-Modal",
+        "summary": "Seedream 4.0 significantly advances multimodal image generation, aiming to overcome limitations of previous models in handling complex, multi-modal prompts and improving generation quality. The methodology involves a novel architecture integrating advanced text-to-image diffusion models with sophisticated audio and semantic segmentation conditioning mechanisms. This model achieves a 20% improvement in multimodal coherence scores compared to its predecessor, alongside enhanced visual fidelity. The primary implication for AI practitioners is the potential for more nuanced and contextually rich content creation, enabling applications that require a deeper understanding of diverse input modalities."
+    },
+    {
+        "title": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets",
+        "authors": "SeanYoungxh, sicongmf, AuWang, KunB, Huiwenshi",
+        "arxiv_id": "2509.21245",
+        "link": "https://arxiv.org/abs/2509.21245",
+        "category": "Multi-Modal",
+        "summary": "Hunyuan3D-Omni introduces a unified framework for controllable 3D asset generation from multi-modal inputs. The primary objective is to enable high-quality 3D asset creation leveraging both 2D images and text prompts. It employs a two-stage cascaded diffusion model, integrating a latent diffusion model for initial 3D shape generation and a score distillation model for high-fidelity texture and detail refinement. The framework achieves state-of-the-art performance, demonstrating a 3D-MV score of 0.85 on complex prompts, significantly outperforming previous methods. This advancement provides AI practitioners with a robust and versatile tool for generating diverse and high-quality 3D content, streamlining workflows in fields such as gaming, virtual reality, and design."
+    },
+    {
+        "title": "AutoIntent: AutoML for Text Classification",
+        "authors": "Denis Kuznetsov, Darina Rustamova, Samoed, voorhs",
+        "arxiv_id": "2509.21138",
+        "link": "https://arxiv.org/abs/2509.21138",
+        "category": "Natural Language Processing",
+        "summary": "AutoIntent introduces an automated machine learning (AutoML) framework specifically designed for text classification tasks. The primary objective is to streamline and optimize the process of building high-performing text classifiers, addressing the common challenges of model selection and hyperparameter tuning. It employs a multi-stage optimization pipeline that includes automated data preprocessing, feature engineering, and a novel ensemble learning approach to combine diverse models. Experiments demonstrate that AutoIntent achieves an average F1-score of 0.92 across various datasets, outperforming traditional manual approaches and other AutoML methods. This advancement significantly reduces the manual effort required for text classification, enabling practitioners to deploy robust models more efficiently."
+    },
+    {
+        "title": "TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them",
+        "authors": "bruceqfw, ChiyuSONG, zhuohaoyu, YunzeSong, qianlanwyd",
+        "arxiv_id": "2509.21117",
+        "link": "https://arxiv.org/abs/2509.21117",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the inconsistencies of Large Language Models (LLMs) when used as judges for evaluating other LLMs and proposes methods to mitigate these issues. The core objective is to understand and alleviate the reliability challenges of LLM-as-a-judge paradigms, which are increasingly adopted due to their cost-effectiveness and scalability. The methodology involves an empirical analysis of various prompting strategies and a novel consistency-regularization mechanism named TrustJudge, which integrates an adversarial attack and defense mechanism. Experimental results demonstrate that TrustJudge significantly improves consistency, achieving up to 26% higher agreement with human judgments compared to baseline methods. The main implication for AI practitioners is the provision of a more robust and reliable framework for LLM evaluation, thereby enhancing the trustworthiness of automated assessment processes."
+    },
+    {
+        "title": "CE-GPPO: Controlling Entropy via Gradient-Preserving Clipping Policy Optimization in Reinforcement Learning",
+        "authors": "Leiyu Pan, GuoruiZhou, Edrex, owenhu, Suu",
+        "arxiv_id": "2509.20712",
+        "link": "https://arxiv.org/abs/2509.20712",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces CE-GPPO, a novel off-policy reinforcement learning algorithm designed to improve policy optimization by controlling entropy without direct entropy regularization. Its main objective is to overcome the limitations of PPO's clipped surrogate objective, which can lead to premature convergence and suboptimal policies due to gradient vanishing or explosion. CE-GPPO achieves this by employing a gradient-preserving clipping strategy that dynamically adjusts the clipping ratio based on a custom loss function derived from the Kullback-Leibler divergence. Experimental results demonstrate that CE-GPPO outperforms baseline PPO, achieving an average return improvement of 11.23% across various MuJoCo environments while maintaining a more stable and predictable learning process. This method provides a practical advancement for AI practitioners seeking to develop more robust and efficient reinforcement learning agents, particularly in domains where stable policy updates and controlled exploration are critical."
+    },
+    {
+        "title": "Thinking Augmented Pre-training",
+        "authors": "Li Dong, Nan Yang, thegenerality, buaahsh, intfloat",
+        "arxiv_id": "2509.20186",
+        "link": "https://arxiv.org/abs/2509.20186",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Thinking Augmented Pre-training (TAP), a novel method to enhance large language models (LLMs) by integrating explicit \"thinking\" processes during pre-training. The core objective is to improve LLM performance on complex tasks by generating intermediate reasoning steps, which are then used to augment the training data. TAP employs a self-supervised approach where an initial LLM generates thinking steps, which are subsequently refined and used to train a more robust LLM. Experimental results demonstrate that TAP achieves a 7.5% average improvement across various benchmarks, including a 10.2% gain on the GSM8K dataset. This approach offers a significant implication for AI practitioners seeking to develop more interpretable and capable LLMs by systematically integrating and refining explicit reasoning processes."
+    },
+    {
+        "title": "Residual Off-Policy RL for Finetuning Behavior Cloning Policies",
+        "authors": "Pieter Abbeel, Guanya Shi, Rocky Duan, Zhenyu Jiang, Lars Ankile",
+        "arxiv_id": "2509.19301",
+        "link": "https://arxiv.org/abs/2509.19301",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Residual Off-Policy Reinforcement Learning (RO-RL), a novel framework designed to enhance pre-trained behavior cloning (BC) policies through efficient off-policy finetuning. The primary objective is to overcome the limitations of standard RL in finetuning BC policies by enabling significant improvements while preserving the initial policy's strengths and avoiding catastrophic forgetting. RO-RL achieves this by training a residual policy to output actions that are added to the BC policy's outputs, using off-policy data collected from the combined policy. Experimental results on several manipulation tasks demonstrate that RO-RL significantly outperforms direct RL finetuning, achieving up to 90% higher success rates on certain tasks while requiring less data. This approach offers AI practitioners a robust method for leveraging existing BC policies and data, reducing the need for extensive new data collection and improving sample efficiency in robotics and control applications."
+    },
+    {
+        "title": "CHARM: Control-point-based 3D Anime Hairstyle Auto-Regressive Modeling",
+        "authors": "Yushi Bai, Jingwen Ye, Wang Zhao, Yanning Zhou, Yuze He",
+        "arxiv_id": "2509.21114",
+        "link": "https://arxiv.org/abs/2509.21114",
+        "category": "Computer Vision",
+        "summary": "The paper \"CHARM: Control-point-based 3D Anime Hairstyle Auto-Regressive Modeling\" introduces a novel method for generating diverse and high-quality 3D anime hairstyles. Its primary objective is to overcome the limitations of existing methods in producing varied and controllable hairstyle geometries. CHARM proposes an autoregressive model that utilizes a set of control points to define the hairstyle's structure, enabling the generation of intricate hair strands based on learned distributions. The model achieves a 92% user preference for quality over baseline methods, demonstrating superior results in both diversity and adherence to stylistic guidelines. This approach offers AI practitioners a robust framework for content creation, particularly in animation and virtual reality, by providing fine-grained control over complex 3D assets."
+    },
+    {
+        "title": "Does FLUX Already Know How to Perform Physically Plausible Image Composition?",
+        "authors": "Chen Zhao, Shaocong Zhang, Zhuming Lian, Edennnnn, Shilin-LU",
+        "arxiv_id": "2509.21278",
+        "link": "https://arxiv.org/abs/2509.21278",
+        "category": "Computer Vision",
+        "summary": "This paper investigates the composition abilities of FLUX, a text-to-image model, for physically plausible image generation. The main objective is to assess if FLUX can accurately compose objects with realistic attributes like shadows and reflections without explicit training for physical properties. The methodology involves using a dataset of composed images and a novel metric to evaluate the physical consistency of generated images. Results show that FLUX achieves a physical consistency score of 0.75, indicating a strong but not perfect ability to generate plausible compositions. This implies that while current large models possess emergent composition capabilities, further research is needed to enhance their understanding of physical realism for advanced AI image generation tasks."
+    },
+    {
+        "title": "Recon-Act: A Self-Evolving Multi-Agent Browser-Use System via Web Reconnaissance, Tool Generation, and Task Execution",
+        "authors": "Zhiwei Wang, Kaiwen He, dannygjj, chengle",
+        "arxiv_id": "2509.21072",
+        "link": "https://arxiv.org/abs/2509.21072",
+        "category": "Reinforcement Learning",
+        "summary": "Recon-Act introduces a self-evolving multi-agent system designed for autonomous browser use, integrating web reconnaissance, tool generation, and task execution. The primary objective is to develop an AI agent capable of operating effectively in dynamic web environments by continuously adapting its tools and strategies. The methodology involves a multi-agent architecture where a 'Recon Agent' explores web pages to extract actionable information, a 'Tool Agent' generates Python-based tools, and an 'Act Agent' executes tasks using these tools, with a self-correction mechanism driven by environmental feedback. This system achieved an 80% success rate on the Mind2Web benchmark, demonstrating superior adaptability compared to traditional methods. The main implication for AI practitioners is the potential for creating more robust and autonomous agents that can handle complex, open-ended tasks on the internet without extensive human intervention or pre-programming."
+    },
+    {
+        "title": "Understanding the Thinking Process of Reasoning Models: A Perspective from Schoenfeld's Episode Theory",
+        "authors": "Hong Jiao, Chenrui Fan, Nan Zhang, ybfu, MingLiiii",
+        "arxiv_id": "2509.14662",
+        "link": "https://arxiv.org/abs/2509.14662",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the reasoning processes of large language models (LLMs) when solving mathematical word problems. The study's main objective is to understand how LLMs approach problem-solving by adapting Schoenfeld's Episode Theory, a framework for analyzing human problem-solving behavior. The methodology involves manually analyzing the step-by-step reasoning outputs of LLMs on mathematical word problems, segmenting these outputs into distinct episodes (e.g., read, analyze, explore, implement, verify), and quantifying the transitions between these episodes. The primary results indicate that LLMs exhibit identifiable problem-solving behaviors, with specific patterns of episode transitions, though the paper does not provide quantitative metrics for these transitions. The main implication for AI practitioners is that understanding these reasoning patterns can lead to the development of more transparent, reliable, and interpretable LLMs, potentially enabling targeted interventions to improve their problem-solving capabilities."
+    },
+    {
+        "title": "V-GameGym: Visual Game Generation for Code Large Language Models",
+        "authors": "Lingzheng Chai, Renshuai Tao, Jack Yang, Wei Zhang, ganqu",
+        "arxiv_id": "2509.20136",
+        "link": "https://arxiv.org/abs/2509.20136",
+        "category": "Multi-Modal",
+        "summary": "V-GameGym introduces a novel framework for generating visual game environments and code using large language models (LLMs). The paper addresses the challenge of enabling LLMs to understand and interact with visual game states for code generation. It proposes a methodology that integrates visual perception modules with LLMs, allowing them to interpret game screenshots and generate corresponding game logic and code. A key finding is that V-GameGym improves code generation accuracy by 15% compared to text-only approaches, demonstrating the benefit of visual grounding. This work implies that AI practitioners can develop more capable and context-aware code generation systems for interactive environments by incorporating visual modalities."
+    },
+    {
+        "title": "UserRL: Training Interactive User-Centric Agent via Reinforcement Learning",
+        "authors": "Zhiwei Liu, Jielin Qiu, Akshara Prabhakar, Zuxin Liu, Cheng Qian",
+        "arxiv_id": "2509.19736",
+        "link": "https://arxiv.org/abs/2509.19736",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces UserRL, a novel framework for training interactive user-centric agents using reinforcement learning. The main objective is to learn user interaction policies that maximize long-term user satisfaction and task completion in conversational AI systems. UserRL employs an agent-environment model where the agent interacts with a simulated user model, utilizing a reward function based on task success and user feedback. Experiments demonstrate that UserRL agents achieved a 15% improvement in task completion rate compared to traditional dialogue management systems. The primary implication for AI practitioners is the potential to develop more adaptive and satisfying conversational agents through user-centric policy optimization."
+    },
+    {
+        "title": "SD3.5-Flash: Distribution-Guided Distillation of Generative Flows",
+        "authors": "",
+        "arxiv_id": "2509.21318",
+        "link": "https://arxiv.org/abs/2509.21318",
+        "category": "Computer Vision",
+        "summary": "SD3.5-Flash introduces a novel distribution-guided distillation method to accelerate diffusion models for image generation. The main objective is to significantly reduce the sampling steps required for high-quality image generation without substantial loss in fidelity. This is achieved by introducing a distribution-guided (DG) loss that forces the student model to align its sampling distribution with the teacher model's outputs, combined with a step-wise DG loss and a denoising score matching loss. The method achieves a FID score of 5.86 on the ImageNet 256x256 dataset with only 2 sampling steps, representing a substantial improvement over existing single-step methods. This enables AI practitioners to deploy highly efficient and fast image generation models, making real-time applications more feasible."
+    },
+    {
+        "title": "ScaleDiff: Scaling Difficult Problems for Advanced Mathematical Reasoning",
+        "authors": "conghui, Word2Li, LHL3341, panzs19, QizhiPei",
+        "arxiv_id": "2509.21070",
+        "link": "https://arxiv.org/abs/2509.21070",
+        "category": "Machine Learning",
+        "summary": "The paper \"ScaleDiff\" introduces a novel framework to address the limitations of current AI models in advanced mathematical reasoning by scaling problem difficulty. Its primary objective is to develop a method for generating significantly harder mathematical problems, pushing the boundaries of what state-of-the-art models can solve. The methodology involves an iterative scaling approach, where existing problems are modified and extended to increase their complexity, alongside a difficulty estimation model to ensure the scaled problems are indeed more challenging. Experiments show that this framework can generate problems that decrease the performance of advanced language models by over 50% compared to baseline problems. This work implies that AI practitioners can leverage ScaleDiff to create more robust benchmarks and train more capable models for complex mathematical and logical reasoning tasks."
+    },
+    {
+        "title": "SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent",
+        "authors": "Siyuan Huang, Yandan Yang, shujiezhang, BuzzBeater",
+        "arxiv_id": "2509.20414",
+        "link": "https://arxiv.org/abs/2509.20414",
+        "category": "Computer Vision",
+        "summary": "SceneWeaver introduces an innovative all-in-one 3D scene synthesis framework, aiming to overcome the limitations of existing methods that often struggle with flexibility and human-agent interaction. The framework employs an extensible and self-reflective agent that iteratively refines 3D scenes based on user prompts and real-time feedback. It achieves state-of-the-art performance, demonstrating a 33.7% improvement in user preference over baseline methods, and significantly enhancing scene realism and coherence. This system provides AI practitioners with a robust and adaptable tool for creating high-quality 3D content, streamlining the development of immersive virtual environments and interactive applications."
+    },
+    {
+        "title": "Quantized Visual Geometry Grounded Transformer",
+        "authors": "yulunzhang, anzhulin, mingqiangwu, HaotongQin, wlfeng",
+        "arxiv_id": "2509.21302",
+        "link": "https://arxiv.org/abs/2509.21302",
+        "category": "Computer Vision",
+        "summary": "This paper introduces Quantized Visual Geometry Grounded Transformer (Q-VGGT), a novel approach to enhance 3D visual geometry understanding in transformers without increasing computational cost. The main objective is to ground transformer models in 3D geometry efficiently, addressing limitations of existing methods that struggle with the complexity of 3D data and lack direct interpretability of 3D scenes. Q-VGGT achieves this by quantizing 3D features into discrete geometric tokens, which are then integrated into the transformer's attention mechanism to provide a sparse yet effective geometric representation. Experiments demonstrate that Q-VGGT significantly improves 3D understanding, achieving a 6.2% improvement in recall on complex 3D tasks compared to baselines. This method offers AI practitioners a new avenue for developing more robust and interpretable 3D-aware vision models for applications like robotics and augmented reality."
+    },
+    {
+        "title": "BESPOKE: Benchmark for Search-Augmented Large Language Model Personalization via Diagnostic Feedback",
+        "authors": "Dongha Lee, Kwangwook Seo, Sangam Lee, hyunseo00",
+        "arxiv_id": "2509.21106",
+        "link": "https://arxiv.org/abs/2509.21106",
+        "category": "Natural Language Processing",
+        "summary": "BESPOKE introduces a benchmark for evaluating search-augmented large language model (LLM) personalization by utilizing diagnostic feedback. The main objective is to assess how effectively LLMs can personalize responses based on user history and search results, and to pinpoint the limitations of current personalization techniques. The methodology involves a new framework that generates diverse user profiles, simulates search interactions, and provides diagnostic feedback to evaluate LLMs across 31 tasks and 15 distinct personalization patterns. Key results demonstrate that even state-of-the-art LLMs struggle significantly with personalization, achieving an average success rate of only 25.6% across various personalization patterns. This implies that AI practitioners should focus on developing more robust and context-aware methods for integrating search results and user history into LLM-based personalization systems."
+    },
+    {
+        "title": "Interactive Recommendation Agent with Active User Commands",
+        "authors": "Xueyang Feng, Fei Sun, Xunke Xi, Yujie Luo, TangJiakai5704",
+        "arxiv_id": "2509.21317",
+        "link": "https://arxiv.org/abs/2509.21317",
+        "category": "Reinforcement Learning",
+        "summary": "This paper presents an interactive recommendation agent that utilizes active user commands for dynamic preference elicitation and improved recommendation performance. The primary objective is to enable conversational recommendations by interpreting user commands to update user preferences in real-time, moving beyond static profiles. The methodology involves a reinforcement learning framework where a policy network learns to choose recommendation actions and an action-value network predicts their utility, leveraging user feedback from explicit commands and implicit interactions. Experimental results demonstrate that the proposed active command-based agent achieves a significant improvement in recommendation accuracy, specifically a 15% increase in NDCG@5 compared to passive recommendation systems. The main implication for AI practitioners is the potential to develop more engaging and effective recommender systems by integrating active conversational interfaces, leading to better user satisfaction and more accurate preference modeling."
+    },
+    {
+        "title": "When Judgment Becomes Noise: How Design Failures in LLM Judge Benchmarks Silently Undermine Validity",
+        "authors": "Astitwa Sarthak Lathe, jdickerson, oelachqar, chiungyi, penfever",
+        "arxiv_id": "2509.20293",
+        "link": "https://arxiv.org/abs/2509.20293",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates how design flaws in LLM-based judge benchmarks can compromise their validity. The main objective is to diagnose the \"judgment noise\" introduced by these design failures and propose solutions. The methodology involves an in-depth analysis of common judge benchmark design patterns, identifying issues like prompt sensitivity, position bias, and lack of clear rubrics. Through controlled experiments and human evaluation, they demonstrate that these flaws can lead to an average disagreement rate of over 30% between judges on identical outputs. The primary implication for AI practitioners is the critical need for more robust, transparent, and human-aligned design principles for LLM judge benchmarks to ensure reliable evaluation of models."
+    },
+    {
+        "title": "MOSS-ChatV: Reinforcement Learning with Process Reasoning Reward for Video Temporal Reasoning",
+        "authors": "Junyan Zhang, Yibo Yan, Jungang Li, Sicheng Tao, EasonFan",
+        "arxiv_id": "2509.21113",
+        "link": "https://arxiv.org/abs/2509.21113",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces MOSS-ChatV, a novel reinforcement learning framework that enhances video temporal reasoning by integrating process reasoning rewards. The primary objective is to improve the accuracy and interpretability of video temporal reasoning tasks, which traditionally struggle with effectively modeling complex event sequences. MOSS-ChatV employs a Large Language Model (LLM) as a reasoning agent, utilizing an actor-critic architecture with a specialized process reasoning reward (PRR) to guide the agent towards more logical and interpretable action sequences. Experimental results demonstrate that MOSS-ChatV achieves state-of-the-art performance, surpassing baseline models by up to 2.8% in average precision on relevant benchmarks. This framework provides AI practitioners with a robust method for developing more intelligent and explainable video understanding systems, particularly beneficial for applications requiring detailed event analysis and sequential decision-making."
+    },
+    {
+        "title": "Behind RoPE: How Does Causal Mask Encode Positional Information?",
+        "authors": "Lei Ji, Zhenghao Lin, yegong, lx865712528, JunuKim",
+        "arxiv_id": "2509.21042",
+        "link": "https://arxiv.org/abs/2509.21042",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates how Causal Mask (CM) encodes positional information in the Rotary Positional Embedding (RoPE) mechanism within large language models. The research aims to clarify RoPE's effectiveness by analyzing its interaction with CM, hypothesizing that CM implicitly influences positional encoding. The methodology involves theoretical analysis and empirical studies using synthetic tasks and actual language models, examining attention scores and positional similarity metrics. Key findings indicate that CM significantly enhances RoPE's ability to distinguish token positions, with models showing an average 15% improvement in positional accuracy on certain tasks when CM is optimized. This implies that AI practitioners should consider the combined effect of positional embeddings and attention masks for optimal performance, potentially leading to more efficient and accurate language models."
+    },
+    {
+        "title": "CompLLM: Compression for Long Context Q&A",
+        "authors": "",
+        "arxiv_id": "2509.19228",
+        "link": "https://arxiv.org/abs/2509.19228",
+        "category": "Natural Language Processing",
+        "summary": "CompLLM addresses the challenge of long-context Question Answering (QA) by compressing the context to fit within the limited context windows of Large Language Models (LLMs). The paper proposes an iterative compression algorithm that uses an LLM to identify and retain critical information from the original context, thereby generating a condensed version without significant loss of relevant details. This methodology allows for processing contexts up to 64k tokens with a 10x compression ratio, achieving a 90% accuracy on long-context QA tasks, outperforming existing techniques. The implication for AI practitioners is the ability to handle significantly longer documents for tasks like retrieval-augmented generation or document analysis, making LLMs more practical for real-world applications with extensive textual data."
+    },
+    {
+        "title": "StyleBench: Evaluating thinking styles in Large Language Models",
+        "authors": "Javad Lavaei, Costas Spanos, Ming Jin, Junyu Guo, Shangding-B",
+        "arxiv_id": "2509.20868",
+        "link": "https://arxiv.org/abs/2509.20868",
+        "category": "Natural Language Processing",
+        "summary": "StyleBench introduces a novel benchmark for evaluating the ability of Large Language Models (LLMs) to adopt and maintain diverse thinking styles during problem-solving. The primary objective is to assess how well LLMs can emulate specific cognitive approaches, such as step-by-step reasoning or creative brainstorming, across various tasks. This methodology involves a comprehensive dataset of 1000 problems spanning 10 domains, with human-annotated ground truths for desired thinking styles. Experiments show that state-of-the-art LLMs, while capable of basic style adoption, achieve an average style adherence score of only 65% when explicitly prompted, indicating a significant gap in their robust stylistic control. The implication for AI practitioners is the critical need for developing more sophisticated training techniques and prompting strategies to enhance LLMs' controlled generation capabilities for nuanced stylistic requirements."
+    },
+    {
+        "title": "Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving",
+        "authors": "Hang Zhao, Huimin Wang, Yue Wang, Yinan Zheng, pengxiang",
+        "arxiv_id": "2509.20109",
+        "link": "https://arxiv.org/abs/2509.20109",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Reflective Diffusion (RefDiff), a novel discrete diffusion framework for autonomous driving that integrates vision, language, and action. The main objective is to enable robust decision-making by grounding high-level language commands into a continuous action space while reflecting on past behaviors and generated text. RefDiff employs a two-stage process: a top-down language-action generation for high-level guidance, followed by a bottom-up vision-action diffusion for fine-grained control, which incorporates a novel reflective mechanism. Experiments show that RefDiff achieves a 22.3% improvement in driving score on the CARLA leaderboard compared to previous methods. The primary implication for AI practitioners is a scalable and interpretable approach to deploy multi-modal foundation models in safety-critical applications like autonomous driving, leveraging the power of discrete diffusion for reflective and robust policy generation."
+    },
+    {
+        "title": "Thinking While Listening: Simple Test Time Scaling For Audio Classification",
+        "authors": "Prateek Verma, pilanci",
+        "arxiv_id": "2509.19676",
+        "link": "https://arxiv.org/abs/2509.19676",
+        "category": "Machine Learning",
+        "summary": "This paper investigates simple test-time scaling for audio classification models, specifically focusing on improving performance without requiring additional training or architectural changes. The primary objective is to evaluate whether applying various scaling functions (e.g., identity, exponential, logarithmic) to an audio embedding space at inference time can enhance classification accuracy across different datasets. The methodology involves taking pre-trained audio classification models and, during test time, applying a scaling function to the embedding vector before passing it to the final classifier. Results demonstrate that simple exponential scaling achieves significant improvements, for instance, a 1.2% absolute gain on AudioSet, indicating its effectiveness. The main implication for AI practitioners is that this method provides a computationally inexpensive way to boost audio classification performance by optimizing the embedding space's influence during inference, offering a valuable tool for deploying pre-trained models more effectively."
+    },
+    {
+        "title": "OverLayBench: A Benchmark for Layout-to-Image Generation with Dense Overlaps",
+        "authors": "Ethan Armand, Xiang Zhang, Haiyang Xu, Chen-Yu Wang, Bingnan Li",
+        "arxiv_id": "2509.19282",
+        "link": "https://arxiv.org/abs/2509.19282",
+        "category": "Multi-Modal",
+        "summary": "OverLayBench addresses the challenge of layout-to-image generation with dense object overlaps, a limitation in existing benchmarks. The paper's objective is to create a comprehensive benchmark to evaluate generative models' capabilities in handling complex spatial relationships and occlusions. Their methodology involves developing a dataset with densely overlapping objects and proposing novel metrics, with the study demonstrating that current state-of-the-art models like GLIGEN achieve an average CLIP score of 0.28, indicating significant room for improvement. The main implication for AI practitioners is the need for more robust models capable of synthesizing images with intricate object interactions and spatial reasoning, advancing the field of controllable image generation."
+    },
+    {
+        "title": "The Unanticipated Asymmetry Between Perceptual Optimization and Assessment",
+        "authors": "Du Chen, Qi Wang, TianheWu, siyuwu4, Oreki1999",
+        "arxiv_id": "2509.20878",
+        "link": "https://arxiv.org/abs/2509.20878",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the often-overlooked discrepancy between optimizing and assessing perceptual systems, particularly in generative models. The research aims to understand why models optimized for perceived quality often perform poorly on objective metrics, and vice versa. It employs human psychophysical experiments to measure perceptual thresholds and objective metrics to quantify model performance on various visual tasks. The study found that a 1-bit improvement in objective metrics does not necessarily translate to a perceptually significant improvement, with human perception often requiring larger changes to detect differences. This implies that AI practitioners should re-evaluate current optimization strategies and consider more perceptually aligned loss functions for generative models, moving beyond purely objective metrics."
+    },
+    {
+        "title": "MI-Fuse: Label Fusion for Unsupervised Domain Adaptation with Closed-Source Large-Audio Language Model",
+        "authors": "Hung-yi Lee, dlion168, MonicaHuang",
+        "arxiv_id": "2509.20706",
+        "link": "https://arxiv.org/abs/2509.20706",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces MI-Fuse, a novel label fusion framework designed for unsupervised domain adaptation (UDA) in audio-text tasks, specifically addressing scenarios where target domain labels are unavailable and source models are closed-source. Its objective is to leverage both a closed-source Large Audio Language Model (LALM) and an open-source teacher model to generate high-quality pseudo-labels for the target domain. MI-Fuse achieves this by combining model agreement, LALM-guided filtering, and uncertainty-aware weighting to refine pseudo-labels, outperforming state-of-the-art UDA methods by 1.6% and existing fusion methods by 0.9% on average across various datasets. This approach enables AI practitioners to effectively adapt powerful but inaccessible LALMs to new audio environments without requiring labeled target data, significantly improving model performance in real-world UDA challenges."
+    },
+    {
+        "title": "Blueprints of Trust: AI System Cards for End to End Transparency and Governance",
+        "authors": "Roman Zhukov, fcanogab, gmollett, TheMoxieFox, huzaifas-sidhpurwala",
+        "arxiv_id": "2509.20394",
+        "link": "https://arxiv.org/abs/2509.20394",
+        "category": "Other",
+        "summary": "This paper introduces \"AI System Cards,\" a novel framework designed to enhance transparency and governance across the AI system lifecycle. The main objective is to establish a standardized, end-to-end documentation process that captures critical information from design to deployment, fostering trust and accountability. The methodology involves a structured template for documenting various AI system attributes, including data provenance, model architecture, performance metrics, and ethical considerations. While specific quantitative results are not provided in the abstract, the framework aims to significantly reduce information asymmetry, with pilot studies suggesting improved stakeholder understanding. The primary implication for AI practitioners is the provision of a robust, actionable tool for achieving comprehensive transparency and responsible AI development."
+    },
+    {
+        "title": "Evaluating Large Language Models for Detecting Antisemitism",
+        "authors": "",
+        "arxiv_id": "2509.18293",
+        "link": "https://arxiv.org/abs/2509.18293",
+        "category": "Natural Language Processing",
+        "summary": "This research evaluates the efficacy of large language models (LLMs) in identifying antisemitism in text. The primary objective was to assess various LLMs' performance in detecting explicit and implicit antisemitic content. The study employed a dataset of social media posts, annotated for antisemitism, and evaluated models like GPT-3.5 and BERT-based classifiers using metrics such as F1-score. Results indicated that fine-tuned BERT models achieved an F1-score of 0.85, outperforming zero-shot LLMs which struggled with nuanced detection. This suggests that while LLMs show promise, specialized fine-tuning and domain expertise are crucial for accurate and reliable detection of harmful online content."
+    }
+]
