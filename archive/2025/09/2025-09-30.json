@@ -1,0 +1,346 @@
+[
+    {
+        "title": "LongLive: Real-time Interactive Long Video Generation",
+        "authors": "",
+        "arxiv_id": "2509.22622",
+        "link": "https://arxiv.org/abs/2509.22622",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces LongLive, a novel framework for real-time interactive long video generation, addressing the challenge of generating coherent long videos with user-controlled narratives. It aims to overcome limitations of existing models in handling temporal consistency and user interaction over extended durations. The methodology involves a multi-stage process: a coarse-grained text-to-video diffusion model for initial story generation, followed by a fine-grained video-to-video model for detailed rendering, enhanced with a feedback mechanism for real-time user edits. Experiments show that LongLive can generate videos up to 300 seconds long while maintaining temporal consistency with a user interaction latency of less than 0.5 seconds, significantly outperforming baseline methods in user satisfaction scores by 25%. This framework offers AI practitioners a robust tool for creating long-form video content with unprecedented interactivity and coherence, applicable in areas like content creation and virtual reality."
+    },
+    {
+        "title": "Quantile Advantage Estimation for Entropy-Safe Reasoning",
+        "authors": "An Zhang, Jiancan Wu, xiangwang1223, 737443h, junkang0909",
+        "arxiv_id": "2509.22611",
+        "link": "https://arxiv.org/abs/2509.22611",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Quantile Advantage Estimation (QAE), a novel method for off-policy policy evaluation that enhances the safety and efficiency of decision-making systems. The primary objective is to develop an estimator that accurately quantifies the advantage of different actions while ensuring entropy-safe reasoning, thereby preventing suboptimal or risky policies. QAE achieves this by combining quantile regression with advantage estimation, allowing for a more robust and complete distributional understanding of returns. Experimental results demonstrate that QAE significantly reduces variance compared to traditional methods like Importance Sampling, achieving up to 30% lower mean squared error in tested environments. This approach offers AI practitioners a more reliable tool for evaluating and improving policies in critical applications where safety and performance are paramount."
+    },
+    {
+        "title": "EPO: Entropy-regularized Policy Optimization for LLM Agents Reinforcement Learning",
+        "authors": "Li Yu-Jhe, Wentian Zhao, timecuriosity, ztwang, Iscarrot",
+        "arxiv_id": "2509.22576",
+        "link": "https://arxiv.org/abs/2509.22576",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces EPO (Entropy-regularized Policy Optimization), a novel reinforcement learning algorithm designed to enhance the performance and stability of LLM agents in complex environments. The core objective is to mitigate issues like policy over-optimization and local optima entrapment common in existing methods for LLM agent fine-tuning. EPO achieves this by integrating a KL-divergence-based entropy regularization term into the policy optimization objective, which encourages exploration and maintains policy diversity. Experiments on various LLM agent tasks demonstrate that EPO consistently outperforms strong baselines, achieving a 12.5% average improvement in success rate over PPO and significantly reducing policy collapse. This approach offers a robust and effective strategy for training more capable and generalizable LLM agents in real-world applications."
+    },
+    {
+        "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing",
+        "authors": "SunYuefeng, hotelll, ouyanglinke, wanderkid, starriver030515",
+        "arxiv_id": "2509.22186",
+        "link": "https://arxiv.org/abs/2509.22186",
+        "category": "Multi-Modal",
+        "summary": "MinerU2.5 is a decoupled vision-language model designed for efficient high-resolution document parsing, addressing the challenge of processing complex document layouts with fine-grained detail. The model proposes a novel architecture that separates vision and language components, allowing for more flexible and memory-efficient processing of high-resolution inputs. It leverages a patch-based vision encoder and a text-based language model, coupled with a cross-modal attention mechanism for integration. MinerU2.5 achieves a significant 34.6% improvement in throughput over previous methods while maintaining competitive performance on benchmarks like FUNSD and RVL-CDIP, demonstrating its efficiency for practical applications. This approach enables AI practitioners to develop more scalable and performant document understanding systems, particularly for applications requiring high-fidelity extraction from visually rich documents."
+    },
+    {
+        "title": "ReviewScore: Misinformed Peer Review Detection with Large Language Models",
+        "authors": "",
+        "arxiv_id": "2509.21679",
+        "link": "https://arxiv.org/abs/2509.21679",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces ReviewScore, a novel framework utilizing Large Language Models (LLMs) to detect misinformed peer reviews. The primary objective is to identify reviews that contain factually incorrect or inconsistent information, which can negatively impact the review process. ReviewScore employs an LLM as a sophisticated fact-checker, comparing review content against the paper's original text to pinpoint discrepancies and inconsistencies. Experiments demonstrate that ReviewScore achieves a 91% accuracy rate in detecting misinformed reviews, significantly outperforming traditional methods. This framework offers a robust tool for ensuring the quality and integrity of academic peer review, potentially streamlining the editorial process and improving research dissemination."
+    },
+    {
+        "title": "Variational Reasoning for Language Models",
+        "authors": "",
+        "arxiv_id": "2509.22637",
+        "link": "https://arxiv.org/abs/2509.22637",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel approach to enhance the reasoning capabilities of large language models (LLMs) by integrating a variational inference framework. The primary objective is to enable LLMs to iteratively refine their reasoning steps, making the process more robust and less prone to initial errors. The methodology involves an iterative process where the LLM generates a set of diverse reasoning paths, which are then refined through a backward inference step that assesses their consistency and plausibility. Experimental results demonstrate that this variational reasoning approach significantly improves performance, achieving an average accuracy increase of 5.5% across various complex reasoning tasks compared to standard prompting methods. This technique provides AI practitioners with a powerful tool to develop more reliable and accurate LLM-based reasoning systems, particularly in applications requiring multi-step logical deductions."
+    },
+    {
+        "title": "Language Models Can Learn from Verbal Feedback Without Scalar Rewards",
+        "authors": "",
+        "arxiv_id": "2509.22638",
+        "link": "https://arxiv.org/abs/2509.22638",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the feasibility of training language models (LMs) using natural language feedback instead of scalar rewards. The research objective is to develop a method for fine-tuning LMs directly from verbal feedback, akin to human learning processes. The proposed methodology involves using an auxiliary LM to convert natural language feedback into a fine-tuning signal, which is then applied to the main LM. Experimental results demonstrate that LMs fine-tuned with verbal feedback achieve 94% of the performance of LMs fine-tuned with scalar rewards on specific tasks, indicating significant potential. This approach has a main implication for AI practitioners by offering a more intuitive and flexible way to align LMs with human preferences, especially in scenarios where scalar reward engineering is complex."
+    },
+    {
+        "title": "CapRL: Stimulating Dense Image Caption Capabilities via Reinforcement Learning",
+        "authors": "",
+        "arxiv_id": "2509.22647",
+        "link": "https://arxiv.org/abs/2509.22647",
+        "category": "Multi-Modal",
+        "summary": "CapRL addresses the challenge of generating dense image captions by integrating a Reinforcement Learning (RL) framework. The paper aims to stimulate the generation of rich, detailed captions for multiple regions within an image, moving beyond single-sentence descriptions. Its methodology involves a novel reward function that balances caption quality with region-to-caption assignment and the strategic use of an attention mechanism to focus on relevant image areas. Experimental results demonstrate that CapRL significantly outperforms baseline models, achieving a CIDEr score of 0.25 on the Flickr30k Entities dataset, indicating improved captioning accuracy and detail. This approach implies that AI practitioners can leverage RL to enhance the specificity and density of image captioning systems, leading to more descriptive and contextually aware visual understanding models."
+    },
+    {
+        "title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+        "authors": "Weipeng Zhong, Xudong Xu, Zhen Luo, nfliang, wuzhi-hao",
+        "arxiv_id": "2509.22281",
+        "link": "https://arxiv.org/abs/2509.22281",
+        "category": "Computer Vision",
+        "summary": "MesaTask introduces a novel framework for generating physically plausible 3D tabletop scenes driven by task descriptions and 3D spatial reasoning. The primary objective is to enable AI agents to synthesize complex environments where objects' states and spatial relationships are consistent with specified tasks. It employs a two-stage approach: a large language model first interprets the task to generate an initial scene graph, followed by a physics-aware 3D reasoning module that refines object placements to satisfy physical constraints. The framework achieves an average success rate of 92.5% in generating valid scenes for various manipulation tasks, demonstrating a significant improvement in realism and task-relevance over previous methods. This advancement has major implications for AI practitioners in robotics and embodied AI, offering a robust tool for creating diverse and challenging simulation environments for training and testing agents."
+    },
+    {
+        "title": "No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
+        "authors": "",
+        "arxiv_id": "2509.21880",
+        "link": "https://arxiv.org/abs/2509.21880",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of zero-variance prompts in Reinforcement Learning from Human Feedback (RLHF) for Large Language Models (LLMs), which can lead to policy collapse and training instability. The core objective is to improve LLM fine-tuning stability and performance by mitigating the negative effects of prompts where all candidate responses receive identical rewards. The authors propose Entropy-Guided Advantage Shaping (EGAS), a novel method that injects an entropy bonus into the advantage function to differentiate between responses even in zero-variance scenarios. EGAS demonstrates significant improvements, outperforming existing RLHF methods like PPO-max and DPO-max by 40% and 15% respectively in win-rate on synthetic datasets, and achieving a 5.8% increase in average score on the MT-bench. This approach offers a robust solution for enhancing the training efficiency and effectiveness of LLMs under RLHF, providing a new way to stabilize learning in the presence of ambiguous or uniform feedback."
+    },
+    {
+        "title": "PromptCoT 2.0: Scaling Prompt Synthesis for Large Language Model Reasoning",
+        "authors": "Lingpeng Kong, Zhuocheng Gong, Jian Guan, Wei Wu, xl-zhao",
+        "arxiv_id": "2509.19894",
+        "link": "https://arxiv.org/abs/2509.19894",
+        "category": "Natural Language Processing",
+        "summary": "PromptCoT 2.0 introduces a novel method for scaling prompt synthesis to enhance large language model reasoning. The primary objective is to improve LLM performance on complex reasoning tasks by automatically generating diverse and effective Chain-of-Thought (CoT) prompts. The methodology involves a teacher LLM generating diverse reasoning paths and self-revising them, followed by distillation into a student LLM for efficient inference. Results demonstrate that PromptCoT 2.0 significantly outperforms standard CoT prompting, achieving a 7.5% absolute improvement on the GSM8K dataset. This approach offers a scalable solution for AI practitioners to develop more robust and performant LLMs for various reasoning-intensive applications."
+    },
+    {
+        "title": "UltraHorizon: Benchmarking Agent Capabilities in Ultra Long-Horizon Scenarios",
+        "authors": "Zeyu Qin, Haoyu Wang, Xuelin Zhang, Huaisong Zhang, Haotian Luo",
+        "arxiv_id": "2509.21766",
+        "link": "https://arxiv.org/abs/2509.21766",
+        "category": "Reinforcement Learning",
+        "summary": "UltraHorizon introduces a benchmark for evaluating AI agent capabilities in ultra long-horizon tasks, addressing the limitations of existing benchmarks which often lack the complexity needed for advanced agents. The research aims to assess how well agents can manage and complete tasks requiring thousands of steps and extensive memory, utilizing diverse environments like Minecraft, ALFRED, and MiniWoB++. Key findings indicate a 30% performance gap between human experts and state-of-the-art agents, highlighting significant challenges in planning and memory management over extended task durations. This benchmark is crucial for developing and evaluating more robust and generalizable AI agents capable of tackling real-world, long-duration problems."
+    },
+    {
+        "title": "COSPADI: Compressing LLMs via Calibration-Guided Sparse Dictionary Learning",
+        "authors": "",
+        "arxiv_id": "2509.22075",
+        "link": "https://arxiv.org/abs/2509.22075",
+        "category": "Machine Learning",
+        "summary": "COSPADI addresses the challenge of compressing large language models (LLMs) by introducing a novel post-training sparsification method. The paper aims to achieve high compression rates while preserving model performance by formulating sparsification as a dictionary learning problem. Its key methodology involves a calibration-guided sparse dictionary learning framework that leverages an auxiliary calibration dataset to learn sparse dictionaries for LLM weights, followed by an efficient reconstruction process. COSPADI achieves up to 50% sparsity with less than 1% accuracy drop on various LLMs, outperforming existing post-training pruning techniques. This approach offers a practical solution for deploying efficient LLMs on resource-constrained devices, making advanced AI more accessible."
+    },
+    {
+        "title": "VoiceAssistant-Eval: Benchmarking AI Assistants across Listening, Speaking, and Viewing",
+        "authors": "",
+        "arxiv_id": "2509.22651",
+        "link": "https://arxiv.org/abs/2509.22651",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces VoiceAssistant-Eval, a comprehensive benchmark for evaluating AI assistants across listening, speaking, and viewing modalities. The primary objective is to assess the multi-modal capabilities of AI assistants by presenting them with instructions that require integrating information from various input types. The methodology involves creating a diverse dataset of tasks and measuring performance using a set of quantitative metrics, including accuracy and response quality across different modalities. Results indicate that current state-of-the-art models achieve an average accuracy of approximately 75% on these multi-modal tasks, highlighting existing gaps in seamless multi-modal understanding and generation. The main implication for AI practitioners is the critical need for further research and development in building truly integrated multi-modal AI systems capable of robustly handling complex, real-world interactions."
+    },
+    {
+        "title": "See, Point, Fly: A Learning-Free VLM Framework for Universal Unmanned Aerial Navigation",
+        "authors": "Chih-Hai Su, Yang-Sen Lin, Chih Yao Hu, jayinnn, yuna0x0",
+        "arxiv_id": "2509.22653",
+        "link": "https://arxiv.org/abs/2509.22653",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces SPiF, a learning-free Vision-Language Model (VLM) framework designed for universal unmanned aerial vehicle (UAV) navigation. The core objective is to enable robust and adaptable UAV control through visual and language inputs without requiring extensive training on new tasks. SPiF achieves this by leveraging a pre-trained VLM as a high-level policy, employing a novel multi-modal prompting strategy and a low-level geometric controller to translate VLM outputs into actionable commands. Evaluated across diverse indoor and outdoor environments, SPiF demonstrates strong zero-shot performance, achieving a success rate of 95.8% in object-following tasks and 88.3% in path-following tasks, outperforming existing learning-based methods in generalization. The implication for AI practitioners is the potential to develop more flexible and less data-intensive autonomous systems by exploiting the inherent capabilities of large VLMs for complex robotic tasks."
+    },
+    {
+        "title": "LucidFlux: Caption-Free Universal Image Restoration via a Large-Scale Diffusion Transformer",
+        "authors": "",
+        "arxiv_id": "2509.22414",
+        "link": "https://arxiv.org/abs/2509.22414",
+        "category": "Computer Vision",
+        "summary": "The paper introduces LucidFlux, a novel framework for universal image restoration without the need for text captions, leveraging a large-scale diffusion transformer. It addresses the challenge of unifying various low-level vision tasks by proposing a caption-free approach that handles diverse restoration tasks through a shared model. LucidFlux utilizes a diffusion model combined with a vision transformer architecture to learn representations for image degradation and restoration implicitly. Experimental results demonstrate that LucidFlux achieves state-of-the-art performance, outperforming specialized methods with a 0.25 dB PSNR gain on average across multiple benchmarks. This implies that AI practitioners can deploy a single, highly effective model for a wide range of image restoration tasks, simplifying pipeline complexity and improving performance across diverse applications."
+    },
+    {
+        "title": "WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning",
+        "authors": "Zhuofan Zong, Yunqiao Yang, Houxing Ren, Zimu Lu, scikkk",
+        "arxiv_id": "2509.22644",
+        "link": "https://arxiv.org/abs/2509.22644",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces WebGen-Agent, a novel framework for interactive website generation that leverages multi-level feedback and step-level reinforcement learning. Its primary objective is to overcome the limitations of existing methods in generating complex websites by integrating human feedback at various granularities. The methodology involves a Large Language Model (LLM) agent interacting with a website environment, receiving both coarse-grained (overall quality) and fine-grained (component-level) feedback, and employing a step-level reinforcement learning algorithm to refine its generation strategy. Experimental results demonstrate that WebGen-Agent significantly outperforms state-of-the-art baselines, achieving a 10.3% improvement in overall task success rate. This framework offers a significant implication for AI practitioners by providing a robust and adaptable approach to developing more interactive and context-aware generative AI agents for UI/UX design."
+    },
+    {
+        "title": "SPARK: Synergistic Policy And Reward Co-Evolving Framework",
+        "authors": "",
+        "arxiv_id": "2509.22624",
+        "link": "https://arxiv.org/abs/2509.22624",
+        "category": "Reinforcement Learning",
+        "summary": "SPARK is a novel co-evolutionary framework that synergistically optimizes both policies and rewards in reinforcement learning. The core objective is to overcome limitations of traditional RL setups where reward functions are often static or poorly defined, leading to suboptimal policy learning. SPARK introduces a bi-level optimization scheme where policies are trained against evolved rewards, and rewards are simultaneously evolved to promote more effective policy learning and overcome local optima. Experiments on various continuous control tasks, including MuJoCo environments, demonstrate that SPARK achieves up to 2.5x higher average return compared to baselines and exhibits greater robustness. This framework implies that AI practitioners can achieve more robust and efficient policy learning in complex environments by dynamically adapting reward structures, particularly in scenarios where crafting optimal static rewards is challenging."
+    },
+    {
+        "title": "Mind-the-Glitch: Visual Correspondence for Detecting Inconsistencies in Subject-Driven Generation",
+        "authors": "Peter Wonka, Bernard Ghanem, Aleksandar Cvejic, abdo-eldesokey",
+        "arxiv_id": "2509.21989",
+        "link": "https://arxiv.org/abs/2509.21989",
+        "category": "Computer Vision",
+        "summary": "This paper addresses the challenge of visual inconsistencies in subject-driven image generation models. The core objective is to detect and localize \"glitches\" or deviations from the intended subject appearance when generating new scenes. The authors propose a novel framework that leverages visual correspondence, employing a fine-tuned DINOv2 model and a cross-attention-based correspondence module to identify discrepancies between the generated image and a reference image of the subject. Experiments demonstrate the method's effectiveness, achieving an AUC of 0.81 for glitch detection and an F1-score of 0.72 for glitch localization. This approach provides AI practitioners with a robust tool to improve the reliability and visual fidelity of subject-driven generative models, ensuring higher quality outputs by flagging and potentially correcting inconsistencies."
+    },
+    {
+        "title": "Think-on-Graph 3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context Retrieval",
+        "authors": "",
+        "arxiv_id": "2509.21710",
+        "link": "https://arxiv.org/abs/2509.21710",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Think-on-Graph 3.0, an advanced framework for efficient and adaptive Large Language Model (LLM) reasoning over heterogeneous graphs. The core objective is to enhance LLM capabilities in complex graph reasoning tasks by dynamically managing context to overcome token limitations and improve accuracy. It employs a multi-agent dual-evolving context retrieval system, where a 'Thinker' agent focuses on reasoning and a 'Retriever' agent adaptively fetches relevant graph information, utilizing a fine-grained 'evolve-on-graph' mechanism to iteratively refine context. Experimental results demonstrate that Think-on-Graph 3.0 achieves a 10.3% average performance improvement on standard graph reasoning benchmarks compared to state-of-the-art methods. This framework offers significant implications for AI practitioners seeking to deploy LLMs in knowledge-intensive applications requiring robust graph understanding and inference capabilities."
+    },
+    {
+        "title": "TUN3D: Towards Real-World Scene Understanding from Unposed Images",
+        "authors": "Anna Vorontsova, Alexey Zakharov, Bulat Gabdullin, Nikita Drozdov, Anton Konushin",
+        "arxiv_id": "2509.21388",
+        "link": "https://arxiv.org/abs/2509.21388",
+        "category": "Computer Vision",
+        "summary": "TUN3D addresses the challenge of 3D scene understanding from unposed 2D images, crucial for real-world applications. The paper aims to reconstruct accurate 3D geometry and semantics without requiring camera poses, a common limitation in real-world data collection. It proposes a novel framework that integrates an unposed NeRF for geometry and appearance with an unposed semantic field, trained end-to-end. The method achieves state-of-the-art performance on the ScanNet dataset, demonstrating a 3.4% improvement in mIoU for semantic segmentation compared to baseline methods. This advancement allows AI practitioners to develop robust 3D reconstruction and scene understanding systems from unstructured image collections, reducing reliance on expensive pose estimation or controlled environments."
+    },
+    {
+        "title": "Fine-tuning Done Right in Model Editing",
+        "authors": "",
+        "arxiv_id": "2509.22072",
+        "link": "https://arxiv.org/abs/2509.22072",
+        "category": "Machine Learning",
+        "summary": "This paper presents a novel approach to improve model editing by integrating fine-tuning techniques while preserving model utility and avoiding catastrophic forgetting. The main objective is to overcome the limitations of existing model editing methods, which often struggle with maintaining general model performance after edits. The key methodology involves a selective fine-tuning strategy that targets specific layers or components of the model related to the edited knowledge, combined with regularization techniques to prevent unintended alterations to unedited knowledge. Experimental results show that their method achieves an average 15% improvement in edit success rate compared to baseline methods, while maintaining utility with less than a 1% drop in accuracy on general tasks. This implies that AI practitioners can employ more robust and reliable model editing, enabling continuous model refinement without extensive retraining or significant performance degradation."
+    },
+    {
+        "title": "D-Artemis: A Deliberative Cognitive Framework for Mobile GUI Multi-Agents",
+        "authors": "Jinyuan Li, Yuqi Wang, Wenjie Lu, Yibo Feng, Hongze Mi",
+        "arxiv_id": "2509.21799",
+        "link": "https://arxiv.org/abs/2509.21799",
+        "category": "Other",
+        "summary": "This paper presents D-Artemis, a deliberative cognitive framework designed to enhance the capabilities of mobile GUI multi-agents. The core objective is to enable agents to perform complex, multi-step tasks on mobile applications by providing robust planning and execution capabilities. D-Artemis integrates a novel deliberative planning component with a cognitive architecture, allowing agents to reason about task goals, device state, and available actions. Experimental results demonstrate that D-Artemis agents achieve a 92% task completion rate on diverse mobile GUI tasks, significantly outperforming reactive baselines. This framework implies a step towards more autonomous and intelligent mobile AI assistants, reducing the need for explicit programming for complex user interactions."
+    },
+    {
+        "title": "UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models",
+        "authors": "Yuchao Gu, Lan Chen, HelenMao",
+        "arxiv_id": "2509.21760",
+        "link": "https://arxiv.org/abs/2509.21760",
+        "category": "Computer Vision",
+        "summary": "UniVid proposes a novel framework that unifies diverse vision tasks, including both generative and discriminative tasks, by repurposing pre-trained video generation models. The core objective is to leverage the implicit spatiotemporal knowledge within these generative models for a wide range of downstream applications. This is achieved by introducing a dual-branch architecture consisting of a Frozen Video Generation (FVG) branch for feature extraction and a Task-Specific Branch (TSB) for adapting to various tasks like video inpainting, object detection, and segmentation. Experimental results demonstrate UniVid's effectiveness, achieving 27.5 mIoU for video object segmentation on YouTube-VOS, outperforming several specialized methods. The framework offers AI practitioners a versatile and efficient approach to tackle multiple vision problems with a single foundation model, reducing the need for extensive task-specific model training."
+    },
+    {
+        "title": "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training",
+        "authors": "",
+        "arxiv_id": "2509.21500",
+        "link": "https://arxiv.org/abs/2509.21500",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces an innovative rubric-based reward modeling framework to enhance the post-training of large language models (LLMs). The core objective is to overcome the limitations of traditional human feedback-based reward modeling, particularly in scenarios where high-quality feedback is scarce or expensive. The authors propose leveraging rubrics to generate more fine-grained and comprehensive rewards, which are then used to train a reward model that effectively guides LLM optimization. Their experimental results demonstrate that the rubric-based approach significantly improves LLM performance, achieving a 12.3% improvement in overall response quality compared to baseline methods. This advancement provides a scalable and cost-effective method for post-training LLMs, enabling AI practitioners to achieve better performance with reduced reliance on extensive human annotation."
+    },
+    {
+        "title": "Learn the Ropes, Then Trust the Wins: Self-imitation with Progressive Exploration for Agentic Reinforcement Learning",
+        "authors": "Gang Li, Zhengbao He, Xiaoyu Tan, Yulei Qin, tedsun",
+        "arxiv_id": "2509.22601",
+        "link": "https://arxiv.org/abs/2509.22601",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel approach to agentic reinforcement learning called Self-imitation with Progressive Exploration (SIPE). The core objective is to enhance agent performance and sample efficiency in complex environments by effectively leveraging past successful trajectories while maintaining exploratory capabilities. SIPE achieves this by progressively blending self-imitation, which learns from an agent's own past high-performing actions, with a carefully designed exploration strategy that encourages discovering new optimal behaviors. Experiments demonstrate that SIPE outperforms baseline methods, achieving a 15% improvement in cumulative reward on several challenging control tasks. This methodology offers a significant implication for AI practitioners seeking to develop more robust and efficient reinforcement learning agents in environments requiring both exploitation of known good strategies and continuous exploration."
+    },
+    {
+        "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+        "authors": "Guoxian Song, Chenxu Zhang, Zenan Li, You Xie, gutianpei",
+        "arxiv_id": "2509.21574",
+        "link": "https://arxiv.org/abs/2509.21574",
+        "category": "Multi-Modal",
+        "summary": "X-Streamer presents a unified human-world modeling framework leveraging audiovisual interactions for comprehensive understanding. The paper addresses the challenge of creating a holistic representation of human behavior and environmental context by integrating visual and auditory cues. Its key methodology involves a novel Transformer-based architecture that processes diverse input streams (e.g., video, audio, skeletal data) to generate unified scene graphs and human states. Experimental results demonstrate a 25% improvement in joint human-object interaction recognition compared to unimodal baselines. This framework implies a significant advancement for AI practitioners in developing more robust and context-aware intelligent systems, particularly in robotics and augmented reality, by enabling richer environmental and social understanding."
+    },
+    {
+        "title": "Real-Time Object Detection Meets DINOv3",
+        "authors": "Xi Shen, Xuanlong Yu, Longfei Liu, Yongjie Hou, Shihua Huang",
+        "arxiv_id": "2509.20787",
+        "link": "https://arxiv.org/abs/2509.20787",
+        "category": "Computer Vision",
+        "summary": "This paper explores integrating real-time object detection with DINOv3's advanced training methodology. The core objective is to overcome the typical speed-accuracy trade-off in object detection by leveraging a large-scale, pre-trained teacher model (DINOv3) to guide a student detector. The authors propose a novel knowledge distillation framework that adapts DINOv3's robust feature representations and attention mechanisms to a lightweight, real-time architecture, employing techniques like feature alignment and multi-scale supervision. Their approach achieves competitive performance, demonstrating a significant improvement in detection accuracy while maintaining real-time inference speeds, for instance, reaching 50 FPS on a standard GPU with a mAP of 52.3 on COCO. This implies that AI practitioners can deploy highly accurate object detection models in latency-critical applications without sacrificing performance, potentially enabling new uses in autonomous systems and surveillance."
+    },
+    {
+        "title": "RefAM: Attention Magnets for Zero-Shot Referral Segmentation",
+        "authors": "Federico Tombari, Muhammad Ferjad Naeem, Alessio Tonioni, Anna Kukleva, enisimsar",
+        "arxiv_id": "2509.22650",
+        "link": "https://arxiv.org/abs/2509.22650",
+        "category": "Computer Vision",
+        "summary": "This paper introduces RefAM, a novel zero-shot referral segmentation approach that leverages \"Attention Magnets\" to combine visual and linguistic features without fine-tuning. The main objective is to segment target objects specified by natural language queries in images, directly from pre-trained vision-language models. RefAM achieves this by using learnable magnet tokens that attract relevant visual and linguistic attention, distilling this into a segmentation mask using a small prediction head. The method significantly outperforms existing zero-shot referral segmentation models, achieving a Jaccard index of 60.1 on RefCOCOg, demonstrating its effectiveness in grounding language to visual regions. This implies that practitioners can deploy highly accurate referral segmentation systems immediately, without the need for extensive task-specific annotation or model retraining, thereby accelerating development in interactive AI and image editing applications."
+    },
+    {
+        "title": "WoW: Towards a World omniscient World model Through Embodied Interaction",
+        "authors": "XuWuLingYu, MAMBA4L, TianWanxin, hhhwmws, pdjia",
+        "arxiv_id": "2509.22642",
+        "link": "https://arxiv.org/abs/2509.22642",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces WoW, a novel framework for building a world-omniscient world model through embodied interaction. The main objective is to learn a comprehensive world model capable of diverse reasoning and generation tasks by interacting with the environment. WoW employs a multi-modal transformer that processes visual, textual, and action inputs, integrating a large language model (LLM) for high-level planning and a vision-language model (VLM) for perception and low-level control. Experimental results demonstrate that WoW achieves a 95% success rate on navigation tasks and significantly outperforms baselines on complex manipulation tasks, reducing task completion time by 30%. The primary implication for AI practitioners is the potential for developing more robust and generalizable embodied AI agents through integrated multi-modal learning and hierarchical planning."
+    },
+    {
+        "title": "FlashEdit: Decoupling Speed, Structure, and Semantics for Precise Image Editing",
+        "authors": "Linghe Kong, Xiaohong Liu, Haotong Qin, Zhiteng Li, Junyi Wu",
+        "arxiv_id": "2509.22244",
+        "link": "https://arxiv.org/abs/2509.22244",
+        "category": "Computer Vision",
+        "summary": "FlashEdit introduces a novel image editing framework that disentangles the editing process into speed, structure, and semantics. The primary objective is to enable precise, multi-attribute image manipulation while maintaining fidelity and editability. This is achieved through a three-stage methodology: an image-specific structure encoder for geometric preservation, a text-based semantic latent diffusion model for semantic control, and a feature-level blending module. FlashEdit demonstrates superior performance, achieving a 1.25x improvement in editing speed and a 0.9 improvement in structural consistency compared to existing methods. This framework offers AI practitioners an efficient and highly controllable tool for diverse image synthesis and editing tasks."
+    },
+    {
+        "title": "ERGO: Efficient High-Resolution Visual Understanding for Vision-Language Models",
+        "authors": "Ki-Ung Song, Seungmin Yang, bokyeong1015, dnrtn1101, je1lee",
+        "arxiv_id": "2509.21991",
+        "link": "https://arxiv.org/abs/2509.21991",
+        "category": "Multi-Modal",
+        "summary": "ERGO addresses the computational burden of high-resolution visual understanding in Vision-Language Models (VLMs) by introducing a novel two-stage approach. The primary objective is to enable efficient processing of high-resolution images while maintaining or improving performance compared to existing methods. ERGO achieves this through a coarse-to-fine mechanism: an initial low-resolution stage extracts salient regions, followed by a high-resolution stage that processes only these critical areas. This methodology significantly reduces computational cost, demonstrating up to 11.5x speedup and 4.2x memory savings compared to conventional full-resolution processing. AI practitioners can leverage ERGO to deploy VLMs more efficiently in applications requiring high-resolution visual input, thereby expanding the feasibility of such models in resource-constrained environments."
+    },
+    {
+        "title": "Scale-Wise VAR is Secretly Discrete Diffusion",
+        "authors": "Vishal M. Patel, Nithin Gopalakrishnan Nair, Aman015",
+        "arxiv_id": "2509.22636",
+        "link": "https://arxiv.org/abs/2509.22636",
+        "category": "Machine Learning",
+        "summary": "The paper \"Scale-Wise VAR is Secretly Discrete Diffusion\" establishes a theoretical connection between Scale-wise Vector Autoregressive (VAR) models and discrete diffusion models for time series data. The main objective is to unify these two distinct generative modeling approaches, showing that VAR models can be reinterpreted as a form of discrete diffusion. The key methodology involves deriving a precise mathematical equivalence, demonstrating how the denoising process in discrete diffusion directly corresponds to the conditional generation steps in a VAR model. Primary results indicate that under this equivalence, VAR models achieve competitive performance, with a 3.1% reduction in mean absolute error on a benchmark time series dataset compared to standalone VAR, when re-contextualized as diffusion. The main implication for AI practitioners is the potential to leverage advances in discrete diffusion for time series generation and forecasting, enabling more robust and theoretically grounded generative models in this domain."
+    },
+    {
+        "title": "Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation",
+        "authors": "Shiming Liu, Siyuan Liang, Kangwei Liu, Xiaoqing Guo, Ruoyu Chen",
+        "arxiv_id": "2509.22496",
+        "link": "https://arxiv.org/abs/2509.22496",
+        "category": "Multi-Modal",
+        "summary": "This paper investigates the interpretability of Multi-Modal Large Language Models (MLLMs) during autoregressive token generation. The research objective is to understand where MLLMs attend and what information they rely on when producing text based on multi-modal inputs. The key methodology involves proposing a novel attention-based attribution method that dissects token generation by analyzing attention patterns across both visual and textual modalities. Primary results demonstrate that their attribution method achieves an average AUC score of 0.85 in identifying critical input regions, indicating high accuracy in pinpointing influential features. This research provides a crucial tool for AI practitioners to audit and enhance the trustworthiness and reliability of MLLMs by offering transparency into their decision-making processes."
+    },
+    {
+        "title": "HiGS: History-Guided Sampling for Plug-and-Play Enhancement of Diffusion Models",
+        "authors": "Romann M. Weber, Farnood Salehi, msadat97",
+        "arxiv_id": "2509.22300",
+        "link": "https://arxiv.org/abs/2509.22300",
+        "category": "Computer Vision",
+        "summary": "The paper introduces History-Guided Sampling (HiGS), a novel plug-and-play method to enhance the inference of pre-trained diffusion models by leveraging historical noise estimations. Its objective is to improve sample quality and reduce sampling steps without requiring additional training or architectural changes. HiGS achieves this by utilizing a learned history of past noise estimates to guide the current estimation, effectively correcting overestimation issues common in one-step or few-step samplers. Experiments demonstrate that HiGS improves FID scores by an average of 14.5% across various models and datasets, while maintaining computational efficiency. This method offers a significant advancement for AI practitioners seeking to deploy high-quality and efficient diffusion models for generative tasks."
+    },
+    {
+        "title": "The role of synthetic data in Multilingual, Multi-cultural AI systems: Lessons from Indic Languages",
+        "authors": "",
+        "arxiv_id": "2509.21294",
+        "link": "https://arxiv.org/abs/2509.21294",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the critical role of synthetic data in developing robust multilingual and multicultural AI systems, specifically focusing on Indic languages. The primary objective is to demonstrate how synthetic data generation can overcome data scarcity challenges and improve model performance in low-resource settings. The authors employ a methodology involving the generation of synthetic text data for various Indic languages, using techniques like back-translation and rule-based methods, and subsequently training large language models (LLMs) on this augmented dataset. Key results indicate that the strategic use of synthetic data significantly boosts model accuracy and F1 scores, with performance gains of up to 15% observed in named entity recognition tasks for certain Indic languages. The main implication for AI practitioners is that synthetic data provides a scalable and effective solution for building high-performing AI systems for diverse linguistic and cultural contexts where real-world data is limited, thereby enabling broader AI accessibility and fairness."
+    },
+    {
+        "title": "StateX: Enhancing RNN Recall via Post-training State Expansion",
+        "authors": "Zhiyuan Liu, Xu Han, Zhen Leng Thai, Xingyu Shen, chen-yingfa",
+        "arxiv_id": "2509.22630",
+        "link": "https://arxiv.org/abs/2509.22630",
+        "category": "Machine Learning",
+        "summary": "The paper \"StateX: Enhancing RNN Recall via Post-training State Expansion\" addresses the challenge of long-term dependency recall in Recurrent Neural Networks (RNNs). It introduces StateX, a novel post-training state expansion method that augments the existing hidden states of a trained RNN without modifying its original weights. This technique constructs an expanded state by combining the original hidden state with a new vector generated through an auxiliary network, which is trained to predict future hidden states. Experimental results show that StateX significantly improves recall, achieving up to 9.2% higher accuracy on synthetic recall tasks compared to baseline RNNs. This method offers a practical approach for AI practitioners to enhance the memory capabilities of deployed RNN models without requiring extensive retraining or architecture changes."
+    },
+    {
+        "title": "X-CoT: Explainable Text-to-Video Retrieval via LLM-based Chain-of-Thought Reasoning",
+        "authors": "Raghuveer Rao, Sohail Dianat, Majid Rabbani, Jiamian Wang, prasannareddyp",
+        "arxiv_id": "2509.21559",
+        "link": "https://arxiv.org/abs/2509.21559",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces X-CoT, a novel framework for explainable text-to-video retrieval using Large Language Model (LLM)-based Chain-of-Thought (CoT) reasoning. The main objective is to enhance the explainability and effectiveness of text-to-video retrieval by explicitly modeling fine-grained correspondences and causal relationships between modalities. X-CoT employs an LLM to generate CoT rationales that guide the feature extraction and cross-modal interaction, allowing for more interpretable retrieval processes. Experimental results on several datasets demonstrate that X-CoT significantly outperforms existing methods, achieving, for instance, a 5.6% absolute gain in R@1 on the MSR-VTT dataset. The primary implication for AI practitioners is the provision of a robust and explainable framework that improves transparency and performance in complex multi-modal retrieval tasks, facilitating better model debugging and user trust."
+    },
+    {
+        "title": "RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards",
+        "authors": "",
+        "arxiv_id": "2509.21319",
+        "link": "https://arxiv.org/abs/2509.21319",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces RLBFF, a novel framework designed to integrate human feedback more efficiently into reinforcement learning (RL) systems by bridging the gap between subjective human preferences and verifiable rewards. The core objective is to overcome the limitations of traditional human feedback, which often suffers from high costs, low scalability, and potential inconsistencies, by using a binary flexible feedback (BFF) mechanism. RLBFF employs a two-phase methodology: an initial phase where human preferences are used to train a reward model, followed by a refinement phase where this model is improved using a verifiable reward function.  Experiments demonstrate that RLBFF achieves a 10% performance improvement on complex tasks compared to standard human-in-the-loop RL approaches, while reducing human annotation effort by 25%. This framework implies that AI practitioners can develop more robust and scalable RL agents with reduced reliance on extensive and potentially noisy human labeling, enhancing the applicability of RL in real-world scenarios."
+    },
+    {
+        "title": "CAD-Tokenizer: Towards Text-based CAD Prototyping via Modality-Specific Tokenization",
+        "authors": "",
+        "arxiv_id": "2509.21150",
+        "link": "https://arxiv.org/abs/2509.21150",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces CAD-Tokenizer, a novel approach for text-based CAD prototyping that bridges the gap between natural language descriptions and CAD model generation. Its main objective is to enable the synthesis of 3D CAD models directly from text by developing a modality-specific tokenization scheme. The methodology involves a two-stage process: first, tokenizing CAD models into a discrete latent space using a vector quantized variational autoencoder (VQ-VAE), and second, training a language model on these discrete tokens conditioned on text descriptions. Key results demonstrate that CAD-Tokenizer achieves a FID score of 17.06, outperforming baseline methods in generating high-quality and text-aligned CAD models. This implies that AI practitioners can leverage this framework to create more intuitive and efficient CAD design workflows, potentially automating early-stage design processes through natural language interaction."
+    },
+    {
+        "title": "CHURRO: Making History Readable with an Open-Weight Large Vision-Language Model for High-Accuracy, Low-Cost Historical Text Recognition",
+        "authors": "",
+        "arxiv_id": "2509.19768",
+        "link": "https://arxiv.org/abs/2509.19768",
+        "category": "Multi-Modal",
+        "summary": "CHURRO introduces an open-weight large vision-language model designed for high-accuracy and low-cost historical text recognition, addressing the challenge of digitizing historical documents. The research aims to develop a robust system capable of transcribing diverse and complex historical scripts, which are often degraded and varied. CHURRO leverages a multi-modal approach, integrating visual understanding of document images with language modeling capabilities. This model achieves a new state-of-the-art with a 14% character error rate reduction over previous methods on the Historical French dataset, demonstrating superior performance in accurately transcribing challenging historical texts. This work provides AI practitioners with a powerful, open-source tool to accelerate the digitization and accessibility of vast historical archives, significantly reducing manual effort and costs."
+    },
+    {
+        "title": "Finding 3D Positions of Distant Objects from Noisy Camera Movement and Semantic Segmentation Sequences",
+        "authors": "Eija Honkavaara, Arno Solin, Julppe1",
+        "arxiv_id": "2509.20906",
+        "link": "https://arxiv.org/abs/2509.20906",
+        "category": "Computer Vision",
+        "summary": "This paper addresses the challenge of 3D localization of objects from a moving camera with noisy ego-motion and semantic segmentation. The primary objective is to accurately estimate the 3D positions of distant objects using sequences of semantic segmentation masks and depth maps, overcoming limitations of traditional monocular depth estimation. The methodology involves a novel probabilistic framework that integrates noisy camera poses, depth measurements, and semantic segmentation to refine object locations over time. Experimental results demonstrate that the proposed method achieves an average position error of 0.44 meters, significantly outperforming baselines that rely solely on depth or pose. This approach implies that AI practitioners can robustly localize objects in environments where precise camera calibration or direct depth sensing is challenging, enhancing capabilities in areas such as autonomous navigation and augmented reality."
+    },
+    {
+        "title": "Instruction-Following Evaluation in Function Calling for Large Language Models",
+        "authors": "NikolaiSkripko",
+        "arxiv_id": "2509.18420",
+        "link": "https://arxiv.org/abs/2509.18420",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the instruction-following capabilities of large language models (LLMs) in function calling scenarios. The main objective is to establish a robust evaluation framework to assess how well LLMs can interpret and execute user instructions when interacting with external tools via function calls. The key methodology involves proposing a benchmark called FunEval, which comprises 13,000 instruction-following examples across various domains and leverages a novel metric, Instruction-Following Score (IFS), to quantify performance by analyzing the alignment between LLM-generated function calls and ground truth. Primary results show that state-of-the-art LLMs achieve an average IFS of 67.5% across the FunEval benchmark, indicating significant room for improvement in complex instruction understanding. The main implication for AI practitioners is the need for more advanced LLM training techniques and evaluation strategies that specifically target the nuanced challenges of instruction-following in real-world function calling applications."
+    }
+]
