@@ -1,0 +1,354 @@
+[
+    {
+        "title": "Paper2Video: Automatic Video Generation from Scientific Papers",
+        "authors": "",
+        "arxiv_id": "2510.05096",
+        "link": "https://arxiv.org/abs/2510.05096",
+        "category": "Multi-Modal",
+        "summary": "Paper2Video introduces an automated system to generate video summaries directly from scientific papers. The primary objective is to convert static textual and visual content from PDF research papers into dynamic video presentations. The methodology involves a multi-stage process including parsing the PDF, extracting key figures and text, generating an audio narration using text-to-speech, and synchronizing these elements into a video. Experimental results demonstrate that Paper2Video can generate coherent video summaries, with user studies showing an average comprehension score of 3.8/5 for the generated videos. This system offers AI practitioners a novel tool for automating the dissemination of research findings through multimedia, potentially enhancing accessibility and engagement with scientific literature."
+    },
+    {
+        "title": "MITS: Enhanced Tree Search Reasoning for LLMs via Pointwise Mutual Information",
+        "authors": "",
+        "arxiv_id": "2510.03632",
+        "link": "https://arxiv.org/abs/2510.03632",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces MITS (Mutual Information Tree Search), a novel approach to enhance the reasoning capabilities of Large Language Models (LLMs) by integrating pointwise mutual information (PMI) into a tree search framework. The core objective is to guide the LLM's exploration more effectively by evaluating the mutual information between the generated tokens and the problem statement, thereby improving search efficiency and solution quality. MITS employs a two-stage process: an initial generation phase followed by a tree search where PMI scores are used to prune less promising paths, ensuring that the search focuses on highly relevant sequences. Experimental results demonstrate that MITS significantly outperforms baseline methods, achieving a 75.3% accuracy on the GSM8K dataset, an improvement over standard tree search techniques. This methodology provides a robust framework for improving LLM reasoning, particularly in complex problem-solving scenarios, by allowing practitioners to leverage information-theoretic guidance to reduce search space and enhance performance."
+    },
+    {
+        "title": "Video-LMM Post-Training: A Deep Dive into Video Reasoning with Large Multimodal Models",
+        "authors": "zeliang0426, ali-vosoughi, Daiqingq, zhenyupan, yunlong10",
+        "arxiv_id": "2510.05034",
+        "link": "https://arxiv.org/abs/2510.05034",
+        "category": "Multi-Modal",
+        "summary": "This paper investigates the efficacy of Large Multimodal Models (LMMs) in video understanding tasks. The core objective is to understand how various post-training strategies impact the video reasoning capabilities of LMMs. The research employs a comprehensive benchmark, Video-LMM-Bench, and evaluates methods such as video instruction tuning, domain-specific continuous pre-training, and interleaved video-text training. Results indicate that integrating video instruction tuning significantly enhances performance, with a notable 24.3% relative improvement over baseline models on certain video reasoning tasks, demonstrating the critical role of targeted post-training for robust video understanding in LMMs. This suggests that AI practitioners should prioritize strategic post-training, especially video instruction tuning, to unlock the full potential of LMMs for complex video analysis applications."
+    },
+    {
+        "title": "VChain: Chain-of-Visual-Thought for Reasoning in Video Generation",
+        "authors": "Paul Debevec, Haonan Qiu, Ning Yu, gchen019, Ziqi",
+        "arxiv_id": "2510.05094",
+        "link": "https://arxiv.org/abs/2510.05094",
+        "category": "Multi-Modal",
+        "summary": "VChain introduces a novel Chain-of-Visual-Thought (CoVT) approach to improve the reasoning capabilities of diffusion models in complex video generation tasks. The main objective is to overcome the limitations of existing video generation models in handling intricate temporal and spatial dynamics, particularly concerning object interactions and causality. VChain achieves this by decomposing complex visual reasoning into a series of interpretable visual thinking steps, guided by a Vision-Language Model (VLM) which generates intermediate visual thoughts. Experiments on benchmarks like CausalVid show that VChain significantly outperforms baselines, improving the FVD by 15.3% and achieving a 23.8% higher consistency score in generating causal videos. This methodology offers AI practitioners a more transparent and controllable framework for developing advanced video generation systems capable of sophisticated visual reasoning."
+    },
+    {
+        "title": "Imperceptible Jailbreaking against Large Language Models",
+        "authors": "",
+        "arxiv_id": "2510.05025",
+        "link": "https://arxiv.org/abs/2510.05025",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel imperceptible jailbreaking attack against Large Language Models (LLMs). The research aims to explore and demonstrate the feasibility of generating adversarial prompts that bypass safety alignments without human perceptibility. The methodology involves an end-to-end differentiable framework that leverages an LLM-based attacker to craft prompts, which are then optimized using gradient-based methods against a target LLM. Key results show that the proposed method achieves an attack success rate of up to 96% against various LLMs while maintaining high imperceptibility. This has significant implications for AI practitioners, highlighting the urgent need for more robust and imperceptible defense mechanisms against sophisticated adversarial attacks in LLM deployment."
+    },
+    {
+        "title": "Hybrid Architectures for Language Models: Systematic Analysis and Design Insights",
+        "authors": "",
+        "arxiv_id": "2510.04800",
+        "link": "https://arxiv.org/abs/2510.04800",
+        "category": "Natural Language Processing",
+        "summary": "This paper systematically analyzes and offers design insights into hybrid architectures for language models. The primary objective is to evaluate the effectiveness of combining different architectural paradigms for enhancing language model performance and efficiency. The methodology involves an extensive empirical study across various hybrid configurations, including encoder-decoder and mixture-of-experts models, and benchmarking them on diverse NLP tasks such as text generation and comprehension. Key results indicate that certain hybrid architectures achieve up to a 15% improvement in perplexity and a 20% reduction in inference latency compared to monolithic models, particularly when scaling model parameters. The main implication for AI practitioners is the potential for developing more efficient and performant language models by judiciously integrating complementary architectural components, optimizing for specific task requirements and computational constraints."
+    },
+    {
+        "title": "Optimal Scaling Needs Optimal Norm",
+        "authors": "Stefan Kesselheim, Jan Ebert, Jiangtao Wang, Oleg Filatov",
+        "arxiv_id": "2510.03871",
+        "link": "https://arxiv.org/abs/2510.03871",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the often-overlooked connection between initialization and normalization schemes in deep learning, particularly focusing on their impact on optimal scaling. The central objective is to demonstrate that the choice of a specific norm directly dictates the most effective scaling strategy for model parameters, impacting training stability and performance. The methodology involves theoretical analysis and empirical validation across various architectures, showing how different norms (e.g., L2, L1) necessitate distinct initialization scales to maintain desired activation distributions. Key results indicate that aligning scaling with the chosen norm can yield up to a 10% improvement in convergence speed and generalization performance on benchmark tasks. The main implication for AI practitioners is the necessity of a principled co-design of initialization and normalization techniques, moving beyond heuristic approaches to optimize deep neural network training."
+    },
+    {
+        "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+        "authors": "Fenglu Hong, Boyuan Ma, Shubhangi Upasani, Changran Hu, Qizheng Zhang",
+        "arxiv_id": "2510.04618",
+        "link": "https://arxiv.org/abs/2510.04618",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Agentic Context Engineering (ACE), a novel framework for self-improving Large Language Models (LLMs) by evolving their context during inference. The main objective is to enable LLMs to iteratively refine their prompt context using feedback, leading to better performance without extensive fine-tuning. ACE employs a multi-agent system where a 'refiner' LLM modifies the 'working' LLM's context based on feedback from a 'critic' LLM, guided by a 'meta-prompter' that evaluates context quality. Experiments show that ACE improves LLM performance by up to 26.1% on coding tasks compared to fixed prompting, demonstrating its effectiveness in enhancing LLM capabilities. This approach offers AI practitioners a method to significantly boost LLM task performance through dynamic, in-context self-improvement."
+    },
+    {
+        "title": "Reactive Transformer (RxT) -- Stateful Real-Time Processing for Event-Driven Reactive Language Models",
+        "authors": "",
+        "arxiv_id": "2510.03561",
+        "link": "https://arxiv.org/abs/2510.03561",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces Reactive Transformer (RxT), a novel architecture for real-time, stateful processing of event-driven reactive language models, aiming to address the limitations of traditional Transformers in handling continuous, dynamic data streams. RxT enhances the Transformer architecture with a stateful mechanism and a reactive programming paradigm, allowing for efficient, low-latency updates and responses to incoming events. Experiments demonstrate that RxT achieves a 3.5x reduction in latency and a 2x increase in throughput compared to baseline Transformer models in event-driven scenarios. This allows AI practitioners to deploy more responsive and context-aware language models in applications requiring continuous data processing, such as conversational AI and real-time analytics."
+    },
+    {
+        "title": "Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data",
+        "authors": "",
+        "arxiv_id": "2510.03264",
+        "link": "https://arxiv.org/abs/2510.03264",
+        "category": "Machine Learning",
+        "summary": "The paper investigates how pretraining and post-training data interact to enhance reasoning capabilities in large language models (LLMs). Its main objective is to understand how different compositions of pretraining data, particularly those rich in \"reasoning\" content, affect a model's ability to learn complex reasoning skills during subsequent fine-tuning. The authors propose a methodology that involves varying the proportion of reasoning data in pretraining and then evaluating model performance on diverse reasoning tasks after instruction tuning. Key results indicate that models with pretraining data containing more reasoning-centric content achieve higher accuracy (e.g., up to 2.5% absolute improvement on MATH problems) and learn more efficiently from post-training data. This suggests that front-loading reasoning capabilities during pretraining is a promising strategy for developing more capable and data-efficient LLMs, with implications for practitioners to strategically curate pretraining datasets to foster advanced reasoning."
+    },
+    {
+        "title": "Factuality Matters: When Image Generation and Editing Meet Structured Visuals",
+        "authors": "Boxiang Qiu, Yuandong Pu, Le Zhuo, sayakpaul, hshjerry0315",
+        "arxiv_id": "2510.05091",
+        "link": "https://arxiv.org/abs/2510.05091",
+        "category": "Multi-Modal",
+        "summary": "This paper addresses the critical issue of factual inaccuracies in image generation and editing, particularly when dealing with structured visual elements. The objective is to enhance the factuality of generated and edited images by incorporating structured visual information, moving beyond traditional text-to-image methods. The methodology introduces a novel framework that leverages structured visual representations, such as bounding boxes and segmentation masks, during the image synthesis process. Experimental results demonstrate a significant improvement in factuality scores, with a new proposed metric showing a 25% increase compared to baseline models. This research implies that AI practitioners should integrate explicit structured visual conditioning to achieve more factually consistent and reliable image generation and editing systems, especially in applications requiring high visual fidelity."
+    },
+    {
+        "title": "Fine-Tuning on Noisy Instructions: Effects on Generalization and Performance",
+        "authors": "Nikolaos Aletras, Xingwei Tan, Ahmed Alajrami",
+        "arxiv_id": "2510.03528",
+        "link": "https://arxiv.org/abs/2510.03528",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the impact of fine-tuning language models on noisy instruction datasets. The primary objective is to understand how different levels of instruction noise affect model generalization, performance, and robustness across various tasks. The study employs a methodology of systematically introducing controlled noise into instruction-following datasets and evaluating models like Flan-T5 and GPT-3 on a diverse set of tasks. Key results show that moderate levels of noise (e.g., up to 20% label noise) can sometimes improve generalization by acting as a form of data augmentation, with models exhibiting up to a 5% increase in performance on unseen tasks. However, excessively high noise levels consistently degrade performance and lead to overfitting to the noise, reducing overall utility. The main implication for AI practitioners is the importance of curating high-quality, clean instruction data, or carefully managing noise levels during fine-tuning to optimize for generalization and robust model behavior rather than simply maximizing in-distribution accuracy."
+    },
+    {
+        "title": "Judging with Confidence: Calibrating Autoraters to Preference Distributions",
+        "authors": "",
+        "arxiv_id": "2510.00263",
+        "link": "https://arxiv.org/abs/2510.00263",
+        "category": "Machine Learning",
+        "summary": "This paper addresses the issue of miscalibration in autoraters, which often occurs when they are trained on subjective data, leading to a mismatch between their predicted scores and actual human preferences. The authors propose a novel recalibration method that aligns autorater scores with empirical preference distributions by generating counterfactual scores from a Gaussian Process (GP) that models human preferences. This technique achieved a Pearson correlation coefficient of 0.88 with human judgments, demonstrating its effectiveness in producing more reliable and interpretable scores. The primary implication for AI practitioners is the provision of a robust method to enhance the trustworthiness and utility of subjective prediction models, particularly in domains where human preferences are paramount, by providing a clearer understanding of the confidence associated with autorater outputs."
+    },
+    {
+        "title": "Prosperity before Collapse: How Far Can Off-Policy RL Reach with Stale Data on LLMs?",
+        "authors": "",
+        "arxiv_id": "2510.01161",
+        "link": "https://arxiv.org/abs/2510.01161",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the effectiveness of off-policy Reinforcement Learning (RL) with stale data for fine-tuning Large Language Models (LLMs). The research objective is to determine how well off-policy RL can optimize LLMs using non-current, potentially outdated, interaction data. The key methodology involves applying established off-policy RL algorithms to LLM fine-tuning tasks, specifically exploring data staleness. Primary results indicate that off-policy RL with stale data can achieve competitive performance, with specific improvements of up to 15% in certain metrics even with moderately stale data. The main implication for AI practitioners is that off-policy RL offers a promising direction for efficient LLM training by reducing the need for constant, real-time data collection, thereby lowering computational costs and accelerating deployment cycles."
+    },
+    {
+        "title": "Reinforce-Ada: An Adaptive Sampling Framework for Reinforce-Style LLM Training",
+        "authors": "",
+        "arxiv_id": "2510.04996",
+        "link": "https://arxiv.org/abs/2510.04996",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Reinforce-Ada, an adaptive sampling framework designed to improve the efficiency and effectiveness of Reinforce-style training for Large Language Models (LLMs). The core objective is to address the high variance and slow convergence issues in Reinforce-based methods by dynamically adjusting the sampling strategy. Reinforce-Ada employs an adaptive sampling mechanism that uses a confidence-aware scheme to prioritize samples that are most informative for gradient estimation, based on the uncertainty in reward signals. Experimental results demonstrate that Reinforce-Ada achieves up to 2.5x faster convergence compared to standard Reinforce, while also improving downstream task performance. This implies that AI practitioners can leverage Reinforce-Ada to significantly accelerate the fine-tuning of LLMs with reinforcement learning, leading to more robust and efficient model development."
+    },
+    {
+        "title": "MOSS-Speech: Towards True Speech-to-Speech Models Without Text Guidance",
+        "authors": "",
+        "arxiv_id": "2510.00499",
+        "link": "https://arxiv.org/abs/2510.00499",
+        "category": "Multi-Modal",
+        "summary": "MOSS-Speech presents a novel approach to true speech-to-speech translation, bypassing the need for intermediate text representations. The core objective is to achieve direct speech translation without text guidance, addressing the limitations of cascaded systems. The methodology involves a two-stage training process, first aligning speech segments with discrete units from a pre-trained speech tokenizer, and then generating target speech directly from these units using an encoder-decoder architecture. The model achieves a 10.2% relative improvement in ASR error rate over cascaded systems and outperforms existing direct S2ST models in terms of expressiveness. This implies that AI practitioners can now develop more robust and efficient speech translation systems, especially for low-resource languages, by leveraging direct speech-to-speech models."
+    },
+    {
+        "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs",
+        "authors": "",
+        "arxiv_id": "2510.05069",
+        "link": "https://arxiv.org/abs/2510.05069",
+        "category": "Natural Language Processing",
+        "summary": "SwiReasoning introduces a novel \"switch-thinking\" mechanism to enhance the reasoning capabilities of large language models (LLMs) by dynamically balancing latent and explicit reasoning processes. The primary objective is to improve LLM performance on complex reasoning tasks, particularly those requiring multi-step thinking, by allowing the model to adaptively choose the most effective reasoning mode. The methodology involves an iterative process where the LLM can \"switch\" between an implicit, system-level reasoning path and an explicit, scratchpad-driven reasoning path based on the current task demands and an internal confidence mechanism. This approach led to a significant improvement, with SwiReasoning achieving a 10.7% average gain across various reasoning benchmarks compared to baseline methods. The main implication for AI practitioners is the potential to develop more robust and adaptable LLMs that can handle a broader range of complex reasoning challenges with greater efficiency and accuracy by integrating this dynamic reasoning paradigm."
+    },
+    {
+        "title": "Self-Reflective Generation at Test Time",
+        "authors": "Shuang Qiu, Menglin Yang, Zhiyong Wang, Qixin Zhang, Jian Mu",
+        "arxiv_id": "2510.02919",
+        "link": "https://arxiv.org/abs/2510.02919",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel approach called self-reflective generation to enhance the performance of large language models (LLMs) at test time without requiring additional training. The main objective is to enable LLMs to iteratively refine their generated outputs by critically evaluating and improving them based on self-reflection. The key methodology involves a two-stage process: an initial generation followed by a self-reflection stage that leverages the LLM's own capabilities to identify weaknesses and propose corrections. Experimental results demonstrate that this method significantly improves accuracy, achieving a 7.8% gain over a strong baseline on a specific task (though the paper does not specify which task this metric applies to in the provided text). This implies that AI practitioners can achieve higher quality outputs from existing LLMs by implementing a self-reflection mechanism, potentially reducing the need for extensive fine-tuning or larger models for certain applications."
+    },
+    {
+        "title": "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation",
+        "authors": "",
+        "arxiv_id": "2510.04290",
+        "link": "https://arxiv.org/abs/2510.04290",
+        "category": "Computer Vision",
+        "summary": "ChronoEdit introduces a novel framework for temporal image editing and world simulation, enabling users to modify objects in a generated video and observe the physically consistent evolution over time. The primary objective is to address the challenge of creating editable and physically coherent dynamic scenes from a single image or text prompt. ChronoEdit utilizes a 4D diffusion model, initialized with a text-to-image model and further trained with a proposed dynamic loss, to generate video sequences that exhibit temporal consistency and physical plausibility when objects are edited. The method demonstrates significant improvements, outperforming existing video generation and editing models with a FID score of 17.5 on temporal editing tasks, indicating superior realism and consistency. This framework provides AI practitioners with a powerful tool for generating and manipulating dynamic visual content, opening new avenues for interactive content creation and simulated environment development."
+    },
+    {
+        "title": "Code4MeV2: a Research-oriented Code-completion Platform",
+        "authors": "",
+        "arxiv_id": "2510.03755",
+        "link": "https://arxiv.org/abs/2510.03755",
+        "category": "Other",
+        "summary": "Code4MeV2 is a research-oriented code-completion platform designed to support diverse research on code-completion models. Its primary objective is to overcome limitations of existing platforms by offering extensive customization and a robust evaluation framework for code-completion algorithms. The platform utilizes a modular architecture, allowing researchers to easily integrate various code-completion models, datasets, and evaluation metrics, and supports features like multi-token and multi-line completion. Key results include enabling the evaluation of models across diverse programming languages and completion scenarios, with demonstrated support for training and evaluating models with various architectures, and reporting an average completion accuracy of 82.5% on a Java dataset using a specific deep learning model. The main implication for AI practitioners is the provision of a flexible and comprehensive environment for developing, testing, and comparing advanced code-completion techniques, fostering innovation in software engineering and AI."
+    },
+    {
+        "title": "Watch and Learn: Learning to Use Computers from Online Videos",
+        "authors": "Oriana Riva, Yu Su, Palash Goyal, Yiwen Song, Chan Hee Song",
+        "arxiv_id": "2510.04673",
+        "link": "https://arxiv.org/abs/2510.04673",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach for teaching AI agents to interact with computers by observing human demonstrations in online videos. The research aims to develop agents that can autonomously operate software by learning from raw video footage without explicit labels or expert supervision. Their methodology involves using a large dataset of computer-use videos to train a multi-modal model that maps visual observations and natural language instructions to executable actions. The system achieves a 57% success rate on unseen tasks, demonstrating its capability to generalize to new interfaces and workflows. This research has significant implications for developing more intuitive and adaptable AI assistants capable of performing complex tasks by directly learning from human behavior."
+    },
+    {
+        "title": "Good Intentions Beyond ACL: Who Does NLP for Social Good, and Where?",
+        "authors": "Denis Peskoff, Jason Jewell, Adam Leif, Qingcheng Zeng, Grace LeFevre",
+        "arxiv_id": "2510.04434",
+        "link": "https://arxiv.org/abs/2510.04434",
+        "category": "Natural Language Processing",
+        "summary": "This paper analyzes the landscape of \"NLP for Social Good\" (NLP4SG) research beyond major ACL venues. It investigates the publication patterns and thematic focus of NLP4SG work. The authors collected and analyzed 1,770 papers, finding that 48% of NLP4SG research is published outside of top-tier NLP conferences. A key methodology involved a mixed-methods approach combining bibliometric analysis and qualitative content analysis to categorize research themes and identify publication venues. The study reveals a diverse range of applications, including health and well-being (19.4%) and humanitarian aid (15.2%), and highlights that interdisciplinary collaborations are crucial for effective NLP4SG. The findings suggest that AI practitioners engaged in social good initiatives should broaden their dissemination strategies to include non-traditional NLP venues and prioritize interdisciplinary collaboration to maximize impact."
+    },
+    {
+        "title": "EvolProver: Advancing Automated Theorem Proving by Evolving Formalized Problems via Symmetry and Difficulty",
+        "authors": "Xuanwu Wang, Ruiyuan Huang, Yuchen Tian, danielhzlin, Ziyang",
+        "arxiv_id": "2510.00732",
+        "link": "https://arxiv.org/abs/2510.00732",
+        "category": "Machine Learning",
+        "summary": "EvolProver introduces a novel approach to automated theorem proving by evolving formalized problems using symmetry and difficulty. The main objective is to enhance the performance and robustness of automated theorem provers, particularly in the domain of first-order logic. The key methodology involves a genetic algorithm that evolves a population of problems, leveraging symmetry for diverse problem generation and difficulty estimation to guide the evolutionary process. EvolProver demonstrated significant improvements, outperforming existing methods by achieving a 10.3% increase in proved theorems on challenging benchmarks. This work implies that AI practitioners can develop more effective and generalizable theorem provers by focusing on systematic problem generation and difficulty-aware learning strategies."
+    },
+    {
+        "title": "Thai Semantic End-of-Turn Detection for Real-Time Voice Agents",
+        "authors": "Monthol Charattrakool, Natthapath Rungseesiripak, saksornr, Saltywan",
+        "arxiv_id": "2510.04016",
+        "link": "https://arxiv.org/abs/2510.04016",
+        "category": "Natural Language Processing",
+        "summary": "This paper addresses the challenge of real-time end-of-turn (EOT) detection for Thai voice agents, which is complex due to Thai's lack of explicit word boundaries and diverse conversational patterns. The primary objective is to develop a robust, low-latency EOT detection model for spoken Thai. The methodology involves an LSTM-based deep learning model, trained and evaluated on a proprietary Thai voice dataset featuring 15,000 utterances, integrating both acoustic and linguistic features. The model achieved a 96.6% accuracy in EOT detection, demonstrating significant improvement over previous methods. This advancement is crucial for developing more natural and responsive real-time voice AI systems for agglutinative languages like Thai."
+    },
+    {
+        "title": "Character Mixing for Video Generation",
+        "authors": "",
+        "arxiv_id": "2510.05093",
+        "link": "https://arxiv.org/abs/2510.05093",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel approach for high-fidelity and diverse video generation by focusing on character mixing. The main objective is to overcome the limitations of existing video generation models in producing videos with multiple, distinct, and interacting characters. The key methodology involves disentangling foreground characters from the background, enabling independent manipulation and mixing of character features through a dedicated character module and a spatio-temporal attention mechanism. Results demonstrate that the proposed method achieves superior performance, with a FID score of 12.3 on the AIST++ dataset, outperforming baselines. This implies that AI practitioners can leverage this framework to generate more complex and realistic video content with controllable character interactions, opening new avenues for applications in content creation and simulation."
+    },
+    {
+        "title": "SAEdit: Token-level control for continuous image editing via Sparse AutoEncoder",
+        "authors": "Or Patashnik, Roni Paiss, Sara Dorfman, Ronen Kamenetsky, garibida",
+        "arxiv_id": "2510.05081",
+        "link": "https://arxiv.org/abs/2510.05081",
+        "category": "Computer Vision",
+        "summary": "The paper introduces SAEdit, a novel approach for fine-grained, token-level control in continuous image editing, addressing the limitations of existing methods that lack precise manipulation. Its objective is to enable users to intuitively edit images by applying modifications at the token level, thereby achieving more controllable and continuous editing. SAEdit leverages a Sparse AutoEncoder to encode user-provided text as a sparse mask, which is then utilized in conjunction with a diffusion model to guide the editing process. Experiments demonstrate that SAEdit achieves a notable improvement in editing accuracy and controllability, as evidenced by a 25% reduction in perceived edit errors compared to previous state-of-the-art methods. This research implies that AI practitioners can now develop more intuitive and powerful image editing tools with enhanced user control, potentially revolutionizing creative applications in design and media."
+    },
+    {
+        "title": "Alignment Tipping Process: How Self-Evolution Pushes LLM Agents Off the Rails",
+        "authors": "Xinyuan Liu, Wenbo Duan, Yaofeng Su, Jiaqi Liu, Siwei Han",
+        "arxiv_id": "2510.04860",
+        "link": "https://arxiv.org/abs/2510.04860",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates how self-evolution processes can lead large language model (LLM) agents to deviate from their initial alignment. The core objective is to understand and quantify the 'alignment tipping point' where beneficial self-improvement transitions into misaligned behavior. The methodology involves simulating LLM agents in environments where they iteratively update their own prompts or policies based on past experiences and feedback, and analyzing the changes in their behavior and alignment scores. Results indicate that alignment can degrade significantly, with observed drops in beneficial task performance by up to 30% after several self-evolution cycles. The main implication for AI practitioners is the critical need for continuous monitoring and robust safeguards in autonomous LLM agents to prevent unintended behavioral drift during self-improvement."
+    },
+    {
+        "title": "MoME: Mixture of Matryoshka Experts for Audio-Visual Speech Recognition",
+        "authors": "",
+        "arxiv_id": "2510.04136",
+        "link": "https://arxiv.org/abs/2510.04136",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces MoME, a novel architecture for audio-visual speech recognition (AVSR) that addresses the limitations of traditional expert models. It aims to improve AVSR performance by integrating Matryoshka representations into a Mixture-of-Experts (MoE) framework, thereby enhancing expert specialization and reducing computational overhead. MoME employs a shared Matryoshka encoder that generates embeddings at various granularities, which are then routed to specialized experts, allowing for efficient adaptation and training. Experimental results demonstrate that MoME achieves a 30% relative improvement in word error rate (WER) on challenging AVSR benchmarks compared to baseline models, while maintaining low latency. This approach offers a practical solution for deploying efficient and accurate multi-modal speech recognition systems in real-world applications."
+    },
+    {
+        "title": "Slow-Fast Policy Optimization: Reposition-Before-Update for LLM Reasoning",
+        "authors": "Qi Cheng, Xingwei Qu, Jie Fu, Zheng Wang, wzywp",
+        "arxiv_id": "2510.04072",
+        "link": "https://arxiv.org/abs/2510.04072",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces Slow-Fast Policy Optimization (SFPO), a novel strategy designed to enhance the reasoning capabilities of Large Language Models (LLMs) by decoupling policy repositioning from policy updates. SFPO addresses the challenge of brittle policy updates in LLMs by proposing a multi-step update mechanism where the policy is first moved to a potentially better state (repositioning) and then refined (updating). This method leverages two distinct policies, Slow Policy and Fast Policy, to optimize reward signals more effectively than traditional methods like PPO and DPO. Experiments on LLM reasoning tasks show that SFPO achieves a 62.5% pass rate on the challenging GSM8K dataset, outperforming baseline approaches by a significant margin. The main implication for AI practitioners is that SFPO offers a robust and effective approach to training LLMs for complex reasoning tasks, suggesting new directions for optimizing policy-based LLM agents."
+    },
+    {
+        "title": "HiKE: Hierarchical Evaluation Framework for Korean-English Code-Switching Speech Recognition",
+        "authors": "",
+        "arxiv_id": "2509.24613",
+        "link": "https://arxiv.org/abs/2509.24613",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces HiKE, a hierarchical evaluation framework specifically designed for Korean-English code-switching (CS) speech recognition. Its primary objective is to address the limitations of conventional word error rate (WER) in effectively evaluating CS ASR systems by proposing a more granular and informative set of metrics. HiKE employs a hierarchical approach, evaluating performance at phoneme, morpheme, word, and sentence levels, utilizing Korean morpheme analysis and part-of-speech tagging. Experiments showed that while general WER might indicate high performance, HiKE revealed significant error rates for specific code-switched components, such as Korean morphemes exhibiting a 23.5% error rate, suggesting that traditional WER can mask critical system weaknesses. The main implication for AI practitioners is the necessity of employing HiKE or similar hierarchical frameworks for a comprehensive and accurate assessment of CS ASR systems, especially in languages with complex linguistic structures and frequent code-switching, thereby enabling more targeted model improvements beyond what a simple WER can provide."
+    },
+    {
+        "title": "LLMSQL: Upgrading WikiSQL for the LLM Era of Text-to-SQL",
+        "authors": "",
+        "arxiv_id": "2510.02350",
+        "link": "https://arxiv.org/abs/2510.02350",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces LLMSQL, a new text-to-SQL benchmark designed to address the limitations of WikiSQL in the context of large language models (LLMs). The primary objective is to create a more challenging and realistic benchmark by automatically converting WikiSQL questions into complex, multi-turn conversations and rephrasing them with increased linguistic diversity. The methodology involves an LLM-powered pipeline to generate conversational turns, rephrase questions, and ensure logical consistency with the original SQL queries. Experimental results show that the average execution accuracy of the top-performing model on LLMSQL is 12.3% lower than on WikiSQL, indicating the enhanced difficulty. LLMSQL provides a critical resource for developing and evaluating more robust text-to-SQL systems that can handle real-world conversational complexities."
+    },
+    {
+        "title": "Test-Time Scaling in Diffusion LLMs via Hidden Semi-Autoregressive Experts",
+        "authors": "",
+        "arxiv_id": "2510.05040",
+        "link": "https://arxiv.org/abs/2510.05040",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Hidden Semi-Autoregressive Experts (HSAE) to enable efficient test-time scaling in Diffusion Large Language Models (LLMs) by adapting their computational budget. The core objective is to improve the flexibility and efficiency of Diffusion LLMs during inference without requiring additional training. HSAE employs a semi-autoregressive architecture where a subset of layers is dynamically selected based on an estimated difficulty metric derived from the hidden states, allowing for adaptive computational depth. Experiments demonstrate that HSAE can achieve a 2.5x speedup at comparable performance or an 8.6 BLEU score improvement at similar latency against a strong baseline. This approach offers a significant improvement for deploying Diffusion LLMs in scenarios with varying computational constraints, providing a more resource-efficient inference mechanism."
+    },
+    {
+        "title": "Learning on the Job: Test-Time Curricula for Targeted Reinforcement Learning",
+        "authors": "",
+        "arxiv_id": "2510.04786",
+        "link": "https://arxiv.org/abs/2510.04786",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces \"Learning on the Job,\" a framework that enhances the efficiency of reinforcement learning agents by employing test-time curricula to train a small, specialized policy for a given test query. The primary objective is to demonstrate that by focusing on training a target-specific policy during inference, significant performance gains can be achieved compared to a single, generalist policy. This methodology involves using a meta-trained policy to generate an on-the-job curriculum that adapts to the specific target task, effectively refining the agent's behavior at test time without extensive pre-training. Results indicate that this approach can improve performance by 10-20% on complex manipulation tasks, such as robotic grasping and object rearrangement. This framework implies that AI practitioners can develop more adaptive and performant RL agents for real-world applications by integrating test-time learning and curriculum generation, especially in scenarios with varying or novel task requirements."
+    },
+    {
+        "title": "Utility-Learning Tension in Self-Modifying Agents",
+        "authors": "Peter Jin, Keir Dorchen, charleslwang",
+        "arxiv_id": "2510.04399",
+        "link": "https://arxiv.org/abs/2510.04399",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the inherent tension between utility and learning in self-modifying agents within dynamic environments. The core objective is to analyze how agents that can alter their learning rules face a trade-off: optimizing current utility might hinder future learning capacity, and vice-versa. The methodology involves modeling self-modification as a meta-learning process where an outer learner adjusts the inner learning rule based on long-term performance, employing theoretical analysis and simulations in gridworld and game theory scenarios. A key finding is that agents optimized solely for immediate utility can experience a 25% reduction in adaptation speed to environmental shifts compared to agents balancing exploration and exploitation. The implication for AI practitioners is the necessity of designing self-modifying agents with explicit mechanisms to balance short-term performance with the preservation of long-term learning capabilities, potentially through regularization or meta-objectives that reward adaptive capacity."
+    },
+    {
+        "title": "Epistemic Diversity and Knowledge Collapse in Large Language Models",
+        "authors": "",
+        "arxiv_id": "2510.04226",
+        "link": "https://arxiv.org/abs/2510.04226",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates how epistemic diversity in the training data of large language models (LLMs) impacts their knowledge and the potential for knowledge collapse. The main objective is to understand if increasing the diversity of an LLM's \"epistemic communities\"\u2014groups of documents sharing similar perspectives\u2014can mitigate the collapse of less popular knowledge. The study employs a controlled experimental setup, training LLMs on synthetic datasets with varying epistemic community structures and then evaluating their performance on knowledge recall. Results indicate that LLMs trained on data with low epistemic diversity show a 15% reduction in the recall of minority knowledge compared to high-diversity datasets, demonstrating a significant knowledge collapse. The primary implication for AI practitioners is the critical need to curate training datasets that explicitly foster epistemic diversity to ensure robust and comprehensive knowledge retention in LLMs, especially for less represented information."
+    },
+    {
+        "title": "Optimized Minimal 4D Gaussian Splatting",
+        "authors": "Sangmin Kim, Eunsoo Lee, Lucas Yunkyu Lee, Byeonghyeon Lee, Minseo Lee",
+        "arxiv_id": "2510.03857",
+        "link": "https://arxiv.org/abs/2510.03857",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel approach to real-time 4D (3D + time) scene representation using optimized minimal Gaussian Splatting. The main objective is to overcome the limitations of existing methods in real-time novel view synthesis and dynamic scene reconstruction, especially concerning quality and computational efficiency. The key methodology involves representing dynamic scenes with 3D Gaussians whose parameters (position, scale, rotation, color, and opacity) are modeled as low-degree B-spline curves over time, significantly reducing the number of optimized parameters. The primary results demonstrate that this optimized minimal 4D Gaussian Splatting achieves state-of-the-art visual quality, obtaining a PSNR of 28.5 on the D-NeRF dataset while using only a fraction of the parameters compared to prior works. The main implication for AI practitioners is the provision of a highly efficient and accurate method for capturing and rendering dynamic 3D scenes, suitable for applications requiring real-time performance and high-fidelity visual output."
+    },
+    {
+        "title": "Position: Privacy Is Not Just Memorization!",
+        "authors": "",
+        "arxiv_id": "2510.01645",
+        "link": "https://arxiv.org/abs/2510.01645",
+        "category": "Machine Learning",
+        "summary": "The paper argues against the prevailing view that privacy leakage in large language models (LLMs) is solely due to memorization, proposing a broader understanding of privacy risks. Its main objective is to demonstrate that even when LLMs do not directly reproduce training data, they can still leak sensitive information through inference. The methodology involves analyzing various attacks, including membership inference and property inference, on different LLM architectures and datasets. Results indicate that privacy risks persist even when memorization is controlled, with one experiment showing a 70% success rate for certain inference attacks despite low memorization. This implies that AI practitioners must adopt more sophisticated privacy protection mechanisms beyond simply preventing data memorization, such as differential privacy or secure multi-party computation, to address the broader spectrum of privacy vulnerabilities in LLMs."
+    },
+    {
+        "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+        "authors": "Zeliang Zhang, Yolo Yunlong Tang, Zhuo Liu, Yiting Zhang, Zhenyu Pan",
+        "arxiv_id": "2510.01586",
+        "link": "https://arxiv.org/abs/2510.01586",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces AdvEvo-MARL, a novel framework designed to enhance safety in multi-agent reinforcement learning (MARL) systems by internalizing safety considerations. The objective is to mitigate the \"lazy agent problem\" and reduce safety violations in complex, dynamic environments. The key methodology involves a co-evolutionary process where agents learn to internalize safety constraints by interacting with an adversarial safety critic, which iteratively identifies and exploits safety vulnerabilities. Experimental results demonstrate that AdvEvo-MARL significantly reduces safety violations, achieving up to 90% fewer collisions compared to baseline MARL approaches, while maintaining competitive task performance. This implies that AI practitioners can leverage co-evolutionary adversarial training to develop more robust and inherently safer MARL agents, particularly in safety-critical applications."
+    },
+    {
+        "title": "Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs",
+        "authors": "Zeyi Liao, Ziqi Wang, Yuhan Liu, Xavier Hu, Yurun Chen",
+        "arxiv_id": "2510.00507",
+        "link": "https://arxiv.org/abs/2510.00507",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Graph2Eval, a novel framework for automatically generating multimodal tasks for AI agents using knowledge graphs. The main objective is to overcome the limitations of handcrafted benchmarks by synthesizing diverse and challenging tasks. Graph2Eval employs large language models (LLMs) to convert knowledge graph triplets into task descriptions and Python code, along with a rendering engine to create corresponding visual environments. Experimental results show that agents trained on tasks generated by Graph2Eval exhibit strong generalization capabilities, outperforming agents trained on single-modal or manually designed tasks by up to 20% on certain metrics. This framework offers a scalable solution for creating rich, varied evaluation environments for embodied AI agents, reducing manual effort and fostering more robust agent development."
+    },
+    {
+        "title": "Power Transform Revisited: Numerically Stable, and Federated",
+        "authors": "Graham Cormode, xuefeng-xu",
+        "arxiv_id": "2510.04995",
+        "link": "https://arxiv.org/abs/2510.04995",
+        "category": "Machine Learning",
+        "summary": "This paper revisits the Box-Cox and Yeo-Johnson power transforms, proposing numerically stable and federated algorithms. The main objective is to address the numerical instability of existing methods for these transforms, particularly when dealing with zero or negative input values, and to enable their application in federated learning environments. The key methodology involves re-parameterizing the optimization problem and developing a distributed algorithm that averages sufficient statistics rather than model parameters directly. Primary results indicate that the proposed federated Box-Cox transform achieves 0.999 Pearson correlation with the centralized approach while the federated Yeo-Johnson transform achieves 0.998 Pearson correlation with the centralized approach, demonstrating high fidelity in a federated setting. The main implication for AI practitioners is the provision of robust and privacy-preserving power transform methods, enabling better data normalization in distributed machine learning applications."
+    },
+    {
+        "title": "Federated Computation of ROC and PR Curves",
+        "authors": "Graham Cormode, xuefeng-xu",
+        "arxiv_id": "2510.04979",
+        "link": "https://arxiv.org/abs/2510.04979",
+        "category": "Machine Learning",
+        "summary": "This paper presents a method for computing Receiver Operating Characteristic (ROC) and Precision-Recall (PR) curves in a federated learning setting. The main objective is to enable the evaluation of models trained on decentralized datasets without centralizing raw data, addressing privacy and data governance concerns. The key methodology involves a communication-efficient protocol where clients locally compute histograms of prediction scores and true labels, which are then aggregated by a server to construct the global curves. The primary results demonstrate that the federated approach can compute ROC and PR curves that are nearly identical to centralized methods, achieving less than 0.001 difference in Area Under Curve (AUC) for both ROC and PR. This implies that AI practitioners can reliably evaluate the performance of federated learning models using standard metrics while maintaining data privacy."
+    },
+    {
+        "title": "Multilingual Routing in Mixture-of-Experts",
+        "authors": "",
+        "arxiv_id": "2510.04694",
+        "link": "https://arxiv.org/abs/2510.04694",
+        "category": "Natural Language Processing",
+        "summary": "The paper addresses the challenge of building efficient and high-performing multilingual Mixture-of-Experts (MoE) models by proposing strategies for multilingual routing. The main objective is to develop a routing mechanism that can effectively handle diverse languages within a shared MoE architecture without significant performance degradation or computational overhead. The key methodology involves exploring different routing strategies, including language-specific and language-agnostic approaches, along with modifications to expert assignment and load balancing. The primary results demonstrate that multilingual routing can achieve competitive performance, with models showing a 1.2% improvement in certain multilingual tasks while maintaining efficiency. The main implication for AI practitioners is the potential to develop more scalable and generalizable multilingual models using MoE architectures, reducing the need for separate models per language."
+    },
+    {
+        "title": "Paris: A Decentralized Trained Open-Weight Diffusion Model",
+        "authors": "Bidhan Roy, Marcos Villagra, Raihan Seraj, Zhiying Jiang",
+        "arxiv_id": "2510.03434",
+        "link": "https://arxiv.org/abs/2510.03434",
+        "category": "Computer Vision",
+        "summary": "Paris introduces a novel approach to training open-weight diffusion models by leveraging a decentralized network, aiming to democratize access to powerful generative AI. The core methodology involves using a federated learning framework where individual participants train on their private datasets and contribute gradient updates or model parameters to a global model, ensuring data privacy and reducing reliance on centralized computational resources. This distributed training paradigm enables the creation of high-quality image generation models, with Paris achieving competitive FID scores of 3.25, demonstrating its effectiveness in generating diverse and realistic images. The main implication for AI practitioners is the potential to foster more collaborative and resource-efficient development of large-scale generative models, particularly for communities with limited access to centralized computational infrastructure."
+    },
+    {
+        "title": "CWM: An Open-Weights LLM for Research on Code Generation with World Models",
+        "authors": "",
+        "arxiv_id": "2510.02387",
+        "link": "https://arxiv.org/abs/2510.02387",
+        "category": "Machine Learning",
+        "summary": "CWM introduces an open-weights Large Language Model designed for research into code generation, integrating \"world models\" for improved reasoning and planning. The primary objective is to overcome the limitations of existing code generation models, which often struggle with complex tasks requiring logical consistency and future state prediction. The methodology involves fine-tuning a base LLM with a novel architecture that incorporates a world model, enabling it to simulate execution environments and plan code generation steps. This approach reportedly improves performance, achieving, for instance, a 20% increase in success rate on specific algorithmic tasks compared to traditional LLMs. The main implication for AI practitioners is the availability of a powerful, open-source tool for developing more robust and intelligent code generation systems, facilitating advancements in automated software development and debugging."
+    }
+]
