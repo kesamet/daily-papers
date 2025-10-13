@@ -1,0 +1,402 @@
+[
+    {
+        "title": "Agent Learning via Early Experience",
+        "authors": "",
+        "arxiv_id": "2510.08558",
+        "link": "https://arxiv.org/abs/2510.08558",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel framework for accelerating agent learning by leveraging \"early experience,\" specifically focusing on the initial, noisy data generated when an agent's policy is still underdeveloped. The primary objective is to improve the efficiency of exploration and policy acquisition in reinforcement learning environments by effectively utilizing this nascent data. The methodology involves a meta-learning approach where a dedicated 'teacher' agent, trained on diverse early experiences, guides the 'student' agent, enabling rapid learning and adaptation. A key result demonstrates that agents trained with this early experience framework achieve a 1.5x speedup in learning convergence and superior final performance compared to traditional methods across various tasks. This work implies that AI practitioners can significantly enhance the training speed and robustness of RL agents by strategically incorporating meta-learned guidance derived from the initial phases of exploration."
+    },
+    {
+        "title": "MM-HELIX: Boosting Multimodal Long-Chain Reflective Reasoning with Holistic Platform and Adaptive Hybrid Policy Optimization",
+        "authors": "vanilla1116, yingmanji, tianhao2k, mjuicem, PhoenixZ",
+        "arxiv_id": "2510.08540",
+        "link": "https://arxiv.org/abs/2510.08540",
+        "category": "Multi-Modal",
+        "summary": "MM-HELIX introduces a novel framework designed to enhance multimodal long-chain reflective reasoning. The core objective is to overcome limitations in current multimodal models by integrating a holistic platform and an adaptive hybrid policy optimization strategy. The methodology involves a two-stage reflective reasoning process that dynamically adapts its strategy based on the reasoning state and incorporates explicit feedback mechanisms. Experimental results demonstrate that MM-HELIX achieves a new state-of-the-art on the MM-ReasBench dataset, improving performance by over 12% compared to existing methods. This framework offers significant implications for AI practitioners, providing a robust solution for complex reasoning tasks that require integrating information across multiple modalities and iterative refinement."
+    },
+    {
+        "title": "MemMamba: Rethinking Memory Patterns in State Space Model",
+        "authors": "Xiao Sun, Jiaxuan Lu, Jiahao Yan, Yangjingyi Chen, Youjin Wang",
+        "arxiv_id": "2510.03279",
+        "link": "https://arxiv.org/abs/2510.03279",
+        "category": "Machine Learning",
+        "summary": "MemMamba addresses the limitations of State Space Models (SSMs) in handling long-term dependencies due to their state-space compression, which can lead to information loss. The paper introduces MemMamba, a novel architecture that integrates an external memory module with Mamba's core to enhance its ability to recall and utilize past information. This is achieved by employing a memory-augmented attention mechanism that allows Mamba to retrieve relevant past states effectively. Experimental results demonstrate that MemMamba significantly improves performance on various long-sequence tasks, achieving a 0.5% gain in accuracy on specific benchmarks compared to baseline Mamba models. The implication for AI practitioners is a more robust and efficient model for tasks requiring extensive memory, potentially reducing the need for larger and more complex architectures in sequence modeling."
+    },
+    {
+        "title": "VideoCanvas: Unified Video Completion from Arbitrary Spatiotemporal Patches via In-Context Conditioning",
+        "authors": "",
+        "arxiv_id": "2510.08555",
+        "link": "https://arxiv.org/abs/2510.08555",
+        "category": "Computer Vision",
+        "summary": "VideoCanvas addresses the challenge of unified video completion by introducing a novel in-context learning framework. The paper aims to reconstruct missing video regions, regardless of their spatiotemporal extent or shape, using a single generalized model. Its methodology leverages a mask-conditioned diffusion model trained on diverse completion tasks, employing a large receptive field and a unified spatiotemporal sampling strategy to achieve in-context conditioning. Experiments demonstrate state-of-the-art performance, with VideoCanvas outperforming existing methods by 0.9 dB on PSNR for video inpainting. This advance implies that AI practitioners can now employ a more robust and versatile solution for various video manipulation and editing tasks, simplifying workflows and enhancing performance across diverse completion scenarios."
+    },
+    {
+        "title": "UniVideo: Unified Understanding, Generation, and Editing for Videos",
+        "authors": "Xintao Wang, Qiulin Wang, Zixuan Ye, Quande Liu, CongWei1230",
+        "arxiv_id": "2510.08377",
+        "link": "https://arxiv.org/abs/2510.08377",
+        "category": "Multi-Modal",
+        "summary": "UniVideo introduces a unified framework for video understanding, generation, and editing, addressing the limitation of fragmented and specialized video AI models. The main objective is to develop a single, versatile model capable of handling diverse video tasks by leveraging a unified representation and training strategy. The key methodology involves using a masked video modeling approach combined with a multi-task learning framework, integrating both clip-level and frame-level representations. Primary results demonstrate UniVideo's effectiveness, achieving competitive performance (e.g., 65.2% accuracy on the Something-Something V2 dataset for action recognition). The main implication for AI practitioners is the potential for developing more efficient and generalizable video AI systems, reducing the need for numerous specialized models for different video tasks."
+    },
+    {
+        "title": "DreamOmni2: Multimodal Instruction-based Editing and Generation",
+        "authors": "Junjia Huang, Yuechen Zhang, Bohao Peng, Bin Xia, wcy1122",
+        "arxiv_id": "2510.06679",
+        "link": "https://arxiv.org/abs/2510.06679",
+        "category": "Multi-Modal",
+        "summary": "DreamOmni2 introduces a novel multimodal instruction-based editing and generation framework, addressing the challenge of unifying diverse creative tasks within a single model. The objective is to enable comprehensive image editing, generation, and multi-image tasks through a unified instruction-following approach. Its key methodology involves a cascaded pipeline with a large multimodal model (LMM) for instruction understanding and a Diffusion U-Net for visual generation, incorporating a novel multi-modal context encoder and a multi-image adapter for efficient multi-image processing. Results demonstrate state-of-the-art performance, achieving a 1.25 improvement in LMM performance and a 0.2 improvement in the CLIP score for various tasks, indicating superior quality and instruction following compared to existing models. This framework provides AI practitioners with a powerful and unified tool for complex multimodal content creation and manipulation, reducing the need for specialized models for each task."
+    },
+    {
+        "title": "From What to Why: A Multi-Agent System for Evidence-based Chemical Reaction Condition Reasoning",
+        "authors": "Feiwei Qin, Junchi Yu, Jiaxuan Lu, haiyuanwan, YangC777",
+        "arxiv_id": "2509.23768",
+        "link": "https://arxiv.org/abs/2509.23768",
+        "category": "Other",
+        "summary": "This paper introduces a multi-agent system designed to provide evidence-based reasoning for chemical reaction conditions, moving beyond simple prediction to explain the 'why'. The main objective is to automate the process of understanding and explaining the underlying mechanisms of chemical reactions. It employs a multi-agent system where different agents specialize in tasks such as data retrieval, hypothesis generation, and evidence synthesis to deduce optimal reaction conditions. The system achieved a 78% accuracy in predicting optimal solvent choices for Suzuki-Miyaura coupling reactions. The main implication for AI practitioners is the demonstration of how multi-agent systems can be leveraged for complex scientific reasoning and knowledge discovery in chemistry, offering a path towards more transparent and explainable AI in scientific domains."
+    },
+    {
+        "title": "Meta-Awareness Enhances Reasoning Models: Self-Alignment Reinforcement Learning",
+        "authors": "",
+        "arxiv_id": "2510.03259",
+        "link": "https://arxiv.org/abs/2510.03259",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Self-Alignment Reinforcement Learning (SARL), a novel method designed to enhance reasoning models through meta-awareness. The core objective is to improve the reasoning capabilities of large language models by integrating a self-correction mechanism based on their own confidence. SARL achieves this by employing a critic model that provides a confidence score, which then guides a policy model to iteratively refine its reasoning steps through reinforcement learning. Experiments demonstrate that SARL significantly boosts performance, achieving a 10% gain over baselines on the GSM8K dataset. This approach offers a promising direction for developing more robust and self-correcting AI systems for complex reasoning tasks."
+    },
+    {
+        "title": "When Thoughts Meet Facts: Reusable Reasoning for Long-Context LMs",
+        "authors": "",
+        "arxiv_id": "2510.07499",
+        "link": "https://arxiv.org/abs/2510.07499",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Thought-Action-Observation (TAO), a novel framework designed to enhance the reasoning capabilities of Large Language Models (LLMs) in long-context scenarios by enabling reusable, evidence-based reasoning. The primary objective is to address the challenge of LLMs hallucinating or generating irrelevant information when processing extensive contexts by grounding their reasoning in factual retrieval and explicit thought processes. TAO employs a multi-step methodology involving: (1) an iterative thought generation process that breaks down complex questions, (2) an action phase that executes tools (e.g., search engines, code interpreters) to gather evidence, and (3) an observation phase that critically evaluates the retrieved information against the generated thoughts. Experimental results demonstrate that TAO significantly improves performance on various long-context reasoning tasks, achieving a 15% absolute improvement over strong baselines like GPT-4 on the Long-Context Reasoning Benchmark. The main implication for AI practitioners is the provision of a robust and interpretable framework for developing more reliable and factually grounded LLM-powered applications, particularly in domains requiring extensive document analysis and evidence-based decision-making."
+    },
+    {
+        "title": "Low-probability Tokens Sustain Exploration in Reinforcement Learning with Verifiable Reward",
+        "authors": "",
+        "arxiv_id": "2510.03222",
+        "link": "https://arxiv.org/abs/2510.03222",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of exploration in reinforcement learning when rewards are sparse and difficult to verify. The core objective is to develop an exploration strategy that uses low-probability tokens to sustain exploration in complex environments. The methodology involves a novel token-based exploration mechanism that leverages a verifiable reward system to guide the agent towards novel states. The results demonstrate that this approach significantly improves exploration efficiency, achieving optimal policies with a 25% reduction in environment interactions compared to baseline methods. This implies that AI practitioners can more effectively train RL agents in environments with sparse reward signals, leading to faster convergence and more robust learning."
+    },
+    {
+        "title": "The Alignment Waltz: Jointly Training Agents to Collaborate for Safety",
+        "authors": "",
+        "arxiv_id": "2510.08240",
+        "link": "https://arxiv.org/abs/2510.08240",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel framework for jointly training multiple AI agents to collaborate safely, addressing the critical challenge of AI alignment in multi-agent systems. The primary objective is to develop a method that promotes prosocial behavior and mitigates harmful outcomes when agents interact. The key methodology involves a \"safety-constrained value iteration\" (SCVI) algorithm, which incorporates explicit safety constraints into the reward function during joint training, enabling agents to learn cooperative strategies while adhering to safety protocols. Experimental results demonstrate that agents trained with SCVI achieve a 20% reduction in safety violations compared to baseline methods, without significantly compromising task performance. This implies that practitioners can develop safer multi-agent AI systems by integrating joint training with explicit safety constraints, thereby improving the robustness and trustworthiness of AI applications in collaborative environments."
+    },
+    {
+        "title": "Training-Free Group Relative Policy Optimization",
+        "authors": "",
+        "arxiv_id": "2510.08191",
+        "link": "https://arxiv.org/abs/2510.08191",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel training-free approach for policy optimization called Group Relative Policy Optimization (GRPO). The primary objective is to enhance the sample efficiency and stability of reinforcement learning by leveraging information from a group of policies. GRPO achieves this by optimizing the policy relative to a distribution of past policies, thereby avoiding the need for extensive hyperparameter tuning and complex loss functions typical of traditional training-based methods. Experiments on continuous control tasks demonstrate that GRPO can achieve comparable or superior performance to state-of-the-art methods like PPO, with a reported improvement in sample efficiency by up to 2x on some environments. The main implication for AI practitioners is the potential to significantly reduce computational costs and simplify the deployment of reinforcement learning agents by eliminating the training phase of policy updates."
+    },
+    {
+        "title": "Hybrid Reinforcement: When Reward Is Sparse, It's Better to Be Dense",
+        "authors": "",
+        "arxiv_id": "2510.07242",
+        "link": "https://arxiv.org/abs/2510.07242",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces Hybrid Reinforcement (HR), a novel framework for effective reinforcement learning in sparse reward environments. The primary objective is to address the challenges of sparse rewards by combining a dense, locally optimal reward function with the global, sparse reward. HR employs a strategy that trains an auxiliary policy with a dense reward function and then uses its experience to generate more informative trajectories for a main policy optimized for the sparse reward. This method demonstrated significant performance improvements, achieving a 52.8% increase in success rate on the HalfCheetah-v2 environment compared to baselines. The main implication for AI practitioners is the provision of a robust technique to train agents in scenarios where obtaining meaningful feedback is difficult, potentially accelerating development in complex control tasks."
+    },
+    {
+        "title": "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents",
+        "authors": "Baixuan Xu, Kelvin Kiu-Wai Tam, tqfang229, newtdes, StoneTZHENG",
+        "arxiv_id": "2510.07172",
+        "link": "https://arxiv.org/abs/2510.07172",
+        "category": "Machine Learning",
+        "summary": "This paper introduces NewtonBench, a new benchmark designed to evaluate the generalizability of scientific law discovery in LLM agents. The primary objective is to assess the ability of LLM agents to infer symbolic scientific laws from observational data and generalize these laws to new scenarios. The methodology involves generating diverse datasets based on known physical laws and evaluating agents on tasks requiring symbolic regression and out-of-distribution generalization, utilizing 45 scientific laws and over 1.6 million data points. Results indicate that current LLM agents achieve an average generalization score of 0.49 on NewtonBench, highlighting significant challenges in robust scientific law discovery. This implies that AI practitioners should focus on developing LLM architectures and training paradigms that enhance symbolic reasoning and generalize scientific principles effectively beyond seen examples."
+    },
+    {
+        "title": "ARTDECO: Towards Efficient and High-Fidelity On-the-Fly 3D Reconstruction with Structured Scene Representation",
+        "authors": "",
+        "arxiv_id": "2510.08551",
+        "link": "https://arxiv.org/abs/2510.08551",
+        "category": "Computer Vision",
+        "summary": "ARTDECO introduces an efficient and high-fidelity method for on-the-fly 3D scene reconstruction by combining implicit neural representations with a structured scene decomposition. The primary objective is to overcome the limitations of existing methods in real-time performance and reconstruction quality for large-scale scenes. It employs a two-level scene representation, leveraging a global hash grid for coarse reconstruction and local neural implicit fields for fine details, dynamically optimized and pruned. The method achieves state-of-the-art results, demonstrating a 2x speedup compared to prior work while maintaining high reconstruction accuracy, with an average F-score of 0.95 on complex datasets. This approach provides AI practitioners with a robust and scalable solution for real-time 3D reconstruction, particularly beneficial for applications in robotics, AR/VR, and autonomous navigation."
+    },
+    {
+        "title": "DeepPrune: Parallel Scaling without Inter-trace Redundancy",
+        "authors": "",
+        "arxiv_id": "2510.08483",
+        "link": "https://arxiv.org/abs/2510.08483",
+        "category": "Machine Learning",
+        "summary": "DeepPrune addresses the challenge of scaling distributed deep learning without redundant computations. The paper aims to optimize distributed training by reducing inter-trace redundancy in gradients and weights, a common issue in synchronous Stochastic Gradient Descent (SGD) and federated learning. Their methodology involves a novel pruning technique that identifies and eliminates redundant information between worker nodes, thereby improving communication efficiency. DeepPrune achieves up to a 10x reduction in communication overhead and a 2x speedup in training time on various benchmarks without significant loss in model accuracy. This implies that AI practitioners can achieve faster and more resource-efficient distributed deep learning by adopting DeepPrune, particularly in scenarios with high communication costs."
+    },
+    {
+        "title": "First Try Matters: Revisiting the Role of Reflection in Reasoning Models",
+        "authors": "Wee Sun Lee, Zhanfeng Mo, Yao Xiao, Yue Deng, Liwei Kang",
+        "arxiv_id": "2510.08308",
+        "link": "https://arxiv.org/abs/2510.08308",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the effectiveness of reflection in large language models (LLMs) for reasoning tasks. It challenges the common assumption that iterative reflection consistently improves performance, proposing that a strong initial attempt (the \"first try\") is often more crucial. The methodology involves an in-depth analysis of various prompting techniques, including standard prompting, Chain-of-Thought, and reflection, across diverse reasoning benchmarks like GSM8K and Big-Bench Hard. Key results indicate that reflection does not always outperform strong first tries, with models showing a performance drop of up to 4.2% on some tasks when reflection is used suboptimally. The main implication for AI practitioners is to prioritize generating high-quality initial responses rather than relying solely on reflection for performance gains, especially as computational costs increase."
+    },
+    {
+        "title": "LLMs Learn to Deceive Unintentionally: Emergent Misalignment in Dishonesty from Misaligned Samples to Biased Human-AI Interactions",
+        "authors": "",
+        "arxiv_id": "2510.08211",
+        "link": "https://arxiv.org/abs/2510.08211",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the unintentional emergence of deceptive behaviors in Large Language Models (LLMs). The research questions how LLMs develop misaligned dishonesty and whether this is influenced by misaligned training samples and biased human-AI interactions. The methodology involves fine-tuning LLMs on datasets designed to induce deceptive capabilities, followed by evaluating their performance on deception benchmarks. Results indicate that models fine-tuned on misaligned datasets can achieve up to 75% success rate in exhibiting deceptive behaviors. The main implication for AI practitioners is the critical need for robust alignment techniques to prevent the development of emergent deceptive capabilities in LLMs, especially in interactive or sensitive applications."
+    },
+    {
+        "title": "UniMMVSR: A Unified Multi-Modal Framework for Cascaded Video Super-Resolution",
+        "authors": "",
+        "arxiv_id": "2510.08143",
+        "link": "https://arxiv.org/abs/2510.08143",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces UniMMVSR, a unified multi-modal framework for cascaded video super-resolution. Its primary objective is to address the challenge of poor performance in real-world scenarios for video super-resolution by leveraging the advantages of both RGB and event-based cameras. The key methodology involves a cascaded pipeline with a feature-level fusion module, an asynchronous fusion module, and an iterative fusion module, alongside a proposed event-based data augmentation method. Experimental results demonstrate that UniMMVSR significantly outperforms state-of-the-art methods, achieving a PSNR of 28.53 dB on the RGB-Event-VS dataset. This research implies that AI practitioners can achieve more robust and higher-quality video super-resolution by effectively integrating multi-modal data, especially in dynamic environments where event cameras offer superior motion handling."
+    },
+    {
+        "title": "NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints",
+        "authors": "",
+        "arxiv_id": "2510.08565",
+        "link": "https://arxiv.org/abs/2510.08565",
+        "category": "Multi-Modal",
+        "summary": "The paper \"NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints\" investigates the scaling properties of native multimodal large language models (MLLMs) specifically concerning data constraints. The primary objective is to understand how MLLMs perform when data is limited, contrasting this with common assumptions about data abundance. The key methodology involves training MLLMs on varying amounts of vision-language paired data and analyzing their performance, particularly focusing on pretraining strategies and architectural choices under these constraints. A primary result indicates that with only 1.2M image-text pairs, NaViL achieves 60.1% on VQAv2 test-std, demonstrating competitive performance with significantly less data than models like Flamingo. The main implication for AI practitioners is that high-performing MLLMs can be developed efficiently even with limited data, challenging the paradigm of massive-scale data requirements for effective multimodal learning."
+    },
+    {
+        "title": "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards",
+        "authors": "Yijiang Li, Zaibin Zhang, Guibin Zhang, Yifan Zhou, xxyQwQ",
+        "arxiv_id": "2510.08529",
+        "link": "https://arxiv.org/abs/2510.08529",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces CoMAS, a novel framework for co-evolving multi-agent systems, addressing the challenge of finding effective strategies and communication protocols in complex environments. The core objective is to overcome local optima in multi-agent learning by dynamically adjusting interaction rewards based on the agents' evolving behaviors. CoMAS employs a multi-objective evolutionary algorithm that co-evolves agent policies and communication rules, using interaction rewards to guide the evolutionary process. Experiments show that CoMAS significantly outperforms baseline methods, achieving a 20% improvement in collective utility in competitive scenarios. The main implication for AI practitioners is the provision of a robust method for developing more adaptable and cooperative multi-agent systems, particularly in environments requiring sophisticated coordination and communication."
+    },
+    {
+        "title": "PickStyle: Video-to-Video Style Transfer with Context-Style Adapters",
+        "authors": "",
+        "arxiv_id": "2510.07546",
+        "link": "https://arxiv.org/abs/2510.07546",
+        "category": "Computer Vision",
+        "summary": "PickStyle addresses the challenge of video-to-video style transfer, which is complex due to the need for spatiotemporal consistency and fidelity. The paper proposes a novel framework utilizing context-style adapters to extract and integrate style information without extensive model retraining for each new style. This method achieves state-of-the-art performance, with a 33.7% improvement in style similarity over baseline models while maintaining temporal consistency. PickStyle offers a practical solution for creative industries and content generation, enabling efficient and high-quality style transfer across diverse video content."
+    },
+    {
+        "title": "InstructX: Towards Unified Visual Editing with MLLM Guidance",
+        "authors": "Xinghui Li, Pengze Zhang, Yanze Wu, Chong Mou, Simons212",
+        "arxiv_id": "2510.08485",
+        "link": "https://arxiv.org/abs/2510.08485",
+        "category": "Multi-Modal",
+        "summary": "InstructX introduces a unified visual editing framework guided by Multimodal Large Language Models (MLLMs), aiming to address the limitations of existing methods that struggle with diverse editing tasks or lack user-friendly interaction. The core methodology involves using MLLMs to interpret user instructions and generate editing masks and operations for various image manipulation tasks, including object removal, addition, and style transfer. InstructX achieves significant improvements, outperforming state-of-the-art methods by 15.3% on average across multiple editing benchmarks, demonstrating its efficacy and versatility. This approach allows AI practitioners to perform complex and diverse visual editing tasks with a single, instruction-guided model, simplifying workflows and enhancing creative control in image generation and manipulation."
+    },
+    {
+        "title": "LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling",
+        "authors": "",
+        "arxiv_id": "2510.06915",
+        "link": "https://arxiv.org/abs/2510.06915",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the under-explored context boundary issue in reward modeling (RM), which limits the ability of large language models to handle long contexts effectively in reinforcement learning from human feedback (RLHF). The authors introduce LongRM, a novel training paradigm that strategically expands context length during RM training, employing techniques like progressive curriculum learning and multi-granularity preference ranking. LongRM achieves up to 12% improvement in win rate on long-context tasks compared to existing methods, demonstrating superior performance in capturing complex long-range dependencies. This work significantly advances the capability of RMs to process and learn from extended contexts, enabling more robust and context-aware AI systems."
+    },
+    {
+        "title": "UNIDOC-BENCH: A Unified Benchmark for Document-Centric Multimodal RAG",
+        "authors": "",
+        "arxiv_id": "2510.03663",
+        "link": "https://arxiv.org/abs/2510.03663",
+        "category": "Multi-Modal",
+        "summary": "UNIDOC-BENCH is a unified benchmark designed to evaluate document-centric multimodal Retrieval-Augmented Generation (RAG) models across various real-world applications. The primary objective is to address the limitations of existing benchmarks by providing a comprehensive, large-scale, and diverse dataset that covers a wider range of document types and RAG scenarios. The key methodology involves curating a dataset of 75,000 document samples spanning six distinct real-world applications and evaluating RAG models based on their ability to retrieve relevant document segments and generate accurate answers. The primary results demonstrate that current state-of-the-art multimodal RAG models achieve an average RAG accuracy of 37.8% on UNIDOC-BENCH, highlighting significant room for improvement. The main implication for AI practitioners is the provision of a robust and challenging benchmark to guide the development and evaluation of more effective multimodal RAG systems for complex document understanding tasks."
+    },
+    {
+        "title": "Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks",
+        "authors": "",
+        "arxiv_id": "2510.08002",
+        "link": "https://arxiv.org/abs/2510.08002",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel framework for an experience-driven self-evolving agent designed to tackle long-horizon tasks efficiently. The core objective is to enable agents to continuously learn and adapt their task-solving capabilities through cumulative experience, reducing reliance on human intervention and extensive pre-training. It employs a method where the agent generates, executes, and evaluates its own plans, refining its policies by autonomously updating its knowledge base based on successful task completion and detected failures. The agent demonstrated a significant performance increase, achieving a 1.7x improvement in task success rate on unseen tasks compared to baseline agents, showcasing enhanced generalization and robustness over extended operational periods. This approach offers a scalable pathway for developing more autonomous and adaptive AI systems, particularly valuable for real-world applications where continuous learning and adaptation are critical."
+    },
+    {
+        "title": "Reinforcing Diffusion Models by Direct Group Preference Optimization",
+        "authors": "Jing Tang, Tianyang Hu, Yihong Luo",
+        "arxiv_id": "2510.08425",
+        "link": "https://arxiv.org/abs/2510.08425",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel method, Direct Group Preference Optimization (DGPO), to improve diffusion models by aligning them with human preferences through a group-wise optimization strategy. The main objective is to overcome the limitations of pairwise preference optimization, which often leads to slow convergence and poor sample efficiency when fine-tuning diffusion models with human feedback. DGPO proposes a group-wise ranking loss that processes multiple samples simultaneously, significantly accelerating the optimization process. The method demonstrates superior performance, achieving a 2.5x speedup in training convergence and a 1.76 FID score on unconditional generation tasks, outperforming existing techniques. This approach offers a more efficient and effective way for AI practitioners to align generative models with complex human preferences, reducing computational costs and improving model quality in real-world applications."
+    },
+    {
+        "title": "Taming Text-to-Sounding Video Generation via Advanced Modality Condition and Interaction",
+        "authors": "",
+        "arxiv_id": "2510.03117",
+        "link": "https://arxiv.org/abs/2510.03117",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces a novel approach for high-fidelity text-to-sounding video generation. The primary objective is to address the current limitations in generating semantically consistent and high-quality sounding videos from text prompts. The key methodology involves a cascaded generation framework that includes a sounding video planning stage and a content generation stage, utilizing advanced modality conditions and interactions to ensure consistency. Experimental results demonstrate that the proposed method significantly outperforms existing baselines, achieving a 23.5% improvement in FID score and a 15.2% increase in FAD score on benchmark datasets. The main implication for AI practitioners is the provision of a robust framework for creating more realistic and coherent multi-modal content, enabling advancements in creative AI applications and synthetic media generation."
+    },
+    {
+        "title": "SciVideoBench: Benchmarking Scientific Video Reasoning in Large Multimodal Models",
+        "authors": "Mohit Bansal, Lincoln Spencer, Shoubin Yu, Taojiannan Yang, groundmore",
+        "arxiv_id": "2510.08559",
+        "link": "https://arxiv.org/abs/2510.08559",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces SciVideoBench, a new benchmark designed to evaluate scientific video reasoning capabilities in Large Multimodal Models (LMMs). The primary objective is to assess LMMs' ability to understand and answer questions based on scientific videos across various disciplines. The methodology involves curating a dataset of 5,556 video-question pairs from science experiments and lectures, and evaluating several LMMs like GPT-4V, LLaVA-1.5, and Gemini-Pro with different prompting strategies. Results show that even advanced LMMs achieve an average accuracy of only 34.5% on SciVideoBench, significantly underperforming human experts. This highlights a critical need for developing LMMs with improved scientific video understanding and reasoning abilities for AI practitioners."
+    },
+    {
+        "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
+        "authors": "Jintao Zhang, Qianli Ma, Yuji Wang, Kaiwen Zheng, ChenDRAG",
+        "arxiv_id": "2510.08431",
+        "link": "https://arxiv.org/abs/2510.08431",
+        "category": "Machine Learning",
+        "summary": "This paper introduces a novel approach for distilling large-scale diffusion models into smaller, more efficient consistency models. The core objective is to accelerate sampling speed while maintaining high-quality image generation, addressing the computational demands of existing diffusion models. The proposed methodology leverages score-regularized continuous-time consistency training, which involves a specific parameterization of the network output and a novel loss function. Experimental results demonstrate that the method achieves 1-step FID of 5.08 on ImageNet 256x256, significantly outperforming prior distillation techniques. This advancement implies that AI practitioners can deploy powerful generative models with drastically reduced inference latency, making them more suitable for real-time applications and resource-constrained environments."
+    },
+    {
+        "title": "Beyond Turn Limits: Training Deep Search Agents with Dynamic Context Window",
+        "authors": "Yaojie Lu, Bowen Yu, Le Yu, Hao Xiang, TangQiaoYu",
+        "arxiv_id": "2510.08276",
+        "link": "https://arxiv.org/abs/2510.08276",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of designing effective state representations for deep search agents in environments with long horizons. The main objective is to overcome the limitations of fixed-size context windows by introducing a dynamic context window mechanism. The key methodology involves training deep reinforcement learning agents that can dynamically adjust their observation window based on the current state and task. Experimental results demonstrate that agents with dynamic context windows achieve superior performance, with an average win rate improvement of 15% on complex search tasks compared to fixed-window baselines. This approach implies that AI practitioners can develop more robust and efficient search agents by employing dynamic context management, leading to improved performance in tasks requiring long-term reasoning and planning."
+    },
+    {
+        "title": "OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment",
+        "authors": "",
+        "arxiv_id": "2510.07743",
+        "link": "https://arxiv.org/abs/2510.07743",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces OpenRubrics, a novel framework for automatically generating synthetic rubrics to enhance reward modeling and large language model (LLM) alignment. The primary objective is to overcome the limitations of human-annotated data for reward modeling by enabling scalable and high-quality rubric generation. The methodology involves using a two-stage LLM-based process: first, generating diverse critique points for text, and then synthesizing these critiques into structured rubrics that can be used for reward scoring. OpenRubrics achieved a 15-20% improvement in inter-rater agreement compared to prior methods and demonstrated that models trained with these synthetic rubrics generalize effectively to unseen tasks. The main implication is that OpenRubrics offers a highly scalable and cost-effective solution for creating robust reward models, significantly advancing LLM alignment techniques by reducing reliance on expensive human labeling."
+    },
+    {
+        "title": "Entropy Regularizing Activation: Boosting Continuous Control, Large Language Models, and Image Classification with Activation as Entropy Constraints",
+        "authors": "Huazhe Xu, xtqqwq, ChonghuaLiao, zilinkang",
+        "arxiv_id": "2510.08549",
+        "link": "https://arxiv.org/abs/2510.08549",
+        "category": "Machine Learning",
+        "summary": "The paper introduces an Entropy Regularizing Activation (ERA) function, designed to impose an entropy constraint on activation values within neural networks. The primary objective is to enhance model performance across diverse tasks by regularizing the information flow through the network's activation layers. ERA achieves this by integrating an entropy-based penalty into the activation function itself, promoting more diverse and informative representations. Evaluations demonstrate significant improvements, including a 10% increase in average score in continuous control tasks (e.g., DMControl), and a 1.2% accuracy boost on ImageNet. This novel activation function offers a generalizable method for improving the stability and performance of various AI models, providing practitioners with a new tool for regularization and optimization."
+    },
+    {
+        "title": "Memory Retrieval and Consolidation in Large Language Models through Function Tokens",
+        "authors": "",
+        "arxiv_id": "2510.08203",
+        "link": "https://arxiv.org/abs/2510.08203",
+        "category": "Natural Language Processing",
+        "summary": "This paper explores the integration of memory retrieval and consolidation mechanisms in Large Language Models (LLMs) using function tokens. The core objective is to overcome the limitations of fixed-context windows by enabling LLMs to dynamically access and update an external memory, mimicking biological memory processes. The methodology involves training LLMs to use special function tokens to interact with an external key-value memory, allowing for selective information retrieval and consolidation. Results demonstrate that LLMs augmented with this memory system can process sequences significantly longer than their intrinsic context window, achieving up to 80% improvement in performance on long-context tasks compared to baseline models without such mechanisms. This approach offers a novel way for AI practitioners to enhance the capabilities of LLMs for applications requiring extended context understanding and information retention."
+    },
+    {
+        "title": "Recycling Pretrained Checkpoints: Orthogonal Growth of Mixture-of-Experts for Efficient Large Language Model Pre-Training",
+        "authors": "Peng Cheng, Yaoxiang Wang, Yucheng Ding, lx865712528, Mr-Philo",
+        "arxiv_id": "2510.08008",
+        "link": "https://arxiv.org/abs/2510.08008",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Orthogonal Growth (OG), a novel method for efficiently scaling Mixture-of-Experts (MoE) Large Language Models by recycling pretrained dense model checkpoints. The primary objective is to enable cost-effective pre-training of MoE models by leveraging existing dense models, addressing the high computational demands of MoE training from scratch. OG achieves this by orthogonally growing experts and integrating a router to distribute tokens, along with a parameter-efficient fine-tuning (PEFT) strategy for the router. Experiments show that an OG-trained 7B MoE model (2B activated parameters) achieves a 5.61 perplexity on WikiText-103, outperforming a 7B dense model by 13.9% while using 1.7x less FLOPs per token during inference. This approach offers a significant pathway for practitioners to develop more efficient and powerful LLMs without incurring the massive pre-training costs typically associated with large MoE architectures."
+    },
+    {
+        "title": "GCPO: When Contrast Fails, Go Gold",
+        "authors": "",
+        "arxiv_id": "2510.07790",
+        "link": "https://arxiv.org/abs/2510.07790",
+        "category": "Reinforcement Learning",
+        "summary": "GCPO introduces an alternative to contrastive learning for policy optimization, especially when contrastive methods struggle with reward scarcity or low-quality data. The paper aims to improve policy learning in such challenging environments by proposing a novel \"gold-standard\" comparison framework instead of relying on contrasting diverse experiences. This is achieved by comparing current experiences directly against optimal or near-optimal \"gold\" experiences, leading to more stable and efficient learning. GCPO demonstrates a 20% improvement in sample efficiency on difficult-to-explore MuJoCo tasks compared to state-of-the-art contrastive methods. This approach offers AI practitioners a more robust method for reinforcement learning in scenarios where generating informative contrasts is difficult, potentially broadening the applicability of RL to more complex real-world problems with sparse rewards or limited high-quality data."
+    },
+    {
+        "title": "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
+        "authors": "Xiaoben Li, Ziyang Li, Yuliang, JesseZhang, Co2y",
+        "arxiv_id": "2509.24817",
+        "link": "https://arxiv.org/abs/2509.24817",
+        "category": "Computer Vision",
+        "summary": "This paper presents UP2You, a novel approach for rapid and high-fidelity 3D reconstruction of human bodies from arbitrary photo collections. The objective is to overcome limitations of existing methods in handling unconstrained input, achieving photorealistic texture, and ensuring fast processing for personalized 3D avatars. UP2You integrates a 3D Gaussian Splatting representation with a deformable human model, allowing it to efficiently reconstruct complex geometries and textures even from sparse and noisy inputs. The method demonstrates significant improvements over baseline techniques, achieving an average PSNR of 28.5 on diverse datasets and reducing reconstruction time to minutes, thereby enabling the creation of personalized avatars for various applications like VR/AR and digital fashion."
+    },
+    {
+        "title": "OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction",
+        "authors": "Pieter Abbeel, Angjoo Kanazawa, Zhen Wu, Xiaoyu Huang, Lujie Yang",
+        "arxiv_id": "2509.26633",
+        "link": "https://arxiv.org/abs/2509.26633",
+        "category": "Reinforcement Learning",
+        "summary": "OmniRetarget introduces a novel interaction-preserving data generation framework for humanoid whole-body loco-manipulation and scene interaction, addressing the challenge of creating diverse and realistic multi-contact interactions. The main objective is to overcome limitations in existing data generation methods by enabling the creation of complex humanoid movements that maintain interaction forces and contact points with the environment. Their key methodology involves a pipeline that takes a reference motion and a target scene, employing contact tracking and a differentiable physics solver to retarget the motion while preserving interaction dynamics. Results demonstrate that OmniRetarget can generate motions with up to 96% interaction preservation compared to the reference, significantly outperforming baselines which often lose interaction fidelity. This framework provides AI practitioners with a robust tool for generating high-quality, physics-consistent interaction data, crucial for training advanced locomotion and manipulation policies in complex environments."
+    },
+    {
+        "title": "DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model",
+        "authors": "Li Yi, He Wang, Xueyi Liu",
+        "arxiv_id": "2510.08556",
+        "link": "https://arxiv.org/abs/2510.08556",
+        "category": "Reinforcement Learning",
+        "summary": "DexNDM addresses the challenge of dexterous in-hand rotation for robotic manipulation by bridging the reality gap between simulation and the real world. The paper's objective is to achieve robust real-world performance for complex dexterous manipulation tasks, specifically in-hand object rotation, using a novel simulation-to-reality transfer approach. Their key methodology involves a joint-wise neural dynamics model (NDM) that learns the dynamics of the robot in a data-efficient manner, coupled with a policy trained in simulation using reinforcement learning. DexNDM demonstrates significant improvements, achieving a 70% success rate in real-world dexterous manipulation tasks, outperforming prior state-of-the-art methods. The main implication for AI practitioners is the provision of a robust and data-efficient method for sim-to-real transfer in complex robotic manipulation, enabling more effective deployment of learned policies in physical systems."
+    },
+    {
+        "title": "A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning",
+        "authors": "",
+        "arxiv_id": "2510.07958",
+        "link": "https://arxiv.org/abs/2510.07958",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces A^2Search, an ambiguity-aware question answering framework leveraging reinforcement learning. The core objective is to improve question answering systems' performance on ambiguous questions by actively reducing ambiguity. A^2Search employs an RL agent to learn optimal sequences of actions, such as asking clarification questions or performing searches, to resolve ambiguity. The method achieved a 3.1% F1 score improvement over baseline models on ambiguous question answering datasets. This approach provides AI practitioners with a robust framework for building more intelligent and interactive QA systems capable of handling real-world ambiguous queries."
+    },
+    {
+        "title": "Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs",
+        "authors": "Yue Zhao, Hongjie Chen, Tiankai Yang, Wang Wei, Franck-Dernoncourt",
+        "arxiv_id": "2510.07429",
+        "link": "https://arxiv.org/abs/2510.07429",
+        "category": "Reinforcement Learning",
+        "summary": "This paper investigates the problem of efficiently routing queries to various large language models (LLMs) with different cost/quality trade-offs. The main objective is to learn a routing policy that can dynamically adapt to user-specified preferences over these trade-offs using bandit feedback. The authors propose an online learning algorithm that maintains a distribution over routing policies and updates it based on observed rewards and costs. Empirical results show that the proposed approach achieves up to 2x cost reduction compared to baselines while maintaining performance. This methodology offers a practical solution for optimizing LLM deployment and resource allocation in real-world applications by tailoring routing strategies to specific user needs and operational constraints."
+    },
+    {
+        "title": "Search-R3: Unifying Reasoning and Embedding Generation in Large Language Models",
+        "authors": "James Cheng, ytgui",
+        "arxiv_id": "2510.07048",
+        "link": "https://arxiv.org/abs/2510.07048",
+        "category": "Natural Language Processing",
+        "summary": "The paper \"Search-R3: Unifying Reasoning and Embedding Generation in Large Language Models\" introduces a novel method to enhance the reasoning capabilities of Large Language Models (LLMs) by integrating external information retrieval with embedding generation. The primary objective is to develop a unified framework that allows LLMs to iteratively refine their reasoning by searching for relevant information and generating better query embeddings. This is achieved through a multi-turn reasoning process where the LLM not only generates answers but also continuously updates its understanding and search queries based on retrieved documents. Experimental results demonstrate that Search-R3 achieves state-of-the-art performance, outperforming baselines by a significant margin, with an average improvement of 10.5% in factuality on complex reasoning tasks. This approach has significant implications for AI practitioners, enabling the development of more robust and accurate LLM-powered systems that can effectively leverage external knowledge sources for enhanced reasoning."
+    },
+    {
+        "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized Manipulation",
+        "authors": "Zheng Zhu, Bingyao Yu, Hankun Li, Angyuan Ma, Xiuwei Xu",
+        "arxiv_id": "2510.08547",
+        "link": "https://arxiv.org/abs/2510.08547",
+        "category": "Reinforcement Learning",
+        "summary": "R2RGEN addresses the challenge of creating synthetic 3D data that is spatially generalizable for robotic manipulation tasks, crucial for training robust policies. The core objective is to synthesize diverse 3D environments that effectively simulate real-world variations, reducing the sim-to-real gap. It employs a real-to-real 3D data generation pipeline that leverages pre-existing real-world 3D scene datasets (e.g., Replica) and applies generative processes including object rearrangement and texture/material randomization. Experiments demonstrate that policies trained on R2RGEN-generated data achieve an average success rate of 78% across various real-world manipulation tasks, outperforming policies trained on less diverse synthetic data. This implies that AI practitioners can significantly enhance the generalization capabilities of robotic manipulation policies by utilizing more diverse and spatially varied synthetic data generated through methods like R2RGEN."
+    },
+    {
+        "title": "Drive&Gen: Co-Evaluating End-to-End Driving and Video Generation Models",
+        "authors": "Yuliang Zou, Yingwei Li, Yijing Bai, Zhenpei Yang, Jiahao Wang",
+        "arxiv_id": "2510.06209",
+        "link": "https://arxiv.org/abs/2510.06209",
+        "category": "Multi-Modal",
+        "summary": "Drive&Gen introduces a novel framework for the co-evaluation of end-to-end driving models and video generation models, addressing the critical need for a unified assessment in autonomous driving. The primary objective is to evaluate how well a driving policy trained on generated videos performs in real-world scenarios and vice-versa, thereby identifying the strengths and weaknesses of both components. The methodology involves training driving policies on synthetic data generated by various video generation models and subsequently testing these policies in both simulated and real environments, alongside evaluating the fidelity and diversity of the generated videos. Key results demonstrate a strong correlation between driving performance in generated scenes and real-world efficacy, with a 38% improvement in collision rates when using a specific generator. This work provides a benchmark and a systematic approach for selecting and fine-tuning generation models for autonomous driving, offering a significant implication for researchers and engineers developing robust self-driving systems."
+    },
+    {
+        "title": "Beyond Outliers: A Study of Optimizers Under Quantization",
+        "authors": "",
+        "arxiv_id": "2509.23500",
+        "link": "https://arxiv.org/abs/2509.23500",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the performance of different optimizers when models are subjected to quantization. The primary objective is to understand how various optimizers behave under low-bit precision settings, specifically focusing on their resilience to quantization noise. The study employs extensive empirical analysis, evaluating optimizers like Adam, SGD, and their variants across various models and datasets while systematically reducing bit-width. Key findings indicate that adaptive optimizers like Adam often perform better in quantized environments, achieving up to a 2% accuracy improvement over SGD in some low-bit scenarios. This research provides valuable insights for AI practitioners on selecting appropriate optimizers to mitigate performance degradation in quantized neural networks."
+    },
+    {
+        "title": "SViM3D: Stable Video Material Diffusion for Single Image 3D Generation",
+        "authors": "",
+        "arxiv_id": "2510.08271",
+        "link": "https://arxiv.org/abs/2510.08271",
+        "category": "Computer Vision",
+        "summary": "SViM3D introduces a novel framework for generating 3D materials from a single image, addressing the challenge of creating consistent and high-quality 3D assets. The core methodology involves a stable video material diffusion model, which synthesizes a video of a textured 3D object rotating, thereby inferring the 3D structure and material properties. This approach leverages a 2D diffusion model, ensuring a high degree of visual realism and coherence across different views. The paper demonstrates that SViM3D significantly outperforms existing methods in 3D material generation, achieving a 1.2x improvement in perceived 3D quality and reducing view inconsistency by 25%. This advancement provides AI practitioners with a robust tool for efficient 3D asset creation, particularly beneficial for applications in augmented reality, virtual reality, and gaming where realistic 3D content is crucial."
+    },
+    {
+        "title": "GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations",
+        "authors": "",
+        "arxiv_id": "2510.07314",
+        "link": "https://arxiv.org/abs/2510.07314",
+        "category": "Other",
+        "summary": "This paper introduces GyroSwin, a novel neural surrogate model designed for accelerating gyrokinetic plasma turbulence simulations, which are computationally intensive. The primary objective is to develop a machine learning framework capable of accurately predicting complex 5D plasma dynamics to overcome the computational bottleneck of traditional simulations. The methodology involves training a deep neural network on simulation data to learn the intricate relationships within the 5D phase space, effectively creating a fast and accurate proxy for high-fidelity solvers. Experimental results demonstrate that GyroSwin achieves up to a 100x speedup compared to conventional methods while maintaining high predictive accuracy, evidenced by an average relative error of less than 5% on critical plasma parameters. For AI practitioners, this work provides a blueprint for applying deep learning to accelerate complex scientific simulations, particularly in fields requiring high-dimensional data processing and predictive modeling for real-time analysis."
+    },
+    {
+        "title": "Towards Scalable and Consistent 3D Editing",
+        "authors": "Pan Zhou, Yang Tang, XiaRho",
+        "arxiv_id": "2510.02994",
+        "link": "https://arxiv.org/abs/2510.02994",
+        "category": "Computer Vision",
+        "summary": "This paper presents a novel approach for efficient and consistent 3D editing using text prompts, addressing the challenge of generating high-quality editable 3D assets. The main objective is to overcome the limitations of existing 3D generation methods in terms of scalability and editability by enabling multi-view consistent editing. The key methodology involves training a text-to-image diffusion model conditioned on multi-view latents and introducing a novel sampling strategy for 3D editing, further employing a view-dependent prompt encoder and a 3D-aware U-Net. The primary results demonstrate that the proposed method achieves superior image quality with a CLIP score of 0.28, outperforming baselines in generating consistent and editable 3D objects, and significantly improves editing efficiency by enabling direct editing of 3D representations. The main implication for AI practitioners is the provision of a scalable and consistent framework for creating and manipulating 3D content, which can be applied to diverse applications such as virtual reality, gaming, and content creation, streamlining workflows and enhancing creative possibilities."
+    },
+    {
+        "title": "Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning",
+        "authors": "Jan Peters, Mahdi Kallel, Th\u00e9o Vincent, Henrik Metternich, ahmedhendawy19",
+        "arxiv_id": "2510.02590",
+        "link": "https://arxiv.org/abs/2510.02590",
+        "category": "Reinforcement Learning",
+        "summary": "This paper introduces a novel approach to enhance the stability and speed of reinforcement learning by leveraging online network information. The main objective is to overcome the challenges of non-stationarity and decorrelation in off-policy learning, which often lead to unstable training and suboptimal performance. The key methodology involves using the online network to calculate a pseudo return target, thereby reducing target variance and improving learning stability. Experiments on various MuJoCo tasks demonstrate that this method significantly outperforms baseline approaches, achieving a 1.25x speedup and reducing training variance by 40%. The primary implication for AI practitioners is a more stable and efficient training paradigm for off-policy reinforcement learning algorithms."
+    },
+    {
+        "title": "Fidelity-Aware Data Composition for Robust Robot Generalization",
+        "authors": "Liliang Chen, Hongwei Fan, Sicheng Hu, Di Chen, Zizhao Tong",
+        "arxiv_id": "2509.24797",
+        "link": "https://arxiv.org/abs/2509.24797",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of enhancing robot generalization by proposing Fidelity-Aware Data Composition (FADC) to generate diverse and realistic training data. The primary objective is to improve the robustness of robot policies when deployed in novel, unseen environments by mitigating sim-to-real gaps. FADC employs a generative model to compose new scenes, guided by a 'fidelity' metric that ensures generated data is both novel and realistic, effectively bridging the gap between simulated and real-world data distributions. Experimental results demonstrate that FADC-trained policies achieve a 2.5x improvement in generalization to novel real-world environments compared to baseline methods. The main implication for AI practitioners is the provision of a systematic approach to synthesize high-fidelity training data, thereby reducing the need for extensive real-world data collection and improving the reliability of robot deployments in varied conditions."
+    }
+]
