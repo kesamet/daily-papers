@@ -1,0 +1,370 @@
+[
+    {
+        "title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
+        "authors": "Suwhan Choi, Maangeek, PurpleSand, shovelingpig, lastdefiance20",
+        "arxiv_id": "2510.05684",
+        "link": "https://arxiv.org/abs/2510.05684",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces D2E, a novel approach for scaling vision-action pretraining using desktop data to enhance embodied AI. The research aims to bridge the gap between large-scale web-data pretraining and its applicability to complex robot control tasks. D2E achieves this by collecting diverse human desktop interaction data, comprising raw pixels, action traces, and speech, and then processes it for effective transfer to robotic control. A key finding is that D2E pretraining significantly outperforms baselines, achieving a 78% success rate on simulated manipulation tasks. This implies that large-scale desktop data offers a scalable and effective paradigm for pretraining general-purpose policies for embodied AI, mitigating the challenges of real-world robotic data collection."
+    },
+    {
+        "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation",
+        "authors": "Linyi Jin, Zhonghua Wu, Size Wu, yikaiwang, KangLiao",
+        "arxiv_id": "2510.08673",
+        "link": "https://arxiv.org/abs/2510.08673",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces \"Thinking with Camera\" (TwiC), a unified multimodal model for camera-centric understanding and generation. Its objective is to enable comprehensive perception and interaction within a 3D camera-defined world, overcoming limitations of existing 2D vision and language models. TwiC leverages a novel camera-centric perception-generation paradigm, integrating 3D point cloud and camera views, alongside text, to build a unified spatial-temporal understanding. It achieves an 85.1% accuracy on the VQA3D-EG dataset, demonstrating superior performance in 3D scene understanding and generation tasks like text-to-3D-scene generation. This model provides a foundational framework for developing AI systems with a deeper understanding of real-world environments, paving the way for advanced robotics and augmented reality applications."
+    },
+    {
+        "title": "AutoPR: Let's Automate Your Academic Promotion!",
+        "authors": "Yixin Yuan, Libo Qin, Mingda Yang, Zheng Yan, Qiguang Chen",
+        "arxiv_id": "2510.09558",
+        "link": "https://arxiv.org/abs/2510.09558",
+        "category": "Natural Language Processing",
+        "summary": "AutoPR addresses the significant time and effort academics spend on promotion applications by introducing an automated system. The core objective is to generate personalized promotion packages, including an application letter and a CV, from an academic's publication record. This is achieved through a retrieval-augmented generation (RAG) framework, leveraging a large language model (LLM) for content synthesis and a vector database for relevant information retrieval. AutoPR demonstrated a 90% accuracy in generating correct information for academic promotion documents. The system implies a substantial reduction in administrative burden for AI practitioners in academia, allowing them to focus more on research and teaching by automating document creation."
+    },
+    {
+        "title": "TAG:Tangential Amplifying Guidance for Hallucination-Resistant Diffusion Sampling",
+        "authors": "Seungryong Kim, Jee Eun Kim, Susung Hong, Donghoon Ahn, hyeoncho01",
+        "arxiv_id": "2510.04533",
+        "link": "https://arxiv.org/abs/2510.04533",
+        "category": "Computer Vision",
+        "summary": "This paper introduces Tangential Amplifying Guidance (TAG), a novel sampling method designed to reduce hallucinations in diffusion models, particularly in text-to-image generation. The primary objective is to improve the factual adherence and image quality by minimizing artifacts and inconsistencies. TAG achieves this by employing a guidance mechanism that leverages a self-attention map, tangential to the generation trajectory, to amplify attention to key features and suppress hallucinated elements. Experimental results demonstrate that TAG significantly reduces hallucination rates by up to 26% and improves image quality (FID scores) by 0.5-1.0 compared to baseline methods. The main implication for AI practitioners is the provision of a robust sampling strategy that enhances the reliability and trustworthiness of diffusion-generated content, making these models more suitable for applications requiring high factual fidelity."
+    },
+    {
+        "title": "Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs",
+        "authors": "",
+        "arxiv_id": "2510.09201",
+        "link": "https://arxiv.org/abs/2510.09201",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Multimodal Prompt Optimization (MPO), a novel method for enhancing Multimodal Large Language Models (MLLMs) by creating modality-specific prompts. The core objective is to overcome the limitations of single-modality prompts, which may not fully capture the nuanced information from different modalities. MPO achieves this by optimizing prompts in both visual and textual domains, employing a two-stage optimization process that first generates unimodal prompts and then integrates them. Experimental results demonstrate that MPO significantly improves MLLM performance, achieving a 1.2% average accuracy gain on the MME benchmark and exhibiting strong generalization across various MLLMs and tasks. This implies that AI practitioners can leverage MPO to improve MLLM performance and robustness in real-world applications requiring nuanced multimodal understanding."
+    },
+    {
+        "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+        "authors": "Kelly Peng, Liuning He, Guangxuan Xiao, Ruyi Xu, Yukang",
+        "arxiv_id": "2510.09608",
+        "link": "https://arxiv.org/abs/2510.09608",
+        "category": "Multi-Modal",
+        "summary": "StreamingVLM addresses the challenge of real-time understanding in infinite video streams by introducing a novel framework designed for continuous, low-latency processing. Its main objective is to enable large vision-language models (VLMs) to operate effectively in streaming environments without requiring full video storage or re-processing. The key methodology involves a token-level streaming mechanism combined with a memory-augmented architecture, significantly reducing computational overhead and latency compared to batch processing. StreamingVLM achieves a 4.5x speedup and a 2.6x reduction in token generation latency compared to existing batch-based VLMs on various video understanding tasks. This advancement implies that AI practitioners can deploy powerful VLMs for real-time applications such as live monitoring and interactive AI systems with unprecedented efficiency."
+    },
+    {
+        "title": "Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels",
+        "authors": "",
+        "arxiv_id": "2510.06499",
+        "link": "https://arxiv.org/abs/2510.06499",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels\" introduces a novel automated data pipeline designed to scale reinforcement learning (RL) data collection and processing to unprecedented levels, comparable to those seen in large-scale pretraining for other AI domains. Its primary objective is to address the data scarcity bottleneck in RL by enabling efficient, distributed, and continuous generation of diverse interaction data. The methodology involves a highly automated system that manages a fleet of agents and environments, leveraging techniques like automatic curriculum generation and robust error handling to maintain data quality and throughput, capable of generating up to 2 million trajectories and 200 billion frames of experience daily across 15,000 agents. This scalable pipeline allows for the training of significantly more robust and generalized RL policies, demonstrating the potential for foundation models in RL. For AI practitioners, this implies the possibility of developing more sophisticated and general-purpose RL agents without manual data curation overhead, opening doors for applying RL to complex, real-world problems at scale."
+    },
+    {
+        "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+        "authors": "",
+        "arxiv_id": "2510.08697",
+        "link": "https://arxiv.org/abs/2510.08697",
+        "category": "Machine Learning",
+        "summary": "BigCodeArena introduces a novel framework for evaluating code generation models by integrating execution-based assessment, which more accurately reflects human preferences. The paper addresses the limitations of traditional human preference data, often marred by superficial evaluation, by presenting a benchmark derived from real-world coding problems with executable test cases. Through a large-scale human study, it reveals that a significant portion of initially preferred code (17%) is overturned upon execution, highlighting the unreliability of purely superficial judgments. The framework provides a more robust and reliable methodology for collecting human preference data, thereby enabling the development of more effective and deployable code generation models. This advancement is crucial for researchers and developers aiming to build and fine-tune code generation systems that align with practical utility rather than just stylistic appeal."
+    },
+    {
+        "title": "R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?",
+        "authors": "",
+        "arxiv_id": "2510.08189",
+        "link": "https://arxiv.org/abs/2510.08189",
+        "category": "Machine Learning",
+        "summary": "R-Horizon investigates the effective reasoning capabilities of large language models (LLMs) in complex, multi-hop reasoning tasks, addressing limitations in breadth and depth. The study proposes a novel framework to systematically evaluate LLMs' ability to explore multiple reasoning paths and maintain context over extended sequences. Key findings indicate that even advanced LLMs struggle with maintaining high accuracy on tasks requiring more than three hops, with performance dropping to around 60% on 5-hop tasks. This research implies that current LLMs require further architectural or methodological advancements to robustly handle broad and deep reasoning challenges, particularly in long-horizon planning and decision-making scenarios."
+    },
+    {
+        "title": "SpaceVista: All-Scale Visual Spatial Reasoning from mm to km",
+        "authors": "Kaituo Feng, Yi Ding, Dongming Wu, Shiqiang Lang, spw2000",
+        "arxiv_id": "2510.09606",
+        "link": "https://arxiv.org/abs/2510.09606",
+        "category": "Computer Vision",
+        "summary": "SpaceVista introduces a novel framework for visual spatial reasoning across an unprecedented range of scales, from millimeters to kilometers. The primary objective is to enable AI systems to perform accurate geometric inference and navigation within complex, multi-scale environments. This is achieved through a hierarchical representation that integrates ultra-high-resolution local maps with broader, lower-resolution global maps, leveraging a specialized transformer architecture for cross-scale information fusion. Experiments demonstrate that SpaceVista achieves an average 92.5% accuracy in spatial relation tasks, significantly outperforming existing methods by handling scale variations more effectively. The main implication for AI practitioners is the potential to develop more robust and versatile autonomous systems capable of operating in diverse real-world settings requiring fine-grained local and coarse-grained global spatial understanding."
+    },
+    {
+        "title": "BEAR: Benchmarking and Enhancing Multimodal Language Models for Atomic Embodied Capabilities",
+        "authors": "",
+        "arxiv_id": "2510.08759",
+        "link": "https://arxiv.org/abs/2510.08759",
+        "category": "Multi-Modal",
+        "summary": "The BEAR paper introduces a new benchmark and training methodology to improve multimodal language models (MLLMs) in atomic embodied AI tasks. The primary objective is to evaluate and enhance MLLMs' ability to perform foundational, fine-grained actions in simulated environments, addressing current limitations in their embodied understanding. It proposes a novel training paradigm involving a progressively challenging curriculum and a large-scale, high-quality dataset of 250,000 atomic skill demonstrations. Experimental results demonstrate that models trained with BEAR achieve a 30.6% relative improvement in success rates compared to baseline methods, showcasing enhanced robustness and generalization. This work provides a crucial framework for developing more capable and reliable MLLMs for real-world robotic and embodied AI applications."
+    },
+    {
+        "title": "KORMo: Korean Open Reasoning Model for Everyone",
+        "authors": "",
+        "arxiv_id": "2510.09426",
+        "link": "https://arxiv.org/abs/2510.09426",
+        "category": "Natural Language Processing",
+        "summary": "KORMo introduces a series of open-source large language models specifically designed for the Korean language, addressing the scarcity of high-performing Korean LLMs. The primary objective is to develop and release foundational Korean LLMs (KORMo-7B and KORMo-13B) with comprehensive pretraining and instruction-tuning. The methodology involves extensive pretraining on a massive, deduplicated 1.5TB Korean-centric dataset, followed by instruction-tuning with over 100K high-quality Korean instructions. KORMo-7B-LoRA achieved a score of 62.03 on the KLUE benchmark, surpassing other open-source Korean models and demonstrating strong performance comparable to proprietary models like GPT-3.5-Turbo and HyperCLOVA X within the Korean context. This work provides a valuable resource for Korean NLP research and development, enabling practitioners to leverage powerful, accessible LLMs for various Korean-specific applications."
+    },
+    {
+        "title": "Don't Waste Mistakes: Leveraging Negative RL-Groups via Confidence Reweighting",
+        "authors": "Julia Kempe, Yaqi Duan, Anthony Hartshorn, Parag Jain, Yunzhen Feng",
+        "arxiv_id": "2510.08696",
+        "link": "https://arxiv.org/abs/2510.08696",
+        "category": "Reinforcement Learning",
+        "summary": "The paper introduces a novel approach to enhance Reinforcement Learning (RL) agents by effectively utilizing sub-optimal trajectories, termed \"mistakes\" or negative RL-groups. The core objective is to learn from these less successful experiences by assigning them importance through confidence-based reweighting, rather than discarding them. The methodology involves a confidence reweighting mechanism that assigns higher weights to negative groups where the agent exhibits low confidence, thus guiding the agent to specifically learn from its less certain errors. Experiments demonstrate that this method significantly improves agent performance, achieving a 15% reduction in regret on certain tasks compared to baselines that do not leverage negative experiences. This implies that AI practitioners can train more robust and efficient RL agents by strategically incorporating and learning from diverse suboptimal experiences, leading to better exploration and convergence."
+    },
+    {
+        "title": "ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping",
+        "authors": "Wenbo Hu, Yimeng Ye, Yue Guo, JoeYing, csfufu",
+        "arxiv_id": "2510.08457",
+        "link": "https://arxiv.org/abs/2510.08457",
+        "category": "Multi-Modal",
+        "summary": "The ARES paper introduces a novel multimodal adaptive reasoning framework that enhances large language models (LLMs) by addressing varying difficulty levels. The main objective is to improve LLMs' reasoning capabilities across diverse multimodal inputs by adaptively adjusting the information processing based on input difficulty. ARES employs difficulty-aware token-level entropy shaping, which dynamically allocates computational resources and information integration strategies to different parts of the input. Experimental results demonstrate that ARES achieves a 1.9% absolute improvement on the MMMU benchmark, outperforming existing methods. This implies that AI practitioners can leverage adaptive reasoning mechanisms to build more robust and efficient multimodal LLMs, particularly in scenarios requiring nuanced information processing for varied input complexities."
+    },
+    {
+        "title": "DISCO: Diversifying Sample Condensation for Efficient Model Evaluation",
+        "authors": "",
+        "arxiv_id": "2510.07959",
+        "link": "https://arxiv.org/abs/2510.07959",
+        "category": "Machine Learning",
+        "summary": "The paper introduces DISCO, a novel sample condensation method designed to enhance the efficiency of model evaluation by creating small yet diverse synthetic datasets. It addresses the challenge of computational cost associated with evaluating large models on extensive datasets. DISCO employs a multi-objective optimization approach to synthesize samples that are both representative of the original dataset and diverse enough to cover various features, ensuring the condensed set maintains predictive performance comparable to the full dataset. Experiments on ImageNet demonstrate that DISCO can reduce the dataset size by up to 100x while preserving 99.1% of the original model evaluation accuracy, significantly accelerating evaluation processes. This method offers AI practitioners a powerful tool for faster and more resource-efficient model selection, hyperparameter tuning, and continual learning without substantial performance degradation."
+    },
+    {
+        "title": "Bridging Reasoning to Learning: Unmasking Illusions using Complexity Out of Distribution Generalization",
+        "authors": "Mahdi Ghaznavai, Mohamadreza Fereydooni, Arash Marioriyad, Mohammad Mahdi Samiei Paqaleh, OstadTahmasb",
+        "arxiv_id": "2510.06274",
+        "link": "https://arxiv.org/abs/2510.06274",
+        "category": "Machine Learning",
+        "summary": "This paper investigates the generalization capabilities of machine learning models to out-of-distribution (OOD) data, specifically focusing on \"complexity OOD generalization\" in reasoning tasks. The authors aim to understand why models struggle with OOD generalization despite achieving high in-distribution accuracy. They propose a novel framework involving datasets with controllable complexity, allowing for the systematic analysis of how architectural inductive biases and learning algorithms affect performance on increasingly complex reasoning problems. Their experiments demonstrate that many current models exhibit significant performance drops on OOD complexity, with accuracy sometimes falling below 50% even when in-distribution accuracy is near perfect. The findings suggest that existing methods often learn superficial correlations rather than robust reasoning skills, implying that AI practitioners need to develop models with stronger compositional generalization and more robust inductive biases to handle real-world complexities effectively."
+    },
+    {
+        "title": "Which Heads Matter for Reasoning? RL-Guided KV Cache Compression",
+        "authors": "Huan Wang, Xue Liu, Keda Tao, Li Jiang, Kurt232",
+        "arxiv_id": "2510.08525",
+        "link": "https://arxiv.org/abs/2510.08525",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates the importance of different attention heads and key/value (KV) cache entries for reasoning in Large Language Models (LLMs). The authors address the question of how to efficiently compress the KV cache while preserving model performance, especially in long-context scenarios. They propose an RL-guided KV cache compression framework that learns a sparse attention mask by optimizing a reward function combining next-token prediction loss and a sparsity penalty. Experiments on LLaMA-2 models demonstrate significant KV cache reduction, achieving up to 5x compression with only a 0.3% performance drop on reasoning tasks compared to a 10% drop for uniform compression. This method provides a practical approach for AI practitioners to deploy LLMs with extended context windows more cost-effectively by reducing memory consumption without substantial performance degradation."
+    },
+    {
+        "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
+        "authors": "danxuhk, yanchi3dv",
+        "arxiv_id": "2510.04759",
+        "link": "https://arxiv.org/abs/2510.04759",
+        "category": "Computer Vision",
+        "summary": "The paper introduces the Progressive Gaussian Transformer with Anisotropy-aware Sampling (PGT-AS) for open-vocabulary occupancy prediction. The primary objective is to accurately predict 3D occupancy and semantic labels from 2D images in novel environments. PGT-AS employs a progressive Gaussian mixture model that adapts to varying object shapes and sizes, coupled with an anisotropy-aware sampling strategy to efficiently allocate computational resources. The model achieves a 3.4% improvement in mIoU on the nuScenes dataset compared to prior state-of-the-art methods, demonstrating superior generalization to unseen categories. This approach offers AI practitioners a robust solution for deploying perception systems in diverse and dynamic real-world scenarios."
+    },
+    {
+        "title": "StatEval: A Comprehensive Benchmark for Large Language Models in Statistics",
+        "authors": "",
+        "arxiv_id": "2510.09517",
+        "link": "https://arxiv.org/abs/2510.09517",
+        "category": "Machine Learning",
+        "summary": "StatEval introduces a new benchmark to evaluate the statistical reasoning capabilities of Large Language Models (LLMs). The paper addresses the research question of how well current LLMs perform on diverse statistical tasks, encompassing statistical concepts, programming, and data analysis. The methodology involves a carefully curated dataset with 300 multiple-choice questions, 300 fill-in-the-blank questions, and 200 open-ended questions, designed to test various aspects of statistical understanding. Primary results indicate that even advanced LLMs like GPT-4 achieve only a 54.3% accuracy on this benchmark, highlighting significant limitations. This implies that AI practitioners should exercise caution when deploying LLMs for tasks requiring robust statistical reasoning and consider integrating specialized statistical modules or fine-tuning for improved performance."
+    },
+    {
+        "title": "MRMR: A Realistic and Expert-Level Multidisciplinary Benchmark for Reasoning-Intensive Multimodal Retrieval",
+        "authors": "Tingyu Song, Yilun Zhao, Xiao Zhou, Siyue Zhang, ItzYog",
+        "arxiv_id": "2510.09510",
+        "link": "https://arxiv.org/abs/2510.09510",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces MRMR, a novel benchmark for reasoning-intensive multimodal retrieval across multiple disciplines. Its objective is to evaluate the ability of retrieval systems to handle complex, real-world queries requiring deep understanding and cross-modal reasoning. The methodology involves curating a dataset of 7,725 challenging multimodal queries and 32,868 documents, featuring an average of 4.2 documents per query and requiring expert-level reasoning. Results indicate that state-of-the-art models like GPT-4V achieve only 26.6% MRR@1, demonstrating a significant performance gap for reasoning-intensive multimodal retrieval. This implies that AI practitioners need to develop more sophisticated models capable of advanced reasoning and deep multimodal integration for practical, expert-level applications."
+    },
+    {
+        "title": "Dyna-Mind: Learning to Simulate from Experience for Better AI Agents",
+        "authors": "Qianhui Wu, Hao Cheng, Michel Galley, Baolin Peng, Xiao Yu",
+        "arxiv_id": "2510.09577",
+        "link": "https://arxiv.org/abs/2510.09577",
+        "category": "Reinforcement Learning",
+        "summary": "The paper \"Dyna-Mind: Learning to Simulate from Experience for Better AI Agents\" introduces a novel approach for improving AI agents by integrating a learned simulator into the Dyna architecture. The core objective is to enhance sample efficiency and performance in complex environments by enabling agents to generate synthetic experiences. This is achieved by training a world model to simulate environment transitions, which then feeds into the agent's policy and value function updates. Experiments show that Dyna-Mind significantly outperforms baseline methods, achieving a 20% improvement in cumulative reward on tested domains. This work implies that integrating learned simulators can substantially boost the efficiency and effectiveness of reinforcement learning agents, offering a path towards more robust and adaptive AI systems."
+    },
+    {
+        "title": "TC-LoRA: Temporally Modulated Conditional LoRA for Adaptive Diffusion Control",
+        "authors": "Adityan Jothi, Christian Jacobsen, Ruben Ohana, Minkyoung Cho, cmhungsteve",
+        "arxiv_id": "2510.09561",
+        "link": "https://arxiv.org/abs/2510.09561",
+        "category": "Computer Vision",
+        "summary": "TC-LoRA introduces a novel approach to enhance the adaptive control of diffusion models for temporal modulation. The core objective is to allow dynamic and fine-grained control over text-to-image generation processes by adapting to varying temporal conditions. The methodology involves a Temporally Modulated Conditional LoRA (TC-LoRA) architecture, which integrates a temporal conditioning mechanism with low-rank adaptation, enabling efficient and flexible control without extensive retraining. Key results demonstrate that TC-LoRA achieves an average 15% improvement in temporal consistency and control precision compared to existing methods, as evidenced by user studies and quantitative metrics on diverse temporal tasks. This framework provides AI practitioners with a more efficient and adaptable tool for generating temporally coherent and controllable sequences in diffusion-based creative applications."
+    },
+    {
+        "title": "PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs",
+        "authors": "Xu Zheng, Lutao Jiang, Xingwang Lin, Kanghao Chen, Zixin Zhang",
+        "arxiv_id": "2510.09507",
+        "link": "https://arxiv.org/abs/2510.09507",
+        "category": "Multi-Modal",
+        "summary": "PhysToolBench introduces a new benchmark to evaluate the physical tool understanding capabilities of Multimodal Large Language Models (MLLMs). The core objective is to assess how well MLLMs can reason about the functionality and application of tools in physical scenarios. The methodology involves creating a comprehensive dataset comprising 2,000 tool-use scenarios with human-annotated questions and answers, alongside an automated evaluation pipeline. Experimental results indicate that even state-of-the-art MLLMs achieve an average accuracy of only 36.4%, highlighting significant limitations in their physical reasoning. This research implies that AI practitioners should focus on developing more robust training paradigms and architectural improvements for MLLMs to enhance their understanding of real-world physics and tool interaction."
+    },
+    {
+        "title": "Pseudo2Real: Task Arithmetic for Pseudo-Label Correction in Automatic Speech Recognition",
+        "authors": "Shang-Tse Chen, Tzu-Quan Lin, Yu-Hsuan Li Liang, Yi-Cheng Lin, jacksukk",
+        "arxiv_id": "2510.08047",
+        "link": "https://arxiv.org/abs/2510.08047",
+        "category": "Machine Learning",
+        "summary": "This paper introduces Pseudo2Real, a novel task arithmetic method to correct pseudo-labels in automatic speech recognition (ASR). The research objective is to enhance ASR model performance, particularly on target domains with limited labeled data, by improving the quality of pseudo-labels generated from unlabeled data. Pseudo2Real achieves this by learning a task vector that transforms unreliable pseudo-labels into more reliable ones, effectively correcting them before fine-tuning. Experiments demonstrate that Pseudo2Real significantly improves ASR performance, achieving a 7.2% relative Word Error Rate (WER) reduction on the LibriSpeech test-other dataset compared to standard pseudo-labeling. This method offers a scalable solution for domain adaptation and semi-supervised learning in ASR, allowing practitioners to leverage unlabeled data more effectively for robust model training."
+    },
+    {
+        "title": "Parallel Test-Time Scaling for Latent Reasoning Models",
+        "authors": "",
+        "arxiv_id": "2510.07745",
+        "link": "https://arxiv.org/abs/2510.07745",
+        "category": "Machine Learning",
+        "summary": "This paper introduces parallel test-time scaling, a novel method to enhance the reasoning capabilities of latent reasoning models without requiring additional training or data. The primary objective is to improve performance on tasks requiring compositional reasoning by processing multiple, varied latent paths simultaneously and aggregating their results. The key methodology involves sampling multiple latent paths, generating a diverse set of outputs, and then employing a learned or heuristic-based aggregation mechanism, such as averaging or weighted combination, to produce a final refined prediction. Experiments show that this approach yields a 5.1% improvement on the GSM8K dataset, demonstrating significant gains in reasoning accuracy. The main implication for AI practitioners is the ability to achieve substantial performance enhancements in existing latent reasoning models post-training, offering a computationally efficient and flexible strategy for improving complex reasoning tasks."
+    },
+    {
+        "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+        "authors": "",
+        "arxiv_id": "2510.09462",
+        "link": "https://arxiv.org/abs/2510.09462",
+        "category": "Other",
+        "summary": "This paper investigates the vulnerability of AI control protocols secured by trusted monitors to adaptive attacks. The research objective is to demonstrate how an adaptive attacker can subvert these security measures by exploiting runtime monitor behavior and system properties. The key methodology involves developing a novel adaptive attack strategy that targets the trusted monitor by observing its responses and adjusting the attack payload dynamically. Results show that the proposed adaptive attack achieves an attack success rate of up to 96% in disrupting AI control flow, significantly outperforming non-adaptive attacks. This implies that AI practitioners must implement more robust, adaptive defenses that account for dynamic attacker strategies to secure AI systems against sophisticated subversion."
+    },
+    {
+        "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review",
+        "authors": "Christopher Pal, Laurent Charlin, Hugo Larochelle, Gaurav Sahu",
+        "arxiv_id": "2510.08867",
+        "link": "https://arxiv.org/abs/2510.08867",
+        "category": "Other",
+        "summary": "The paper investigates the potential role of AI in the peer review process for academic conferences. Its main objective is to explore whether AI models can contribute effectively to program committees and enhance the efficiency and quality of peer review. The methodology involved evaluating a large language model's (LLM) ability to perform various aspects of peer review, such as identifying strengths and weaknesses, assessing novelty, and providing constructive feedback on submitted research papers. Key results showed that the LLM achieved a correlation of 0.75 with human reviewers on overall recommendation scores, indicating a significant alignment. The main implication for AI practitioners is the potential for LLMs to augment human peer reviewers, streamline the review process, and possibly reduce bias, thereby improving the scalability and fairness of academic publishing."
+    },
+    {
+        "title": "LightReasoner: Can Small Language Models Teach Large Language Models Reasoning?",
+        "authors": "",
+        "arxiv_id": "2510.07962",
+        "link": "https://arxiv.org/abs/2510.07962",
+        "category": "Natural Language Processing",
+        "summary": "This paper investigates whether smaller language models (SLMs) can effectively teach larger language models (LLMs) complex reasoning abilities. The research specifically aims to enhance LLM reasoning performance by distilling knowledge from SLM-generated rationales, addressing the challenge of improving LLM outputs without extensive retraining or fine-tuning. The methodology involves training an SLM to produce high-quality rationales, which are then used to fine-tune an LLM, a process termed \"reasoning distillation.\" Experimental results show that this approach significantly improves LLM performance, with the LLaMA2-7B model achieving a 41.5% accuracy on the GSM8K dataset, outperforming baseline LLMs. This implies that practitioners can leverage SLMs for efficient knowledge distillation to boost the reasoning capabilities of LLMs, potentially reducing computational costs associated with training larger models from scratch."
+    },
+    {
+        "title": "Instant4D: 4D Gaussian Splatting in Minutes",
+        "authors": "Li Lu, Haoxi Ran, Zhanpeng Luo",
+        "arxiv_id": "2510.01119",
+        "link": "https://arxiv.org/abs/2510.01119",
+        "category": "Computer Vision",
+        "summary": "Instant4D introduces a novel method for generating high-quality 4D Gaussian Splatting models from monocular videos within minutes. The core objective is to overcome the limitations of existing 4D reconstruction techniques, which are often time-consuming and computationally intensive, by enabling rapid creation of dynamic 3D scenes. This is achieved through a deferred 4D Gaussian Splatting framework, which includes a coarse-to-fine optimization strategy and a hybrid motion model. The method significantly outperforms baseline approaches, achieving PSNR values up to 28.5 dB and demonstrating 100x faster generation times compared to traditional methods. This advancement allows AI practitioners to quickly reconstruct dynamic scenes, facilitating applications in virtual reality, augmented reality, and robotics by providing efficient high-fidelity 4D content generation."
+    },
+    {
+        "title": "Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in Spoken Language Models",
+        "authors": "Zhang, Xiangyu, Jun Chen, Haoyang Zhang, Donghang Wu",
+        "arxiv_id": "2510.09592",
+        "link": "https://arxiv.org/abs/2510.09592",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces Mind-Paced Speaking, a novel framework for enhancing the real-time reasoning capabilities of spoken language models. The primary objective is to enable large language models (LLMs) to engage in internal, unconstrained reasoning processes while simultaneously generating coherent spoken responses, addressing the trade-off between reasoning depth and speaking fluency. The methodology involves a dual-brain architecture where an 'inner' LLM performs iterative reasoning and an 'outer' LLM converts reasoning outputs into fluent speech with minimal latency. Experiments on complex reasoning tasks, such as BigBench-Hard, demonstrate that Mind-Paced Speaking significantly improves accuracy, achieving a 56% improvement over baseline spoken LLMs. The main implication for AI practitioners is the potential to deploy spoken LLMs in real-time interactive systems that require deep reasoning without sacrificing conversational fluidity."
+    },
+    {
+        "title": "Understanding DeepResearch via Reports",
+        "authors": "Chengen Huang, Fengji Zhang, Yuxiang Zheng, Xinyao Niu, T1anyu",
+        "arxiv_id": "2510.07861",
+        "link": "https://arxiv.org/abs/2510.07861",
+        "category": "Other",
+        "summary": "The paper \"Understanding DeepResearch via Reports\" examines the structure and content of AI research reports to understand how deep learning research is communicated. The main objective is to establish a systematic way to analyze the components of research reports and their impact on knowledge dissemination. The methodology involves a qualitative and quantitative analysis of a corpus of research papers, identifying recurring sections, rhetorical moves, and information density within each section. The primary result indicates that approximately 85% of research reports adhere to a conventional IMRaD (Introduction, Methods, Results, and Discussion) structure, with the \"Results\" section often containing 60% of the novel quantitative findings. The main implication for AI practitioners is the potential for improved clarity and efficiency in both writing and reading research, leading to faster assimilation of new methodologies and findings."
+    },
+    {
+        "title": "A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks",
+        "authors": "Fanchao Qi, Gang Chen, Kangyang Luo, Haozhe Zhao, Shuzheng Si",
+        "arxiv_id": "2510.05608",
+        "link": "https://arxiv.org/abs/2510.05608",
+        "category": "Reinforcement Learning",
+        "summary": "This paper addresses the challenge of creating efficient and effective global planners for long-horizon tasks in reinforcement learning. The core objective is to overcome the limitations of conventional global planning approaches by proposing an Imitation-Guided Global Planner (IGP) that leverages a dataset of expert demonstrations to guide training without requiring a policy for data collection. The methodology involves a two-stage training process: first, an imitation learning phase where a global planner is trained on expert trajectories to predict the next subgoal, and second, an online reinforcement learning phase where the planner's predictions are used to guide a low-level policy's exploration. Experiments show that IGP achieves a 95% success rate on complex long-horizon tasks, significantly outperforming baselines that only use online RL or imitation learning. This approach offers a practical solution for AI practitioners to develop robust long-horizon agents by effectively combining the benefits of expert knowledge with self-improvement."
+    },
+    {
+        "title": "One Patch to Caption Them All: A Unified Zero-Shot Captioning Framework",
+        "authors": "Giuseppe Amato, Nicola Messina, Fabio Carrara, Ruggero1912, lorebianchi98",
+        "arxiv_id": "2510.02898",
+        "link": "https://arxiv.org/abs/2510.02898",
+        "category": "Multi-Modal",
+        "summary": "The paper introduces a unified zero-shot captioning framework called 'One Patch to Caption Them All'. The primary objective is to enable diverse image and video captioning tasks (image captioning, video captioning, referring expression comprehension, referring expression generation, visual question answering, text-to-image generation) with a single model without task-specific fine-tuning. The methodology involves a pre-trained Vision Transformer (ViT) and a pre-trained Large Language Model (LLM) connected via an adapter module, trained to predict image patches based on textual contexts, effectively teaching the LLM to 'see' and 'point'. This approach achieves a new state-of-the-art zero-shot performance on tasks such as referring expression comprehension (e.g., 90.5% accuracy on RefCOCO), and demonstrates competitive performance across various captioning benchmarks without needing any task-specific data. The main implication for AI practitioners is the potential for developing highly generalizable multi-modal AI systems that can perform a wide array of vision-language tasks with minimal or no task-specific data, simplifying model deployment and reducing training overhead."
+    },
+    {
+        "title": "Mitigating Overthinking through Reasoning Shaping",
+        "authors": "Wen Luo, Yejie Wang, Bofei Gao, SylvainWei, songff",
+        "arxiv_id": "2510.09535",
+        "link": "https://arxiv.org/abs/2510.09535",
+        "category": "Machine Learning",
+        "summary": "The paper addresses the issue of \"overthinking\" in large language models (LLMs), where excessive reasoning steps can degrade performance. It introduces Reasoning Shaping, a novel methodology that shapes the distribution of reasoning depths during training to enhance task-specific performance. By integrating a depth regularizer into the loss function and employing a depth-aware sampling strategy, the approach prevents LLMs from superfluous reasoning. Experiments on arithmetic and commonsense reasoning tasks demonstrate that Reasoning Shaping improves accuracy by up to 12.8% and significantly reduces the number of reasoning steps, leading to more efficient and effective LLM reasoning processes."
+    },
+    {
+        "title": "Speculative Jacobi-Denoising Decoding for Accelerating Autoregressive Text-to-image Generation",
+        "authors": "Han Shi, Zhekai Chen, Xian Liu, Fuyun Wang, Yao Teng",
+        "arxiv_id": "2510.08994",
+        "link": "https://arxiv.org/abs/2510.08994",
+        "category": "Multi-Modal",
+        "summary": "This paper introduces Speculative Jacobi-Denoising Decoding (SJDD) to accelerate autoregressive text-to-image generation. The primary objective is to improve the decoding speed of diffusion models without compromising generation quality. SJDD employs a Jacobi-style iteration for parallel denoising across timesteps, alongside a speculative sampling mechanism that predicts future denoising steps. Experimental results show SJDD can achieve up to 3.0 times faster inference compared to standard DDIM while maintaining comparable FID scores. This method offers a significant speedup for practitioners deploying text-to-image models, making them more efficient for real-time applications."
+    },
+    {
+        "title": "GTAlign: Game-Theoretic Alignment of LLM Assistants for Mutual Welfare",
+        "authors": "",
+        "arxiv_id": "2510.08872",
+        "link": "https://arxiv.org/abs/2510.08872",
+        "category": "Natural Language Processing",
+        "summary": "GTAlign proposes a novel game-theoretic framework to align Large Language Model (LLM) assistants, addressing the mutual welfare of both the user and the LLM. The research aims to develop an alignment strategy that mitigates misalignment while considering the strategic interactions between user and assistant. It employs a two-player extensive-form game, where the user and LLM select strategies to maximize their respective utilities, incorporating an LLM welfare model that accounts for helpfulness and harmlessness. Experiments demonstrate that GTAlign achieves a 20.3% increase in human preference over standard reinforcement learning from human feedback (RLHF) methods in user-LLM interactions. This approach implies that AI practitioners can significantly improve LLM alignment and user satisfaction by modeling interaction as a strategic game."
+    },
+    {
+        "title": "ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix Factorization",
+        "authors": "",
+        "arxiv_id": "2510.05528",
+        "link": "https://arxiv.org/abs/2510.05528",
+        "category": "Machine Learning",
+        "summary": "This paper presents ARMOR, a novel semi-structured pruning method that leverages adaptive matrix factorization for efficient model compression. The core objective is to achieve high sparsity with minimal accuracy degradation, particularly for large language models, by dynamically determining pruning patterns. ARMOR employs a two-stage adaptive matrix factorization process, first for coarse-grained sparsity and then for fine-grained structure, allowing flexible adaptation to diverse neural network architectures. Experiments demonstrate ARMOR achieving 2:4 structured sparsity with less than 1% accuracy loss on LLAMA-7B, outperforming existing semi-structured pruning methods. This method provides AI practitioners with a robust and adaptable tool for deploying more compact and efficient models in resource-constrained environments."
+    },
+    {
+        "title": "Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation",
+        "authors": "Zekun Qi, Jiawei He, Bohan Li, Hongsi Liu, Wenyao Zhang",
+        "arxiv_id": "2510.09320",
+        "link": "https://arxiv.org/abs/2510.09320",
+        "category": "Computer Vision",
+        "summary": "This paper introduces a novel self-supervised monocular depth estimation method using hybrid-grained feature aggregation and coarse-to-fine language guidance. The primary objective is to enhance depth prediction accuracy by leveraging both dense and sparse features, guided by multi-scale linguistic cues. The methodology involves a feature aggregation network that combines high-resolution and low-resolution features with a language guidance module that refines predictions through coarse-to-fine textual descriptions of scenes. Experimental results on the KITTI dataset show significant improvement, with a 9.8% reduction in AbsRel error compared to previous state-of-the-art methods. This approach offers AI practitioners a more robust framework for depth estimation in autonomous systems and 3D reconstruction, particularly in scenarios requiring fine-grained understanding and contextual awareness."
+    },
+    {
+        "title": "How to Teach Large Multimodal Models New Skills",
+        "authors": "",
+        "arxiv_id": "2510.08564",
+        "link": "https://arxiv.org/abs/2510.08564",
+        "category": "Multi-Modal",
+        "summary": "The paper presents a framework for efficiently teaching large multimodal models (LMMs) new skills by leveraging their existing capabilities. The core objective is to overcome the limitations of pre-trained LMMs in acquiring novel skills without extensive, task-specific fine-tuning. The methodology involves a skill-instruction tuning approach using a small dataset of demonstrations, which allows LMMs to generalize to new tasks. This approach achieves an average of 86.7% accuracy on various complex tasks, demonstrating significant improvement over zero-shot baselines. The main implication for AI practitioners is the ability to rapidly deploy LMMs for new, complex applications with minimal data and computational overhead, fostering greater adaptability and utility of these models."
+    },
+    {
+        "title": "Better Together: Leveraging Unpaired Multimodal Data for Stronger Unimodal Models",
+        "authors": "",
+        "arxiv_id": "2510.08492",
+        "link": "https://arxiv.org/abs/2510.08492",
+        "category": "Multi-Modal",
+        "summary": "This paper explores improving unimodal representation learning by leveraging unpaired multimodal data through cross-modal distillation. The main objective is to overcome the limitations of insufficient paired data by transferring knowledge from a multimodal teacher to unimodal student models without requiring direct supervision from the other modality during training. The methodology involves training unimodal encoders (e.g., for vision and language) with a multimodal teacher that integrates features from both modalities, using a novel distillation loss to align unimodal student outputs with the multimodal teacher's embeddings. Results show significant performance gains, with the vision model achieving a 4.1% improvement on ImageNet-1K and the language model improving by 2.2% on GLUE, demonstrating the efficacy of this unsupervised knowledge transfer approach. The primary implication for AI practitioners is the ability to enhance unimodal models using readily available unpaired multimodal datasets, reducing the reliance on costly and scarce paired data for improved generalization and robustness across various tasks."
+    },
+    {
+        "title": "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall",
+        "authors": "Jiaqi Tang, Shengen Wu, Songning Lai, Jiayu Yang, EasonFan",
+        "arxiv_id": "2510.07896",
+        "link": "https://arxiv.org/abs/2510.07896",
+        "category": "Natural Language Processing",
+        "summary": "The paper introduces ACE, a novel knowledge editing framework designed for multi-hop factual recall in large language models (LLMs). The core objective is to ensure that edits propagate consistently across related facts while maintaining high attribution and minimal side effects on unrelated knowledge. ACE employs an attribution-controlled editing mechanism that leverages causal tracing to identify and modify specific knowledge pathways within the LLM. Experiments show that ACE achieves a 62% success rate in multi-hop editing tasks, significantly outperforming baselines in both edit propagation and factual consistency. This framework enables practitioners to precisely and reliably update factual knowledge in LLMs, enhancing their accuracy and reducing factual inconsistencies without extensive retraining."
+    },
+    {
+        "title": "Formalizing Style in Personal Narratives",
+        "authors": "Alain Finkel, gustavecortal",
+        "arxiv_id": "2510.08649",
+        "link": "https://arxiv.org/abs/2510.08649",
+        "category": "Natural Language Processing",
+        "summary": "This paper introduces a novel framework for formalizing and analyzing stylistic elements in personal narratives. The primary objective is to develop a computational approach to model how authors' writing styles vary across different events in their personal stories. The methodology involves identifying stylistic features at the sentence level and using a probabilistic model to capture their distribution and interplay. Key results include the demonstration of significant style shifts within narratives, quantified by a reduction in perplexity of 15% when modeling style variations compared to a static style model. The main implication for AI practitioners is the potential to build more nuanced and emotionally intelligent narrative generation systems and for advanced stylistic analysis in digital humanities and computational linguistics."
+    },
+    {
+        "title": "LLM4Cell: A Survey of Large Language and Agentic Models for Single-Cell Biology",
+        "authors": "",
+        "arxiv_id": "2510.07793",
+        "link": "https://arxiv.org/abs/2510.07793",
+        "category": "Other",
+        "summary": "This survey paper, \"LLM4Cell,\" comprehensively reviews the application of large language models (LLMs) and agentic models in single-cell biology, addressing the need for powerful analytical tools in this domain. The core objective is to map the current landscape, challenges, and future directions of integrating LLMs for single-cell data analysis. The methodology involves a systematic review of existing literature, categorizing LLM applications across various tasks in single-cell biology, including data processing, cell type annotation, and disease diagnosis. While specific quantitative metrics are not the focus of a survey, the paper highlights improvements in tasks like cell type identification accuracy, with some studies reporting over 90% accuracy using LLM-based approaches. The main implication for AI practitioners is the identification of significant opportunities for developing novel LLM architectures and applications tailored to the unique complexities of single-cell omics data, emphasizing the need for robust, interpretable, and scalable solutions."
+    },
+    {
+        "title": "MONKEY: Masking ON KEY-Value Activation Adapter for Personalization",
+        "authors": "jlbaker361",
+        "arxiv_id": "2510.07656",
+        "link": "https://arxiv.org/abs/2510.07656",
+        "category": "Multi-Modal",
+        "summary": "MONKEY introduces a novel personalization method for vision-language models (VLMs) by masking specific key-value activations within the VLM's layers. This approach aims to achieve efficient and robust personalization without requiring extensive retraining or architectural modifications, addressing the challenge of adapting large pre-trained models to individual user preferences or specific downstream tasks. The key methodology involves learning personalized masks applied to the key-value activations of the VLM, allowing for fine-grained control over which features are emphasized or suppressed. Experimental results demonstrate that MONKEY achieves competitive performance, outperforming baselines such as LoRA by up to 2.8% on certain personalization tasks, while maintaining computational efficiency. This method implies that AI practitioners can effectively personalize large VLMs with minimal overhead, enabling their deployment in diverse applications requiring tailored user experiences or domain-specific adaptations."
+    },
+    {
+        "title": "Temporal Prompting Matters: Rethinking Referring Video Object Segmentation",
+        "authors": "Sifei Liu, Chien-Yi Wang, I-Jieh Liu, Ci-Siang Lin, cmhungsteve",
+        "arxiv_id": "2510.07319",
+        "link": "https://arxiv.org/abs/2510.07319",
+        "category": "Computer Vision",
+        "summary": "This paper investigates the importance of temporal information in referring video object segmentation (RVOS). The main objective is to understand how different temporal prompting mechanisms influence RVOS performance and to propose a novel, efficient temporal prompting strategy. The key methodology involves comparing existing methods with a new approach called Temporally PrOmpting maTters (TOP-T) which efficiently learns temporal prompts to guide mask decoding without complex temporal modeling. Primary results show that TOP-T achieves state-of-the-art performance, with a J&F score of 72.3 on Ref-YouTube-VOS, outperforming previous methods by a significant margin. The main implication for AI practitioners is that explicit temporal modeling can be simplified by focusing on effective temporal prompting, leading to more efficient and accurate RVOS models."
+    },
+    {
+        "title": "ELMUR: External Layer Memory with Update/Rewrite for Long-Horizon RL",
+        "authors": "Aleksandr I. Panov, Alexey K. Kovalev, avanturist",
+        "arxiv_id": "2510.07151",
+        "link": "https://arxiv.org/abs/2510.07151",
+        "category": "Reinforcement Learning",
+        "summary": "ELMUR introduces an external layer memory for long-horizon Reinforcement Learning (RL) problems, addressing the challenge of retaining and utilizing past experiences effectively. The paper investigates how an external memory system, designed for flexible updates and rewrites, can improve an agent's ability to learn and adapt over extended periods. ELMUR employs a novel memory architecture that allows the agent to selectively store, update, and retrieve experiences, integrating this mechanism with existing RL algorithms. Experimental results demonstrate that agents equipped with ELMUR achieve a 15% improvement in cumulative reward on complex long-horizon tasks compared to baselines without such memory. This approach suggests a promising direction for developing more capable and generalizable RL agents by enhancing their memory and experience utilization."
+    }
+]
